@@ -1,0 +1,17 @@
+CRABCD
+NCACD
+ANBEAMB+BECMD defn:cross
+BEAMB
+BECMD
+COCMD  defn:collinear
+COCDM  lemma:collinearorder
+NCCDA  lemma:NCorder
+NCDCA  lemma:NCorder
+OSACDB  defn:oppositeside
+CODCM  lemma:collinearorder
+OSADCB  defn:oppositeside
+OSBCDA  lemma:oppositesidesymmetric
+OSBDCA  lemma:oppositesidesymmetric
+ANOSACDB+OSADCB+OSBCDA+OSBDCA 
+
+

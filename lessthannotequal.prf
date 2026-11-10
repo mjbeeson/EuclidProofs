@@ -1,0 +1,8 @@
+LTABCD
+ANBECED+EECEAB   defn:lessthan
+BECED
+EECEAB
+NECE   lemma:betweennotequal
+NEAB   axiom:nocollapse
+NECD  lemma:betweennotequal
+ANNEAB+NECD

@@ -1,0 +1,110 @@
+SQABCD
+SQabcd
+EFABCDabcd
+PGABCD  lemma:squareparallelogram
+PGabcd  lemma:squareparallelogram
+TCBADDCB  proposition:34
+TCbaddcb  proposition:34
+ETBADDCB   axiom:congruentequal
+ETbaddcb   axiom:congruentequal
+ETBADBDC   axiom:ETpermutation
+ETBDCBAD   axiom:ETsymmetric
+ETBDCABD   axiom:ETpermutation
+ETABDBDC  axiom:ETsymmetric
+ETbadbdc   axiom:ETpermutation
+ETbdcbad  axiom:ETsymmetric
+ETbdcabd  axiom:ETpermutation
+ETabdbdc  axiom:ETsymmetric
+REABCD    lemma:squarerectangle
+REabcd    lemma:squarerectangle
+CRACBD    defn:rectangle
+CRacbd   defn:rectangle
+PRABCD  defn:parallelogram
+NCABD   lemma:parallelNC
+PRabcd defn:parallelogram
+NCabd   lemma:parallelNC
+OSABDC    lemma:crossimpliesopposite
+OSabdc   lemma:crossimpliesopposite
+ETABDabd  axiom:halvesofequals
+EEabda   defn:square
+EEABDA   defn:square
+EEabad   lemma:congruenceflip
+EEABAD  lemma:congruenceflip
+LTabAB  assumption
+ ANBEAEB+EEAEab  defn:lessthan
+ BEAEB
+ EEAEab
+ LTadAB  lemma:lessthancongruence2
+ LTadAD  lemma:lessthancongruence
+ ANBEAFD+EEAFad  defn:lessthan
+ BEAFD
+ EEAFad
+ RRDAB   defn:square
+ RRdab   defn:square
+ NEAD  lemma:betweennotequal
+ NEAB  lemma:betweennotequal
+ RAADF   lemma:ray4
+ RAABE   lemma:ray4
+ NCDAB  lemma:NCorder
+ EADABDAB  lemma:equalanglesreflexive
+ EADABFAE  lemma:equalangleshelper
+ EAFAEDAB  lemma:equalanglessymmetric
+ RRFAE    lemma:equaltorightisright
+ EAFAEdab  lemma:Euclid4
+ EEFEdb proposition:04
+ EEFAda  lemma:congruenceflip
+ EEAEab
+ NCFAE  lemma:equalanglesNC
+ TRFAE    defn:triangle
+ TCFAEdab  defn:trianglecongruence
+ ETFAEdab  axiom:congruentequal
+ ETFAEabd  axiom:ETpermutation
+ ETabdABD  axiom:ETsymmetric
+ ETFAEABD  axiom:ETtransitive
+ ETFAEDAB  axiom:ETpermutation
+ ETDABFAE   axiom:ETsymmetric
+ TRDAB  defn:triangle
+ BEAFD
+ BEAEB
+ NOETDABFAE  axiom:deZolt2
+NOLTabAB  reductio
+LTABab  assumption
+ ANBEaeb+EEaeAB  defn:lessthan
+ BEaeb
+ EEaeAB
+ LTADab  lemma:lessthancongruence2
+ LTADad  lemma:lessthancongruence
+ ANBEafd+EEafAD  defn:lessthan
+ BEafd
+ EEafAD
+ RRdab   defn:square
+ RRDAB   defn:square
+ NEad  lemma:betweennotequal
+ NEab  lemma:betweennotequal
+ RAadf   lemma:ray4
+ RAabe   lemma:ray4
+ NCdab  lemma:NCorder
+ EAdabdab  lemma:equalanglesreflexive
+ EAdabfae  lemma:equalangleshelper
+ EAfaedab  lemma:equalanglessymmetric
+ RRfae    lemma:equaltorightisright
+ EAfaeDAB  lemma:Euclid4
+ EEfeDB proposition:04
+ EEfaDA  lemma:congruenceflip
+ EEaeAB 
+ NCfae   lemma:equalanglesNC
+ TRfae   defn:triangle
+ TCfaeDAB  defn:trianglecongruence
+ ETfaeDAB  axiom:congruentequal
+ ETfaeABD  axiom:ETpermutation
+ ETfaeabd  axiom:ETtransitive
+ ETfaedab  axiom:ETpermutation
+ ETdabfae   axiom:ETsymmetric
+ TRdab  defn:triangle
+ BEafd
+ BEaeb
+ NOETdabfae  axiom:deZolt2
+NOLTABab  reductio
+NEAB  lemma:NCdistinct
+NEab  lemma:NCdistinct
+EEABab   lemma:trichotomy1

@@ -1,0 +1,62 @@
+NEAB    
+CIJAAB   postulate:Euclid3
+NEBA     lemma:inequalitysymmetric
+CIKBBA   postulate:Euclid3
+ANBEBAD+EEADAB  lemma:localextension
+BEBAD
+EEADAB
+EEADBA   lemma:congruenceflip
+EEBABA   cn:congruencereflexive
+OCDK     defn:outside
+EQBB     cn:equalityreflexive
+ICBK     defn:inside
+EEABAB   cn:congruencereflexive
+ONBJ     defn:on
+ONDJ     defn:on
+EQAA     cn:equalityreflexive
+ICAJ     defn:inside
+ANONCK+ONCJ   postulate:circle-circle
+ONCJ
+ONCK
+EEACAB    axiom:circle-center-radius
+EEABAC    lemma:congruencesymmetric
+EEBCBA    axiom:circle-center-radius 
+EEBCAB    lemma:congruenceflip
+EEBCAC    lemma:congruencetransitive
+EEABBC    lemma:congruencesymmetric
+EEACCA    cn:equalityreverse
+EEBCCA    lemma:congruencetransitive
+ELABC     defn:equilateral 
+NEAB
+EEABBC
+NEBC      axiom:nocollapse
+EEBCCA    
+NECA      axiom:nocollapse
+BEACB     assumption
+ NOEEACAB   lemma:partnotequalwhole
+ EEACAB 
+ EECAAC    cn:equalityreverse
+ EECAAB    lemma:congruencetransitive
+ EEACCA    cn:equalityreverse
+ EEACAB    lemma:congruencetransitive
+NOBEACB   reductio
+BEABC     assumption
+ NOEEABAC   lemma:partnotequalwhole
+ EEABCA    lemma:congruencetransitive
+ EECAAC     cn:equalityreverse
+ EEABAC     lemma:congruencetransitive
+NOBEABC    reductio
+BEBAC      assumption
+ NOEEBABC   lemma:partnotequalwhole
+ EEABBC
+ EEBAAB     cn:equalityreverse
+ EEBABC     lemma:congruencetransitive
+NOBEBAC    reductio
+COABC      assumption
+NEAC       lemma:inequalitysymmetric
+ANNEAB+NEAC+NEBC+NOBEBAC+NOBEABC+NOBEACB
+OREQAB|EQAC|EQBC|BEBAC|BEABC|BEACB  defn:collinear
+NCABC      reductio
+TRABC       defn:triangle
+ANELABC+TRABC 
+

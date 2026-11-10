@@ -1,0 +1,22 @@
+CIJEEC
+CIKHHC
+ONCJ
+ONCK
+ONFJ
+ONGK
+BEEFG
+NEEF   lemma:betweennotequal
+NEEG  lemma:betweennotequal
+NOEEEFEG  lemma:partnotequalwhole
+NEEC   lemma:centernotoncircle
+EQEH assumption
+	CIKEEC  cn:equalitysub
+	ONGK
+	NEEC
+	EEEGEC  lemma:oncircle
+	EEECEG  lemma:congruencesymmetric
+	CIJEEC
+	ONFJ
+	EEEFEC  lemma:oncircle
+	EEEFEG  lemma:congruencetransitive
+NEEH reductio

@@ -1,0 +1,86 @@
+CIJEPQ       %  J is circle with center E and radius PQ
+NEPQ         %  radius nonzero
+ICAJ         %  A inside circle J
+ONBJ         %  B on circle J
+BEABC        %  C past B from A (A,B,C in order)
+
+% --- Step 1: NEAB.  A inside, B on circle, so A ≠ B. ---
+EQAB assumption
+  ONAJ    cn:equalitysub          % from ONBJ, EQAB: A on circle
+  NOONAJ  lemma:insidenoton       % CIJEPQ, ICAJ, NEPQ → A not on circle
+NEAB reductio
+NEBA   lemma:inequalitysymmetric
+
+% --- Step 2: Apply line-circle on line BA, with A inside ---
+% line-circle: CIKCPQ, ICBK, NEAB → COABX, BEABY, ONXK, ONYK, BEXBY  (existentials XY)
+% Match: K=J, C=E, line-circle's B (inside point) = our A, line-circle's A = our B.
+% Hypotheses needed: CIJEPQ ✓, ICAJ ✓, NEBA ✓.
+% Conclusions (with X,Y fresh):  COBAX, BEBAY, ONXJ, ONYJ, BEXAY.
+
+ANCOBAX+BEBAY+ONXJ+ONYJ+BEXAY    postulate:line-circle
+COBAX
+BEBAY
+ONXJ
+ONYJ
+BEXAY
+
+% --- Step 3: B = X ---
+% Three on-circle points B, X, Y are all on line BA.  By nothreeoncircle, two are equal.
+% Y is on opposite side of A from B (BEBAY), so Y ≠ B and Y ≠ X.
+% Apply nothreeoncircle with A(lemma)=Y, B(lemma)=B, C(lemma)=X.
+
+% Build COXYB (X collinear with Y,B):
+COABX   lemma:collinearorder      % perm of COBAX
+COABY   defn:collinear            % from BEBAY: B,A,Y collinear i.e. CO(B,A,Y)
+% collinear4: COABC, COABD, NEAB → COBCD.  Use A=B,B=A,C=X,D=Y: COBAX→COABX (done), COBAY→COABY (just done), NEAB → COAXY? No that's wrong direction.
+% Actually want COXYB.  Try: collinear4 with A=A(point),B=B(point),C=X,D=Y: COABX ✓, COABY ✓, NEAB ✓ → COBXY ✓.
+COBXY   lemma:collinear4
+COXYB   lemma:collinearorder      % perm of COBXY
+
+NEBY    lemma:betweennotequal     % from BEBAY
+NEYB    lemma:inequalitysymmetric
+NEXY    lemma:betweennotequal     % from BEXAY
+NEYX    lemma:inequalitysymmetric
+
+EQBX    lemma:nothreeoncircle     % B = X
+
+% --- Step 4: Establish full order Y-A-B-C on the line ---
+BEYAB   axiom:betweennesssymmetry % from BEBAY
+BEYBC   lemma:3.7a                % BEYAB, BEABC → BEYBC
+BEYAC   lemma:3.6b                % BEYAB, BEYBC → BEYAC
+
+% --- Step 5: Set up outsidesecant on circle J with on-circle B, Y, external C ---
+
+NEBC    lemma:betweennotequal     % from BEABC: B ≠ C
+NECB    lemma:inequalitysymmetric
+
+NEYC    lemma:betweennotequal     % from BEYAC: Y ≠ C
+NECY    lemma:inequalitysymmetric
+
+% Need COBYC: B,Y,C collinear.
+% Use collinear4 with COABY ✓, COABC ✓, NEAB ✓ → COBYC.
+COABC   defn:collinear            % from BEABC
+COBYC   lemma:collinear4          % COABY, COABC, NEAB → COBYC
+
+% Need NOBEBCY: not B(B,C,Y).  
+% We have BEYBC (Y-B-C order).  If B(B,C,Y), then with BEYBC we get B(Y,C,Y) via 3.7a.
+BEBCY assumption
+  BEYCY  lemma:3.7a               % BEYBC, BEBCY → BEYCY  (BEABC,BEBCD→BEACD with A=Y,B=B,C=C,D=Y)
+  NOBEYCY  axiom:betweennessidentity   % B(X,Y,X) is false
+NOBEBCY reductio
+
+% --- Step 6: Apply outsidesecant ---
+% outsidesecant: CIJEPQ, NEPQ, ONBJ, ONCJ, NEBC, COBCX, NEXB, NEXC, NOBEBXC → LTPQEX
+% Match: lemma B = our B, lemma C = Y, lemma X = C.
+% CIJEPQ ✓, NEPQ ✓, ONBJ ✓, ONYJ ✓ (=ONCJ), NEBY ✓ (=NEBC), COBYC ✓ (=COBCX), NECB ✓ (=NEXB), NECY ✓ (=NEXC), NOBEBCY ✓ (=NOBEBXC).
+LTPQEC   lemma:outsidesecant
+
+% --- Step 7: Convert LT(PQ)(EC) to OCCJ ---
+% defn:outside body: CIJUVW, BEUXP, EEUXVW.  Existentials XUVW.
+% To prove OCCJ (going backwards): need CIJUVW ✓ (=CIJEPQ), BEUXP=BEEXC (E center, C our outside point, X fresh), EEUXVW=EEEXPQ.
+% LT(PQ)(EC) unfolds: ∃X: B(E,X,C) ∧ EE(EX,PQ).  
+
+ANBEEZC+EEEZPQ   defn:lessthan
+BEEZC
+EEEZPQ
+OCCJ    defn:outside

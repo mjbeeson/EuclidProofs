@@ -1,0 +1,10 @@
+EEABab
+EEBCbc
+BEABC
+BEabc
+EEAAaa  axiom:nullsegment2
+EEBAAB  cn:equalityreverse
+EEabba   cn:equalityreverse
+EEBAab  lemma:congruencetransitive
+EEBAba  lemma:congruencetransitive
+EEACac  axiom:5-line

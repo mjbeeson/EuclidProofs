@@ -1,0 +1,58 @@
+NEPQ
+NEpq
+CIJFPQ
+CIJGpq
+EQFG   lemma:centerunique
+CIJFpq cn:equalitysub
+cases EEPQpq:EQFP|NEFP
+	case 1: EQFP
+		EEFCFC  cn:congruencereflexive
+		EEFQFQ  cn:congruencereflexive
+		EEFQPQ  cn:equalitysub
+		ONQJ   defn:on
+		cases EEPQpq:EQFp|NEFp
+			case 1:EQFp
+				EEFqFq  cn:congruencereflexive
+				EQpF   lemma:equalitysymmetric
+				EEFqpq  cn:equalitysub
+				ONqJ  defn:on
+				EEFQFq lemma:radiiequal
+				EEPQFq cn:equalitysub
+				EEPQpq cn:equalitysub
+				qedcase
+			case 2:NEFp
+				EEFcpq  proposition:02
+				ONcJ  defn:on
+				EEFQFc  lemma:radiiequal
+				EEPQFc  cn:equalitysub
+				EEPQpq  lemma:congruencetransitive
+				qedcase
+		EEPQpq cases
+		qedcase
+	case 2:NEFP
+		EEFCPQ  proposition:02
+		ONCJ    defn:on
+		cases EEPQpq:EQFp|NEFp
+			case 1:EQFp
+				CIJppq cn:equalitysub
+				EQpF   lemma:equalitysymmetric
+				EEFqFq cn:congruencereflexive
+				EEFqpq cn:equalitysub
+			 	ONqJ    defn:on
+				EEFqFC lemma:radiiequal
+				EEpqFC  cn:equalitysub
+				EEPQFC  lemma:congruencesymmetric
+				EEFCpq  lemma:congruencesymmetric
+				EEPQpq  lemma:congruencetransitive			
+				qedcase
+			case 2:NEFp
+				EEFDpq  proposition:02
+				ONDJ    defn:on
+				EEFCFD  lemma:radiiequal
+				EEPQFC  lemma:congruencesymmetric
+				EEPQFD  lemma:congruencetransitive
+				EEPQpq  lemma:congruencetransitive
+				qedcase
+		EEPQpq cases
+		qedcase
+EEPQpq  cases

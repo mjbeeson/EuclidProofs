@@ -1,0 +1,13 @@
+BEABC
+BEBCD
+NEAC  lemma:betweennotequal
+NECD   lemma:betweennotequal
+ANBEACE+EECECD  lemma:localextension
+BEACE
+EECECD 
+EECDCE lemma:congruencesymmetric
+BEBCE  lemma:3.6a
+EQDE  lemma:extensionunique
+BEACD cn:equalitysub
+
+ 

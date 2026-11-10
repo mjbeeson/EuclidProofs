@@ -1,0 +1,85 @@
+PGACDB
+ANPRACDB+PRABCD  defn:parallelogram
+PRACDB
+PRABCD
+PRACBD  lemma:parallelflip
+ANBEAMD+BECMB  lemma:diagonalsmeet
+BEAMD
+BECMB
+BEBMC  axiom:betweennesssymmetry
+COBMC  defn:collinear
+COBCM  lemma:collinearorder
+NOMEABCD  defn:parallel
+NEAB  defn:parallel
+NECD  defn:parallel
+COBCA assumption
+ COABC lemma:collinearorder
+ EQCC  cn:equalityreflexive
+ COCDC  defn:collinear
+ ANNEAB+NECD+COABC+COCDC
+ MEABCD  defn:meet
+NCBCA reductio
+ANBEAMD+COBCM+NCBCA 
+OSABCD  defn:oppositeside
+EAABCBCD  proposition:29B
+COBCD assumption
+ COCDB  lemma:collinearorder
+ EQBB  cn:equalityreflexive
+ COABB  defn:collinear
+ ANNEAB+NECD+COABB+COCDB
+ MEABCD defn:meet
+ NOMEABCD defn:parallel
+NCBCD reductio
+EABCDDCB  lemma:ABCequalsCBA
+EAABCDCB  lemma:equalanglestransitive
+PRACBD
+BEAMD
+COCBM  lemma:collinearorder
+NCCBA  lemma:NCorder
+OSACBD  defn:oppositeside
+EAACBCBD   proposition:29B
+NCABC  lemma:NCorder
+EABCAACB  lemma:ABCequalsCBA
+EABCACBD  lemma:equalanglestransitive
+EAABCDCB
+TRABC  defn:triangle
+NCDCB  lemma:equalanglesNC
+TRDCB  defn:triangle
+EEBCCB  cn:equalityreverse
+ANEEABDC+EEACDB+EABACCDB proposition:26A
+EEABDC
+EEABCD  lemma:congruenceflip
+EEACDB
+EEACBD  lemma:congruenceflip
+EECABD lemma:congruenceflip
+EABACCDB
+EECBBC  cn:equalityreverse
+ANEECABD+EEABDC+EECBBC 
+NCCAB lemma:NCorder
+TRCAB  defn:triangle
+TCCABBDC  defn:trianglecongruence
+EACABBDC lemma:equalanglesflip
+EEADDA  cn:equalityreverse
+EQAA  cn:equalityreflexive
+EQDD cn:equalityreflexive
+NEAC  lemma:angledistinct
+NECA  lemma:inequalitysymmetric
+NECD  lemma:angledistinct
+NEBA  lemma:angledistinct
+NEDB  lemma:angledistinct
+NEBD  lemma:inequalitysymmetric
+RACAA lemma:ray4
+RACDD  lemma:ray4
+RABAA  lemma:ray4
+RABDD lemma:ray4
+EEBACD lemma:congruenceflip
+EECABD  lemma:congruenceflip
+EEBDCA  lemma:congruencesymmetric
+COABD assumption
+ EQDD  cn:equalityreflexive
+ COCDD defn:collinear
+ ANNEAB+NECD+COABD+COCDD
+ MEABCD  defn:meet
+NCABD reductio
+EAABDDCA  defn:equalangles
+ANEEABCD+EEACBD+EACABBDC+EAABDDCA+TCCABBDC

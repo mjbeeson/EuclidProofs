@@ -1,0 +1,32 @@
+ASABCDEFUVW
+ANEAABCUVX+EADEFXVW+BEUXW  defn:anglesum
+EAABCUVX
+EADEFXVW
+BEUXW
+EAUVXABC  lemma:equalanglessymmetric
+NCABC  lemma:equalanglesNC
+EAXVWDEF  lemma:equalanglessymmetric
+NCDEF  lemma:equalanglesNC
+EACBAXVU  lemma:equalanglesflip
+EAABCCBA  lemma:ABCequalsCBA
+EAABCXVU  lemma:equalanglestransitive
+EAFEDWVX  lemma:equalanglesflip
+EADEFFED  lemma:ABCequalsCBA
+EADEFWVX  lemma:equalanglestransitive
+BEWXU  axiom:betweennesssymmetry
+ASDEFABCWVU  defn:anglesum
+NCUVX  lemma:equalanglesNC
+COUXW  defn:collinear
+NEUW  lemma:betweennotequal
+NEUV  lemma:NCdistinct
+COUWX  lemma:collinearorder
+COUVW assumption
+ COUWV  lemma:collinearorder
+ EQUU  cn:equalityreflexive
+ COUWU  defn:collinear
+ COVXU  lemma:collinear5
+ COUVX  lemma:collinearorder
+NCUVW  reductio
+NCWVU  lemma:NCorder
+EAWVUUVW  lemma:ABCequalsCBA
+ASDEFABCUVW  lemma:anglesumcongruence

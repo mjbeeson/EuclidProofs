@@ -1,0 +1,16 @@
+NEAB
+COABC
+COABD
+COABE
+COBCD   lemma:collinear4
+COBCE   lemma:collinear4
+cases COCDE:NEBC|EQBC
+case 1: NEBC
+COCDE  lemma:collinear4
+qedcase
+case 2: EQBC
+COBDE  lemma:collinear4
+COCDE   cn:equalitysub
+qedcase
+COCDE cases
+

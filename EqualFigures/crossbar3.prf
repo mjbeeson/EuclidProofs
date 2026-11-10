@@ -1,0 +1,28 @@
+NCACa
+BEABC
+BEabC
+BEApa
+BECBA   axiom:betweennesssymmetry
+BECba   axiom:betweennesssymmetry
+NCAaC  lemma:NCorder
+ANBEAYb+BECYp   postulate:Pasch-inner
+BEAYb
+BECYp
+BEbYA   axiom:betweennesssymmetry
+BECBA   axiom:betweennesssymmetry
+NCaCA   lemma:NCorder
+EQCC    cn:equalityreflexive
+COaCC   defn:collinear
+COCba   defn:collinear
+COaCb   lemma:collinearorder
+NEbC    lemma:betweennotequal
+NCbCA   lemma:NChelper
+NCCAb   lemma:NCorder
+ANBECXY+BEbXB  postulate:Pasch-inner
+BECXY
+BEbXB
+BEBXb   axiom:betweennesssymmetry
+BEYXC   axiom:betweennesssymmetry
+BEpYC   axiom:betweennesssymmetry
+BEpXC   lemma:3.5b
+ANBEpXC+BEBXb

@@ -1,0 +1,34 @@
+TRABC
+AOBCAABC
+NCABC   defn:triangle
+NCBCA  lemma:NCorder
+NCACB  lemma:NCorder
+EEACAB  assumption
+ EEABAC   lemma:congruencesymmetric
+ ISABC    defn:isosceles
+ EAABCACB   proposition:05
+ EAACBABC   lemma:equalanglessymmetric
+ NCBCA
+ EABCAACB   lemma:ABCequalsCBA
+ EABCAABC   lemma:equalanglestransitive
+ AOBCABCA   lemma:angleorderrespectscongruence
+ NOAOBCABCA   lemma:angletrichotomy
+NOEEACAB  reductio
+LTACAB  assumption 
+ TRACB   defn:triangle
+ AOCBAACB  proposition:18
+ EAABCCBA  lemma:ABCequalsCBA
+ AOABCACB  lemma:angleorderrespectscongruence2
+ EABCAACB  lemma:ABCequalsCBA
+ AOABCBCA  lemma:angleorderrespectscongruence
+ AOBCAABC 
+ NOAOABCBCA  lemma:angletrichotomy
+NOLTACAB  reductio
+EAABCABC lemma:equalanglesreflexive
+NEAB   lemma:angledistinct
+NEAC   lemma:angledistinct
+NOLTABAC  assumption
+ EEABAC    lemma:trichotomy1
+ EEACAB    lemma:congruencesymmetric
+LTABAC   reductio
+ 

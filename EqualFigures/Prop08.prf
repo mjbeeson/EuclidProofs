@@ -1,0 +1,69 @@
+TRABC
+TRDEF
+EEABDE
+EEACDF
+EEBCEF
+EQEE    cn:equalityreflexive
+EQFF   cn:equalityreflexive
+EQBB    cn:equalityreflexive
+EQCC    cn:equalityreflexive
+EQDD    cn:equalityreflexive
+EQAA    cn:equalityreflexive
+NCABC  defn:triangle
+NCDEF  defn:triangle
+EQAB assumption
+ COABC defn:collinear
+NEAB reductio
+NEBA  lemma:inequalitysymmetric
+EQBC assumption
+ COABC defn:collinear
+NEBC reductio
+NECB  lemma:inequalitysymmetric
+EQDE  assumption
+ CODEF  defn:collinear
+NEDE   reductio
+NEED   lemma:inequalitysymmetric
+EQAC  assumption
+ COABC defn:collinear
+NEAC reductio
+NECA  lemma:inequalitysymmetric
+EQDF  assumption
+ CODEF defn:collinear
+NEDF  reductio
+NEFD  lemma:inequalitysymmetric
+EQEF  assumption
+ CODEF defn:collinear
+NEEF  reductio
+NEFE   lemma:inequalitysymmetric
+RADEE   lemma:ray4
+RADFF   lemma:ray4
+RAABB   lemma:ray4
+RAACC   lemma:ray4
+COBAC   assumption
+ COABC  lemma:collinearorder
+NCBAC   reductio
+EABACEDF   defn:equalangles
+EEBCEF  
+EEBAED   lemma:congruenceflip
+EECAFD   lemma:congruenceflip
+RAEFF   lemma:ray4
+RAEDD    lemma:ray4
+RABCC    lemma:ray4
+RABAA    lemma:ray4
+COCBA  assumption
+ COABC  lemma:collinearorder
+NCCBA   reductio
+EACBAFED  defn:equalangles
+EECAFD   lemma:congruenceflip  
+EECBFE   lemma:congruenceflip
+EEABDE   
+RAFDD   lemma:ray4
+RAFEE    lemma:ray4
+RACAA    lemma:ray4
+RACBB    lemma:ray4
+COACB  assumption
+ COABC  lemma:collinearorder
+NCACB   reductio
+EAACBDFE  defn:equalangles
+ANEABACEDF+EACBAFED+EAACBDFE
+

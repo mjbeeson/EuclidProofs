@@ -1,0 +1,146 @@
+PGABCD
+BEAHD
+BEAEB
+BEDFC
+BEBGC
+PGEAHK
+PGGKFC
+PRADBC  defn:parallelogram
+PRABCD  defn:parallelogram
+PREAHK  defn:parallelogram
+PREKAH  defn:parallelogram
+PRGKFC  defn:parallelogram
+PRFCGK  lemma:parallelsymmetric
+PRCFGK  lemma:parallelflip
+PRGCKF  defn:parallelogram
+PRBCAD  lemma:parallelsymmetric
+PRCDAB  lemma:parallelsymmetric
+PRAHEK  lemma:parallelsymmetric
+TPABCD lemma:paralleldef2B
+TPEAHK  lemma:paralleldef2B
+TPGCKF  lemma:paralleldef2B
+TPBCAD  lemma:paralleldef2B
+SSADBC   defn:tarski_parallel
+SSADCB  lemma:samesideflip
+SSDACB  lemma:samesidesymmetric
+SSCDAB defn:tarski_parallel
+SSHKEA defn:tarski_parallel
+SSKFGC defn:tarski_parallel
+NEAE  lemma:betweennotequal
+NEAH  lemma:betweennotequal
+NEBG  lemma:betweennotequal
+NEAB  lemma:betweennotequal
+NEBA  lemma:inequalitysymmetric
+ANBEBAe+EEAeBA  lemma:extension
+BEBAe
+BEeAB  axiom:betweennesssymmetry
+SSDCAB  lemma:samesidesymmetric
+PRADBC
+RTDABABC  proposition:29C
+BEBEA  axiom:betweennesssymmetry
+BEEAe   lemma:3.6a
+BEeAE  axiom:betweennesssymmetry
+PRAHEK
+SSHKAE  lemma:samesidesymmetric
+RTHAEAEK  proposition:29C
+RAAEB  lemma:ray4
+RAAHD  lemma:ray4
+NCAHE   lemma:parallelNC
+NCEAH  lemma:NCorder
+EAEAHEAH  lemma:equalanglesreflexive
+EAEAHBAD  lemma:equalangleshelper
+EAHAEDAB  lemma:equalanglesflip
+EAAEKABC  lemma:supplements2
+SSCDAB
+SSCDBA  lemma:samesideflip
+COAEB  defn:collinear
+COBAE   lemma:collinearorder
+NEEB  lemma:betweennotequal
+NEBE  lemma:inequalitysymmetric
+SSCDBE  lemma:samesidecollinear
+RAAHD  lemma:ray4
+RAADH  lemma:ray5
+SSCHBE  lemma:sameside2
+SSHKEA
+COEAB  lemma:collinearorder
+SSHKEB  lemma:samesidecollinear
+SSHKBE lemma:samesideflip
+SSCKBE  lemma:samesidetransitive
+SSKCBE  lemma:samesidesymmetric
+RABGC  lemma:ray4
+RABCG  lemma:ray5
+EQBB   cn:equalityreflexive
+COBBE  defn:collinear
+SSKGBE  lemma:sameside2
+SSKGEB lemma:samesideflip
+RABEA  lemma:ray4
+RABAE  lemma:ray5
+EAAEKEBG lemma:equalangleshelper
+PREKBG  proposition:28D
+PREKGB  lemma:parallelflip
+SSDACB  
+NEBC  lemma:betweennotequal
+ANBEBCc+EECcBC  lemma:extension
+BEBCc
+BEcCB  axiom:betweennesssymmetry
+PRCDBA  lemma:parallelflip
+RTDCBCBA proposition:29C
+PRCFGK
+SSKFGC
+SSKFCG  lemma:samesideflip
+SSFKCG  lemma:samesidesymmetric
+BECGB  axiom:betweennesssymmetry
+BEcCG   axiom:innertransitivity
+RTFCGCGK  proposition:29C
+NCDBC  lemma:parallelNC
+NCDCB  lemma:NCorder
+EADCBDCB  lemma:equalanglesreflexive
+BECFD  axiom:betweennesssymmetry
+NECF  lemma:betweennotequal
+RACFD  lemma:ray4
+RACDF   lemma:ray5
+BECGB  axiom:betweennesssymmetry
+NECG  lemma:betweennotequal
+RACGB  lemma:ray4
+RACBG  lemma:ray5
+EADCBFCG  lemma:equalangleshelper
+EACBACGK  lemma:supplements2
+EACGKCBA  lemma:equalanglessymmetric
+EQAA  cn:equalityreflexive
+RABAA  lemma:ray4
+NEBG  lemma:betweennotequal
+RABGC lemma:ray4
+RABCG lemma:ray5
+EACGKGBA  lemma:equalangleshelper
+COBGC  defn:collinear
+COCBG  lemma:collinearorder
+SSADBC
+BECFD  axiom:betweennesssymmetry
+NECF  lemma:betweennotequal
+RACFD  lemma:ray4
+RACDF  lemma:ray5
+EQCC   cn:equalityreflexive
+COBCC   defn:collinear
+SSAFBC  lemma:sameside2
+PRGCKF 
+TPGCKF  lemma:paralleldef2B
+SSKFGC  defn:tarski_parallel
+COCGB  lemma:collinearorder
+NECB   lemma:inequalitysymmetric
+SSKFCG  lemma:samesideflip
+SSKFCB  lemma:samesidecollinear
+SSKFBC lemma:samesideflip
+SSFKBC lemma:samesidesymmetric
+SSAKBC  lemma:samesidetransitive
+SSKABC  lemma:samesidesymmetric
+COBCG  lemma:collinearorder
+NEBG
+SSKABG  lemma:samesidecollinear
+SSKAGB  lemma:samesideflip
+PRGKBA   proposition:28D
+PRGKAB  lemma:parallelflip
+COABE  lemma:collinearorder
+PRGKEB  lemma:collinearparallel
+PREBGK  lemma:parallelsymmetric
+PREBKG  lemma:parallelflip
+PGEKGB   defn:parallelogram

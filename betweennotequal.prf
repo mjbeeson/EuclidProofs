@@ -1,0 +1,17 @@
+BEABC
+EQBC    assumption
+ BEACB   cn:equalitysub
+ BEBCB   lemma:3.6a
+ NOBEBCB axiom:betweennessidentity
+NEBC    reductio
+EQAB    assumption
+ BEBAC   cn:equalitysub
+ BEABA   axiom:innertransitivity
+ NOBEABA axiom:betweennessidentity
+NEAB    reductio
+EQAC    assumption
+ BEABC
+ BEABA   cn:equalitysub
+ NOBEABA axiom:betweennessidentity
+NEAC    reductio
+ANNEBC+NEAB+NEAC 

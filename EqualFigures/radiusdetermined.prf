@@ -1,0 +1,27 @@
+CIJFPQ
+CIJGpq
+NEPQ
+NEpq
+EQFG  lemma:centerunique
+cases EEPQpq:NEFP|EQFP
+ case 1:NEFP
+  EEFRPQ    proposition:02
+  ONRJ      defn:on
+  EEGRpq    axiom:circle-center-radius
+  EQGF      lemma:equalitysymmetric
+  EEFRpq    cn:equalitysub
+  EEPQFR    lemma:congruencesymmetric
+  EEPQpq    lemma:congruencetransitive
+ qedcase
+ case 2:EQFP
+  EEFQFQ    cn:congruencereflexive
+  EEFQPQ    cn:equalitysub
+  ONQJ      defn:on
+  EEGQpq    axiom:circle-center-radius
+  EQGF      lemma:equalitysymmetric
+  EEFQpq    cn:equalitysub
+  EEPQFQ    lemma:congruencesymmetric
+  EEPQpq    lemma:congruencetransitive
+ qedcase
+EEPQpq cases
+

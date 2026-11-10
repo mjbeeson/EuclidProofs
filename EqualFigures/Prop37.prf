@@ -1,0 +1,65 @@
+PRADBC
+PRBCAD  lemma:parallelsymmetric
+PRCBAD  lemma:parallelflip
+EQAA  cn:equalityreflexive
+EQDD  cn:equalityreflexive
+COADA defn:collinear
+COADD  defn:collinear
+ANPGAEBC+COADE  lemma:triangletoparallelogram
+PGAEBC
+COADE
+ANPGDFBC+COADF  lemma:triangletoparallelogram
+PGDFBC
+COADF
+PGEBCA  lemma:PGrotate
+PGFBCD  lemma:PGrotate
+CODAF  lemma:collinearorder
+CODAE  lemma:collinearorder
+NCCAD  lemma:parallelNC
+NEAD  lemma:NCdistinct
+NEDA  lemma:inequalitysymmetric
+COAFE  lemma:collinear4
+COEAD   lemma:collinearorder
+COEAF  lemma:collinearorder
+EFEBCAFBCD  proposition:35
+TCBEAACB  proposition:34
+TCBFDDCB  proposition:34
+ANBEEMC+BEBMA  lemma:diagonalsmeet
+BEEMC
+BEBMA
+ANBEFmC+BEBmD  lemma:diagonalsmeet
+BEFmC
+BEBmD
+COBMA  defn:collinear
+COBmD  defn:collinear
+COBAM  lemma:collinearorder
+COBDm  lemma:collinearorder
+PREBCA  defn:parallelogram
+NCEBA  lemma:parallelNC
+NCBAE  lemma:NCorder
+OSEBAC  defn:oppositeside
+OSCBAE  lemma:oppositesidesymmetric
+PRDFBC  defn:parallelogram
+NCDFB  lemma:parallelNC
+NCBDF  lemma:NCorder
+OSFBDC  defn:oppositeside
+OSCBDF  lemma:oppositesidesymmetric
+ETBEAACB  axiom:congruentequal
+ETBEACBA  axiom:ETpermutation
+ETCBABEA  axiom:ETsymmetric
+ETCBABAE  axiom:ETpermutation
+ETBFDDCB  axiom:congruentequal
+ETBFDCBD  axiom:ETpermutation
+ETCBDBFD  axiom:ETsymmetric
+ETCBDBDF  axiom:ETpermutation
+EFEBCAFBCD
+EFEBCACBFD axiom:EFpermutation
+EFCBFDEBCA axiom:EFsymmetric
+EFCBFDCBEA  axiom:EFpermutation
+EFCBEACBFD   axiom:EFsymmetric
+ETCBACBD  axiom:halvesofequals
+ETCBADBC  axiom:ETpermutation
+ETDBCCBA  axiom:ETsymmetric
+ETDBCABC  axiom:ETpermutation
+ETABCDBC  axiom:ETsymmetric
+

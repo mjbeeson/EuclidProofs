@@ -1,0 +1,184 @@
+NEAB
+NCABR
+NEBA  lemma:inequalitysymmetric
+ANBEBAF+EEAFAB  lemma:extension
+BEBAF
+NCBAR  lemma:NCorder
+COBAF defn:collinear
+EQBB  cn:equalityreflexive
+COBAB  defn:collinear
+NEBF  lemma:betweennotequal
+NCBFR  lemma:NChelper
+ANRRBAC+OSCBFR  proposition:11B
+OSCBFR
+NCBFC  defn:oppositeside
+COBFA  lemma:collinearorder
+COBFB  defn:collinear
+NCBAC  lemma:NChelper
+NEAC  lemma:NCdistinct
+ANRAACD+EEADAB  lemma:layoff
+RAACD
+RAADC  lemma:ray5
+EQAA  cn:equalityreflexive
+COABA  defn:collinear
+ANBECqR+COBFq+NCBFC  defn:oppositeside
+BECqR
+COBFq  
+NCBFC
+COBFA
+COFBq  lemma:collinearorder
+EQBB  cn:equalityreflexive
+NCABC  lemma:NChelper
+COABF  lemma:collinearorder
+COFBA  lemma:collinearorder
+NEBF  lemma:betweennotequal
+NEFB  lemma:inequalitysymmetric
+COBAq  lemma:collinear4
+COABq  lemma:collinearorder
+OSCABR  defn:oppositeside
+OSDABR  lemma:9.5
+NCCAB  lemma:NCorder
+EQAA  cn:equalityreflexive
+COCAA  defn:collinear
+COACD lemma:rayimpliescollinear
+COCAD  lemma:collinearorder
+NEAD  lemma:ray2
+NCCAB  lemma:NCorder
+ANNCCAB+COCAA+COCAD+NEAD
+NCADB  lemma:NChelper
+NCABD  lemma:NCorder
+BEFAB  axiom:betweennesssymmetry
+COABF
+COABB  defn:collinear
+NEAB
+NCFBD  lemma:NChelper
+ANBEGDe+EAGDADAB+PRGeFB+BEGMB+BEDMA  proposition:31short
+BEGDe
+PRGeFB
+BEGMB
+BEDMA
+PRGeAB  lemma:collinearparallel
+PRABGe lemma:parallelsymmetric
+COGDe  defn:collinear
+COGeD  lemma:collinearorder
+ANPGDEBA+COGeE  lemma:triangletoparallelogram
+COGeE
+RRBAC
+RRCAB  lemma:8.2 
+COCAD  
+NEDA    lemma:inequalitysymmetric
+RRDAB   lemma:collinearright
+RRBAD   lemma:8.2
+EAGDADAB  
+RRGDA   lemma:equaltorightisright
+ANBEGDp+EEGDpD+EEGApA+NEDA defn:rightangle
+BEGDp
+EEGDpD
+EEGApA
+NEDA
+BEpDG axiom:betweennesssymmetry
+EEpDGD lemma:congruencesymmetric
+EEpAGA lemma:congruencesymmetric
+RRpDA  defn:rightangle
+PGDEBA
+PRDAEB  defn:parallelogram
+TPDAEB  lemma:paralleldef2B
+SSEBDA  defn:tarski_parallel
+EQDD   cn:equalityreflexive
+CODAD  defn:collinear
+NCDAB  lemma:NCorder
+BEBMG  axiom:betweennesssymmetry
+CODMA  defn:collinear
+CODAM  lemma:collinearorder
+OSBDAG  defn:oppositeside
+OSEDAG  lemma:planeseparation
+NCDAE  defn:oppositeside
+OSGDAE   lemma:oppositesidesymmetric
+NCDAG  defn:oppositeside
+ANBEEdG+CODAd+NCDAE defn:oppositeside
+BEEdG
+CODAd
+NCDAE
+NEEG  lemma:betweennotequal
+NEGE lemma:inequalitysymmetric
+NEGD  lemma:NCdistinct
+NEDE lemma:NCdistinct
+SSEGDA  assumption
+ NOOSEDAG lemma:samenotopposite
+NOSSEGDA reductio
+BEDGE assumption
+ CODAD
+ BEGDe
+ BEEGD axiom:betweennesssymmetry
+ BEEDe lemma:3.7a
+ SSEGDA defn:sameside
+NOBEDGE reductio
+BEGED assumption
+ BEGDe
+ BEEDe  lemma:3.6a
+ SSEGDA defn:sameside
+NOBEGED reductio
+COeGD  lemma:collinearorder
+COeGE  lemma:collinearorder
+NCGeF  lemma:parallelNC
+NEGe   lemma:NCdistinct
+NEeG  lemma:inequalitysymmetric
+COGDE  lemma:collinear4
+OREQGD|EQGE|EQDE|BEDGE|BEGDE|BEGED  defn:collinear
+cases BEGDE:EQGD|EQGE|EQDE|BEDGE|BEGDE|BEGED
+ case 1:EQGD
+  NOBEGDE assumption
+   NEGD
+  BEGDE reductio
+ qedcase
+ case 2:EQGE
+  NOBEGDE assumption
+   NEGE
+  BEGDE reductio
+ qedcase
+ case 3:EQDE
+  NOBEGDE assumption
+   NEDE
+  BEGDE reductio
+ qedcase
+ case 4:BEDGE
+  NOBEGDE assumption
+   NOBEDGE
+  BEGDE reductio
+ qedcase
+ case 5:BEGDE
+ qedcase
+ case 6:BEGED
+  NOBEGDE assumption
+   NOBEGED
+  BEGDE reductio
+ qedcase
+BEGDE cases
+COGDE  defn:collinear
+NEED  lemma:inequalitysymmetric
+RREDA  lemma:collinearright
+PGDEBA
+ANEEDAEB+EEDEAB+EAEDAABE+EADABBED+TCEDAABE  proposition:34
+EEDAEB
+EEDEAB
+EAEDAABE
+EADABBED
+EEABDE  lemma:congruencesymmetric
+EEABED lemma:congruenceflip
+EEADAB
+EEABAD  lemma:congruencesymmetric
+EEADEB  lemma:congruenceflip
+EEABEB  lemma:congruencetransitive
+EEABBE lemma:congruenceflip
+EEABDA  lemma:congruenceflip
+RRDAB  
+RREDA
+EABEDDAB  lemma:equalanglessymmetric
+EAABEEDA  lemma:equalanglessymmetric
+RRBED  lemma:equaltorightisright
+RRABE   lemma:equaltorightisright 
+ANEEABED+EEABBE+EEABDA+RRDAB+RRABE+RRBED+RREDA  
+SQABED  defn:square
+PGBADE  lemma:PGsymmetric
+PGABED   lemma:PGflip
+ANSQABED+OSDABR+PGABED

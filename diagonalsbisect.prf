@@ -1,0 +1,113 @@
+PGABCD
+ANBEAMC+BEBMD  lemma:diagonalsmeet
+BEAMC
+BEBMD
+ANPRABCD+PRADBC  defn:parallelogram
+NEAC  lemma:betweennotequal
+NEBD  lemma:betweennotequal
+CRACBD  defn:cross
+PRABCD  defn:parallelogram
+PRABDC  lemma:parallelflip
+NCABD  lemma:parallelNC
+OSABDC  lemma:crossimpliesopposite
+PRBADC  lemma:parallelflip
+BECMA  axiom:betweennesssymmetry
+BEDMB  axiom:betweennesssymmetry
+CRBDAC  defn:cross
+NCABC  lemma:parallelNC
+NCBAC  lemma:NCorder
+OSBACD  lemma:crossimpliesopposite
+EEABDC  proposition:34
+EEABCD  lemma:congruenceflip
+COMAB  assumption
+ COAMC  defn:collinear
+ COMAC  lemma:collinearorder
+ NEAM  lemma:betweennotequal
+ NEMA  lemma:inequalitysymmetric
+ COABC lemma:collinear4
+ NCABC lemma:parallelNC
+NCMAB reductio
+TRMAB  defn:triangle
+COMCD assumption
+ COAMC  defn:collinear
+ COMCA  lemma:collinearorder
+ NEMC  lemma:betweennotequal
+ COCDA  lemma:collinear4
+ COACD  lemma:collinearorder
+ NCACD  lemma:parallelNC
+NCMCD reductio
+TRMCD  defn:triangle
+EEABCD
+PRABCD
+PRBACD  lemma:parallelflip
+OSBACD
+EABACACD proposition:29B
+EABACBAC lemma:equalanglesreflexive
+RAACM    lemma:ray4
+EQBB     cn:equalityreflexive
+NCABC  lemma:parallelNC
+NEAB  lemma:NCdistinct
+RAABB   lemma:ray4
+EABACBAM lemma:equalangleshelper
+EABAMBAC  lemma:equalanglessymmetric
+EABAMACD lemma:equalanglestransitive
+EQDD  cn:equalityreflexive
+NCACD  lemma:parallelNC
+NECD  lemma:NCdistinct
+NECA   lemma:NCdistinct
+RACDD  lemma:ray4
+RACAM    lemma:ray4
+EAACDACD  lemma:equalanglesreflexive
+EAACDMCD  lemma:equalangleshelper
+EABAMMCD  lemma:equalanglestransitive
+NCACD     lemma:parallelNC
+COAMC   defn:collinear
+COACM  lemma:collinearorder
+EQCC  cn:equalityreflexive
+COACC  defn:collinear
+NEMC lemma:betweennotequal
+NCMCD  lemma:NChelper
+EAMCDDCM  lemma:ABCequalsCBA
+EABAMDCM   lemma:equalanglestransitive
+PRABDC  lemma:parallelflip
+OSABDC
+EAABDBDC proposition:29B
+EAABDABD lemma:equalanglesreflexive
+RABDM    lemma:ray4
+EQAA     cn:equalityreflexive
+NCBAD  lemma:parallelNC
+NEBA  lemma:NCdistinct
+RABAA   lemma:ray4
+EAABDABM lemma:equalangleshelper
+EAABMABD  lemma:equalanglessymmetric
+EAABMBDC lemma:equalanglestransitive
+EQCC  cn:equalityreflexive
+NCBDC  lemma:parallelNC
+NEDC  lemma:NCdistinct
+NEDB   lemma:NCdistinct
+RADCC  lemma:ray4
+RADBM    lemma:ray4
+EABDCBDC  lemma:equalanglesreflexive
+EABDCMDC  lemma:equalangleshelper
+EAABMMDC  lemma:equalanglestransitive
+NCBDC     lemma:parallelNC
+COBMD   defn:collinear
+COBDM  lemma:collinearorder
+EQDD  cn:equalityreflexive
+COBDD  defn:collinear
+NEMD lemma:betweennotequal
+NCMDC  lemma:NChelper
+EAMDCCDM  lemma:ABCequalsCBA
+EAABMCDM   lemma:equalanglestransitive
+EAMABMCD  lemma:equalanglesflip
+ANEEMAMC+EEMBMD+EAAMBCMD proposition:26A
+EEMAMC
+EEMBMD
+EEAMMC  lemma:congruenceflip
+EEBMMD  lemma:congruenceflip
+MIAMC  defn:midpoint
+MIBMD  defn:midpoint
+ANMIAMC+MIBMD
+
+
+

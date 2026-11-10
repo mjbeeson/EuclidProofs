@@ -1,0 +1,51 @@
+EEBCHE
+ETABCDHE
+TRABC
+TRDHE
+COBCH
+COBCE
+SSADBC
+NEAD
+NCDHE  defn:triangle
+NEHE  lemma:NCdistinct
+NEEH  lemma:inequalitysymmetric
+ANBEEHR+EEHREH  lemma:extension
+BEEHR
+BERHE  axiom:betweennesssymmetry
+NCHED lemma:NCorder
+CORHE defn:collinear
+COHER lemma:collinearorder
+EQEE  cn:equalityreflexive
+COHEE  defn:collinear
+NERE  lemma:betweennotequal
+NCRED lemma:NChelper 
+ANBEPDQ+EAPDHDHE+PRPQRE+BEPME+BEDMH  proposition:31short
+BEPDQ
+PRPQRE
+COREH  lemma:collinearorder
+PRPQHE lemma:collinearparallel
+COPDQ  defn:collinear
+COPQD  lemma:collinearorder
+EEHEBC  lemma:congruencesymmetric
+COCBH  lemma:collinearorder
+COCBE  lemma:collinearorder
+NCABC defn:triangle
+NEBC lemma:NCdistinct
+NECB  lemma:inequalitysymmetric
+COBHE lemma:collinear4
+COHEB lemma:collinearorder
+COBCH lemma:collinearorder
+COBCE lemma:collinearorder
+COCHE lemma:collinear4
+COHEC  lemma:collinearorder
+ETDHEDBC  proposition:38
+ETABCDBC  axiom:ETtransitive
+NCHED  lemma:NCorder 
+COHEB
+COHEC
+NEBC
+NCBCD  lemma:NChelper
+NCDBC  lemma:NCorder
+TRDBC  defn:triangle
+PRADBC  proposition:39
+

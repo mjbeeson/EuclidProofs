@@ -1,0 +1,61 @@
+NEAB
+NCDCE
+COECD  assumption
+ CODCE  lemma:collinearorder
+NCECD  reductio
+COCED  assumption
+ CODCE  lemma:collinearorder
+NCCED  reductio
+TRDCE  defn:triangle
+TRCED  defn:triangle
+TRECD  defn:triangle
+TGCDDECE  proposition:20
+TGCEEDCD proposition:20
+TGECCDED  proposition:20
+TGCDECED  lemma:TGsymmetric
+TGCDDEEC  lemma:TGflip
+TGDECDEC  lemma:TGsymmetric
+TGEDCDEC  lemma:TGflip
+TGCDEDEC  lemma:TGsymmetric
+TGECEDCD  lemma:TGflip
+ANEEAGEC+EEAFCD+EEGFED+RAABG+TRAGF proposition:22
+EEAGEC
+EEAGCE  lemma:congruenceflip
+EEAFCD
+EEGFED
+EEFGDE  lemma:congruenceflip
+RAABG
+TRAGF
+EQEE    cn:equalityreflexive
+EQDD    cn:equalityreflexive
+EQFF    cn:equalityreflexive
+EQGG    cn:equalityreflexive
+EQCE assumption
+ CODCE  defn:collinear
+NECE reductio
+EQCD assumption
+ COCDE defn:collinear
+ CODCE lemma:collinearorder
+NECD reductio
+RACEE  lemma:ray4
+RACDD  lemma:ray4
+COFAG  assumption
+ COAGF  lemma:collinearorder
+ NCAGF  defn:triangle
+NCFAG  reductio
+EQAF  assumption
+ COAFG defn:collinear
+ COFAG  lemma:collinearorder
+NEAF reductio
+RAAFF  lemma:ray4
+EQAG assumption
+ COAGF defn:collinear
+ COFAG  lemma:collinearorder
+NEAG reductio
+RAAGG  lemma:ray4
+EAFAGDCE  defn:equalangles
+ANRAABG+EAFAGDCE 
+
+
+
+

@@ -1,0 +1,338 @@
+BEAEB
+BECFD
+EAAEFEFD
+OSAEFD
+NEAB   lemma:betweennotequal
+NECD   lemma:betweennotequal
+ANBEAHD+COEFH+NCEFA  defn:oppositeside
+BEAHD
+COEFH
+NCEFA 
+COAEB  defn:collinear
+NEAE  lemma:betweennotequal
+COCFD  defn:collinear
+NEFD  lemma:betweennotequal
+EAEFDAEF  lemma:equalanglessymmetric
+NCEFD   defn:equalangles
+NEEF  lemma:angledistinct
+NEFE  lemma:inequalitysymmetric
+MEABCD  assumption
+ ANNEAB+NECD+COABG+COCDG  defn:meet
+ COABG
+ COCDG
+ COBAG  lemma:collinearorder
+ COBAE  lemma:collinearorder
+ NEBA   lemma:inequalitysymmetric
+ COAGE  lemma:collinear4
+ COAEG  lemma:collinearorder
+ EQFF   cn:equalityreflexive
+ RAEFF   lemma:ray4
+ SUAEFFB  defn:supplement
+ EQEE  cn:equalityreflexive
+ RAFEE  lemma:ray4
+ BEDFC  axiom:betweennesssymmetry
+ SUDFEEC  defn:supplement
+ EAEFDDFE  lemma:ABCequalsCBA
+ EAAEFDFE  lemma:equalanglestransitive
+ EAFEBEFC  lemma:supplements
+ EABEFCFE  lemma:equalanglesflip
+ BEAEG assumption   
+% The case Euclid does prove
+  EQEE     cn:equalityreflexive
+  COEFE    defn:collinear
+  BEGEA    axiom:betweennesssymmetry 
+  NCEFD
+  COCDG
+  COCFD  defn:collinear
+  COCDF  lemma:collinearorder
+  NECD   lemma:betweennotequal
+  CODGF  lemma:collinear4
+  COGFD  lemma:collinearorder
+  EQFG   assumption
+   COAEF   cn:equalitysub
+   COEFA   lemma:collinearorder
+  NEFG   reductio
+  NEGF   lemma:inequalitysymmetric
+  COEFG  assumption
+   COGFE  lemma:collinearorder
+   COFED  lemma:collinear4
+   COEFD   lemma:collinearorder
+   NCEFD
+  NCEFG  reductio
+  BEDHA    axiom:betweennesssymmetry
+  COEFH
+  SSDGEF   defn:sameside
+  SSGDEF   lemma:samesidesymmetric
+  EQFF   cn:equalityreflexive
+  COEFF   defn:collinear
+  NCEFD
+  BEDFC   axiom:betweennesssymmetry
+  OSDEFC   defn:oppositeside
+  OSGEFC   lemma:planeseparation
+  ANBEGRC+COEFR+NCEFG  defn:oppositeside
+  BEGRC
+  NEFR assumption 
+   COGRC  defn:collinear
+   COCDG
+   COCGD  lemma:collinearorder
+   COCGR  lemma:collinearorder
+   NEGC   lemma:betweennotequal
+   NECG   lemma:inequalitysymmetric
+   COGCR  lemma:collinearorder
+   COGCD  lemma:collinearorder
+   NEGC  lemma:inequalitysymmetric
+   COEFR
+   NERF  lemma:inequalitysymmetric
+   COCGR lemma:collinearorder
+   COCDF  lemma:collinearorder
+   COCDG
+   CODFG lemma:collinear4
+   CODFC lemma:collinearorder
+   NEFD  lemma:betweennotequal
+   NEDF  lemma:inequalitysymmetric
+   COFGC lemma:collinear4
+   COCGF lemma:collinearorder
+   COCGD lemma:collinearorder
+   CORFD lemma:collinear5
+   CORFE  lemma:collinearorder
+   COFDE lemma:collinear4
+   COEFD  lemma:collinearorder
+   NCEFD
+  EQFR reductio
+  BEGFC cn:equalitysub
+  COEGF  assumption
+   COEFG  lemma:collinearorder
+   NCEFG
+  NCEGF reductio
+  TREGF   defn:triangle  
+  AOGEFEFC  proposition:16
+  EAFEBEFC   
+  AOGEFFEB  lemma:angleorderrespectscongruence
+  EQFF  cn:equalityreflexive
+  RAEFF   lemma:ray4
+  RAEGB   defn:ray
+  COGEF  assumption
+   COEGF lemma:collinearorder
+  NCGEF  reductio
+  EAGEFGEF  lemma:equalanglesreflexive
+  EAGEFBEF  lemma:equalangleshelper
+  NCBEF   defn:equalangles
+  EABEFFEB  lemma:ABCequalsCBA
+  EAGEFFEB  lemma:equalanglestransitive
+  EAFEBGEF  lemma:equalanglessymmetric
+  AOFEBFEB  lemma:angleorderrespectscongruence2
+  NOAOFEBFEB  lemma:angletrichotomy
+ NOBEAEG reductio
+ RAEAG   assumption
+  EQFF     cn:equalityreflexive
+  RAEFF   lemma:ray4
+  RAEGA    lemma:ray5
+  EAEFDAEF  lemma:equalanglessymmetric
+  EAEFDGEF  lemma:equalangleshelper
+  BEBEA    axiom:betweennesssymmetry
+  ORBEEAG|EQGA|BEEGA  lemma:ray1
+  cases BEBEG:BEEAG|EQGA|BEEGA
+   case 1:BEEAG
+    BEBEA
+    BEBEG  lemma:3.7b
+   qedcase
+   case 2:EQGA
+    BEBEG  cn:equalitysub
+   qedcase
+   case 3:BEEGA
+    BEBEG axiom:innertransitivity
+   qedcase
+  BEBEG cases  
+  BEGEB axiom:betweennesssymmetry
+  EQEE     cn:equalityreflexive
+  COEFE    defn:collinear 
+  COEFG  assumption
+   COABG
+   COBAG  lemma:collinearorder
+   COAEB  defn:collinear
+   COBAE  lemma:collinearorder
+   COAGE  lemma:collinear4
+   COGEA  lemma:collinearorder
+   COGEF  lemma:collinearorder
+   NEEG   lemma:betweennotequal
+   NEGE   lemma:inequalitysymmetric
+   COEAF  lemma:collinear4
+   COEFA  lemma:collinearorder
+   NCEFA
+  NCEFG  reductio
+  NCEFA
+  SSAGEF    defn:sameside
+  SSGAEF    lemma:samesidesymmetric
+  OSAEFD
+  OSGEFD    lemma:planeseparation
+  ANBEGPD+COEFP+NCEFG defn:oppositeside
+  BEGPD
+  COGPD  defn:collinear
+  COEFP
+  NEPF  assumption
+   NEGD  lemma:betweennotequal
+   COGDP lemma:collinearorder
+   COCDG
+   COCFD  defn:collinear
+   COCDF  lemma:collinearorder
+   CODGF  lemma:collinear4
+   COGDF  lemma:collinearorder
+   CODPF  lemma:collinear4
+   COPFD  lemma:collinearorder
+   COPFE  lemma:collinearorder
+   COFDE  lemma:collinear4
+   COFDE  assumption
+    COEFD  lemma:collinearorder
+   NCFDE  reductio
+  EQPF    reductio
+  BEGFD   cn:equalitysub
+  RAEAG 
+  COFEA  assumption
+   COEFA  lemma:collinearorder
+  NCFEA  reductio
+  EAFEAFEA  lemma:equalanglesreflexive
+  EAFEAFEG  lemma:equalangleshelper
+  EAFEGFEA  lemma:equalanglessymmetric
+  NCFEG   defn:equalangles
+  BEGFD
+  COEGF  assumption
+   COFEG lemma:collinearorder
+  NCEGF  reductio
+  TREGF  defn:triangle
+  AOGEFEFD  proposition:16
+  AOEFDEFD  lemma:angleorderrespectscongruence2
+  NOAOEFDEFD lemma:angletrichotomy
+ NORAEAG reductio
+ OREQAE|EQAG|EQEG|BEEAG|BEAEG|BEAGE   defn:collinear
+ cases NOMEABCD:EQAE|EQAG|EQEG|BEEAG|BEAEG|BEAGE 
+  case 1:EQAE
+   MEABCD assumption
+    NEAE  
+   NOMEABCD reductio
+  qedcase
+  case 2:EQAG
+   NEHF   assumption
+    COCDG
+    COCDF  lemma:collinearorder
+    NECD
+    CODGF  lemma:collinear4
+    CODAF  cn:equalitysub
+    COAHD  defn:collinear
+    CODAH  lemma:collinearorder
+    NEAD  lemma:betweennotequal
+    NEDA   lemma:inequalitysymmetric
+    COAFH  lemma:collinear4
+    COHFA  lemma:collinearorder
+    COEFH
+    COHFE  lemma:collinearorder
+    COFAE  lemma:collinear4
+    COEFA  lemma:collinearorder
+    NCEFA
+   EQHF   reductio
+   BEAFD   cn:equalitysub
+   COEAF  assumption
+    COEFA   lemma:collinearorder
+   NCEAF  reductio
+   TREAF    defn:triangle
+   AOAEFEFD  proposition:16
+   EAEFDAEF  lemma:equalanglessymmetric 
+   AOEFDEFD  lemma:angleorderrespectscongruence2
+   MEABCD assumption
+    NOAOEFDEFD  lemma:angletrichotomy
+   NOMEABCD reductio
+  qedcase
+  case 3:EQEG
+   COCDE  cn:equalitysub
+   COCDF  lemma:collinearorder
+   CODEF lemma:collinear4
+   COEFD  lemma:collinearorder
+   COEFH
+   NEEF  assumption
+    COFDH lemma:collinear4
+    CODHF lemma:collinearorder
+    COAHD  defn:collinear
+    CODHA  lemma:collinearorder
+    NEHD  lemma:betweennotequal
+    NEDH  lemma:inequalitysymmetric
+    COHFA lemma:collinear4
+    COEFH 
+    COHFE  lemma:collinearorder
+    NEHF  assumption
+     COFAE lemma:collinear4
+     COEFA lemma:collinearorder
+     NCEFA
+    EQHF  reductio
+    COAHD  defn:collinear
+    COAFD  cn:equalitysub
+    CODFA lemma:collinearorder
+    CODFC lemma:collinearorder
+    NEHD  lemma:betweennotequal
+    NEDH  lemma:inequalitysymmetric
+    NEDF  cn:equalitysub
+    COFAC lemma:collinear4
+    COCFA lemma:collinearorder
+    COCDG
+    CODCG  lemma:collinearorder
+    COCDF  lemma:collinearorder
+    CODCF  lemma:collinearorder
+    NEDC  lemma:inequalitysymmetric
+    COCGF  lemma:collinear4
+    COCFG  lemma:collinearorder
+    NECF  assumption
+     COFAG lemma:collinear4
+     COFAE cn:equalitysub
+     COEFA lemma:collinearorder
+    EQCF  reductio
+    COAHD  defn:collinear
+    COACD  cn:equalitysub
+    COCDA  lemma:collinearorder
+    COFDA  cn:equalitysub
+    COCDE  cn:equalitysub
+    COFDE  cn:equalitysub
+    CODFE  lemma:collinearorder
+    CODFA  lemma:collinearorder
+    NEDF   cn:equalitysub
+    COFEA  lemma:collinear4
+    COEFA  lemma:collinearorder
+   EQEF  reductio
+   COEFA  defn:collinear
+   MEABCD assumption
+    NCEFA
+   NOMEABCD reductio
+  qedcase
+  case 4:BEEAG
+   NEEA  lemma:betweennotequal
+   RAEAG  lemma:ray4
+   MEABCD assumption
+    NORAEAG
+   NOMEABCD reductio
+  qedcase
+  case 5:BEAEG
+   MEABCD assumption
+    NOBEAEG
+   NOMEABCD reductio
+  qedcase
+  case 6:BEAGE
+   BEEGA  axiom:betweennesssymmetry
+   NEEA lemma:betweennotequal
+   RAEAG  lemma:ray4
+   MEABCD assumption
+    NORAEAG
+   NOMEABCD reductio
+  qedcase
+ NOMEABCD  cases
+NOMEABCD  reductio
+% That is Euclid's conclusion.
+EQAA  cn:equalityreflexive
+COABA defn:collinear
+COABE  defn:collinear
+EQDD cn:equalityreflexive
+COCDD defn:collinear
+COCDF  defn:collinear
+NEAE  lemma:betweennotequal
+NEFD lemma:betweennotequal
+BEAHD 
+BEEHF  lemma:collinearbetween
+BEFHE  axiom:betweennesssymmetry
+ANNEAB+NECD+COABA+COABE+NEAE+COCDF+COCDD+NEFD+NOMEABCD+BEAHD+BEFHE
+PRABCD  defn:parallel 

@@ -1,0 +1,101 @@
+PRABCD
+PRABCE
+CRADBC
+NEAB defn:parallel
+NOORCRAEBC|CRACEB  assumption 
+ ANNOCRAEBC+NOCRACEB
+ NOCRAEBC
+ NOCRACEB
+ PRABEC  lemma:parallelflip
+ CRACEB lemma:crisscross
+ORCRAEBC|CRACEB reductio
+ANBEAMD+BEBMC  defn:cross
+BEBMC
+cases COCDE:CRAEBC|CRACEB
+ case 1:CRAEBC
+  COCDE lemma:Playfairhelper
+ qedcase
+ case 2:CRACEB
+  ANBEAmC+BEEmB defn:cross
+  BEAmC
+  BEEmB
+  NECE  defn:parallel
+  NEEC  lemma:inequalitysymmetric
+  ANBEECe+EECeEC  lemma:extension
+  BEECe
+  COECe  defn:collinear
+  NECe  lemma:betweennotequal
+  NEeC  lemma:inequalitysymmetric
+  PRABEC lemma:parallelflip
+  PRABeC lemma:collinearparallel
+  PRABCe lemma:parallelflip
+  NCABC  lemma:parallelNC
+  NCBCA  lemma:NCorder
+  ANBEBHm+BEAHM  postulate:Pasch-inner
+  NCAEC  lemma:parallelNC
+  COECe  defn:collinear
+  COCEe  lemma:collinearorder
+  NCCEA  lemma:NCorder
+  EQEE   cn:equalityreflexive
+  COCEE  defn:collinear
+  NEEe  lemma:betweennotequal
+  NCEeA  lemma:NChelper
+  BEAmC
+  BEECe
+  ANBEAFe+BEEmF  postulate:Pasch-outer
+  BEAFe
+  BEEmF
+  BEeFA  axiom:betweennesssymmetry
+  COEmF  defn:collinear
+  COEmB  defn:collinear
+  COmEF  lemma:collinearorder
+  COmEB  lemma:collinearorder
+  NEEm   lemma:betweennotequal
+  NEmE    lemma:inequalitysymmetric
+  COEFB   lemma:collinear4
+  COEBF  lemma:collinearorder
+  NEeE  lemma:inequalitysymmetric
+  BEeFA
+  EQEE   cn:equalityreflexive
+  COeEE  defn:collinear
+  EQBB   cn:equalityreflexive
+  COBBA  defn:collinear
+  NEBA   lemma:inequalitysymmetric
+  PRABEC
+  PRABCE  lemma:parallelflip
+  COECe
+  COCEe  lemma:collinearorder 
+  NEEe
+  PRABeE  lemma:collinearparallel
+  PReEAB  lemma:parallelsymmetric
+  PReEBA  lemma:parallelflip
+  NOMEeEBA  defn:parallel
+  BEEFB  lemma:collinearbetween
+  BEBFE  axiom:betweennesssymmetry
+  BEeCE  axiom:betweennesssymmetry
+  NCBEC  lemma:parallelNC
+  NCECB  lemma:NCorder
+  COECe  defn:collinear
+  EQEE    cn:equalityreflexive
+  COECE   defn:collinear
+  NCEeB  lemma:NChelper
+  NCBEe  lemma:NCorder
+  ANBEBKC+BEeKF  postulate:Pasch-inner
+  BEBKC
+  BEeKF
+  BEeFA  axiom:betweennesssymmetry
+  BEeKA  lemma:3.6b
+  BEAKe  axiom:betweennesssymmetry
+  BEAKe
+  BEBKC
+  ANBEAKe+BEBKC
+  CRAeBC defn:cross
+  COCDe  lemma:Playfairhelper
+  COeCD  lemma:collinearorder
+  COeCE lemma:collinearorder
+  NECe  lemma:betweennotequal
+  NEeC  lemma:inequalitysymmetric
+  COCDE  lemma:collinear4
+ qedcase
+COCDE cases
+ 

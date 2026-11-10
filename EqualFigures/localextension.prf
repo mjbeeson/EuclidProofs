@@ -1,0 +1,10 @@
+NEAB  
+NEBQ 
+EQBB   cn:equalityreflexive
+CIJBBQ postulate:Euclid3
+ICBJ   defn:inside
+ANCOABC+BEABE+ONCJ+ONEJ+BECBE  postulate:line-circle
+BEABE
+ONEJ
+EEBEBQ  axiom:circle-center-radius
+ANBEABE+EEBEBQ 

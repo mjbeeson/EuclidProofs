@@ -1,0 +1,42 @@
+CUABCDE
+ANBEAEB+BECED+NCABC+NCABD  defn:cut
+BEAEB
+BECED
+NCABC
+NCABD 
+
+COAEB  defn:collinear
+COCED  defn:collinear
+COABE  lemma:collinearorder
+NEAE    lemma:betweennotequal
+NEEA    lemma:inequalitysymmetric
+EQAA   cn:equalityreflexive
+COABA   defn:collinear
+NCAEC   lemma:NChelper
+NCCEA   lemma:NCorder
+CODEC   lemma:collinearorder
+NCAED  lemma:NChelper
+NCDEA  lemma:NCorder
+NECD   lemma:betweennotequal
+NEDC   lemma:inequalitysymmetric
+EQDD    cn:equalityreflexive
+CODED  defn:collinear
+NCDCA  lemma:NChelper
+NCCDA  lemma:NCorder
+NCBAC   lemma:NCorder
+EQBB  cn:equalityreflexive
+COBAB  defn:collinear
+COAEB lemma:collinearorder
+EQEE   cn:equalityreflexive
+COAEE  defn:collinear
+NECE   lemma:betweennotequal
+COCEE  defn:collinear
+COCED
+NEEB  lemma:betweennotequal
+NEBE  lemma:inequalitysymmetric
+NCBED lemma:NChelper
+NCDEB lemma:NCorder
+NCDCB  lemma:NChelper
+NCCDB lemma:NCorder
+ANBECED+BEAEB+NCCDA+NCCDB
+CUCDABE  defn:cut

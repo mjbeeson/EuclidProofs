@@ -1,0 +1,25 @@
+TGAaBbCc
+EEDFAa
+EEFGBb
+BEDFG
+EEPQCc
+ANBEAaR+EEaRBb+LTCcAR  defn:togethergreater
+BEAaR
+EEaRBb
+LTCcAR
+EEBbaR  lemma:congruencesymmetric
+EEFGaR  lemma:congruencetransitive
+EEDGAR  cn:sumofparts
+EEARDG  lemma:congruencesymmetric
+EECcPQ  lemma:congruencesymmetric
+LTPQAR  lemma:lessthancongruence2
+LTPQDG  lemma:lessthancongruence
+NEAa    lemma:betweennotequal
+NEaR    lemma:betweennotequal
+NEBb    axiom:nocollapse
+ANBEASR+EEASCc  defn:lessthan
+BEASR
+EEASCc
+NEAS   lemma:betweennotequal
+NECc   axiom:nocollapse
+ANLTPQDG+NEAa+NEBb+NECc

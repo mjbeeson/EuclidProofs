@@ -1,0 +1,62 @@
+COABC
+EEABab    
+EEACac   
+EEBCbc   
+EECBBC   cn:equalityreverse
+EECBbc   lemma:congruencetransitive
+EEbccb   cn:equalityreverse
+EECBcb   lemma:congruencetransitive
+EEabba  cn:equalityreverse
+EEABba  lemma:congruencetransitive
+EEABBA  cn:equalityreverse
+EEBAAB  lemma:congruencesymmetric
+EEBAba  lemma:congruencetransitive
+OREQAB|EQAC|EQBC|BEBAC|BEABC|BEACB  defn:collinear
+cases COabc:EQAB|EQAC|EQBC|BEBAC|BEABC|BEACB 
+ case 1: EQAB
+  EEABab
+  EEAAab cn:equalitysub
+  EEabAA lemma:congruencesymmetric
+  NEab assumption
+   NEAA  axiom:nocollapse
+   EQAA  cn:equalityreflexive
+  EQab  reductio
+  COabc defn:collinear
+ qedcase
+ case 2: EQAC
+  EEACac
+  EEAAac  cn:equalitysub
+  EEacAA  lemma:congruencesymmetric
+  NEac assumption
+   NEAA axiom:nocollapse
+   EQAA cn:equalityreflexive
+  EQac  reductio
+  COabc defn:collinear
+ qedcase
+ case 3: EQBC
+  EEBCbc
+  EEBBbc cn:equalitysub
+  EEbcBB  lemma:congruencesymmetric
+  NEbc assumption
+   NEBB  axiom:nocollapse
+   EQBB  cn:equalityreflexive
+  EQbc  reductio
+  COabc defn:collinear
+ qedcase
+ case 4: BEBAC
+  BEbac  lemma:betweennesspreserved
+  COabc  defn:collinear
+ qedcase
+ case 5: BEABC
+  BEabc lemma:betweennesspreserved
+  COabc  defn:collinear
+ qedcase
+ case 6: BEACB
+  BEacb  lemma:betweennesspreserved
+  COabc  defn:collinear
+ qedcase
+COabc cases
+
+
+
+

@@ -1,0 +1,99 @@
+AOABCDEF
+EAPQRDEF
+ANBEGHJ+RAEDG+RAEFJ+EAABCDEH defn:anglelessthan
+BEGHJ
+RAEDG
+RAEFJ
+EAABCDEH
+ANNEPQ+NEQR+NEPR+NEDE+NEEF+NEDF    lemma:angledistinct
+NEPQ
+NEQR
+NEQP    lemma:inequalitysymmetric
+ANNEAB+NEBC+NEAC+NEDE+NEEH+NEDH  lemma:angledistinct
+NEEG  lemma:raystrict
+ANRAQPU+EEQUEG   lemma:layoff
+EEQUEG
+NEEJ  lemma:raystrict
+ANRAQRV+EEQVEJ  lemma:layoff
+EEQVEJ
+EEGHGH    cn:congruencereflexive
+LTGHGJ    defn:lessthan  
+RAQPU
+RAQRV
+EADEFPQR   lemma:equalanglessymmetric
+EADEFUQV   lemma:equalangleshelper
+RAEDG
+RAEFJ
+EAUQVDEF   lemma:equalanglessymmetric
+EAUQVGEJ   lemma:equalangleshelper
+EAGEJUQV   lemma:equalanglessymmetric 
+EAGEJUQV
+EEEGQU    lemma:congruencesymmetric
+EEEJQV    lemma:congruencesymmetric
+ANEEGJUV+EAEGJQUV+EAEJGQVU  proposition:04
+EEGJUV
+EAEGJQUV
+EEUVGJ    lemma:congruencesymmetric
+LTGHGJ    
+NEGJ     lemma:betweennotequal 
+ANBEUWV+EEUWGH  proposition:03
+BEUWV
+EEUWGH
+RAEDG  
+EQHH     cn:equalityreflexive 
+NEEH 
+RAEHH    lemma:ray4
+EAABCGEH lemma:equalangleshelper
+NCGEH   lemma:equalanglesNC
+NCGHE   lemma:NCorder
+NEUV     lemma:betweennotequal
+RAUVW    lemma:ray4
+EQQQ     cn:equalityreflexive
+EQEE     cn:equalityreflexive
+NCUQV  lemma:equalanglesNC
+NEUQ  lemma:NCdistinct
+RAUQQ    lemma:ray4
+EQGE  assumption
+ COGHE  defn:collinear
+NEGE  reductio
+RAGEE    lemma:ray4
+EAEGJQUW  lemma:equalangleshelper
+EAQUWEGJ  lemma:equalanglessymmetric
+RAGJH    lemma:ray4
+EAQUWEGH  lemma:equalangleshelper
+EAEGHQUW  lemma:equalanglessymmetric
+NCQUW    lemma:equalanglesNC
+NCUWQ  lemma:NCorder
+NCHGE   lemma:NCorder
+COWUQ    assumption
+COUWQ    lemma:collinearorder
+NCWUQ    reductio
+EEGHUW    lemma:congruencesymmetric
+EEGEUQ    lemma:congruenceflip
+EAQUWEGH
+EAEGHQUW   lemma:equalanglessymmetric
+NCQUW
+EAQUWWUQ   lemma:ABCequalsCBA
+EAEGHWUQ   lemma:equalanglestransitive
+EAHGEEGH    lemma:ABCequalsCBA
+EAHGEWUQ    lemma:equalanglestransitive
+ANEEHEWQ+EAGHEUWQ+EAGEHUQW   proposition:04
+EAGEHUQW
+EAABCGEH  
+EAABCUQW   lemma:equalanglestransitive
+EQWW      cn:equalityreflexive
+EQQW    assumption
+ COQUW   defn:collinear
+ COWUQ   lemma:collinearorder
+NEQW    reductio
+RAQWW     lemma:ray4
+RAQUP      lemma:ray5
+EAABCPQW    lemma:equalangleshelper
+RAQPU    
+RAQRV      
+BEUWV
+AOABCPQR  defn:anglelessthan
+ 
+
+
+

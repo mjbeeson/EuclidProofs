@@ -1,0 +1,243 @@
+NEAB
+NCDCE
+NCABP
+NEBA  lemma:inequalitysymmetric
+ANRAABG+EAFAGDCE  proposition:23
+RAABG
+NEAG   lemma:raystrict
+EAFAGDCE
+COABF  assumption
+ EADCEFAG  lemma:equalanglessymmetric
+ NCFAG  lemma:equalanglesNC
+ COABG  lemma:rayimpliescollinear
+ COBFG  lemma:collinear4
+ COBFA  lemma:collinearorder
+ EQFB   assumption
+  RAAFG  cn:equalitysub
+  COAFG  lemma:rayimpliescollinear
+  COFAG  lemma:collinearorder
+ NEFB  reductio
+ NEBF   lemma:inequalitysymmetric
+ COFAG  lemma:collinear4
+NCABF reductio
+PAFHABH  proposition:12
+ANCOFHH+COABH+COABJ+RRJHF  defn:perpat
+COABH
+RRJHF
+NCJHF   lemma:rightangleNC
+EQFH  assumption
+ COABF  cn:equalitysub
+ NCABF
+NEFH   reductio
+EQJH   assumption
+ COJHF  defn:collinear
+NEJH   reductio
+NEHJ   lemma:inequalitysymmetric
+ANBEJHT+EEHTHJ  lemma:extension
+BEJHT
+COJHT  defn:collinear
+COABJ
+COABH
+COBJH  lemma:collinear4
+NEJT  lemma:betweennotequal
+COHJB  lemma:collinearorder
+COHJT lemma:collinearorder
+NEJH  lemma:betweennotequal
+NEHJ  lemma:inequalitysymmetric
+COJBT  lemma:collinear4
+COJTB lemma:collinearorder 
+COBAJ lemma:collinearorder
+COBAH  lemma:collinearorder
+COAJH lemma:collinear4
+COHJA lemma:collinearorder
+COJAT  lemma:collinear4
+COJTA  lemma:collinearorder
+COJTP assumption
+ COJTP 
+ COABP  lemma:collinear5
+NCJTP  reductio
+ANRRJHQ+OSQJTP  proposition:11B
+RRJHQ
+NCJHQ  lemma:rightangleNC
+EQHQ assumption
+ COJHQ  defn:collinear
+NEHQ  reductio
+EQHF  assumption
+ COJHF defn:collinear
+NEHF  reductio
+ANRAHQS+EEHSHF  lemma:layoff
+RAHQS
+EEHSHF
+EQFF   cn:equalityreflexive
+NEDC  lemma:angledistinct
+NECD   lemma:inequalitysymmetric
+NECE  lemma:angledistinct
+RRJHF
+COJHA  lemma:collinearorder
+RRJHQ
+RRJHS  lemma:8.3
+RRSHJ  lemma:8.2
+EAJHFJHS   lemma:Euclid4
+EQSS   cn:equalityreflexive
+NEHS   lemma:angledistinct
+cases EAFAGSAG:EQAH|NEAH
+ case 1:EQAH
+  NEAG
+  RRJAF  cn:equalitysub
+  RRJAS  cn:equalitysub
+  COABH
+  COABJ
+  COABG  lemma:rayimpliescollinear
+  COJHG  lemma:collinear5
+  COJAG  cn:equalitysub
+  RRJAF
+  NEGA  lemma:inequalitysymmetric
+  RRGAF  lemma:collinearright
+  RRFAG  lemma:8.2
+  RRJAS
+  RRGAS  lemma:collinearright
+  RRSAG  lemma:8.2
+  EAFAGSAG  lemma:Euclid4
+ qedcase
+ case 2:NEAH  
+  EEFHSH  lemma:doublereverse
+  RRJHF
+  RRAHF   lemma:collinearright
+  RRFHA   lemma:8.2
+  RRSHJ  
+  RRJHS   lemma:8.2
+  RRAHS   lemma:collinearright 
+  EAAHFAHS  lemma:Euclid4
+  NCFHA    lemma:rightangleNC
+  EAFHAAHF  lemma:ABCequalsCBA
+  EAFHAAHS  lemma:equalanglestransitive
+  NCAHS     lemma:rightangleNC
+  EAAHSSHA  lemma:ABCequalsCBA
+  EAFHASHA  lemma:equalanglestransitive
+  EEHFHS   lemma:congruenceflip
+  EEHAHA   cn:congruencereflexive
+  COSHA   assumption
+   COAHS   lemma:collinearorder
+  NCSHA    reductio
+  ANEEFASA+EAHFAHSA+EAHAFHAS  proposition:04 
+  EAHAFHAS  
+  COFAH  assumption
+   COFHA  lemma:collinearorder
+  NCFAH  reductio
+  EAFAHHAF  lemma:ABCequalsCBA
+  COHAS assumption
+   COSHA  lemma:collinearorder
+  NCHAS  reductio
+  EAHASSAH  lemma:ABCequalsCBA
+  EAFAHHAS  lemma:equalanglestransitive
+  EAFAHSAH  lemma:equalanglestransitive
+  RAABG 
+  COABH
+  EQAA   cn:equalityreflexive
+  COABA   defn:collinear
+  COABG   lemma:rayimpliescollinear
+  cases COGHA:EQGH|NEGH
+   case 1:EQGH
+    COGHA  defn:collinear
+   qedcase
+   case 2: NEGH
+    COGHA   lemma:collinear5
+   qedcase
+  COGHA cases
+  NEFA   lemma:angledistinct
+  NEAF  lemma:inequalitysymmetric
+  RAAFF   lemma:ray4
+  NESA   lemma:angledistinct
+  NEAS    lemma:inequalitysymmetric
+  RAASS   lemma:ray4
+  OREQGH|EQGA|EQHA|BEHGA|BEGHA|BEGAH  defn:collinear
+  cases EAFAGSAG:EQGH|EQGA|EQHA|BEHGA|BEGHA|BEGAH
+   case 1:EQGH
+    NOEAFAGSAG assumption
+     EAFAGSAG cn:equalitysub
+    EAFAGSAG reductio
+   qedcase
+   case 2:EQGA
+    NOEAFAGSAG assumption
+     RAABG
+     NEAG  lemma:raystrict
+     NEGA  lemma:inequalitysymmetric
+    EAFAGSAG reductio
+   qedcase
+   case 3:EQHA
+    NOEAFAGSAG assumption
+     NEHA  lemma:inequalitysymmetric
+    EAFAGSAG reductio
+   qedcase
+   case 4:BEHGA
+    BEAGH axiom:betweennesssymmetry
+    RAAHG lemma:ray4
+    EAFAHFAH  lemma:equalanglesreflexive
+    COSAH   assumption
+     COSHA  lemma:collinearorder
+    NCSAH   reductio
+    EASAHSAH  lemma:equalanglesreflexive
+    EAFAHFAG  lemma:equalangleshelper
+    EASAHSAG  lemma:equalangleshelper
+    EAFAGFAH  lemma:equalanglessymmetric 
+    EAFAGSAH   lemma:equalanglestransitive
+    EAFAGSAG  lemma:equalanglestransitive
+   qedcase
+   case 5:BEGHA
+    BEAHG  axiom:betweennesssymmetry
+    RAAHG lemma:ray4
+    EAFAHFAH  lemma:equalanglesreflexive
+    COSAH   assumption
+     COSHA  lemma:collinearorder
+    NCSAH   reductio
+    EASAHSAH  lemma:equalanglesreflexive
+    EAFAHFAG  lemma:equalangleshelper
+    EASAHSAG  lemma:equalangleshelper
+    EAFAGFAH  lemma:equalanglessymmetric 
+    EAFAGSAH   lemma:equalanglestransitive
+    EAFAGSAG  lemma:equalanglestransitive
+   qedcase
+   case 6:BEGAH
+    BEHAG   axiom:betweennesssymmetry
+    RAAFF
+    SUHAFFG   defn:supplement
+    SUHASSG   defn:supplement
+    EAFAHSAH
+    EAHAFHAS  lemma:equalanglesflip
+    EAFAGSAG  lemma:supplements
+   qedcase
+  EAFAGSAG cases
+ qedcase
+EAFAGSAG cases
+EASAGFAG  lemma:equalanglessymmetric
+EAFAGDCE
+EASAGDCE lemma:equalanglestransitive
+OSQJTP
+RAHQS 
+RAHSQ    lemma:ray5    
+COJTH    lemma:collinearorder
+OSSJTP  lemma:9.5
+ANBESMP+COJTM+NCJTS  defn:oppositeside
+BESMP
+COJTM
+NCJTS
+COABJ
+COJTA
+COJTB
+NEJT
+COTAB  lemma:collinear4
+COABT  lemma:collinearorder
+COBAT  lemma:collinearorder
+COAJT  lemma:collinear4
+COJTA  lemma:collinearorder
+COBJT  lemma:collinear4
+COJTB  lemma:collinearorder
+NEJT
+COABM   lemma:collinear5
+COABS  assumption
+ COABJ
+ COABT
+ COJTS  lemma:collinear5
+NCABS  reductio
+OSSABP  defn:oppositeside
+ANRAABG+EASAGDCE+OSSABP

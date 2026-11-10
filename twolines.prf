@@ -1,0 +1,46 @@
+CUABCDE
+CUABCDF
+NCBCD
+ANBEAEB+BECED+NCABC+NCABD  defn:cut
+BEAEB
+ANBEAFB+BECFD+NCABC+NCABD  defn:cut
+BEAFB
+COAEB   defn:collinear
+COABE   lemma:collinearorder
+COAFB   defn:collinear
+COABF   lemma:collinearorder
+COABE
+NEAB    lemma:betweennotequal
+COBEF   lemma:collinear4
+COEFB   lemma:collinearorder
+BECED
+COCED   defn:collinear
+BECFD
+COCFD   defn:collinear
+COCDF   lemma:collinearorder
+COCED
+COCDE   lemma:collinearorder
+COCDF
+NECD    lemma:betweennotequal
+CODEF   lemma:collinear4
+COEFD   lemma:collinearorder
+COCDE
+CODCE   lemma:collinear1
+CODCF   lemma:collinear1
+BEDEC   axiom:betweennesssymmetry
+NEDC    lemma:betweennotequal
+COCEF  lemma:collinear4
+COEFC  lemma:collinearorder
+COEFB
+COEFC
+COEFD
+NEEF    assumption
+COFBC   lemma:collinear4
+COFBD   lemma:collinear4
+EQFB    assumption
+ COFCD   defn:collinear
+ COBCD   cn:equalitysub
+ NCBCD
+NEFB    reductio 
+COBCD   lemma:collinear4
+EQEF    reductio

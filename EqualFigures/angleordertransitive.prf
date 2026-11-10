@@ -1,0 +1,61 @@
+AOABCDEF
+AODEFPQR
+ANBEUWV+RAQPU+RAQRV+EADEFPQW   defn:anglelessthan
+RAQPU
+RAQRV
+EADEFPQW
+EAPQWDEF   lemma:equalanglessymmetric
+NEQW    lemma:angledistinct
+EADEFPQW
+EQWW          cn:equalityreflexive
+RAQWW         lemma:ray4   
+RAQWW         
+EADEFUQW       lemma:equalangleshelper     
+EAUQWDEF      lemma:equalanglessymmetric     
+AOABCUQW       lemma:angleorderrespectscongruence	
+ANBESHT+RAQUS+RAQWT+EAABCUQH defn:anglelessthan
+RAQPU    
+RAQUP      lemma:ray5  
+RAQUS   
+EAABCUQH
+NEQH         lemma:angledistinct
+EQHH          cn:equalityreflexive
+RAQHH        lemma:ray4      
+EAABCPQH     lemma:equalangleshelper
+EADEFUQW
+RAQUP
+RAQWT
+EADEFPQT     lemma:equalangleshelper
+NCPQT        lemma:equalanglesNC
+BESHT
+RAQPU
+NEQP   lemma:ray2
+RAQTW         lemma:ray5
+COSQT   assumption
+ COQUS   lemma:rayimpliescollinear
+ COUQS  lemma:collinearorder
+ RAQPU
+ COQPU  lemma:rayimpliescollinear
+ COUQP  lemma:collinearorder
+ NEQU   lemma:raystrict
+ NEUQ   lemma:inequalitysymmetric
+ COQSP   lemma:collinear4
+ COSQP   lemma:collinearorder
+ NEQS   lemma:raystrict
+ NESQ   lemma:inequalitysymmetric
+ COQTP  lemma:collinear4
+ COPQT  lemma:collinearorder
+NCSQT  reductio
+TRSQT   defn:triangle
+RAQSU   lemma:ray5
+RAQTW
+ANRAQHK+BEUKW  lemma:crossbar
+RAQHK
+BEUKW
+BEUWV
+BEUKV      lemma:3.6b  
+EAABCPQH
+EQPP       cn:equalityreflexive
+RAQPP       lemma:ray4
+EAABCPQK    lemma:equalangleshelper
+AOABCPQR      defn:anglelessthan

@@ -1,0 +1,86 @@
+OSPABC
+BERQP
+NCCPR
+COABR
+ANBEPSC+COABS+NCABP   defn:oppositeside
+BEPSC
+NCABP
+BECSP  axiom:betweennesssymmetry
+ANBECFQ+BERFS postulate:Pasch-inner
+BECFQ
+BERFS
+CORSF  defn:collinear
+EQAB assumption
+ COABP defn:collinear
+NEAB reductio
+NEBA lemma:inequalitysymmetric
+COABR
+COABS
+COBRS lemma:collinear4
+CORSB lemma:collinearorder
+NERS  lemma:betweennotequal
+COSFB lemma:collinear4
+COSBA lemma:collinearorder
+COSBF  lemma:collinearorder
+cases COABF:EQSB|NESB
+ case 1:EQSB
+  CORSF defn:collinear
+  CORBF cn:equalitysub
+  CORBA lemma:collinearorder
+  EQRB assumption
+   BERFS
+   NERS  lemma:betweennotequal
+   NERB cn:equalitysub
+  NERB reductio
+  COBFA  lemma:collinear4
+  COABF  lemma:collinearorder
+ qedcase
+ case 2:NESB
+  COBAF lemma:collinear4
+  COABF  lemma:collinearorder
+ qedcase
+COABF cases
+COABQ  assumption
+ COABR
+ COBQR lemma:collinear4
+ COBRQ  lemma:collinearorder
+ COABR
+ COABF
+ COBRF lemma:collinear4
+ cases CORQF:EQBR|NEBR
+  case 1:EQBR
+   EQAR assumption
+    EQAB cn:equalitysub
+   NEAR reductio
+   COBAR lemma:collinearorder
+   COBAF lemma:collinearorder
+   COARF lemma:collinear4
+   COBAQ lemma:collinearorder
+   COBAR  lemma:collinearorder
+   COARQ lemma:collinear4
+   CORFQ lemma:collinear4
+   CORQF lemma:collinearorder
+  qedcase   
+  case 2:NEBR
+   CORQF lemma:collinear4
+  qedcase
+ CORQF cases
+ COFQR lemma:collinearorder
+ COCFQ defn:collinear
+ COFQC lemma:collinearorder
+ NEFQ  lemma:betweennotequal
+ COQRC lemma:collinear4
+ CORQC lemma:collinearorder
+ CORQP defn:collinear
+ COQRC lemma:collinearorder
+ COQRP lemma:collinearorder
+ NERQ  lemma:betweennotequal
+ NEQR  lemma:inequalitysymmetric
+ CORCP lemma:collinear4
+ COCPR  lemma:collinearorder
+ NCCPR
+NCABQ  reductio
+BEQFC axiom:betweennesssymmetry
+ANBEQFC+COABF+NCABQ
+OSQABC  defn:oppositeside
+ 

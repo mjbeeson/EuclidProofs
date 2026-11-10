@@ -1,0 +1,130 @@
+TRABC
+ETABCDBC
+BEAMC
+RABDM
+NCABC   defn:triangle
+NEAB   lemma:NCdistinct
+ANBEAmB+EEmAmB  proposition:10
+BEAmB
+EEmAmB
+COAmB  defn:collinear
+COABm  lemma:collinearorder
+EQAA   cn:equalityreflexive
+COABA  defn:collinear
+NEAm  lemma:betweennotequal
+NCAmC  lemma:NChelper
+NEmC  lemma:NCdistinct
+NECm  lemma:inequalitysymmetric
+ANBECmH+EEmHmC lemma:extension
+BECmH
+EEmHmC  
+BEBmA  axiom:betweennesssymmetry
+BECMA  axiom:betweennesssymmetry
+EEmBmA lemma:congruencesymmetric
+EEBmAm lemma:congruenceflip
+EEmCmH lemma:congruencesymmetric
+COBAH assumption
+ COAmB  defn:collinear
+ COBAm  lemma:collinearorder
+ NEBA  lemma:inequalitysymmetric
+ COAHm lemma:collinear4
+ COHmA  lemma:collinearorder
+ COCmH  defn:collinear
+ COHmC  lemma:collinearorder
+ NEmH  lemma:betweennotequal
+ NEHm  lemma:inequalitysymmetric
+ COmAC  lemma:collinear4
+ COmAB  lemma:collinearorder
+ NEAm  lemma:betweennotequal
+ NEmA  lemma:inequalitysymmetric
+ COABC lemma:collinear4
+NCBAH  reductio
+ANBEBME+BEHAE  postulate:Euclid5
+BEHAE
+BEHmC  axiom:betweennesssymmetry
+COCmH defn:collinear
+COmCH  lemma:collinearorder
+EQmm  cn:equalityreflexive
+COmCm  defn:collinear
+NCmCA  lemma:NCorder
+NEmH  lemma:betweennotequal
+NCmHA  lemma:NChelper
+NCAmH  lemma:NCorder
+EAAmHCmB proposition:15
+NCHmA  lemma:NCorder
+COAmB  defn:collinear
+COABm lemma:collinearorder
+EQBB  cn:equalityreflexive
+COABB  defn:collinear
+NEmB  lemma:betweennotequal
+NCmBC  lemma:NChelper
+EAHmAAmH  lemma:ABCequalsCBA
+EAHmACmB  lemma:equalanglestransitive
+EEmHmC
+EEmBmA 
+EEmAmB  lemma:congruencesymmetric
+EAmHAmCB  proposition:04
+EQBB  cn:equalityreflexive
+NEBC  lemma:NCdistinct
+NECB  lemma:inequalitysymmetric
+RACBB   lemma:ray4
+RACmH   lemma:ray4
+EAmHAHCB  lemma:equalangleshelper
+EAHCBmHA  lemma:equalanglessymmetric
+EQAA  cn:equalityreflexive
+NEHA lemma:NCdistinct
+RAHAA  lemma:ray4
+BEHmC  axiom:betweennesssymmetry
+NEHm  lemma:betweennotequal
+RAHmC  lemma:ray4
+EAHCBCHA  lemma:equalangleshelper
+EACHAHCB  lemma:equalanglessymmetric
+EAAHCBCH   lemma:equalanglesflip
+NCBCH    lemma:equalanglesNC
+EABCHHCB  lemma:ABCequalsCBA
+EAAHCHCB  lemma:equalanglestransitive
+COCmH  defn:collinear
+COHCm   lemma:collinearorder
+COHmC   lemma:collinearorder
+EQHH  cn:equalityreflexive
+COHmH  defn:collinear
+NCHmA
+NEHC  lemma:betweennotequal
+NCHCA  lemma:NChelper
+OSAHCB    defn:oppositeside
+PRAHCB    proposition:27B
+COHAE    defn:collinear
+COAHE   lemma:collinearorder
+COAHA   defn:collinear
+NEAE  lemma:betweennotequal
+PRCBAH  lemma:parallelsymmetric
+PRCBAE  lemma:collinearparallel2
+PRAECB  lemma:parallelsymmetric
+PRAEBC  lemma:parallelflip
+ETABCEBC  proposition:37
+ETDBCABC  axiom:ETsymmetric
+ETDBCEBC  axiom:ETtransitive
+RABDM 
+RABMD  lemma:ray5 
+BEBME
+NEBM  lemma:betweennotequal
+RABME   lemma:ray4
+RABDE  lemma:ray3
+ORBEBED|EQDE|BEBDE  lemma:ray1
+cases PRADBC:BEBED|EQDE|BEBDE
+ case 1:BEBED
+  NOPRADBC assumption
+   NOETDBCEBC axiom:deZolt1
+  PRADBC reductio
+ qedcase
+ case 2:EQDE
+  PRADBC cn:equalitysub
+ qedcase
+ case 3:BEBDE
+  NOPRADBC assumption
+   NOETEBCDBC axiom:deZolt1
+   ETEBCDBC   axiom:ETsymmetric
+  PRADBC reductio
+ qedcase
+PRADBC cases
+

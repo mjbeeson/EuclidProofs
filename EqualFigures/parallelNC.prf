@@ -1,0 +1,32 @@
+PRABCD
+ANNEAB+NECD+COABa+COABb+NEab+COCDc+COCDd+NEcd+NOMEABCD+BEaMd+BEcMb  defn:parallel
+NEAB
+NECD
+NOMEABCD
+COACD assumption
+ COCDA  lemma:collinearorder
+ EQAA  cn:equalityreflexive
+ COABA defn:collinear
+ ANNEAB+NECD+COABA+COCDA
+ MEABCD  defn:meet
+NCACD reductio
+COABC assumption
+ EQCC  cn:equalityreflexive
+ COCDC defn:collinear
+ ANNEAB+NECD+COABC+COCDC
+ MEABCD defn:meet
+NCABC reductio
+COBCD assumption
+ COCDB lemma:collinearorder
+ EQBB  cn:equalityreflexive
+ COABB  defn:collinear
+ ANNEAB+NECD+COABB+COCDB
+ MEABCD defn:meet
+NCBCD reductio
+COABD assumption
+ EQDD cn:equalityreflexive
+ COCDD  defn:collinear
+ ANNEAB+NECD+COABD+COCDD
+ MEABCD defn:meet
+NCABD reductio
+ANNCABC+NCACD+NCBCD+NCABD

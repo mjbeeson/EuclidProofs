@@ -1,0 +1,25 @@
+NEAB  
+NEPQ 
+EQBB   cn:equalityreflexive
+cases EEBDPQ:EQBP|NEBP
+ case 1:EQBP
+  NEQP lemma:inequalitysymmetric
+  NEQB cn:equalitysub
+  NEBQ lemma:inequalitysymmetric
+  EEBDQP proposition:02
+  EEBDPQ lemma:congruenceflip
+ qedcase
+ case 2:NEBP
+  EEBDPQ  proposition:02
+ qedcase
+EEBDPQ cases
+EEPQBD lemma:congruencesymmetric
+NEBD axiom:nocollapse
+CIJBBD postulate:Euclid3
+ICBJ   defn:inside
+ANCOABC+BEABE+ONCJ+ONEJ+BECBE  postulate:line-circle
+BEABE
+ONEJ
+EEBEBD  axiom:circle-center-radius
+EEBEPQ  lemma:congruencetransitive
+ANBEABE+EEBEPQ 

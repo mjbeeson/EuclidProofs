@@ -1,0 +1,39 @@
+CIJERS
+NERS
+ONAJ
+ONBJ
+NEAB
+COABC
+ICCJ
+NOONCJ  lemma:insidenoton
+EQCA  assumption
+ ONCJ  cn:equalitysub
+NECA  reductio
+NEAC  lemma:inequalitysymmetric
+ANCOACP+BEACQ+ONPJ+ONQJ+BEPCQ postulate:line-circle
+COACP
+BEACQ
+ONPJ
+ONQJ
+BEPCQ
+COACQ   defn:collinear
+COCAQ  lemma:collinearorder
+COCAB  lemma:collinearorder
+COABQ  lemma:collinear4
+COQAB  lemma:collinearorder
+NEAQ  lemma:betweennotequal
+EQBQ   lemma:nothreeoncircle
+EQQB  lemma:equalitysymmetric
+BEPCB  cn:equalitysub
+BEBCP  axiom:betweennesssymmetry
+COCBA  lemma:collinearorder
+NEBA   lemma:inequalitysymmetric
+NEPB  lemma:betweennotequal
+NEBP  lemma:inequalitysymmetric
+COCBA  lemma:collinearorder
+COCAP  lemma:collinearorder
+COABP  lemma:collinear4
+COPBA  lemma:collinearorder
+EQAP   lemma:nothreeoncircle
+EQPA   lemma:equalitysymmetric
+BEACB  cn:equalitysub

@@ -1,0 +1,19 @@
+LTEDEP
+BEEFD
+BEEFP
+ANBEEQP+EEEQED  defn:lessthan
+BEEQP
+EEEQED
+NEEF   lemma:betweennotequal
+RAEFD   lemma:ray4
+ANBESED+BESEF  defn:ray
+BESED
+BESEF
+BEEQP
+BEEFP  
+BESFP  lemma:3.7a
+BESEP  lemma:3.6b
+BESEQ  lemma:3.6c
+RAEFQ   defn:ray
+EQQD   lemma:layoffunique
+BEEDP  cn:equalitysub

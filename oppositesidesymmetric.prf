@@ -1,0 +1,40 @@
+OSPABQ
+ANBEPRQ+COABR+NCABP  defn:oppositeside
+BEPRQ
+COABR
+NCABP
+EQAB  assumption
+ COABP defn:collinear
+NEAB reductio
+BEQRP  axiom:betweennesssymmetry
+COABQ  assumption
+ COPRQ  defn:collinear
+ COABR
+ COBQR  lemma:collinear4
+ COQRB  lemma:collinearorder
+ COQRP  lemma:collinearorder
+ NEQR lemma:betweennotequal
+ CORBP  lemma:collinear4
+ CORBA  lemma:collinearorder
+ cases COAPB:EQRB|NERB
+  case 1:EQRB
+   COPBQ cn:equalitysub
+   COBQP  lemma:collinearorder
+   COBQA  lemma:collinearorder
+   NERQ  lemma:betweennotequal
+   NEBQ  cn:equalitysub
+   COQPA lemma:collinear4
+   COQPB lemma:collinearorder
+   NEPQ  lemma:betweennotequal
+   NEQP  lemma:inequalitysymmetric
+   COPAB lemma:collinear4
+   COAPB  lemma:collinearorder
+  qedcase
+  case 2:NERB
+   COBPA  lemma:collinear4
+   COAPB  lemma:collinearorder
+  qedcase
+ COAPB cases
+ COABP lemma:collinearorder
+NCABQ reductio
+OSQABP  defn:oppositeside

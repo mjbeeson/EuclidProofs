@@ -1,0 +1,107 @@
+TRABC
+NCABC  defn:triangle
+NEBC  lemma:NCdistinct
+ANBEBCD+EECDBC  lemma:extension
+BEBCD
+NCBCA  lemma:NCorder
+COBCD  defn:collinear
+EQBB  cn:equalityreflexive
+COBCB  defn:collinear
+NEBD  lemma:betweennotequal
+NCBDA  lemma:NChelper
+NCADB lemma:NCorder
+AOCBAACD  proposition:16
+EAABCCBA  lemma:ABCequalsCBA
+AOABCACD  lemma:angleorderrespectscongruence2
+ANBEaed+RACAa+RACDd+EAABCACe   defn:anglelessthan
+BEaed
+RACAa
+RACDd
+EAABCACe
+RACaA   lemma:ray5
+RACdD   lemma:ray5
+COBCD  defn:collinear
+EQCC  cn:equalityreflexive
+COBCC  defn:collinear
+NCBCA  lemma:NCorder
+NECD  lemma:betweennotequal
+NCCDA  lemma:NChelper
+COCDC  defn:collinear
+COCDd  lemma:rayimpliescollinear
+NECd  lemma:ray2
+NCCdA  lemma:NChelper
+NCCAd  lemma:NCorder
+COCAa  lemma:rayimpliescollinear
+COCAC  defn:collinear
+NECa  lemma:ray2
+NCCad  lemma:NChelper
+NCaCd  lemma:NCorder
+NCDAC  lemma:NCorder
+TRaCd   defn:triangle
+ANRACeE+BEAED  lemma:crossbar
+RACeE
+RACEe   lemma:ray5
+BEAED
+COAED  defn:collinear
+CODAE  lemma:collinearorder
+EQAA  cn:equalityreflexive
+CODAA  defn:collinear
+NEAE   lemma:betweennotequal
+NEEA   lemma:inequalitysymmetric
+NCEAC  lemma:NChelper
+NCACE  lemma:NCorder
+NCCEA  lemma:NCorder
+COCEe   lemma:rayimpliescollinear
+EQCC   cn:equalityreflexive
+COCEC  defn:collinear
+NECe  lemma:ray2
+NCCeA  lemma:NChelper
+NCACe    lemma:NCorder
+COCAa  lemma:rayimpliescollinear
+COACa  lemma:collinearorder
+COACC   defn:collinear
+NECa  lemma:ray2
+NEaC  lemma:inequalitysymmetric
+NCaCe   lemma:NChelper
+NCECA  lemma:NCorder
+EAaCeaCe  lemma:equalanglesreflexive
+EAaCeACE  lemma:equalangleshelper
+EQee    cn:equalityreflexive
+NECe   lemma:ray2
+RACee   lemma:ray4
+EAACeACe  lemma:equalanglesreflexive 
+EAACeaCe  lemma:equalangleshelper
+EAABCaCe  lemma:equalanglestransitive
+EAABCACE   lemma:equalanglestransitive
+EQBB  cn:equalityreflexive
+ANBEAFC+BEBFE  postulate:Pasch-inner
+BEAFC
+BEBFE
+NCACB  lemma:NCorder
+COAFC  defn:collinear
+COACF  lemma:collinearorder
+COACC  defn:collinear
+NEFC lemma:betweennotequal
+NCFCB  lemma:NChelper
+NCBCF  lemma:NCorder
+BEEFB  axiom:betweennesssymmetry 
+EAACEECA   lemma:ABCequalsCBA
+EAABCECA   lemma:equalanglestransitive
+EAECAECA  lemma:equalanglesreflexive
+BECFA   axiom:betweennesssymmetry
+NECF  lemma:betweennotequal
+RACFA  lemma:ray4
+RACAF  lemma:ray5
+EQEE    cn:equalityreflexive
+NECE  lemma:NCdistinct
+RACEE   lemma:ray4
+EAECAECF   lemma:equalangleshelper
+EAABCECF  lemma:equalanglestransitive
+NCBCA   lemma:NCorder
+EABCABCA  lemma:equalanglesreflexive
+NECB  lemma:NCdistinct
+RACBB   lemma:ray4
+EABCABCF lemma:equalangleshelper
+EABCFFCB  lemma:ABCequalsCBA
+EABCAFCB  lemma:equalanglestransitive 
+ASABCBCAECB  defn:anglesum

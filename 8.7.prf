@@ -1,0 +1,37 @@
+RRCBA
+RRABC   lemma:8.2
+NEBC     defn:rightangle
+NECB    lemma:inequalitysymmetric
+ANBEBCE+EECECB  lemma:extension
+BEBCE  
+EECECB 
+COBCE    defn:collinear
+COECB    lemma:collinearorder
+RRABC    lemma:8.2
+RABCE    lemma:ray4
+RRABE    lemma:8.3
+RREBA    lemma:8.2
+RRACB    assumption
+ RRBCA    lemma:8.2
+ ANBEBCF+EEBCFC+EEBAFA+NECA  defn:rightangle
+ BEBCF
+ EEBCFC
+ EEBAFA
+ NECA
+ EEFCBC  lemma:congruencesymmetric
+ EECFBC   lemma:congruenceflip
+ EECEBC  lemma:congruenceflip
+ EEBCCE  lemma:congruencesymmetric
+ EECFCE   lemma:congruencetransitive
+ EQFE    lemma:extensionunique
+ BEECB   axiom:betweennesssymmetry
+ EEFABA  lemma:congruencesymmetric
+ EEEABA  cn:equalitysub
+ EEECBC  lemma:congruenceflip
+ ANBEECB+EEECBC+EEEABA+NECA
+ RRECA   defn:rightangle 
+ RREBA
+ EQCB    lemma:droppedperpendicularunique
+NORRACB   reductio
+
+

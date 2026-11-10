@@ -1,0 +1,58 @@
+EAABCabc
+ANRABAU+RABCV+RAbau+RAbcv+EEBUbu+EEBVbv+EEUVuv+NCABC  defn:equalangles
+RABAU
+RABCV
+RAbau
+RAbcv
+EEBUbu 
+EEBVbv
+EEUVuv
+EEbuBU  lemma:congruencesymmetric
+EEbvBV  lemma:congruencesymmetric
+COabc   assumption
+CObau   lemma:rayimpliescollinear
+CObcv   lemma:rayimpliescollinear
+COBAU   lemma:rayimpliescollinear
+COBCV   lemma:rayimpliescollinear
+COabu   lemma:collinearorder
+COabc
+NEba    lemma:ray2
+NEab    lemma:inequalitysymmetric
+CObuc   lemma:collinear4
+COcbu   lemma:collinearorder
+COcbv   lemma:collinearorder
+NEbc    lemma:ray2
+NEcb    lemma:inequalitysymmetric
+CObuv   lemma:collinear4
+EEbuBU
+EEbvBV
+EEuvUV  lemma:congruencesymmetric
+COBUV   lemma:collinearitypreserved
+COUBV   lemma:collinearorder
+COUBA   lemma:collinearorder
+NEBU    lemma:raystrict
+NEUB    lemma:inequalitysymmetric
+COBVA   lemma:collinear4
+COVBA   lemma:collinearorder
+COVBC   lemma:collinearorder
+NEBV    lemma:raystrict
+NEVB    lemma:inequalitysymmetric
+COBAC   lemma:collinear4
+COABC   lemma:collinearorder
+NCABC   
+NCabc   reductio
+RAbau
+RAbcv
+RABAU
+RABCV
+EEbvBV
+EEuvUV   lemma:congruencesymmetric
+EAabcABC defn:equalangles
+
+
+
+
+
+
+
+

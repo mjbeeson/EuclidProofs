@@ -1,0 +1,70 @@
+PRABCD
+PRABCE
+CRADBC
+CRAEBC
+ANBEAMD+BEBMC  defn:cross
+ANBEAmE+BEBmC  defn:cross
+BEAMD
+BEBMC
+BEAmE
+BEBmC
+NEBC  lemma:betweennotequal
+BEEmA  axiom:betweennesssymmetry
+BEDMA  axiom:betweennesssymmetry
+COBMC  defn:collinear
+COBmC  defn:collinear
+COCBM  lemma:collinearorder
+COCBm  lemma:collinearorder
+NCBCE  lemma:parallelNC
+NCCBE  lemma:NCorder
+NCBCD  lemma:parallelNC
+NCCBD  lemma:NCorder
+OSECBA  defn:oppositeside
+OSDCBA  defn:oppositeside
+PRCDAB  lemma:parallelsymmetric
+PRCEAB  lemma:parallelsymmetric
+PRECBA  lemma:parallelflip
+PRDCBA  lemma:parallelflip
+EAECBCBA  proposition:29B
+EADCBCBA  proposition:29B
+EACBADCB  lemma:equalanglessymmetric
+EAECBDCB lemma:equalanglestransitive
+NECE  lemma:NCdistinct
+NECD  lemma:NCdistinct
+ANRACEe+EECeCD  lemma:layoff
+RACEe
+EECeCD
+EQBB  cn:equalityreflexive
+NECB  lemma:inequalitysymmetric
+RACBB  lemma:ray4
+EECBCB  cn:congruencereflexive
+NCECB  lemma:NCorder
+EAECBECB  lemma:equalanglesreflexive
+EAECBeCB  lemma:equalangleshelper
+EAeCBECB  lemma:equalanglessymmetric
+EAeCBDCB  lemma:equalanglestransitive
+COCEe   lemma:rayimpliescollinear
+EQCC  cn:equalityreflexive
+COCEC  defn:collinear
+NCCEB  lemma:NCorder
+NECe   lemma:raystrict
+NCCeB  lemma:NChelper
+NCeCB   lemma:NCorder
+EEeBDB    proposition:04
+NCBCE  lemma:parallelNC
+NCCBE  lemma:NCorder
+NCBCD  lemma:parallelNC
+NCCBD  lemma:NCorder
+ANCOCBm+COCBM+BEEmA+BEDMA+NCCBE+NCCBE
+SSEDCB  defn:sameside
+NCCBe   lemma:NCorder
+COCCB   defn:collinear
+RACeE   lemma:ray5 
+SSeeCB   lemma:samesidereflexive
+SSeECB   lemma:sameside2
+SSeDCB  lemma:samesidetransitive
+EEeCDC  lemma:congruenceflip
+EEeBDB
+EQeD    proposition:07
+COCED   cn:equalitysub
+COCDE   lemma:collinearorder

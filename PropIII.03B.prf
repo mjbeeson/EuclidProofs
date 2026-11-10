@@ -1,0 +1,62 @@
+CIJEEA
+ONCJ
+ONDJ
+ONAJ
+ONBJ
+RRAFE
+RRBFE
+BEAFB
+NCABE
+EEEAEB  lemma:radiiequal
+NCEAB  lemma:NCorder
+TREAB   defn:triangle
+ISEAB    defn:isosceles
+EAEABEBA   proposition:05
+NEAB  lemma:betweennotequal
+NEBA  lemma:inequalitysymmetric
+RAABF   lemma:ray4
+BEBFA  axiom:betweennesssymmetry
+RABAF   lemma:ray4
+NEAE   lemma:NCdistinct
+NEBE   lemma:NCdistinct
+EQEE   cn:equalityreflexive
+RAAEE   lemma:ray4
+RABEE   lemma:ray4
+NCEBA    lemma:NCorder
+EAEABEAB  lemma:equalanglesreflexive
+EAEBAEBA  lemma:equalanglesreflexive
+EAEABEAF  lemma:equalangleshelper
+EAEBAEBF  lemma:equalangleshelper
+EAEAFEAB  lemma:equalanglessymmetric
+EAEAFEBA  lemma:equalanglestransitive
+EAEAFEBF  lemma:equalanglestransitive
+EAAFEBFE  lemma:Euclid4
+NCAFE     lemma:rightangleNC
+NCEFA     lemma:NCorder
+NCBFE    lemma:rightangleNC
+NCEFB    lemma:NCorder
+EAEFAAFE  lemma:ABCequalsCBA
+EAEFABFE  lemma:equalanglestransitive
+EABFEEFB  lemma:ABCequalsCBA
+EAEFAEFB  lemma:equalanglestransitive
+EEEFEF    cn:congruencereflexive
+NCBAE    lemma:NCorder
+COAFB    defn:collinear
+COBAF    lemma:collinearorder
+EQAA     cn:equalityreflexive
+COBAA    defn:collinear
+NEAF    lemma:betweennotequal
+NEFA    lemma:inequalitysymmetric
+NCFAE     lemma:NChelper
+NCEAF     lemma:NCorder
+COABF    lemma:collinearorder
+EQBB     cn:equalityreflexive
+COABB    defn:collinear
+NEFB     lemma:betweennotequal
+NCFBE    lemma:NChelper
+NCEBF    lemma:NCorder
+TREAF    defn:triangle
+TREBF    defn:triangle
+EEAFBF    proposition:26B
+EEAFFB    lemma:congruenceflip
+MIAFB     defn:midpoint

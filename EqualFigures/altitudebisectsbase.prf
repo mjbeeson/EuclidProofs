@@ -1,0 +1,76 @@
+BEAMB
+EEAPBP
+RRAMP
+ANBEAMC+EEAMCM+EEAPCP+NEMP   defn:rightangle
+BEAMC
+EEAMCM
+EEAPCP
+NEMP
+BECMA      axiom:betweennesssymmetry
+EECMAM     lemma:congruencesymmetric
+EECPAP     lemma:congruencesymmetric
+RRCMP      defn:rightangle
+RRPMA       lemma:8.2
+ANBEPMQ+EEPMQM+EEPAQA+NEMA  defn:rightangle
+EEPMQM
+EEPAQA
+EEQMPM  lemma:congruencesymmetric
+EEQMPM
+RRPMC   lemma:8.2
+RAMCB  defn:ray
+RRPMB    lemma:8.3
+ANBEPME+EEPMEM+EEPBEB+NEMB  defn:rightangle
+EEPMEM
+EEPBEB
+EEPAPB  lemma:congruenceflip
+BEPME
+BEPMQ
+EEMQPM   lemma:congruenceflip
+EEPMMQ   lemma:congruencesymmetric
+EEEMPM   lemma:congruencesymmetric
+EEEMMQ   lemma:congruencetransitive
+EEMEMQ   lemma:congruenceflip
+EEMQME   lemma:congruencesymmetric
+NEPM     lemma:betweennotequal
+EQQE   lemma:extensionunique
+EEPBQB   cn:equalitysub
+EEAPPB    lemma:congruenceflip
+EEAPQB   lemma:congruencetransitive
+EEAQAP    lemma:doublereverse
+EEAQQB    lemma:congruencetransitive
+EEAQBQ    lemma:congruenceflip
+EEPQPQ    cn:congruencereflexive
+EQAA      cn:equalityreflexive
+EQBB      cn:equalityreflexive
+NCAMP    lemma:rightangleNC
+COAPM    assumption
+ COAMP    lemma:collinearorder
+NCAPM    reductio
+EQAP     assumption
+ COAPM   defn:collinear
+NEAP    reductio
+NEPA    lemma:inequalitysymmetric
+RAPAA     lemma:ray4
+EQPB  assumption
+ EEAPBP  
+ EEAPBB  cn:equalitysub
+ NEAP assumption
+  NEBB  axiom:nocollapse
+  EQBB  cn:equalityreflexive
+ EQAP    reductio
+NEPB  reductio
+RAPBB     lemma:ray4
+BEPMQ
+RAPMQ    lemma:ray4 
+ANRAPAA+RAPBB+RAPMQ+RAPMQ+EEPAPB+EEPQPQ+EEAQBQ+NCAPM
+EAAPMBPM   defn:equalangles
+EEPMPM    cn:congruencereflexive
+ANEEAMBM+EAPAMPBM+EAPMAPMB  proposition:04
+EEAMBM
+EEAMMB    lemma:congruenceflip
+ANBEAMB+EEAMMB
+MIAMB     defn:midpoint
+
+
+
+

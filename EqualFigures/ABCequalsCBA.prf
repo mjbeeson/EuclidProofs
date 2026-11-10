@@ -1,0 +1,30 @@
+NCABC
+EQBA  assumption
+EQAB  lemma:equalitysymmetric
+COABC  defn:collinear
+NEBA reductio
+EQCB assumption
+ COCBA defn:collinear
+ COABC lemma:collinearorder
+NECB  reductio
+ANBEBAE+EEAECB  lemma:extension
+EQBC assumption
+COABC defn:collinear
+NCABC
+NEBC  reductio
+NEAB  lemma:inequalitysymmetric
+ANBEBCF+EECFAB  lemma:extension
+BEBCF
+EECFAB
+EEBAFC   lemma:doublereverse
+EEAECB
+BEBAE
+BEFCB   axiom:betweennesssymmetry
+EEBEFB  cn:sumofparts
+EEFBBF  cn:equalityreverse
+EEBEBF  lemma:congruencetransitive
+EEBFBE  lemma:congruencesymmetric
+EEEFFE  cn:equalityreverse
+RABAE   lemma:ray4
+RABCF   lemma:ray4
+EAABCCBA  defn:equalangles

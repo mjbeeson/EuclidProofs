@@ -1,0 +1,61 @@
+NEAB
+NCABC
+EQBC    assumption
+ COABC   defn:collinear
+NEBC    reductio
+NECB    lemma:inequalitysymmetric
+ANBECBE+EEBECB  lemma:extension
+BECBE
+NECE     lemma:betweennotequal
+NEEC     lemma:inequalitysymmetric
+ANBEECF+EECFEC  lemma:extension
+EECFEC
+EEECCE  cn:equalityreverse
+EECECE   cn:congruencereflexive
+EECFCE   lemma:congruencetransitive
+BEEBC   axiom:betweennesssymmetry
+BEECF
+BEEBF    lemma:3.6b
+CIKCCE   postulate:Euclid3
+EECECE  cn:congruencereflexive
+EECBCB  cn:congruencereflexive
+ANBECBE+EECECE+EECBCB
+ICBK     defn:inside   
+ANCOABP+BEABQ+ONPK+ONQK+BEPBQ  postulate:line-circle
+BEABQ
+ONPK
+ONQK
+BEPBQ
+COABQ   defn:collinear
+EECPCE   axiom:circle-center-radius
+EECQCE   axiom:circle-center-radius
+EECECQ   lemma:congruencesymmetric
+EECPCQ   lemma:congruencetransitive
+EEPCQC   lemma:congruenceflip
+NEPQ     lemma:betweennotequal
+ANBEPMQ+EEMPMQ   proposition:10
+BEPMQ
+EEMPMQ
+EEPMQM   lemma:congruenceflip
+COPMQ    defn:collinear
+COPBQ    defn:collinear
+COPQB    lemma:collinearorder
+COPQM    lemma:collinearorder
+NEPQ    
+COQBM    lemma:collinear4
+COQBA    lemma:collinearorder
+NEBQ     lemma:betweennotequal
+NEQB     lemma:inequalitysymmetric
+COBMA    lemma:collinear4
+COABM    lemma:collinearorder
+EQMC     assumption
+ COABM
+ COABC   cn:equalitysub
+NEMC     reductio
+RRPMC    defn:rightangle
+EQMM      cn:equalityreflexive
+COCMM     defn:collinear
+COABP
+COABQ
+COABM      
+PACMABM    defn:perpat

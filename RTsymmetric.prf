@@ -1,0 +1,13 @@
+RTABCDEF
+ANSUabcde+EAABCabc+EADEFdbe  defn:tworightangles
+SUabcde
+EAABCabc
+EADEFdbe
+SUebdca  lemma:supplementsymmetric
+NCdbe  lemma:equalanglesNC
+EAdbeebd  lemma:ABCequalsCBA
+NCabc lemma:equalanglesNC
+EAabccba  lemma:ABCequalsCBA
+EADEFebd  lemma:equalanglestransitive
+EAABCcba  lemma:equalanglestransitive
+RTDEFABC  defn:tworightangles

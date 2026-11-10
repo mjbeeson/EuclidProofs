@@ -1,0 +1,14 @@
+NCABC
+EQAB assumption
+ COABC defn:collinear
+NEAB reductio
+NEBA lemma:inequalitysymmetric
+EQAC assumption
+ COABC defn:collinear
+NEAC reductio
+NECA lemma:inequalitysymmetric
+EQBC assumption
+ COABC defn:collinear
+NEBC reductio
+NECB lemma:inequalitysymmetric
+ANNEAB+NEBC+NEAC+NEBA+NECB+NECA

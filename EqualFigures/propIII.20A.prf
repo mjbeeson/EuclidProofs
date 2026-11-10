@@ -1,0 +1,149 @@
+NEAE
+EEEAEC
+EEEAEB
+NECB
+NEAB
+NCABC
+NCEAB  
+NCEAC   
+BEAEH
+BEBHC 
+ANBEAEF+EEEFAE   lemma:extension
+BEAEF
+EEEFAE
+EEAEEF    lemma:congruencesymmetric
+
+NCBAE   lemma:NCorder
+NCAEB   lemma:NCorder
+TRBAE   defn:triangle
+TREAB   defn:triangle
+ISEAB   defn:isosceles
+EAEABEBA   proposition:05
+%Therefore the sum of the angles EAB and EBA is double the angle EAB.  I.32
+ASEBABAEBEF  proposition:32  
+EAEBAEAB   lemma:equalanglessymmetric
+EAEABBAE  lemma:ABCequalsCBA
+EAEBABAE   lemma:equalanglestransitive
+DABEFEBA     lemma:sumofequalsisdouble 
+            %Therefore the angle BEF, is also double the angle EAB.
+
+NCCAE   lemma:NCorder
+NCAEC  lemma:NCorder
+TRCAE   defn:triangle
+TREAC   defn:triangle
+ISEAC   defn:isosceles
+EAEACECA  proposition:05
+ASECACAECEF  proposition:32
+EAECAEAC  lemma:equalanglessymmetric
+EAEACCAE   lemma:ABCequalsCBA
+EAECACAE  lemma:equalanglestransitive
+DACEFECA    lemma:sumofequalsisdouble
+%For the same reason the angle FEC is also double the angle EAC.
+% Now we have to use point H that Euclid didn't mention
+
+EQBB       cn:equalityreflexive
+NEEB       lemma:NCdistinct
+RAEBB      lemma:ray4
+EQCC       cn:equalityreflexive
+NEEC       lemma:NCdistinct
+RAECC      lemma:ray4
+BEAEH
+BEAEF
+RAEFH      defn:ray
+NCBEF      lemma:anglesumNC
+EABEFBEF   lemma:equalanglesreflexive
+EABEFBEH   lemma:equalangleshelper
+NCCEF      lemma:anglesumNC
+NCFEC      lemma:NCorder
+EAFECFEC   lemma:equalanglesreflexive
+EAFECHEC   lemma:equalangleshelper
+EAHECFEC   lemma:equalanglessymmetric
+BEBHC   
+ASBEFFECBEC   defn:anglesum
+
+ASEBABAEBEF
+EABEFFEB    lemma:ABCequalsCBA
+ASEBABAEFEB  lemma:angleaddition2
+EAEBAEAB      lemma:equalanglessymmetric
+EAEABBAE     lemma:ABCequalsCBA
+EAEBABAE     lemma:equalanglestransitive
+EAEABEBA
+NCFEB      lemma:NCorder
+COAEF       defn:collinear
+COFEA        lemma:collinearorder
+EQFF         cn:equalityreflexive
+COFEF        defn:collinear
+NEAF         lemma:betweennotequal
+NEFA         lemma:inequalitysymmetric
+NCFAB        lemma:NChelper
+EAFABFAB     lemma:equalanglesreflexive
+NEAE         lemma:betweennotequal
+RAAFE        lemma:ray4
+EQBB         cn:equalityreflexive
+RAABB        lemma:ray4
+EAFABEAB     lemma:equalangleshelper
+EAFABBAE     lemma:equalanglestransitive
+EABAEFAB     lemma:equalanglessymmetric
+NCEBA        lemma:NCorder
+EAEBAEBA     lemma:equalanglesreflexive
+ASEBABAEBEF 
+ASEBAFABBEF lemma:anglesumrespectscongruence
+NCBEF         lemma:NCorder
+EABEFFEB     lemma:ABCequalsCBA
+ASEBAFABFEB  lemma:angleaddition2
+ASFABEBAFEB   lemma:anglesumcommutative
+EAEABEBA
+EAFABBAE
+NCBAE         lemma:NCorder
+EABAEEAB      lemma:ABCequalsCBA
+EAFABEBA      lemma:equalanglestransitive
+DAFEBFAB      lemma:sumofequalsisdouble
+
+NCFAC       lemma:NChelper
+EAFACFAC     lemma:equalanglesreflexive
+EQCC         cn:equalityreflexive
+NEAC         lemma:NCdistinct
+RAACC        lemma:ray4
+EAFACEAC     lemma:equalangleshelper
+EAFACCAE     lemma:equalanglestransitive
+EACAEFAC     lemma:equalanglessymmetric
+NCECA        lemma:NCorder
+EAECAECA     lemma:equalanglesreflexive
+ASECACAECEF 
+ASECAFACCEF lemma:anglesumrespectscongruence
+NCCEF         lemma:NCorder
+EACEFFEC     lemma:ABCequalsCBA
+ASECAFACFEC  lemma:angleaddition2
+ASFACECAFEC   lemma:anglesumcommutative
+EAEACECA
+EAFACCAE
+NCCAE         lemma:NCorder
+EACAEEAC      lemma:ABCequalsCBA
+EAFACECA      lemma:equalanglestransitive
+DAFECFAC      lemma:sumofequalsisdouble
+
+RAABB        lemma:ray4
+NEAH         lemma:betweennotequal
+NEEF          lemma:NCdistinct
+NEAE          lemma:betweennotequal
+RAAEH         lemma:ray4
+NEAE          lemma:betweennotequal
+RAAEF         lemma:ray4
+RAAFH       lemma:ray3
+NCCAF         lemma:NCorder
+EACAFCAF     lemma:equalanglesreflexive
+EACAFCAH     lemma:equalangleshelper
+RAACC        lemma:ray4
+EAFACHAC     lemma:equalangleshelper
+BEBHC
+RAABB
+RAAHF         lemma:ray5
+NCBAF         lemma:NCorder
+EABAFBAF      lemma:equalanglesreflexive
+EABAFBAH      lemma:equalangleshelper
+ASBAFFACBAC   defn:anglesum
+
+DABECBAC   lemma:sumsofdoubles
+
+
+

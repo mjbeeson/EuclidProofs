@@ -1,0 +1,105 @@
+EAABCabc
+SUABCDF
+SUabcdf
+BEABF defn:supplement
+RABCD defn:supplement
+BEabf defn:supplement
+RAbcd defn:supplement
+EAABCabc
+ANRABAU+RABCV+RAbau+RAbcv+EEBUbu+EEBVbv+EEUVuv+NCABC defn:equalangles
+RABAU
+RABCV
+RAbau
+RAbcv
+EEBUbu
+NEBU    lemma:raystrict
+NEUB    lemma:inequalitysymmetric
+NEbu   lemma:raystrict
+NEub    lemma:inequalitysymmetric
+ANBEUBW+EEBWUB  lemma:extension
+BEUBW
+BEabf
+ANBEubw+EEbwUB  lemma:extension
+BEubw
+EEbwUB
+EEBWUB
+EEUBbw  lemma:congruencesymmetric
+EEBWbw  lemma:congruencetransitive
+EEUBub  lemma:congruenceflip
+EEUVuv
+EEBVbv
+BEUBW
+BEubw
+EEVWvw axiom:5-line
+BEUBW
+BEABF
+RABAU
+ORBEBUA|EQAU|BEBAU lemma:ray1
+cases BEABW:BEBUA|EQAU|BEBAU
+ case 1:BEBUA
+  BEAUB  axiom:betweennesssymmetry
+  BEUBW  
+  BEABW  lemma:3.7a
+  qedcase
+ case 2:EQAU
+  BEABW  cn:equalitysub
+  qedcase
+ case 3:BEBAU
+  BEUAB axiom:betweennesssymmetry
+  BEUBW 
+  BEABW lemma:3.6a
+  qedcase
+BEABW cases
+RABFW  defn:ray
+ORBEBWF|EQFW|BEBFW  lemma:ray1
+cases BEUBF:BEBWF|EQFW|BEBFW
+ case 1:BEBWF
+  BEUBF  lemma:3.7b
+  qedcase
+ case 2:EQFW
+  BEUBF  cn:equalitysub
+  qedcase
+ case 3:BEBFW
+  BEUBF  axiom:innertransitivity
+  qedcase
+BEUBF  cases
+ORBEbua|EQau|BEbau lemma:ray1
+cases BEabw:BEbua|EQau|BEbau
+ case 1:BEbua
+  BEaub  axiom:betweennesssymmetry
+  BEubw  
+  BEabw  lemma:3.7a
+  qedcase
+ case 2:EQau
+  BEabw  cn:equalitysub
+  qedcase
+ case 3:BEbau
+  BEuab axiom:betweennesssymmetry
+  BEubw 
+  BEabw lemma:3.6a
+  qedcase
+BEabw cases
+RAbfw defn:ray
+CODBF  assumption
+ COBCD  lemma:rayimpliescollinear
+ CODBC  lemma:collinearorder
+ NEBD   lemma:raystrict
+ NEDB   lemma:inequalitysymmetric
+ COBFC  lemma:collinear4
+ COABF  defn:collinear
+ COFBA  lemma:collinearorder
+ COFBC  lemma:collinearorder
+ NEBF   lemma:betweennotequal
+ NEFB   lemma:inequalitysymmetric
+ COBAC  lemma:collinear4
+ COABC  lemma:collinearorder
+ NCABC
+NCDBF  reductio
+RABDV   lemma:ray3
+RABFW
+RAbdv   lemma:ray3
+RAbfw
+EEBVbv
+EEBWbw
+EEVWvw
+EADBFdbf defn:equalangles

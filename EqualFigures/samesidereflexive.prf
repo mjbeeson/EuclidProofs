@@ -1,0 +1,11 @@
+NCABP
+EQAA    cn:equalityreflexive
+EQPA assumption
+ COABA defn:collinear
+ COABP  cn:equalitysub
+NEPA reductio
+NEAP lemma:inequalitysymmetric
+ANBEPAC+EEACAP  lemma:extension
+BEPAC
+COABA   defn:collinear
+SSPPAB  defn:sameside

@@ -1,0 +1,7 @@
+SSABCD
+SSBACD  lemma:samesidesymmetric
+OSACDB assumption
+ OSBCDB lemma:planeseparation
+ BEBMB defn:oppositeside
+ NOBEBMB  axiom:betweennessidentity
+NOOSACDB reductio

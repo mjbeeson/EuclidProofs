@@ -1,0 +1,130 @@
+RRBAC
+RRAMp
+COBCp
+COBCM
+NCBAC  lemma:rightangleNC
+NECB  lemma:NCdistinct
+EQBM assumption
+ RRABp  cn:equalitysub
+ COpBC  lemma:collinearorder
+ RRpBA  lemma:8.2
+ RRCBA  lemma:collinearright
+ NORRCBA lemma:8.7
+NEBM reductio
+RRpMA  lemma:8.2
+COCBp  lemma:collinearorder
+COCBM  lemma:collinearorder
+NCBAC  lemma:rightangleNC
+NECB  lemma:NCdistinct
+COBpM lemma:collinear4
+COpMB  lemma:collinearorder
+RRBMA  lemma:collinearright
+COBCp  lemma:collinearorder
+COBCM  lemma:collinearorder
+NEBC lemma:inequalitysymmetric
+COCpM  lemma:collinear4
+COpMC  lemma:collinearorder
+RRCAB  lemma:8.2
+EQCM assumption
+ RRACp cn:equalitysub
+ COpCB lemma:collinearorder
+ RRpCA  lemma:8.2
+ RRBCA  lemma:collinearright
+ NORRBCA  lemma:8.7
+NECM  reductio
+RRCMA  lemma:collinearright
+RRAMB  lemma:8.2
+RRAMC  lemma:8.2
+LTMBAB   lemma:legsmallerhypotenuse
+LTBABC   lemma:legsmallerhypotenuse
+EEBAAB  cn:equalityreverse
+LTABBC  lemma:lessthancongruence2
+LTMBBC   lemma:lessthantransitive
+EEMBBM   cn:equalityreverse
+LTBMBC   lemma:lessthancongruence2
+LTMCAC  lemma:legsmallerhypotenuse
+EEMCCM  cn:equalityreverse
+LTCMAC  lemma:lessthancongruence2
+LTACBC  lemma:legsmallerhypotenuse
+LTCMBC  lemma:lessthantransitive
+BEMBC   assumption
+ BECBM  axiom:betweennesssymmetry
+ EECBCB  cn:congruencereflexive
+ LTCBCM  defn:lessthan
+ EECBBC  cn:equalityreverse
+ LTBCCM  lemma:lessthancongruence2
+ NOLTCMBC lemma:trichotomy2
+NOBEMBC reductio
+COBCM
+OREQBC|EQBM|EQCM|BECBM|BEBCM|BEBMC defn:collinear
+cases RABCM:EQBC|EQBM|EQCM|BECBM|BEBCM|BEBMC
+ case 1:EQBC
+  NORABCM assumption
+   NEBC
+  RABCM reductio
+ qedcase
+ case 2:EQBM
+  NORABCM assumption
+   NEBM
+  RABCM reductio
+ qedcase
+ case 3:EQCM
+  NORABCM assumption
+   NECM
+  RABCM reductio
+ qedcase
+ case 4:BECBM
+  NORABCM assumption
+   BEMBC axiom:betweennesssymmetry
+   NOBEMBC
+  RABCM reductio
+ qedcase
+ case 5:BEBCM
+  RABCM  lemma:ray4
+ qedcase
+ case 6:BEBMC
+  RABMC  lemma:ray4
+  RABCM  lemma:ray5
+ qedcase
+RABCM cases
+BEBCM assumption
+ EEBCBC  cn:congruencereflexive
+ LTBCBM  defn:lessthan
+ NOLTBMBC lemma:trichotomy2
+NOBEBCM reductio
+cases RACBM:EQBC|EQBM|EQCM|BECBM|BEBCM|BEBMC
+ case 1:EQBC
+  NORACBM assumption
+   NEBC
+  RACBM reductio
+ qedcase
+ case 2:EQBM
+  NORACBM assumption
+   NEBM
+  RACBM reductio
+ qedcase
+ case 3:EQCM
+  NORACBM assumption
+   NECM
+  RACBM reductio
+ qedcase
+ case 4:BECBM
+  RACBM  lemma:ray4
+ qedcase
+ case 5:BEBCM
+  NORACBM assumption
+   NOBEBCM
+  RACBM reductio
+ qedcase
+ case 6:BEBMC
+  BECMB axiom:betweennesssymmetry
+  RACMB lemma:ray4
+  RACBM  lemma:ray5
+ qedcase
+RACBM cases
+BEBMC  lemma:tworays
+
+
+
+
+

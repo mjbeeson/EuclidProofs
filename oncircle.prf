@@ -1,0 +1,24 @@
+CIJEPQ
+NEPQ
+ONAJ
+ANCIJCST+EECAST+NEST  defn:on
+CIJCST
+EECAST
+NEST
+EQEC    lemma:centerunique
+EQCE    lemma:equalitysymmetric
+EQEA    assumption
+ EQAE   lemma:equalitysymmetric
+ EECEST cn:equalitysub
+ EESTCE lemma:congruencesymmetric
+ EESTEE cn:equalitysub
+ NEEE   axiom:nocollapse
+ EQEE   cn:equalityreflexive
+NEEA    reductio
+EEEAST  cn:equalitysub
+NEST    axiom:nocollapse
+EEPQST  lemma:radiusunique
+EESTPQ  lemma:congruencesymmetric
+EEAEST  lemma:congruenceflip
+EEAEPQ  lemma:congruencetransitive
+EEEAPQ  lemma:congruenceflip

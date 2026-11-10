@@ -1,0 +1,19 @@
+ISABC
+BEABF
+BEACG
+EAABCACB   proposition:05
+EQCC    cn:equalityreflexive
+NCACB  lemma:equalanglesNC
+EQBC  assumption
+ COABC  defn:collinear
+ COACB  lemma:collinearorder
+NEBC reductio
+NECB lemma:inequalitysymmetric
+RABCC   lemma:ray4
+ANBEABF+RABCC
+SUABCCF   defn:supplement
+EQBB    cn:equalityreflexive
+RACBB   lemma:ray4
+ANRACBB+BEACG
+SUACBBG  defn:supplement
+EACBFBCG   lemma:supplements

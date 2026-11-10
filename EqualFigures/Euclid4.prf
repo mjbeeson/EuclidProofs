@@ -1,0 +1,123 @@
+RRABC
+RRabc
+ANBEABD+EEABDB+EEACDC+NEBC  defn:rightangle
+BEABD
+EEABDB
+NEBC
+ANBEabd+EEabdb+EEacdc+NEbc  defn:rightangle
+BEabd
+NEbc 
+NEab   lemma:betweennotequal
+NEba   lemma:inequalitysymmetric
+NEAB   lemma:betweennotequal
+NEBA   lemma:inequalitysymmetric
+ANRAbap+EEbpBA   lemma:layoff
+RAbap
+ANRAbcq+EEbqBC   lemma:layoff
+RAbcq
+RRabq     lemma:8.3
+RRqba     lemma:8.2
+RRqbp     lemma:8.3
+RRpbq     lemma:8.2
+ANBEpbr+EEpbrb+EEpqrq+NEbq  defn:rightangle
+EEpbrb
+NCpbq   lemma:rightangleNC
+CObqp    assumption
+ COpbq   lemma:collinearorder
+NCbqp  reductio
+COqpb   assumption
+ COpbq   lemma:collinearorder
+NCqpb  reductio
+TRpbq   defn:triangle
+TRbqp   defn:triangle
+TRqpb   defn:triangle
+TGbppqbq  proposition:20
+TGqbbpqp  proposition:20
+TGpqqbpb  proposition:20
+TGbqbpqp  lemma:TGflip
+TGbqbppq   lemma:TGflip
+TGqbpqpb   lemma:TGsymmetric
+TGbqpqpb   lemma:TGflip
+TGbqpqbp   lemma:TGflip
+ANEEBEbp+EEBFbq+EEEFpq+RABAE+TRBEF  proposition:22
+EEBEbp
+EEBFbq
+EEEFpq
+RABAE  
+EQAA    cn:equalityreflexive
+RABAA   lemma:ray4
+EEBEbp
+EEbpBA
+EEBEBA  lemma:congruencetransitive
+EQEA    lemma:layoffunique
+EEBAbp   cn:equalitysub
+EEAFpq    cn:equalitysub
+EQpb  assumption
+ COpbq  defn:collinear
+ NCpbq  lemma:rightangleNC
+NEpb  reductio
+BEpbr
+EErbpb   lemma:congruencesymmetric
+EEbrpb    lemma:congruenceflip
+NEbp  lemma:inequalitysymmetric
+BEABD
+EEpbbr  lemma:congruencesymmetric
+EEpbAB   lemma:doublereverse
+EEbrpb   lemma:congruencesymmetric
+EEbrAB   lemma:congruencetransitive
+EEABBD  lemma:congruenceflip
+EEbrBD   lemma:congruencetransitive
+EEbqBF   lemma:congruencesymmetric
+EEpqAF   lemma:congruencesymmetric
+EEqrFD   axiom:5-line
+EEAFpq
+EEpqrq
+EEAFrq  lemma:congruencetransitive
+EEAFqr  lemma:congruenceflip
+EEAFFD   lemma:congruencetransitive
+EEAFDF   lemma:congruenceflip
+BEABD
+EEABDB
+RRpbq
+NEbq     defn:rightangle
+NEBF    axiom:nocollapse
+RRABF   defn:rightangle
+RRABC
+EEbqBF   lemma:congruencesymmetric
+EEbqBC
+EEBCbq   lemma:congruencesymmetric
+EEBCBF   lemma:congruencetransitive
+EEACAF   lemma:10.12
+EQFF     cn:equalityreflexive
+EQCC     cn:equalityreflexive
+RABFF    lemma:ray4
+RABCC    lemma:ray4
+RABAA    lemma:ray4
+EEBABA   cn:congruencereflexive
+EEBCBF
+NCABC    lemma:rightangleNC
+EAABCABF  defn:equalangles
+EAABCABC  lemma:equalanglesreflexive
+EAABCABF  lemma:equalanglestransitive
+EQpp     cn:equalityreflexive
+EQqq     cn:equalityreflexive
+RAbpp    lemma:ray4
+RAbqq    lemma:ray4
+RABFF   lemma:ray4
+RABAA   lemma:ray4
+EEBAbp  lemma:congruencesymmetric
+EEBFbq
+NCABF   lemma:rightangleNC
+EAABFpbq   defn:equalangles
+EAABCpbq   lemma:equalanglestransitive
+RAbap
+RAbcq
+NCabc     lemma:rightangleNC
+RAbpp     lemma:ray4
+RAbqq     lemma:ray4
+EEbpbp    cn:congruencereflexive
+EEbqbq    cn:congruencereflexive
+EEpqpq    cn:congruencereflexive
+EAabcpbq   defn:equalangles
+EApbqabc   lemma:equalanglessymmetric
+EAABCabc   lemma:equalanglestransitive

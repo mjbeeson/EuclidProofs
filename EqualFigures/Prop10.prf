@@ -1,0 +1,156 @@
+NEAB
+ANELABC+TRABC  proposition:01
+ELABC
+TRABC
+NCABC   defn:triangle
+ANEEABBC+EEBCCA  defn:equilateral
+EEBCCA
+EEACCB  lemma:doublereverse
+EEACBC  lemma:congruenceflip
+EQCB  assumption
+ COACB defn:collinear
+ COABC lemma:collinearorder
+NECB   reductio
+ANBECBD+EEBDAB  lemma:extension
+EEBDAB
+EQCA  assumption
+ COBCA  defn:collinear
+ COABC  lemma:collinearorder
+NECA   reductio
+ANBECAE+EEAEAB  lemma:extension
+EEAEAB
+BECBD
+BECAE
+BEDBC  axiom:betweennesssymmetry
+BEEAC  axiom:betweennesssymmetry
+CODCE assumption
+ COCAE defn:collinear
+ COCBD defn:collinear
+ COECD lemma:collinearorder
+ COECA lemma:collinearorder
+ NECE lemma:betweennotequal
+ NEEC  lemma:inequalitysymmetric
+ COCDA lemma:collinear4
+ CODCB lemma:collinearorder
+ CODCA lemma:collinearorder
+ NECD lemma:betweennotequal
+ NEDC lemma:inequalitysymmetric
+ COCBA lemma:collinear4
+ COABC lemma:collinearorder
+ NCABC
+NCDCE reductio
+ANBEDFA+BEEFB  postulate:Pasch-inner
+BEDFA
+BEEFB
+BEBFE   axiom:betweennesssymmetry
+BEAFD   axiom:betweennesssymmetry
+BECBD
+NECD lemma:betweennotequal
+NEDC lemma:inequalitysymmetric
+COADC assumption
+ COCBD defn:collinear
+ CODCA  lemma:collinearorder
+ CODCB lemma:collinearorder
+ COCAB  lemma:collinear4
+ COABC  lemma:collinearorder
+ NCABC
+NCADC reductio
+ANBEAMB+BECMF postulate:Pasch-inner
+BEAMB
+BECMF
+EECACB  lemma:congruenceflip
+EEABAE  lemma:congruencesymmetric
+EEBDAE  lemma:congruencetransitive
+EEAEBD  lemma:congruencesymmetric
+EEABBA  cn:equalityreverse
+BECAE
+BECBD
+EECBCA  lemma:congruencesymmetric
+EEBEAD  axiom:5-line
+BEBFE
+EEBFBF cn:congruencereflexive
+LTBFBE  defn:lessthan
+EEADBE  lemma:congruencesymmetric
+ANBEAGD+EEAGBF  proposition:03
+BEAGD
+EEAGBF
+EEGDFE  lemma:differenceofparts
+EEEFDG  lemma:doublereverse
+EEFBGA  lemma:doublereverse
+EEAEBD
+EEEADB  lemma:congruenceflip
+EEBAAB  cn:equalityreverse
+BEEFB
+BEDGA   axiom:betweennesssymmetry
+EEFAGB  lemma:interior5
+EEAFBG  lemma:congruenceflip
+EEBDAE
+EEEDDE  cn:equalityreverse
+EEFDGE  lemma:interior5
+BEAFD
+EEAFBG
+EEFDGE
+EEADBE
+BEBGE   lemma:betweennesspreserved
+BEEGB  axiom:betweennesssymmetry
+COADE  assumption 
+ COCAE  defn:collinear
+ COAED  lemma:collinearorder
+ COAEC  lemma:collinearorder
+ NEAE   lemma:betweennotequal
+ COEDC  lemma:collinear4
+ COECD  lemma:collinearorder
+ COECA  lemma:collinearorder
+ NECE   lemma:betweennotequal
+ NEEC   lemma:inequalitysymmetric
+ COCDA  lemma:collinear4
+ COCBD  defn:collinear
+ CODCA  lemma:collinearorder
+ CODCB lemma:collinearorder
+ NECD  lemma:betweennotequal
+ NEDC  lemma:inequalitysymmetric
+ COCAB lemma:collinear4
+ COABC lemma:collinearorder    
+NCADE  reductio
+COADB  assumption
+ CODBA lemma:collinearorder
+ COCBD defn:collinear
+ CODBC lemma:collinearorder
+ NEBD lemma:betweennotequal
+ NEDB  lemma:inequalitysymmetric
+ COBAC lemma:collinear4
+ COABC lemma:collinearorder
+NCADB  reductio
+CUADEBG  defn:cut
+BEAFD
+BEEFB  
+CUADEBF  defn:cut
+CODEB  assumption
+ COCBD   defn:collinear
+ CODBC  lemma:collinearorder
+ CODBE  lemma:collinearorder
+ NEBD  lemma:betweennotequal
+ NEDB  lemma:inequalitysymmetric
+ COBCE lemma:collinear4
+ COCAE defn:collinear
+ COECA  lemma:collinearorder
+ COECB lemma:collinearorder
+ NECE  lemma:betweennotequal
+ NEEC  lemma:inequalitysymmetric
+ COCAB  lemma:collinear4
+ COABC  lemma:collinearorder
+NCDEB  reductio
+EQGF   lemma:twolines
+EEAGBF
+EEAFBF  cn:equalitysub
+EEFAFB  lemma:congruenceflip
+EECMCM  cn:congruencereflexive
+EEMFMF  cn:congruencereflexive
+EECACB
+EEMAMB  lemma:interior5
+ANBEAMB+EEMAMB
+
+
+
+
+

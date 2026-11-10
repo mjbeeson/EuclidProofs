@@ -1,0 +1,47 @@
+RRAMP
+RRAJP
+COAMJ
+NEMJ   assumption
+ NEJM  lemma:inequalitysymmetric
+ ANBEMJE+EEJEMJ  lemma:extension
+ BEMJE
+ NEME   lemma:betweennotequal
+ ANBEJMF+EEMFME  lemma:extension
+ EEMFME  
+ BEJMF
+ BEEJM   axiom:betweennesssymmetry
+ BEEJF   lemma:3.7b
+ BEFJE   axiom:betweennesssymmetry
+ BEEMF    lemma:3.7a
+ NEJF    lemma:betweennotequal
+ NEFJ    lemma:inequalitysymmetric
+ COJMF   defn:collinear
+ COMJF   lemma:collinearorder
+ COMJA   lemma:collinearorder
+ NEJM    lemma:betweennotequal
+ NEMJ    lemma:inequalitysymmetric
+ COJFA   lemma:collinear4
+ COAJF   lemma:collinearorder
+ RRFJP    lemma:collinearright
+ COJMF    defn:collinear
+ COJMA    lemma:collinearorder
+ COMFA   lemma:collinear4
+ COAMF   lemma:collinearorder
+ NEMF   lemma:betweennotequal
+ NEFM    lemma:inequalitysymmetric
+ RRFMP   lemma:collinearright
+ EEFMME   lemma:congruenceflip
+ RRFMP    lemma:collinearright
+ BEFME    axiom:betweennesssymmetry
+ EEFPEP  lemma:rightreverse
+ MIFJE  lemma:altitudebisectsbase
+ BEFME   axiom:betweennesssymmetry
+ EEFMME  lemma:congruenceflip
+ MIFME   defn:midpoint
+ EQJM    lemma:midpointunique
+EQMJ     reductio
+ 
+
+ 
+ 
+

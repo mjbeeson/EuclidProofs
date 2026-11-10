@@ -1,0 +1,162 @@
+CIJEED
+NEEG
+ONGJ
+ONHJ
+NEGH
+BEAED
+ONAJ 
+BEAEF
+EEFGFH
+EEEDED   cn:congruencereflexive
+NEED    lemma:betweennotequal
+ONDJ    defn:on
+NEAD    lemma:betweennotequal
+ANCOADG+COADH   assumption
+COADG
+COADH
+EEEAED  lemma:oncircle
+EEEGED  lemma:oncircle
+EEAEED  lemma:congruenceflip
+MIAED   defn:midpoint
+
+OREQGA|EQGD  lemma:collinearchord
+OREQHA|EQHD  lemma:collinearchord
+cases NOANCOADG+COADH:EQGA|EQGD
+  case 1:EQGA
+  	EQAG  lemma:equalitysymmetric
+    cases NOANCOADG+COADH:EQHA|EQHD
+	  case 1:EQHA
+	  	EQHG  cn:equalitysub
+		ANCOADG+COADH  assumption
+		  NEHG  lemma:inequalitysymmetric
+		NOANCOADG+COADH  reductio
+	  qedcase
+	  case 2:EQHD
+	  	NOORBEEFD|EQFD|BEEDF  assumption
+	      ANNOBEEFD+NEFD+NOBEEDF 
+	      NOBEEFD
+	      NEFD
+	      NOBEEDF
+	      EQFD  lemma:outerconnectivity
+	    ORBEEFD|EQFD|BEEDF reductio
+		cases NOANCOADG+COADH:BEEFD|EQFD|BEEDF
+		  case 1:BEEFD
+		    EEAFDF  assumption
+			  EEAFFD  lemma:congruenceflip
+			  BEAED
+			  BEEFD
+			  BEAFD  lemma:3.7a
+		      MIAFD  defn:midpoint
+		      EQEF   lemma:midpointunique
+		      NEEF   lemma:betweennotequal
+		    NOEEAFDF  reductio
+			NOEEGFDF  cn:equalitysub
+			NOEEGFHF  cn:equalitysub
+		    ANCOADG+COADH  assumption
+			  EEGFHF  lemma:congruenceflip
+			NOANCOADG+COADH  reductio
+		  qedcase
+		  case 2:EQFD
+		  	EEFGFH
+			EEFAFH   cn:equalitysub
+			EEFAFD   cn:equalitysub
+			EEDADD   cn:equalitysub
+			NEAD    lemma:betweennotequal
+			NEDA    lemma:inequalitysymmetric
+			NEDD    axiom:nocollapse
+			ANCOADG+COADH  assumption
+			  EQDD    cn:equalityreflexive
+			NOANCOADG+COADH  reductio
+		  qedcase
+		  case 3:BEEDF
+		    % then FD = FH < FA = FG
+		    BEFDE  axiom:betweennesssymmetry
+			EEFDFD  cn:congruencereflexive
+			LTFDFE  defn:lessthan
+			LTFHFE  cn:equalitysub
+		    BEFEA   axiom:betweennesssymmetry
+			EEFEFE  cn:congruencereflexive
+			LTFEFA  defn:lessthan
+			LTFEFG  cn:equalitysub
+			LTFHFG  lemma:lessthantransitive
+			EEFGFH
+			LTFHFH  lemma:lessthancongruence
+			ANCOADG+COADH  assumption
+			  NOLTFHFH lemma:trichotomy2
+			NOANCOADG+COADH  reductio
+		  qedcase
+	    NOANCOADG+COADH  cases
+	  qedcase
+    NOANCOADG+COADH  cases
+  qedcase
+  case 2:EQGD   
+  	EQDG  lemma:equalitysymmetric
+    cases NOANCOADG+COADH:EQHA|EQHD
+	  case 1:EQHA    
+	  	NOORBEEFD|EQFD|BEEDF  assumption
+	      ANNOBEEFD+NEFD+NOBEEDF 
+	      NOBEEFD
+	      NEFD
+	      NOBEEDF
+	      EQFD  lemma:outerconnectivity
+	    ORBEEFD|EQFD|BEEDF reductio
+		cases NOANCOADG+COADH:BEEFD|EQFD|BEEDF
+		  case 1:BEEFD
+		    EEAFDF  assumption
+			  EEAFFD  lemma:congruenceflip
+			  BEAED
+			  BEEFD
+			  BEAFD  lemma:3.7a
+		      MIAFD  defn:midpoint
+		      EQEF   lemma:midpointunique
+		      NEEF   lemma:betweennotequal
+		    NOEEAFDF  reductio
+			NOEEHFDF  cn:equalitysub
+			NOEEHFGF  cn:equalitysub
+		    ANCOADG+COADH  assumption
+			  EEGFHF  lemma:congruenceflip
+			  EEHFGF  lemma:congruencesymmetric
+			NOANCOADG+COADH  reductio
+		  qedcase
+		  case 2:EQFD
+		  	EEFHFG   lemma:congruencesymmetric
+			EEFAFG   cn:equalitysub
+			EEFAFD   cn:equalitysub
+			EEDADD   cn:equalitysub
+			NEAD    lemma:betweennotequal
+			NEDA    lemma:inequalitysymmetric
+			NEDD    axiom:nocollapse
+			ANCOADG+COADH  assumption
+			  EQDD    cn:equalityreflexive
+			NOANCOADG+COADH  reductio
+		  qedcase
+		  case 3:BEEDF
+		    % then FD = FG < FA = FH
+		    BEFDE  axiom:betweennesssymmetry
+			EEFDFD  cn:congruencereflexive
+			LTFDFE  defn:lessthan
+			LTFGFE  cn:equalitysub
+		    BEFEA   axiom:betweennesssymmetry
+			EEFEFE  cn:congruencereflexive
+			LTFEFA  defn:lessthan
+			LTFEFH  cn:equalitysub
+			LTFGFH  lemma:lessthantransitive
+			EEFGFH  
+			EEFHFG  lemma:congruencesymmetric
+			LTFGFG  lemma:lessthancongruence
+			ANCOADG+COADH  assumption
+			  NOLTFGFG lemma:trichotomy2
+			NOANCOADG+COADH  reductio
+		  qedcase
+	    NOANCOADG+COADH  cases
+	  qedcase
+	  case 2:EQHD
+	  	EQHG  cn:equalitysub
+		ANCOADG+COADH  assumption
+		  NEHG  lemma:inequalitysymmetric
+		NOANCOADG+COADH  reductio
+	  qedcase
+    NOANCOADG+COADH  cases	    
+  qedcase
+NOANCOADG+COADH  cases
+NOANCOADG+COADH  reductio

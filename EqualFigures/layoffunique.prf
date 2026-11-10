@@ -1,0 +1,81 @@
+RAABC
+RAABD
+EEACAD
+EEADAC  lemma:congruencesymmetric
+ORBEACB|EQBC|BEABC  lemma:ray1
+ORBEADB|EQBD|BEABD  lemma:ray1
+EEABAB  cn:congruencereflexive
+EECBCB  cn:congruencereflexive
+EEACAC  cn:congruencereflexive
+cases EQCD:BEACB|EQBC|BEABC
+ case 1:BEACB
+  cases EQCD:BEADB|EQBD|BEABD
+   case 1:BEADB
+    EECBDB lemma:differenceofparts
+    EEBCBD lemma:congruenceflip
+    EECCCD lemma:interior5
+    EECDCC lemma:congruencesymmetric
+    NECD  assumption
+     NECC  axiom:nocollapse
+     EQCC  cn:equalityreflexive
+    EQCD reductio
+   qedcase
+   case 2:EQBD
+    BEACD cn:equalitysub
+    NECD  assumption
+     NOEEACAD lemma:partnotequalwhole
+    EQCD  reductio
+   qedcase
+   case 3:BEABD
+    BEACD  lemma:3.6b
+    NECD assumption
+     NOEEACAD  lemma:partnotequalwhole
+    EQCD reductio
+   qedcase
+  EQCD cases
+ qedcase
+ case 2:EQBC
+  EEABAD  cn:equalitysub
+  EEADAB  lemma:congruencesymmetric
+  cases EQCD:BEADB|EQBD|BEABD
+   case 1:BEADB 
+    NECD assumption
+     NOEEADAB  lemma:partnotequalwhole
+    EQCD reductio
+   qedcase
+   case 2:EQBD
+    EQCB  lemma:equalitysymmetric
+    EQDB  lemma:equalitysymmetric
+    EQCD  cn:equalitytransitive
+   qedcase
+   case 3:BEABD
+    BEACD   cn:equalitysub
+    NECD  assumption
+     NOEEACAD lemma:partnotequalwhole
+    EQCD reductio
+   qedcase
+  EQCD cases 
+ qedcase
+ case 3:BEABC
+  cases EQCD:BEADB|EQBD|BEABD
+   case 1:BEADB
+    BEADC  lemma:3.6b
+    NECD  assumption
+     NOEEADAC  lemma:partnotequalwhole
+    EQCD  reductio
+   qedcase
+   case 2:EQBD
+    BEADC  cn:equalitysub
+    NECD  assumption
+     NOEEADAC lemma:partnotequalwhole
+    EQCD  reductio
+   qedcase
+   case 3:BEABD
+     EEBCBD  lemma:differenceofparts
+     EQCD   lemma:extensionunique
+   qedcase
+  EQCD cases
+ qedcase
+EQCD cases
+
+   

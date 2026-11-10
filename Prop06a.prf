@@ -1,0 +1,59 @@
+TRABC
+EAABCACB
+NEAB    lemma:angledistinct
+NEAC    lemma:angledistinct
+NEBA  lemma:inequalitysymmetric
+NECA  lemma:inequalitysymmetric
+NEBC  lemma:angledistinct
+NECB  lemma:inequalitysymmetric
+LTACAB   assumption
+ EEBAAB   cn:equalityreverse
+ ANBEBDA+EEBDAC  proposition:03
+ BEBDA
+ EEBDAC
+ EEDBAC  lemma:congruenceflip
+ RABAD   lemma:ray4
+ EQCC    cn:equalityreflexive
+ RABCC  lemma:ray4
+ NCABC   defn:triangle
+ EAABCABC lemma:equalanglesreflexive
+ EAABCDBC  lemma:equalangleshelper
+ EADBCABC  lemma:equalanglessymmetric
+ EADBCACB  lemma:equalanglestransitive
+ EEBDCA  lemma:congruenceflip
+ EEBCCB  cn:equalityreverse
+ ANEEDCAB+EABDCCAB+EABCDCBA   proposition:04
+ EABCDCBA
+ COCBA   assumption
+  COABC   lemma:collinearorder
+ NCCBA   reductio
+ EACBAABC  lemma:ABCequalsCBA
+ EABCDABC  lemma:equalanglestransitive
+ EAABCACB
+ EABCDACB  lemma:equalanglestransitive
+ COACB   assumption
+  COABC  lemma:collinearorder
+ NCACB  reductio
+ EAACBBCA  lemma:ABCequalsCBA
+ EABCDBCA lemma:equalanglestransitive
+ EABCABCD  lemma:equalanglessymmetric
+ EQBB     cn:equalityreflexive
+ EQAA     cn:equalityreflexive
+ RACBB   lemma:ray4
+ RACAA   lemma:ray4
+ BEBDA
+ COBCD    assumption
+  COBDA   defn:collinear
+  CODBA  lemma:collinearorder
+  CODBC  lemma:collinearorder
+  NEBD   lemma:betweennotequal
+  NEDB   lemma:inequalitysymmetric
+  COBAC  lemma:collinear4
+  COABC   lemma:collinearorder
+ NCBCD  reductio
+ EABCDBCD  lemma:equalanglesreflexive
+ AOBCDBCA  defn:anglelessthan
+ AOBCABCA  lemma:angleorderrespectscongruence2
+ NOAOBCABCA  lemma:angletrichotomy
+NOLTACAB  reductio
+

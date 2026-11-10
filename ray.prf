@@ -1,0 +1,33 @@
+RAABP
+NEPB
+NOBEAPB
+NEAB   lemma:ray2
+ANBEEAP+BEEAB  defn:ray
+BEEAP
+BEEAB
+NEAP  lemma:betweennotequal
+ANBEABD+EEBDAP  lemma:extension
+BEABD
+EEBDAP
+EEDBBD  cn:equalityreverse
+EEDBAP  lemma:congruencetransitive
+BEDBA  axiom:betweennesssymmetry
+LTAPDA  defn:lessthan
+EEDAAD  cn:equalityreverse
+LTAPAD  lemma:lessthancongruence
+ANBEAFD+EEAFAP  defn:lessthan
+BEEAP
+BEABD
+BEEAD   lemma:3.7b
+BEAFD
+BEEAF  axiom:innertransitivity
+EEAFAP
+EEAPAF  lemma:congruencesymmetric
+EQPF    lemma:extensionunique
+BEAPD   cn:equalitysub
+NOBEAPB
+NOBEABP  assumption
+ EQBP   axiom:connectivity
+ NEBP    lemma:inequalitysymmetric
+BEABP  reductio 
+

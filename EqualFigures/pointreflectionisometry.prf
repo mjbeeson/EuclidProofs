@@ -1,0 +1,145 @@
+MIABC
+MIPBQ
+NEAP
+ANBEABC+EEABBC  defn:midpoint
+ANBEPBQ+EEPBBQ  defn:midpoint
+BEABC
+EEABBC
+BEPBQ
+EEPBBQ
+cases EEAPCQ:COABP|NCABP
+ case 1:COABP
+  OREQAB|EQAP|EQBP|BEBAP|BEABP|BEAPB  defn:collinear
+  cases EEAPCQ:EQAB|EQAP|EQBP|BEBAP|BEABP|BEAPB 
+   case 1:EQAB
+    NOEEAPCQ  assumption
+     BEABC  defn:midpoint
+     NEAB   lemma:betweennotequal
+    EEAPCQ  reductio
+   qedcase
+   case 2:EQAP
+    NOEEAPCQ assumption
+	 NEAP
+	EEAPCQ reductio
+   qedcase
+   case 3:EQBP
+    NOEEAPCQ assumption
+     NEPB  lemma:betweennotequal
+     NEBP  lemma:inequalitysymmetric
+    EEAPCQ reductio
+   qedcase
+   case 4:BEBAP
+    EEPBBQ  
+    EEABBC
+    EEBCAB  lemma:congruencesymmetric
+    EEBCBA   lemma:congruenceflip
+    EEQBBP  lemma:doublereverse
+    EEBQBP   lemma:congruenceflip
+    EEBACB   lemma:doublereverse
+    LTCBBP   defn:lessthan
+    EEBPBQ   lemma:congruencesymmetric
+    LTCBBQ   lemma:lessthancongruence
+    EECBBC   cn:equalityreverse
+    LTBCBQ   lemma:lessthancongruence2
+    EEBQBQ   cn:congruencereflexive
+    NEBQ    lemma:betweennotequal
+    ANBEBHQ+EEBHBC  proposition:03
+    BEBHQ
+    EEBHBC
+    RABQH    lemma:ray4
+    BEPAB    axiom:betweennesssymmetry
+    BEABC
+    BEPBC    lemma:3.7a
+    BEPBQ
+    ANBEPBC+BEPBQ
+    RABCQ    defn:ray
+    RABQC    lemma:ray5
+    EEBCBH   lemma:congruencesymmetric
+    EQCH     lemma:layoffunique
+    BEBCQ   cn:equalitysub 
+    BEBAP    axiom:betweennesssymmetry
+    EEBABC   lemma:congruencesymmetric
+    EEBPBQ
+    EEAPCQ  lemma:differenceofparts
+   qedcase
+   case 5: BEABP
+	BEPBQ
+    NOEEAPCQ   assumption
+     BEBPC    assumption
+      BECPB   axiom:betweennesssymmetry
+      BECBQ   lemma:3.7a
+      EEABCB  lemma:congruenceflip
+      EEABCB
+      EEBPBQ  lemma:congruenceflip
+      EEAPCQ  cn:sumofparts
+     NOBEBPC  reductio
+     BEBCP    assumption
+      BEABP   lemma:3.7b
+      BEQBP   axiom:betweennesssymmetry
+      BEQBC   axiom:innertransitivity
+      BECBQ   axiom:betweennesssymmetry
+      EEABCB  lemma:congruenceflip
+      EEBPBQ  lemma:congruenceflip
+      EEAPCQ  cn:sumofparts
+     NOBEBCP  reductio
+     EQPC     lemma:outerconnectivity
+     EEABBC
+     EEABBP   cn:equalitysub
+     EEBPBQ   lemma:congruenceflip
+     EEABBQ  lemma:congruencetransitive
+     BECBA    axiom:betweennesssymmetry
+     BEPBA    cn:equalitysub
+     EEBQAB   lemma:congruencesymmetric
+     EEBQBA   lemma:congruenceflip
+     EQQA     lemma:extensionunique
+     EEACCA    cn:equalityreverse
+     EEAPCA    cn:equalitysub
+     EEAPCQ    cn:equalitysub
+    EEAPCQ  reductio
+   qedcase
+   case 6:BEAPB
+    EEABBC  
+    EEPBBQ
+    EEBQPB  lemma:congruencesymmetric
+    EEBQBP   lemma:congruenceflip
+    EECBBA  lemma:doublereverse
+    EEBCBA   lemma:congruenceflip
+    BEBPA    axiom:betweennesssymmetry
+    EEBPQB   lemma:doublereverse
+    LTQBBA   defn:lessthan
+    EEBABC   lemma:congruencesymmetric
+    LTQBBC   lemma:lessthancongruence
+    EEQBBQ   cn:equalityreverse
+    LTBQBC   lemma:lessthancongruence2
+    EEBCBC   cn:congruencereflexive
+    NEBC    lemma:betweennotequal
+    ANBEBHC+EEBHBQ  proposition:03
+    BEBHC
+    EEBHBQ
+    BEABC
+    BEPBC    lemma:3.6a
+    BEPBQ
+    ANBEPBC+BEPBQ
+    RABCQ    defn:ray
+    RABCH    lemma:ray4
+    EEBQBH   lemma:congruencesymmetric
+    EQQH     lemma:layoffunique
+    BEBQC   cn:equalitysub
+    BEBPA    axiom:betweennesssymmetry
+    EEBPBQ   lemma:congruencesymmetric
+    EEBABC
+    EEPAQC  lemma:differenceofparts
+    EEAPCQ  lemma:congruenceflip
+   qedcase
+  EEAPCQ cases 
+ qedcase
+ case 2:NCABP
+  EAABPQBC   proposition:15
+  NCQBC  lemma:equalanglesNC
+  EAQBCCBQ   lemma:ABCequalsCBA
+  EAABPCBQ   lemma:equalanglestransitive
+  EEBABC    lemma:congruenceflip
+  EEBPBQ    lemma:congruenceflip
+  EEAPCQ    proposition:04
+ qedcase
+EEAPCQ  cases

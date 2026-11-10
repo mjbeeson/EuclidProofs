@@ -1,0 +1,166 @@
+RRBAC
+RRABD
+BECAE
+BEDBF
+EEACAE
+EEBDBF
+ANBEBAH+EEBAHA+EEBCHC+NEAC   defn:rightangle
+ANBEABG+EEABGB+EEADGD+NEBD  defn:rightangle
+BEABG
+NEAB   lemma:betweennotequal
+ANBEAMB+EEMAMB  proposition:10
+BEAMB
+EEMAMB
+RRDBA   lemma:8.2
+NEBA   lemma:inequalitysymmetric
+BEBMA  axiom:betweennesssymmetry
+RABAM   lemma:ray4
+RRDBM   lemma:8.3
+NCDBM   lemma:rightangleNC
+EQDM  assumption
+ CODBM  defn:collinear
+NEDM  reductio
+NEMD  lemma:inequalitysymmetric
+ANBEDMR+EEMRMD  lemma:extension
+BEDMR
+EEMRMD
+BEDBF
+EEDBBF   lemma:congruenceflip
+CODBF   defn:collinear
+NEBF    lemma:betweennotequal
+NEFB    lemma:inequalitysymmetric
+RRDBA   lemma:8.2
+RRFBA   lemma:collinearright
+RRFBM   lemma:8.3
+NCFBM   lemma:rightangleNC
+EQFM  assumption
+ COFBM  defn:collinear
+NEFM  reductio
+NEMF  lemma:inequalitysymmetric
+ANBEFMQ+EEMQMF  lemma:extension
+BEFMQ
+EEMQMF
+EEMDMR  lemma:congruencesymmetric
+EEDMMR  lemma:congruenceflip
+MIDMR   defn:midpoint
+EEMFMQ   lemma:congruencesymmetric
+EEFMMQ   lemma:congruenceflip
+MIFMQ   defn:midpoint
+EEMBMA   lemma:congruencesymmetric
+EEBMMA   lemma:congruenceflip
+BEBMA   axiom:betweennesssymmetry
+MIBMA   defn:midpoint
+EEFBQA  lemma:pointreflectionisometry
+EEBDBF
+EEBFFB  cn:equalityreverse
+EEBDFB  lemma:congruencetransitive
+RRBAC
+RRCAB  lemma:8.2
+RAABM   lemma:ray4
+RRCAM  lemma:8.3
+BEQMF  axiom:betweennesssymmetry
+BERMD  axiom:betweennesssymmetry
+RRDBM
+BEDBF
+EEDBBF  lemma:congruenceflip
+EEDMFM  lemma:rightreverse
+EEFMDM  lemma:congruencesymmetric
+EEFMMQ  lemma:congruenceflip
+EEDMMR
+EEQMFM  lemma:congruenceflip
+EEQMDM  lemma:congruencetransitive
+EEQMMR  lemma:congruencetransitive
+EEQMRM  lemma:congruenceflip
+EEMFMD  lemma:congruenceflip
+RRCAM
+BECAE
+EECAAE  lemma:congruenceflip
+EECMEM  lemma:rightreverse
+EEEMCM  lemma:congruencesymmetric
+EEMEMC  lemma:congruenceflip
+MIDMR   defn:midpoint
+MIFMQ   defn:midpoint
+EEMBMA  lemma:congruencesymmetric
+EEBMMA  lemma:congruenceflip
+MIBMA   defn:midpoint
+EEFBQA  lemma:pointreflectionisometry
+RRDBA
+NCDBA   lemma:rightangleNC
+NEDB    lemma:NCdistinct
+EEDBRA  lemma:pointreflectionisometry
+EEDBBF
+EEQAFB  lemma:congruencesymmetric
+EEBFDB  lemma:congruencesymmetric
+EEFBDB  lemma:congruenceflip
+EEQADB  lemma:congruencetransitive
+EEQARA  lemma:congruencetransitive
+EEQAAR  lemma:congruenceflip
+MIDMR
+MIFMQ
+NEDF   lemma:betweennotequal
+EEDFRQ  lemma:pointreflectionisometry
+EEFDQR  lemma:congruenceflip 
+BEFBD   axiom:betweennesssymmetry
+EEFBQA
+EEBDAR  lemma:congruenceflip
+BEQAR   lemma:betweennesspreserved
+MIQAR   defn:midpoint
+EEEAAC  lemma:doublereverse
+BEEAC   axiom:betweennesssymmetry
+MIEAC   defn:midpoint
+cases EECDEF:NEEQ|EQEQ
+ case 1:NEEQ
+  EEEQCR  lemma:pointreflectionisometry
+  EEQERC  lemma:congruenceflip
+  EEMEMC
+  EEQMRM
+  EEMFMD
+  EEEFCD  axiom:5-line
+  EECDEF  lemma:congruencesymmetric
+ qedcase
+ case 2:EQEQ
+  MIFME  cn:equalitysub
+  MIBMA
+  MIDMR
+  BEFBD
+  NEFB  lemma:betweennotequal
+  NEFD  lemma:betweennotequal
+  NEBD  lemma:betweennotequal
+  EEFBEA  lemma:pointreflectionisometry
+  EEBDAR  lemma:pointreflectionisometry
+  EEFDER  lemma:pointreflectionisometry
+  BEEAR   lemma:betweennesspreserved
+  BEEAC axiom:betweennesssymmetry
+  EEACAC  cn:congruencereflexive
+  EEARBD  lemma:congruencesymmetric
+  EEBDBF
+  EEARBF  lemma:congruencetransitive
+  EEBFAE  lemma:congruenceflip
+  EEARAE  lemma:congruencetransitive
+  EEAEAC  lemma:congruencesymmetric
+  EEARAC  lemma:congruencetransitive
+  EQRC    lemma:extensionunique
+  CODBF   defn:collinear
+  NEBF    lemma:betweennotequal
+  NEFB    lemma:inequalitysymmetric
+  RRDBM
+  RRFBM   lemma:collinearright
+  EEFBBD  lemma:congruenceflip
+  EEFMDM  lemma:rightreverse
+  EEFMMD  lemma:congruenceflip
+  EEMDMR  
+  EEFMMR  lemma:congruencetransitive
+  EEFMMC  cn:equalitysub
+  EEDMFM  lemma:congruencesymmetric
+  EEFMME  cn:equalitysub
+  EEDMME  lemma:congruencetransitive
+  EEMCFM  lemma:congruencesymmetric
+  EECMFM  lemma:congruenceflip
+  EEMDME  lemma:congruenceflip
+  BECMD   cn:equalitysub
+  BEFME   cn:equalitysub
+  EECDFE  cn:sumofparts 
+  EECDEF  lemma:congruenceflip
+ qedcase
+EECDEF cases
+  

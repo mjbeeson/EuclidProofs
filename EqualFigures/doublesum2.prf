@@ -1,0 +1,9 @@
+DAPQRABC
+ANEAPQXXQR+BEPXR+EAPQXABC  defn:doubleangle
+EAPQXXQR
+BEPXR
+EAPQXABC
+EAABCPQX  lemma:equalanglessymmetric
+EAABCXQR  lemma:equalanglestransitive
+ANEAABCPQX+EAABCXQR+BEPXR
+ASABCABCPQR  defn:anglesum

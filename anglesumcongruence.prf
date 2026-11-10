@@ -1,0 +1,109 @@
+ASABCDEFPQR
+EAPQRUVW
+ANEAABCPQX+EADEFXQR+BEPXR  defn:anglesum
+EAABCPQX
+EADEFXQR
+BEPXR
+ANRAQPJ+RAQRM+RAVUj+RAVWm+EEQJVj+EEQMVm+EEJMjm+NCPQR  defn:equalangles
+RAQPJ
+RAQRM
+RAVUj
+RAVWm
+EEQJVj
+EEQMVm
+EEJMjm
+NCPQR
+TRPQR  defn:triangle
+ANRAQXK+BEJKM  lemma:crossbar
+RAQXK
+BEJKM
+NEJK  lemma:betweennotequal
+NEJM  lemma:betweennotequal
+NEjm  axiom:nocollapse
+ANRAjmk+EEjkJK  lemma:layoff
+RAjmk
+EEjkJK
+EEJKJK  cn:congruencereflexive
+LTJKJM  defn:lessthan
+EEJKjk  lemma:congruencesymmetric
+LTjkJM  lemma:lessthancongruence2
+LTjkjm  lemma:lessthancongruence
+RAjkm  lemma:ray5
+BEjkm  lemma:lessthanbetween
+EEKMkm  lemma:differenceofparts
+COJKM  defn:collinear
+EEJQjV  lemma:congruenceflip
+EEMQmV  lemma:congruenceflip
+EEKQkV  lemma:fiveline
+EEQKVk  lemma:congruenceflip
+NCPQX  lemma:equalanglesNC
+COQPJ  lemma:rayimpliescollinear
+COPQJ  lemma:collinearorder
+EQQQ  cn:equalityreflexive
+COPQQ  defn:collinear
+NEQJ  lemma:raystrict
+NEJQ  lemma:inequalitysymmetric
+NCJQX  lemma:NChelper
+NCQXJ  lemma:NCorder
+COQXK  lemma:rayimpliescollinear
+COQXQ  defn:collinear
+NEQK  lemma:raystrict
+NCQKJ  lemma:NChelper
+NCJQK  lemma:NCorder
+EQJJ  cn:equalityreflexive
+RAQJJ  lemma:ray4
+EQKK  cn:equalityreflexive
+RAQKK  lemma:ray4
+NEVj  lemma:raystrict
+EQjj  cn:equalityreflexive
+RAVjj  lemma:ray4
+NEVk  axiom:nocollapse
+EQkk  cn:equalityreflexive
+RAVkk  lemma:ray4
+EAJQKjVk  defn:equalangles
+NCJQR  lemma:NChelper
+NCQRJ  lemma:NCorder
+COQRM  lemma:rayimpliescollinear
+COQRQ  defn:collinear
+NEQM  lemma:raystrict
+NCQMJ  lemma:NChelper
+NCJQM  lemma:NCorder
+NCJMQ  lemma:NCorder
+COJMK  lemma:collinearorder
+EQMM  cn:equalityreflexive
+COJMM  defn:collinear
+NEKM  lemma:betweennotequal
+NCKMQ  lemma:NChelper
+NCQMK  lemma:NCorder
+NCQKM  lemma:NCorder
+NCKQM  lemma:NCorder
+RAQMM  lemma:ray4
+NEVm  axiom:nocollapse
+EQmm  cn:equalityreflexive
+RAVmm  lemma:ray4
+EAKQMkVm  defn:equalangles
+NCUVW  lemma:equalanglesNC
+COVUj  lemma:rayimpliescollinear
+COUVj  lemma:collinearorder
+EQVV  cn:equalityreflexive
+COUVV  defn:collinear
+NEjV  lemma:inequalitysymmetric
+NCjVW  lemma:NChelper
+NCVWj  lemma:NCorder
+COVWm  lemma:rayimpliescollinear
+COVWV  defn:collinear
+NCVmj  lemma:NChelper
+NCjVm  lemma:NCorder
+TRjVm  defn:triangle
+RAVjU  lemma:ray5
+RAVmW  lemma:ray5
+ANRAVkZ+BEUZW  lemma:crossbar
+RAVkZ
+BEUZW
+EAABCJQK  lemma:equalangleshelper
+EAABCjVk  lemma:equalanglestransitive
+EAABCUVZ  lemma:equalangleshelper
+EADEFKQM  lemma:equalangleshelper
+EADEFkVm  lemma:equalanglestransitive
+EADEFZVW  lemma:equalangleshelper
+ASABCDEFUVW  defn:anglesum

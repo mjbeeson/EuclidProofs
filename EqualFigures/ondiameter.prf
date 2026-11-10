@@ -1,0 +1,33 @@
+CIKFPQ
+EEFDPQ
+EEFMPQ
+BEDFM
+BEDNM
+NEDF  lemma:betweennotequal
+NEFD  lemma:inequalitysymmetric
+NOORBEDNF|BEFNM|EQFN assumption
+ ANNOBEDNF+NOBEFNM+NEFN
+ NOBEDNF
+ NOBEFNM
+ NEFN
+ BEDFN  assumption
+  BEFNM  lemma:3.6a
+ NOBEDFN reductio
+ EQFN  axiom:connectivity
+ORBEDNF|BEFNM|EQFN reductio
+EEFNFN cn:congruencereflexive
+cases ICNK:BEDNF|BEFNM|EQFN
+ case 1:BEDNF
+  BEFND axiom:betweennesssymmetry
+  ANBEFND+EEFDPQ+EEFNFN
+  ICNK  defn:inside
+ qedcase
+ case 2:BEFNM
+  ANBEFNM+EEFMPQ+EEFNFN
+  ICNK  defn:inside
+ qedcase
+ case 3:EQFN
+  EQNF  lemma:equalitysymmetric
+  ICNK  defn:inside
+ qedcase
+ICNK cases

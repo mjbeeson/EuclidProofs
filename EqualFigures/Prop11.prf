@@ -1,0 +1,23 @@
+BEACB
+NEAC  lemma:betweennotequal
+ANBEACE+EECEAC  lemma:extension
+BEACE
+EECEAC
+NEAE  lemma:betweennotequal
+ANELAEF+TRAEF  proposition:01
+ELAEF
+TRAEF
+EEEFFA   defn:equilateral
+EEAFFE   lemma:doublereverse
+EEAFEF   lemma:congruenceflip
+EQCF     assumption
+ COACE    defn:collinear
+ COAFE    cn:equalitysub
+ COAEF    lemma:collinearorder
+ NCAEF    defn:triangle
+NECF    reductio
+BEACE
+EECAEC  lemma:doublereverse
+EEACEC  lemma:congruenceflip
+EEAFEF
+RRACF    defn:rightangle

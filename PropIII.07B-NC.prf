@@ -1,0 +1,83 @@
+CIJEED
+ONKJ
+ONHJ
+NEKH
+BEAED
+ONAJ
+ONDJ
+BEEFD
+EEFKFH
+NCADH	
+NEED  lemma:betweennotequal
+COADK    assumption
+    OREQAD|EQAK|EQDK|BEDAK|BEADK|BEAKD  defn:collinear
+	cases NCADK:EQAD|EQAK|EQDK|BEDAK|BEADK|BEAKD
+	  case 1:EQAD
+	    COADK assumption
+		  NEAD lemma:betweennotequal
+		NCADK reductio
+	  qedcase 
+	  case 2:EQAK
+	    EQKA   lemma:equalitysymmetric
+	  	EEFKFH
+		EEFAFH cn:equalitysub
+		EEFHFA lemma:congruencesymmetric
+		ANLTFHFA+LTFDFH+LTFDFA   proposition:III.07C
+		LTFHFA
+		LTFAFA   lemma:lessthancongruence2
+	    COADK  assumption
+		  NOLTFAFA  lemma:trichotomy2
+		NCADK  reductio
+	  qedcase
+	  case 3: EQDK
+	    LTFDFH  proposition:III.07C
+		EEFKFH
+		EEFDFH  cn:equalitysub
+		EEFHFD  lemma:congruencesymmetric
+		LTFHFH   lemma:lessthancongruence2
+		COADK   assumption
+		  NOLTFHFH  lemma:trichotomy2
+		NCADK reductio
+	  qedcase
+	  case 4:BEDAK
+	    BEKAD  axiom:betweennesssymmetry
+	    BEAED
+		BEKAE  axiom:innertransitivity
+		BEEAK  axiom:betweennesssymmetry
+		EEEAEA  cn:congruencereflexive
+		LTEAEK  defn:lessthan
+		
+		EEEAED  lemma:oncircle
+		EEEDEA  lemma:congruencesymmetric
+		LTEDEK  lemma:lessthancongruence2
+		EEEKED  lemma:oncircle
+		EEEDEK  lemma:congruencesymmetric
+		LTEKEK  lemma:lessthancongruence2
+		COADK  assumption
+		  NOLTEKEK  lemma:trichotomy2
+		NCADK reductio
+	  qedcase
+	  case 5: BEADK
+	    BEAED
+	 	BEEDK   lemma:3.6a
+		EEEDED  cn:congruencereflexive
+		LTEDEK  defn:lessthan
+		EEEKED   lemma:oncircle
+		EEEDEK   lemma:congruencesymmetric
+		LTEKEK   lemma:lessthancongruence2
+		COADK assumption
+		  NOLTEKEK  lemma:trichotomy2
+		NCADK  reductio
+	  qedcase
+	  case 6: BEAKD
+	  	EEEAED  lemma:oncircle
+		EEEDED  cn:congruencereflexive
+  	  	ICKJ    lemma:ondiameter
+  		NOONKJ   lemma:insidenoton
+  		COADK  assumption
+  		  ONKJ
+  		NCADK  reductio
+  	  qedcase	
+	NCADK  cases
+NCADK  reductio
+ 

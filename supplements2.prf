@@ -1,0 +1,20 @@
+RTABCPQR
+EAABCJKL
+RTJKLDEF
+ANSUabcde+EAABCabc+EAPQRdbe defn:tworightangles
+ANSUjklmn+EAJKLjkl+EADEFmkn  defn:tworightangles
+SUabcde
+EAABCabc
+EAPQRdbe
+SUjklmn
+EAJKLjkl
+EADEFmkn 
+EAabcABC  lemma:equalanglessymmetric
+EAabcJKL  lemma:equalanglestransitive
+EAabcjkl  lemma:equalanglestransitive
+EAdbemkn   lemma:supplements
+EAPQRmkn  lemma:equalanglestransitive
+EAmknDEF  lemma:equalanglessymmetric
+EAPQRDEF  lemma:equalanglestransitive
+EADEFPQR  lemma:equalanglessymmetric
+ANEAPQRDEF+EADEFPQR

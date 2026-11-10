@@ -1,0 +1,90 @@
+TRABC
+TRDBC
+SSADBC
+ETABCDBC
+NEAD
+SSDABC  lemma:samesidesymmetric
+SSADCB  lemma:samesideflip
+SSDACB  lemma:samesidesymmetric
+NCABC  defn:triangle
+NCDBC  defn:triangle
+NEAB lemma:NCdistinct 
+NEBD  lemma:NCdistinct
+NEBA  lemma:inequalitysymmetric
+NEBC  lemma:NCdistinct
+NECA  lemma:NCdistinct
+NECB  lemma:NCdistinct
+NECD  lemma:NCdistinct
+EQAA   cn:equalityreflexive
+EQCC   cn:equalityreflexive
+EQBB  cn:equalityreflexive
+EQDD  cn:equalityreflexive
+RABCC   lemma:ray4
+RABAA   lemma:ray4
+RABDD lemma:ray4
+RACBB  lemma:ray4
+RACAA  lemma:ray4
+RACDD  lemma:ray4
+
+NOPRADBC  assumption
+ AOCBDCBA  assumption
+  ANBEAMC+RABDM  lemma:crossbar2
+  BEAMC
+  RABDM
+  PRADBC  proposition:39A
+ NOAOCBDCBA reductio
+ AOCBACBD assumption
+  ANBEDMC+RABAM  lemma:crossbar2
+  BEDMC
+  RABAM
+  ETDBCABC  axiom:ETsymmetric
+  PRDABC proposition:39A
+  PRADBC  lemma:parallelflip
+ NOAOCBACBD reductio
+ NOEACBDCBA assumption
+  NCCBA lemma:NCorder
+  NCCBD  lemma:NCorder
+  AOCBDCBA lemma:angletrichotomy2
+ EACBDCBA   reductio
+ NCACB  lemma:NCorder
+ TRACB  defn:triangle
+ NCDCB  lemma:NCorder
+ TRDCB  defn:triangle
+ SSADCB  lemma:samesideflip
+ ETABCDCB  axiom:ETpermutation
+ ETDCBABC  axiom:ETsymmetric
+ ETDCBACB  axiom:ETpermutation
+ ETACBDCB  axiom:ETsymmetric
+ AOBCDBCA  assumption
+  ANBEAMB+RACDM lemma:crossbar2
+  BEAMB
+  RACDM 
+  TRACB
+  PRADCB proposition:39A
+  PRADBC lemma:parallelflip
+ NOAOBCDBCA  reductio
+ AOBCABCD assumption
+  ANBEDMB+RACAM  lemma:crossbar2
+  BEDMB
+  RACAM
+  ETDCBACB  axiom:ETsymmetric
+  PRDACB proposition:39A
+  PRADBC  lemma:parallelflip
+ NOAOBCABCD reductio
+ NOEABCDBCA assumption
+  NCBCA lemma:NCorder
+  NCBCD  lemma:NCorder
+  AOBCDBCA lemma:angletrichotomy2
+ EABCDBCA   reductio 
+ EABCABCD   lemma:equalanglessymmetric
+ EEBCBC  cn:congruencereflexive
+ EADBCABC  lemma:equalanglesflip
+ EAABCDBC  lemma:equalanglessymmetric
+ ANEEABDB+EEACDC+EABACBDC  proposition:26A
+ EEABDB
+ EEACDC
+ SSADBC
+ NEBC  lemma:NCdistinct
+ EQAD  proposition:07
+ NEAD
+PRADBC reductio

@@ -1,0 +1,78 @@
+BEHBK
+PRMBHL
+COLMK
+NOMEMBHL  defn:parallel
+NCMBH  lemma:parallelNC
+NCMHL  lemma:parallelNC
+NEMB  lemma:NCdistinct
+NEHL  lemma:NCdistinct
+NCMLH  lemma:NCorder
+COMLK  lemma:collinearorder
+COHBK  defn:collinear
+EQMM  cn:equalityreflexive
+EQLL  cn:equalityreflexive
+EQBB  cn:equalityreflexive
+EQHH  cn:equalityreflexive
+EQMK  assumption
+ COHBM cn:equalitysub
+ COMBH  lemma:collinearorder
+ COHLH  defn:collinear
+ MEMBHL  defn:meet
+NEMK reductio
+NCMLH lemma:NCorder
+COMLM  defn:collinear
+NCMKH  lemma:NChelper
+NCHMK  lemma:NCorder
+OREQLM|EQLK|EQMK|BEMLK|BELMK|BELKM defn:collinear
+cases BELMK:EQLM|EQLK|EQMK|BEMLK|BELMK|BELKM
+ case 1:EQLM
+  NOBELMK assumption
+   COMBM  defn:collinear
+   COHLL  defn:collinear
+   COHLM  cn:equalitysub
+   MEMBHL  defn:meet
+  BELMK  reductio
+ qedcase
+ case 2: EQLK
+  NOBELMK assumption
+   COHBL  cn:equalitysub
+   COHLB  lemma:collinearorder
+   COMBB  defn:collinear
+   MEMBHL  defn:meet
+  BELMK reductio
+ qedcase
+ case 3: EQMK
+  NOBELMK assumption
+   NEMK   
+  BELMK reductio
+ qedcase
+ case 4:BEMLK
+  NOBELMK assumption
+   NCHKM lemma:NCorder
+   ANBEHEL+BEMEB  postulate:Pasch-inner
+   BEHEL
+   BEMEB
+   COHEL  defn:collinear
+   COMEB  defn:collinear
+   COHLE  lemma:collinearorder
+   COMBE lemma:collinearorder
+   MEMBHL defn:meet
+  BELMK reductio
+ qedcase
+ case 5:BELMK
+  BELMK
+ qedcase
+ case 6:BELKM
+  NOBELMK assumption
+   NCMLH
+   BEMKL  axiom:betweennesssymmetry
+   ANBEHEL+BEMBE  postulate:Pasch-outer
+   BEHEL
+   BEMBE
+   COHEL  defn:collinear
+   COMBE  defn:collinear
+   COHLE  lemma:collinearorder
+   MEMBHL defn:meet 
+  BELMK reductio
+ qedcase
+BELMK cases

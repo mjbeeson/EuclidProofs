@@ -1,0 +1,335 @@
+TRABC
+NCJDK
+MIBEC
+ANBEBEC+EEBEEC  defn:midpoint
+BEBEC
+EEBEEC
+EEEBEC  lemma:congruenceflip
+NCABC  defn:triangle
+COBEC  defn:collinear
+NCBCA  lemma:NCorder
+COBCE  lemma:collinearorder
+EQCC  cn:equalityreflexive
+COBCC  defn:collinear
+NEEC lemma:betweennotequal
+NCECA lemma:NChelper
+ANRAECc+EAfEcJDK+SSfAEC proposition:23C
+SSfAEC
+NCBCA lemma:NCorder
+ANBEPAQ+EAQAEAEB+EAQAEBEA+EAEAQBEA+EAPAEAEC+EAPAECEA+EAEAPCEA+PRPQBC+EEPAEC+EEAQBE+EEAMME+EEPMMC+EEBMMQ+BEPMC+BEBMQ+BEAME  proposition:31
+BEPAQ
+EAPAEAEC
+BEPMC
+BEAME 
+EEPMMC
+EEAMME
+EEBMMQ
+EAAECPAE  lemma:equalanglessymmetric
+NCPAE  lemma:equalanglesNC
+NCEAP  lemma:NCorder
+SSAfEC  lemma:samesidesymmetric
+NCBCA   lemma:NCorder
+COBCE  lemma:collinearorder
+EQBB  cn:equalityreflexive
+EQAA   cn:equalityreflexive
+COBCB defn:collinear
+NEBE lemma:betweennotequal
+NCBEA  lemma:NChelper
+EQCC  cn:equalityreflexive
+COBCC  defn:collinear
+NEEC  lemma:betweennotequal
+NECE lemma:inequalitysymmetric
+NCCEA  lemma:NChelper
+NEEA lemma:NCdistinct
+%Now show Ef has to meet PQ, which Euclid fails to mention
+NOMEEfPQ assumption
+ AOCEfCEA  assumption
+  RAECC  lemma:ray4
+  RAEAA  lemma:ray4
+  ANBEAmC+RAEfm  lemma:crossbar2
+  BEAmC
+  RAEfm
+  BECmA  axiom:betweennesssymmetry
+  BECMP  axiom:betweennesssymmetry
+  BEEMA  axiom:betweennesssymmetry
+  EEMEAM  lemma:congruencesymmetric
+  EEEMAM  lemma:congruenceflip
+  EEMCPM lemma:congruencesymmetric
+  EEMCMP  lemma:congruenceflip
+  ANBEEmF+BEPAF postulate:Euclid5
+  BEEmF
+  BEPAF 
+  COEmF  defn:collinear
+  COmEF  lemma:collinearorder
+  COEfm  lemma:rayimpliescollinear
+  COmEf  lemma:collinearorder
+  NEEm  lemma:betweennotequal
+  NEmE  lemma:inequalitysymmetric
+  COEfF lemma:collinear4
+  COPAF  defn:collinear
+  COPAQ  defn:collinear
+  NEPA  lemma:betweennotequal
+  NEAP lemma:inequalitysymmetric
+  COAPF lemma:collinearorder
+  COAPQ lemma:collinearorder
+  COPFQ lemma:collinear4
+  COPQF lemma:collinearorder
+  NEEf  lemma:ray2
+  NEPQ lemma:betweennotequal
+  MEEfPQ  defn:meet
+ NOAOCEfCEA reductio
+ COECB  lemma:collinearorder
+ NEBE  lemma:betweennotequal
+ NEEB  lemma:inequalitysymmetric
+ SSAfEB  lemma:samesidecollinear
+ SSfAEB  lemma:samesidesymmetric
+ BECEB   axiom:betweennesssymmetry
+ EQAA   cn:equalityreflexive
+ EQff   cn:equalityreflexive
+ NCEBf  defn:sameside
+ NEEf  lemma:NCdistinct
+ COBEC  defn:collinear
+ COEBC  lemma:collinearorder
+ EQEE  cn:equalityreflexive
+ COEBE  defn:collinear 
+ NCECf  lemma:NChelper
+ NCCEf  lemma:NCorder 
+
+ AOCEACEf  assumption
+  RAEAA  lemma:ray4
+  RAEff  lemma:ray4
+  SUCEAAB  defn:supplement
+  SUCEffB  defn:supplement
+  AOfEBAEB  lemma:supplementinequality
+  NCBEf  lemma:NCorder
+  EABEffEB  lemma:ABCequalsCBA
+  AOBEfAEB  lemma:angleorderrespectscongruence2
+  EABEAAEB  lemma:ABCequalsCBA
+  AOBEfBEA  lemma:angleorderrespectscongruence
+  RAEBB  lemma:ray4
+  RAEAA  lemma:ray4
+  ANBEAmB+RAEfm lemma:crossbar2 
+  BEAmB
+  RAEfm
+  BEBmA  axiom:betweennesssymmetry
+  BEBMQ  
+  BEEMA  axiom:betweennesssymmetry
+  EEMEAM  lemma:congruencesymmetric
+  EEEMAM  lemma:congruenceflip
+  EEMBMQ  lemma:congruenceflip
+  NCEAP 
+  NCPAE  lemma:NCorder
+  COPAQ  defn:collinear
+  EQAA  cn:equalityreflexive
+  COPAA  defn:collinear
+  NEAQ  lemma:betweennotequal
+  NEQA  lemma:inequalitysymmetric
+  NCQAE lemma:NChelper
+  NCEAQ  lemma:NCorder
+  ANBEEmF+BEQAF postulate:Euclid5
+  BEEmF
+  BEQAF 
+  COEmF  defn:collinear
+  COmEF  lemma:collinearorder
+  COEfm  lemma:rayimpliescollinear
+  COmEf  lemma:collinearorder
+  NEEm  lemma:betweennotequal
+  NEmE  lemma:inequalitysymmetric
+  COEfF lemma:collinear4
+  COQAF  defn:collinear
+  BEQAP  axiom:betweennesssymmetry
+  COQAP  defn:collinear
+  NEQA  lemma:betweennotequal
+  NEAQ lemma:inequalitysymmetric
+  COAQF lemma:collinearorder
+  COAQP lemma:collinearorder
+  COQFP lemma:collinear4
+  COPQF lemma:collinearorder
+  NEEf  lemma:ray2
+  NEQP lemma:betweennotequal
+  NEPQ  lemma:inequalitysymmetric
+  MEEfPQ  defn:meet 
+ NOAOCEACEf reductio
+ NOEACEACEf  assumption
+  NCCEA 
+  NCCEf
+  AOCEACEf  lemma:angletrichotomy2
+ EACEACEf  reductio
+ % We will show RAEfA so Ef meets PQ in A 
+ ANRAECd+RAEAa+RAECp+RAEfq+EEEdEp+EEEaEq+EEdapq+NCCEA defn:equalangles 
+ RAEAa
+ RAEfq
+ RAECp
+ RAECd
+ EEEdEp
+ EEEaEq
+ EEdapq
+ COPQA  defn:collinear
+ EQdp  lemma:layoffunique
+ EEdadq cn:equalitysub
+ EEadqd lemma:congruenceflip
+ EEaEqE lemma:congruenceflip
+ NEEd  lemma:raystrict
+ SSAfEC
+ COECd  lemma:rayimpliescollinear
+ SSAfEd lemma:samesidecollinear
+ COEdE  defn:collinear
+ COEEd  lemma:collinearorder
+ SSAqEd  lemma:sameside2
+ SSqAEd lemma:samesidesymmetric
+ SSqaEd  lemma:sameside2
+ SSaqEd  lemma:samesidesymmetric
+ EQaq   proposition:07
+ COEAa  lemma:rayimpliescollinear
+ COEfq  lemma:rayimpliescollinear
+ COEAq  cn:equalitysub
+ COqEA  lemma:collinearorder
+ COqEf  lemma:collinearorder
+ NEEq lemma:raystrict
+ NEqE  lemma:inequalitysymmetric
+ COEAf  lemma:collinear4
+ COEfA  lemma:collinearorder
+ NEPQ   lemma:betweennotequal
+ MEEfPQ  defn:meet 
+MEEfPQ  reductio
+ANNEEf+NEPQ+COEfF+COPQF  defn:meet
+NEPQ
+PRPQBC
+COBCE
+NECE  lemma:inequalitysymmetric
+PRPQEC  lemma:collinearparallel
+PRECPQ   lemma:parallelsymmetric
+COPQF
+ANPGFGCE+COPQG lemma:triangletoparallelogram
+PGFGCE
+PGGFEC  lemma:PGflip
+PGFECG  lemma:PGrotate
+COPQF
+COPQG
+COPAQ   defn:collinear
+COPQA   lemma:collinearorder
+PRFECG  defn:parallelogram
+NCFEG  lemma:parallelNC
+NEFG   lemma:NCdistinct
+COFGA  lemma:collinear5
+ETFECAEC   proposition:41
+PRPQCB   lemma:parallelflip
+COCBE   lemma:collinearorder
+NEEB     lemma:inequalitysymmetric
+PRPQEB   lemma:collinearparallel
+PRPQBE   lemma:parallelflip
+COPQA
+EEBEEC   lemma:congruenceflip
+COBEC
+EQEE     cn:equalityreflexive
+COBEE    defn:collinear
+ETABEAEC   proposition:38
+ETAECABE   axiom:ETsymmetric
+ETAECAEB   axiom:ETpermutation
+ETAEBAEC   axiom:ETsymmetric
+EQEE    cn:equalityreflexive
+COAEE  defn:collinear
+NCAEB     lemma:NCorder
+OSBAEC    defn:oppositeside
+PGFECG
+PGEFGC   lemma:PGflip
+TCFECCGF   proposition:34
+ETFECCGF   axiom:congruentequal
+ETFECFCG   axiom:ETpermutation
+ETFCGFEC   axiom:ETsymmetric
+ETFCGFCE   axiom:ETpermutation
+ETFCEFCG   axiom:ETsymmetric
+ANBEEmG+BEFmC  lemma:diagonalsmeet
+BEEmG
+BEFmC
+COFmC  defn:collinear
+COFCm  lemma:collinearorder
+PRFECG   defn:parallelogram
+NCFEC   lemma:parallelNC
+NCFCE   lemma:NCorder
+OSEFCG     defn:oppositeside
+ETFCEFCG
+ETAEBAEC 
+ETFECAEC
+ETAECFEC  axiom:ETsymmetric
+ETAEBFEC  axiom:ETtransitive
+ETAEBFCE  axiom:ETpermutation
+ETAECFEC  axiom:ETsymmetric
+ETFCGFCE  axiom:ETsymmetric
+ETFCGFEC  axiom:ETpermutation
+ETFECFCG  axiom:ETsymmetric
+ETAECFCG axiom:ETtransitive 
+EFABECFECG  axiom:paste3
+RAECc   
+NCFEC  lemma:parallelNC
+NCCEF  lemma:NCorder
+EACEFCEF   lemma:equalanglesreflexive
+COEfF
+SSfAEC
+OREQEf|EQEF|EQfF|BEfEF|BEEfF|BEEFf  defn:collinear
+NEFE lemma:NCdistinct
+NEEF lemma:inequalitysymmetric
+cases RAEFf:EQEf|EQEF|EQfF|BEfEF|BEEfF|BEEFf
+ case 1:EQEf
+  NORAEFf assumption
+   NEEf
+  RAEFf reductio
+ qedcase
+ case 2:EQEF
+  NORAEFf assumption
+   NEEF
+  RAEFf reductio
+ qedcase
+ case 3:EQfF
+  EQFF  cn:equalityreflexive
+  NEEF
+  RAEFF lemma:ray4
+  RAEFf  cn:equalitysub
+ qedcase
+ case 4:BEfEF
+  NORAEFf assumption
+   EQEE  cn:equalityreflexive
+   COECE defn:collinear
+   BEFEf  axiom:betweennesssymmetry
+   NCECF   lemma:NCorder
+   OSFECf  defn:oppositeside
+   OSfECF  lemma:oppositesidesymmetric
+   SSAfEC  lemma:samesidesymmetric
+   OSAECF  lemma:planeseparation
+   ANBEAjF+COECj+NCECA  defn:oppositeside
+   BEAjF
+   COECj
+   COAjF  defn:collinear
+   COPQA
+   COPQF
+   NEPQ  lemma:betweennotequal
+   NEQP lemma:inequalitysymmetric
+   COQAF  lemma:collinear4
+   COAFQ  lemma:collinearorder
+   COQPA lemma:collinearorder
+   COQPF lemma:collinearorder
+   COPAF lemma:collinear4
+   COAFP  lemma:collinearorder
+   COAFj  lemma:collinearorder
+   NEPQ  lemma:betweennotequal
+   NEAF  lemma:betweennotequal
+   COPQj  lemma:collinear5
+   MEPQEC  defn:meet
+   PRPQEC
+   NOMEPQEC  defn:parallel
+  RAEFf reductio
+ qedcase
+ case 5:BEEfF
+  RAEFf  lemma:ray4
+ qedcase
+ case 6:BEEFf
+  RAEFf  lemma:ray4
+ qedcase
+RAEFf cases
+EACEFcEf   lemma:equalangleshelper
+EAFECfEc  lemma:equalanglesflip
+EAfEcJDK
+EAFECJDK  lemma:equalanglestransitive
+EACEFFEC  lemma:ABCequalsCBA
+EACEFJDK  lemma:equalanglestransitive
+ANPGFECG+EFABECFECG+EACEFJDK+COFGA

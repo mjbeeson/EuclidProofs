@@ -1,0 +1,14 @@
+TRABC
+EAABCACB
+NOLTACAB    proposition:06a
+NCABC   defn:triangle
+COACB  assumption
+ COABC  lemma:collinearorder
+NCACB  reductio
+TRACB   defn:triangle
+EAACBABC  lemma:equalanglessymmetric
+NOLTABAC   proposition:06a
+NEAB    lemma:angledistinct
+NEAC    lemma:angledistinct
+EEABAC   lemma:trichotomy1
+

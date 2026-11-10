@@ -1,0 +1,189 @@
+EEEDEC
+EEEDEB
+NCDBC
+NCEDB
+NCEDC
+EEEKEM
+BEKEM
+BEDUB
+BEDVC
+COKMU
+COKMV
+EEECED  lemma:congruencesymmetric
+EEECEB  lemma:congruencetransitive
+EEEBEC  lemma:congruencesymmetric
+EEEBED  lemma:congruencetransitive
+NEDE    lemma:NCdistinct
+NEED    lemma:NCdistinct
+ANBEDEG+EEEGED   lemma:localextension
+BEDEG
+EEEGED
+CODBU   defn:collinear
+CODCV   defn:collinear
+EQDD    cn:equalityreflexive
+CODBD   defn:collinear
+COBDU   lemma:collinearorder
+NEDU    lemma:betweennotequal
+NEUD    lemma:inequalitysymmetric
+NCUDC   lemma:NChelper
+NCCDU   lemma:NCorder
+EQCC    cn:equalityreflexive
+COCDV   lemma:collinearorder
+EQDD    cn:equalityreflexive
+COCDD   defn:collinear
+COCDV   lemma:collinearorder
+NEDV    lemma:betweennotequal
+NCDVU   lemma:NChelper
+NCDUV   lemma:NCorder
+NEUV    lemma:NCdistinct
+COKEM   defn:collinear
+COKME   lemma:collinearorder
+COKMU   
+NEKM    lemma:betweennotequal
+COMEU   lemma:collinear4
+COKMV
+COMEV   lemma:collinear4
+NEEM    lemma:betweennotequal
+NEME    lemma:inequalitysymmetric
+COEUV   lemma:collinear4
+COUVE   lemma:collinearorder
+OREQUV|EQUE|EQVE|BEVUE|BEUVE|BEUEV   defn:collinear
+cases DABECBDC:EQUV|EQUE|EQVE|BEVUE|BEUVE|BEUEV 
+ case 1: EQUV
+  NODABECBDC  assumption
+   NEUV  lemma:NCdistinct   
+  DABECBDC   reductio
+ qedcase 
+ case 2:EQUE
+  NCCDE   lemma:NCorder
+  TRCDE   defn:triangle
+  BEDEG
+  ASECDCDECEG  proposition:32
+  EEEDEC
+  TREDC     defn:triangle
+  ISEDC     defn:isosceles
+  EAEDCECD   proposition:05
+  EACDEDCE   lemma:equalanglesflip 
+  EACDEEDC  lemma:ABCequalsCBA 
+  EAEDCEDC   lemma:equalanglesreflexive
+  EAECDEDC   lemma:equalanglessymmetric
+  ASEDCEDCCEG  lemma:anglesumrespectscongruence
+  BEDUG       cn:equalitysub
+  EEEGED
+  EEEDEB 
+  EEEGEB     lemma:congruencetransitive
+  BEDEG
+  BEDEB      cn:equalitysub
+  EQGB       lemma:extensionunique
+  EQBG       lemma:equalitysymmetric
+  ASEDCEDCCEB  cn:equalitysub
+  NCCEB       lemma:anglesumNC
+  EACEBBEC    lemma:ABCequalsCBA
+  ASEDCEDCBEC  lemma:angleaddition2
+  EQCC        cn:equalityreflexive
+  NEDE        lemma:betweennotequal
+  RADEB       lemma:ray4
+  NEDC        lemma:NCdistinct
+  RADCC       lemma:ray4
+  NCEDC
+  EAEDCEDC    lemma:equalanglesreflexive
+  EAEDCBDC    lemma:equalangleshelper
+  ASBDCBDCBEC  lemma:anglesumrespectscongruence
+  NCBDC      lemma:NCorder 
+  EABDCBDC    lemma:equalanglesreflexive
+  DABECBDC     lemma:sumofequalsisdouble
+ qedcase
+ case 3: EQVE  
+  NCBDE   lemma:NCorder
+  TRBDE   defn:triangle
+  BEDEG
+  ASEBDBDEBEG  proposition:32
+  EEEDEB
+  TREDB     defn:triangle
+  ISEDB     defn:isosceles
+  EAEDBEBD   proposition:05
+  EABDEDBE   lemma:equalanglesflip 
+  EABDEEDB  lemma:ABCequalsCBA 
+  EAEDBEDB   lemma:equalanglesreflexive
+  EAEBDEDB   lemma:equalanglessymmetric
+  ASEDBEDBBEG  lemma:anglesumrespectscongruence
+  BEDVG       cn:equalitysub
+  EEEGED
+  EEEDEC 
+  EEEGEC     lemma:congruencetransitive
+  BEDEG
+  BEDEC      cn:equalitysub
+  EQGC       lemma:extensionunique
+  EQCG       lemma:equalitysymmetric
+  ASEDBEDBBEC  cn:equalitysub
+  EQBB        cn:equalityreflexive
+  NEDE        lemma:betweennotequal
+  RADEC       lemma:ray4
+  NEDB        lemma:NCdistinct
+  RADBB       lemma:ray4
+  NCEDB
+  EAEDBEDB    lemma:equalanglesreflexive
+  EAEDBCDB    lemma:equalangleshelper
+  NCCDB      lemma:NCorder 
+  EACDBBDC     lemma:ABCequalsCBA
+  EAEDBBDC     lemma:equalanglestransitive
+  ASBDCBDCBEC  lemma:anglesumrespectscongruence
+  NCBDC        lemma:NCorder
+  EABDCBDC     lemma:equalanglesreflexive
+  DABECBDC     lemma:sumofequalsisdouble
+ qedcase
+ case 4: BEVUE 
+  DABECBDC    proposition:III.20C
+ qedcase
+ case 5: BEUVE   
+  % like case 4 but switching  B-C  and U-V
+  NCDCB       lemma:NCorder
+  DACEBCDB   proposition:III.20C
+  ASCDBCDBCEB   lemma:doublesum2
+  NCCEB        lemma:anglesumNC
+  EACEBBEC     lemma:ABCequalsCBA
+  NCCDB        lemma:NCorder
+  EACDBBDC     lemma:ABCequalsCBA
+  EABECCEB     lemma:equalanglesflip
+  EACEBBEC     lemma:equalanglessymmetric
+  ASBDCBDCCEB   lemma:anglesumrespectscongruence
+  ASBDCBDCBEC   lemma:angleaddition2
+  DABECBDC     lemma:doublesum
+ qedcase
+ case 6: BEUEV   
+   %  use III20.A getting H by crossbar4
+  NCBDC        lemma:NCorder
+  CODUB        defn:collinear
+  COBDU        lemma:collinearorder
+  EQDD         cn:equalityreflexive
+  COBDD        defn:collinear
+  NEDU         lemma:betweennotequal
+  NCUDC        lemma:NChelper
+  NCDCU        lemma:NCorder
+  CODCD        defn:collinear
+  CODVC        defn:collinear
+  CODCV        lemma:collinearorder
+  NCDVU        lemma:NChelper
+  NCUDV        lemma:NCorder
+  TRUDV        defn:triangle
+  NCBDC        lemma:NCorder
+  BEBUD        axiom:betweennesssymmetry
+  BECVD        axiom:betweennesssymmetry
+  BEUEV 
+  ANBEBHC+BEDEH  lemma:crossbar4
+  BEDEH
+  BEBHC
+  NCCDB       lemma:NCorder
+  NEDE
+  EEEDEC
+  EEEDEB
+  NECB   lemma:NCdistinct
+  NEDB   lemma:NCdistinct
+  NCDBC
+  NCEDB
+  NCEDC
+  BEBHC
+  BEDEH
+  DABECBDC   proposition:III.20A
+ qedcase
+DABECBDC cases  

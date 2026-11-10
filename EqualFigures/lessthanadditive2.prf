@@ -1,0 +1,14 @@
+LTABab
+BEABC
+LTBCbc
+BEabc
+ANBEbec+EEbeBC  defn:lessthan
+BEbec
+EEbeBC
+EEBCbe    lemma:congruencesymmetric
+BEabe     axiom:innertransitivity
+LTACae     lemma:lessthanadditive
+BEaec    lemma:3.5b
+EEaeae    cn:congruencereflexive
+LTaeac     defn:lessthan
+LTACac     lemma:lessthantransitive

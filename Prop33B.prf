@@ -1,0 +1,21 @@
+PRABCD
+EEABCD
+SSACBD
+CRACBD  assumption
+ ANBEAMC+BEBMD  defn:cross
+ BEAMC
+ BEBMD
+ COBMD  defn:collinear
+ COBDM  lemma:collinearorder
+ NCABD  lemma:parallelNC
+ NCBDA   lemma:NCorder
+ ANBEAMC+COBDM+NCBDA
+ OSABDC  defn:oppositeside
+ NOOSABDC lemma:samenotopposite
+NOCRACBD reductio
+CRADCB  lemma:crisscross
+ANBEAmD+BECmB  defn:cross
+BEAmD
+BECmB
+BEBmC  axiom:betweennesssymmetry
+ANPRACBD+EEACBD  proposition:33

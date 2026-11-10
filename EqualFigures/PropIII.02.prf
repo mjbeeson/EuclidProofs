@@ -1,0 +1,143 @@
+CIJDPQ
+ONAJ
+ONBJ
+BEAEB
+EEDADB lemma:radiiequal
+BEBEA axiom:betweennesssymmetry
+EQDD  cn:equalityreflexive
+ICDJ  defn:inside
+cases ICEJ:EQED|NEED
+ case 1:EQED
+  EQDE  lemma:equalitysymmetric
+  ICEJ  cn:equalitysub
+ qedcase
+ case 2:NEED
+  ANCOEDF+BEEDC+ONFJ+ONCJ+BEFDC postulate:line-circle
+  COEDF
+  BEEDC
+  ONFJ
+  ONCJ
+  BEFDC  
+  cases ICEJ:NCDAB|CODAB
+   case 1:NCDAB
+    TRDAB    defn:triangle
+    ISDAB    defn:isosceles
+    EADABDBA proposition:05
+    NEAE  lemma:betweennotequal
+    NEEB  lemma:betweennotequal
+    NEBE  lemma:inequalitysymmetric
+    NEAB  lemma:betweennotequal
+    NEBA  lemma:inequalitysymmetric
+    RAABE  lemma:ray4
+    RABAE  lemma:ray4
+    EQAA   cn:equalityreflexive
+    EQBB   cn:equalityreflexive
+    EQDD   cn:equalityreflexive
+    RABAA  lemma:ray4
+    RAABB  lemma:ray4
+    NEBD   lemma:NCdistinct
+    NEAD   lemma:NCdistinct
+    RABDD  lemma:ray4
+    RAADD  lemma:ray4
+    EADABDBE  lemma:equalangleshelper
+    EADBEDAB  lemma:equalanglessymmetric
+    EADBEDAE  lemma:equalangleshelper
+    NCABD   lemma:NCorder
+    COAEB   defn:collinear
+    COABE   lemma:collinearorder
+    COABA  defn:collinear
+    NCAED   lemma:NChelper
+    NCDAE   lemma:NCorder
+    TRDAE     defn:triangle
+    AOEADDEB proposition:16
+    EADAEEAD  lemma:ABCequalsCBA
+    AODAEDEB  lemma:angleorderrespectscongruence2
+    AODBEDEB lemma:angleorderrespectscongruence2
+    NCDBE   lemma:equalanglesNC
+    NCEBD   lemma:NCorder
+    EAEBDDBE  lemma:ABCequalsCBA
+    AOEBDDEB  lemma:angleorderrespectscongruence2
+    NCABD   lemma:NCorder
+    COABE    lemma:collinearorder
+    EQBB      cn:equalityreflexive
+    COABB     defn:collinear
+    NEEB   lemma:betweennotequal
+    NCEBD   lemma:NChelper
+    NCDEB   lemma:NCorder
+    TRDEB   defn:triangle
+    LTDEDB   proposition:19
+    EEDBDF lemma:radiiequal
+    LTDEDF  lemma:lessthancongruence
+    BEDFE assumption
+     EEDFDF  cn:congruencereflexive
+     LTDFDE  defn:lessthan
+     NOLTDEDF  lemma:trichotomy2
+    NOBEDFE  reductio  % Therefore the straight line AB will not fall outside the circle
+    EQFE  assumption   
+     EEDEDE cn:congruencereflexive
+     EEDEDF cn:equalitysub
+     LTDFDF  lemma:lessthancongruence2
+     NOLTDFDF  lemma:trichotomy2
+    NEFE   reductio
+    COEDF
+    BEFDC
+    BEEDC
+    OREQED|EQEF|EQDF|BEDEF|BEEDF|BEEFD  defn:collinear
+    NEFD  lemma:betweennotequal
+    cases ICEJ:EQED|EQEF|EQDF|BEDEF|BEEDF|BEEFD
+     case 1:EQED
+      NOICEJ assumption 
+       NEED lemma:betweennotequal
+      ICEJ reductio
+     qedcase
+     case 2:EQEF
+      NOICEJ assumption
+       NEEF lemma:inequalitysymmetric
+      ICEJ reductio
+     qedcase
+     case 3:EQDF
+      NOICEJ assumption
+       NEDF lemma:inequalitysymmetric
+      ICEJ reductio
+     qedcase
+     case 4:BEDEF
+      EEDEDE cn:congruencereflexive
+      EEDFPQ axiom:circle-center-radius
+      ANBEDEF+EEDFPQ+EEDEDE
+      ICEJ  defn:inside
+    qedcase
+     case 5:BEEDF
+      BECDF axiom:betweennesssymmetry
+      BECDE axiom:betweennesssymmetry
+      NOBEDEF assumption
+       EQEF  lemma:outerconnectivity
+       NEEF lemma:betweennotequal
+      BEDEF  reductio
+      BEFED  axiom:betweennesssymmetry
+      BEFDE  axiom:betweennesssymmetry
+      BEEDE  lemma:3.6a
+      NOICEJ assumption
+       NOBEEDE axiom:betweennessidentity
+      ICEJ  reductio
+     qedcase
+     case 6:BEEFD
+      BEDFE  axiom:betweennesssymmetry
+      NOICEJ assumption
+       NOBEDFE
+      ICEJ reductio
+     qedcase
+    ICEJ cases
+   qedcase
+   case 2:CODAB   
+    COABD  lemma:collinearorder
+    NEAB   lemma:betweennotequal
+    EEADDB lemma:congruenceflip
+    BEADB  lemma:collinearmidpoint
+    BEAEB
+    EEDBPQ  axiom:circle-center-radius
+    EEDAPQ  axiom:circle-center-radius
+    ICEJ   lemma:ondiameter
+   qedcase
+  ICEJ cases
+ qedcase
+ICEJ cases

@@ -1,0 +1,384 @@
+PGABCD
+PGEBCF
+COADE
+COADF
+ANPRABCD+PRADBC  defn:parallelogram
+ANPREBCF+PREFBC  defn:parallelogram
+PRABCD
+PRADBC
+PREBCF
+PREFBC
+PRABDC  lemma:parallelflip
+PREBFC   lemma:parallelflip
+PRFCEB  lemma:parallelsymmetric
+EEADBC   proposition:34
+EEEFBC   proposition:34
+EEBCEF   lemma:congruencesymmetric
+EEADEF   lemma:congruencetransitive
+NEAD  defn:parallel
+NEEF  defn:parallel
+NEDA  lemma:inequalitysymmetric
+NOEFABCDEBCF  assumption
+ BEADF  assumption 
+  COADF  defn:collinear
+  COADE
+  CODAF  lemma:collinearorder
+  CODAE  lemma:collinearorder
+  COAFE  lemma:collinear4
+  COAEF  lemma:collinearorder
+  EFABCDEBCF proposition:35A
+ NOBEADF  reductio
+ BEADE  assumption
+  ANBEBHE+BECHD  lemma:parallelPasch
+  BEBHE
+  BECHD
+  BEDHC  axiom:betweennesssymmetry
+  COBHE  defn:collinear
+  COBEH  lemma:collinearorder
+  NCADB  lemma:parallelNC
+  COADE  defn:collinear
+  EQDD  cn:equalityreflexive
+  COADD  defn:collinear
+  NEDE lemma:betweennotequal
+  NCDEB  lemma:NChelper
+  NCBED  lemma:NCorder
+  ANBEDHC+COBEH+NCBED
+  OSDBEC  defn:oppositeside
+  OSCBED  lemma:oppositesidesymmetric
+  PRFCBE  lemma:parallelflip
+  PRBEFC   lemma:parallelsymmetric
+  TPBEFC lemma:paralleldef2B
+  SSFCBE  defn:tarski_parallel
+  OSFBED lemma:planeseparation
+  ANBEFeD+COBEe+NCBEF  defn:oppositeside
+  BEFeD
+  NEFD  lemma:betweennotequal
+  COFeD  defn:collinear
+  NEeE  assumption
+   COBEe
+   COADE
+   COADF
+   NEAD   lemma:betweennotequal
+   CODEF  lemma:collinear4
+   COFDE  lemma:collinearorder
+   COFDe  lemma:collinearorder
+   CODEe  lemma:collinear4 
+   COeED  lemma:collinearorder
+   COeEB  lemma:collinearorder
+   COEDB  lemma:collinear4
+   COBED   lemma:collinearorder
+   NCBED
+  EQeE  reductio
+  BEFED  cn:equalitysub
+  BEDEF  axiom:betweennesssymmetry
+  BEADE
+  BEADF  lemma:3.7b
+  NOBEADF
+ NOBEADE reductio
+ PRBADC  lemma:parallelflip
+ PRDCBA  lemma:parallelsymmetric
+ PRDACB  lemma:parallelflip
+ PGDCBA  defn:parallelogram
+ PRBEFC  lemma:parallelflip
+ PRFCBE  lemma:parallelsymmetric
+ PRFECB   lemma:parallelflip
+ PGFCBE  defn:parallelogram
+ BEEAD  assumption 
+  BEDAE  axiom:betweennesssymmetry
+  CODAE  defn:collinear
+  COADE  lemma:collinearorder
+  NEAD  lemma:betweennotequal
+  CODEF  lemma:collinear4
+  CODFE  lemma:collinearorder
+  EFDCBAFCBE proposition:35A
+  EFDCBAEBCF axiom:EFpermutation
+  EFEBCFDCBA axiom:EFsymmetric
+  EFEBCFABCD axiom:EFpermutation
+  EFABCDEBCF axiom:EFsymmetric
+ NOBEEAD  reductio
+ BEDAF  assumption
+  ANBECHF+BEBHA  lemma:parallelPasch
+  BECHF
+  BEBHA
+  BEAHB  axiom:betweennesssymmetry
+  COCHF  defn:collinear
+  COCFH  lemma:collinearorder
+  NCDAC  lemma:parallelNC
+  CODAF  defn:collinear
+  EQAA  cn:equalityreflexive
+  CODAA  defn:collinear
+  NEAF lemma:betweennotequal
+  NCAFC  lemma:NChelper
+  NCCFA  lemma:NCorder
+  ANBEAHB+COCFH+NCCFA
+  OSACFB  defn:oppositeside
+  OSBCFA  lemma:oppositesidesymmetric
+  PREBCF  lemma:parallelflip
+  PRCFEB   lemma:parallelsymmetric
+  TPCFEB lemma:paralleldef2B
+  SSEBCF  defn:tarski_parallel
+  OSECFA lemma:planeseparation
+  ANBEEeA+COCFe+NCCFE  defn:oppositeside
+  BEEeA
+  NEEA  lemma:betweennotequal
+  NEeF  assumption
+   COCFe
+   CODAF
+   CODAE  lemma:collinearorder
+   NEDA   lemma:betweennotequal
+   COAFE  lemma:collinear4
+   COEAF  lemma:collinearorder
+   COEeA  defn:collinear
+   COEAe  lemma:collinearorder
+   COAFe  lemma:collinear4 
+   COeFA  lemma:collinearorder
+   COeFC  lemma:collinearorder
+   COFAC  lemma:collinear4
+   COCFA   lemma:collinearorder
+   NCCFA
+  EQeF  reductio
+  BEEFA  cn:equalitysub
+  BEAFE  axiom:betweennesssymmetry
+  BEDAF
+  BEDAE  lemma:3.7b
+  BEEAD  axiom:betweennesssymmetry
+  NOBEEAD
+ NOBEDAF reductio
+ COADF
+ OREQAD|EQAF|EQDF|BEDAF|BEADF|BEAFD defn:collinear
+ COADE
+ OREQAD|EQAE|EQDE|BEDAE|BEADE|BEAED  defn:collinear
+ EQAF  assumption
+  OREQFD|EQFE|EQDE|BEDAE|BEADE|BEAED  cn:equalitysub
+  cases NEAF:EQFD|EQFE|EQDE|BEDAE|BEADE|BEAED
+   case 1:EQFD
+    EQAD cn:equalitysub
+    EQAF assumption
+     NEAD
+    NEAF reductio
+   qedcase
+   case 2:EQFE
+    EQAF assumption
+     NEEF
+     NEFE lemma:inequalitysymmetric
+    NEAF reductio
+   qedcase
+   case 3:EQDE
+    EQAF assumption
+     ANBEEpC+BEBpF  lemma:diagonalsmeet
+     BEEpC
+     BEBpF
+     COEpC  defn:collinear
+     COBpF  defn:collinear
+     COFBp  lemma:collinearorder
+     COECp  lemma:collinearorder
+     NCEFC  lemma:parallelNC
+     NEEC   lemma:NCdistinct
+     NCEFB  lemma:parallelNC
+     NEFB   lemma:NCdistinct
+     ANNEEC+NEFB+COECp+COFBp
+     MEECFB defn:meet
+     MEDCFB  cn:equalitysub
+     MEDCAB  cn:equalitysub
+     PRDCAB  lemma:parallelsymmetric
+     NOMEDCAB  defn:parallel
+    NEAF reductio
+   qedcase
+   case 4:BEDAE
+    EQAF assumption
+     BEEAD  axiom:betweennesssymmetry
+     NOBEEAD
+    NEAF reductio
+   qedcase
+   case 5:BEADE
+    EQAF assumption
+     NOBEADE
+    NEAF reductio
+   qedcase
+   case 6:BEAED
+    EQAF assumption
+     EEAEAE  cn:congruencereflexive
+     EEFEAE  cn:equalitysub
+     EEAEFE  lemma:congruencesymmetric
+     LTFEAD  defn:lessthan
+     EEADEF
+     LTFEEF lemma:lessthancongruence
+     EEEFFE cn:equalityreverse
+     LTFEFE  lemma:lessthancongruence
+     NOLTFEFE  lemma:trichotomy2
+    NEAF reductio
+   qedcase
+  NEAF cases
+ NEAF  reductio
+ EQDF  assumption
+  OREQAF|EQAE|EQFE|BEDAE|BEADE|BEAED  cn:equalitysub
+   cases NEDF:EQAF|EQAE|EQFE|BEDAE|BEADE|BEAED
+    case 1:EQAF
+     EQDF assumption
+      NEAF
+     NEDF reductio
+    qedcase
+    case 2:EQAE
+     EQDF  assumption
+      ANBEAMC+BEBMD  lemma:diagonalsmeet
+      BEAMC
+      BEBMD 
+      COABC   assumption
+       EQCC    cn:equalityreflexive
+       COCDC   defn:collinear
+       NEAB   defn:parallel
+       NECD   defn:parallel
+       MEABCD  defn:meet
+       NOMEABCD  defn:parallel
+      NCABC   reductio
+      EFABCDABCD lemma:EFreflexive
+      EFABCDEBCD  cn:equalitysub
+      EFABCDEBCF  cn:equalitysub
+     NEDF reductio
+    qedcase
+    case 3:EQFE
+     EQDF assumption
+      EQFE cn:equalitysub
+      EQEF  lemma:equalitysymmetric
+     NEDF reductio
+    qedcase
+    case 4:BEDAE
+     EQDF assumption
+      BEEAD axiom:betweennesssymmetry
+      NOBEEAD
+     NEDF reductio
+    qedcase
+    case 5:BEADE
+     EQDF assumption
+      NOBEADE
+     NEDF reductio
+    qedcase
+    case 6:BEAED
+     EQDF assumption
+      BEDEA axiom:betweennesssymmetry
+      EEDEDE  cn:congruencereflexive
+      LTDEDA  defn:lessthan
+      EEDEFE  cn:equalitysub
+      LTFEDA  lemma:lessthancongruence2
+      EEFEEF  cn:equalityreverse
+      LTEFDA  lemma:lessthancongruence2
+      EEDAAD  cn:equalityreverse
+      LTEFAD  lemma:lessthancongruence
+      EEADEF  
+      LTEFEF  lemma:lessthancongruence
+      NOLTEFEF  lemma:trichotomy2
+     NEDF reductio
+    qedcase
+   NEDF cases
+  NEDF reductio
+ cases BEAFD:EQAD|EQAF|EQDF|BEDAF|BEADF|BEAFD
+  case 1:EQAD
+   NOBEAFD assumption
+    NEAD
+   BEAFD reductio
+  qedcase
+  case 2:EQAF
+   NOBEAFD assumption
+    NEAF
+   BEAFD reductio
+  qedcase
+  case 3:EQDF
+   NOBEAFD assumption
+    NEDF
+   BEAFD reductio
+  qedcase
+  case 4:BEDAF
+   NOBEAFD assumption
+    NOBEDAF
+   BEAFD reductio
+  qedcase
+  case 5:BEADF
+   NOBEAFD assumption
+    NOBEADF
+   BEAFD reductio
+  qedcase
+  case 6:BEAFD
+   BEAFD
+  qedcase
+ BEAFD cases 
+ cases BEAED:EQAD|EQAE|EQDE|BEDAE|BEADE|BEAED
+  case 1:EQAD
+   NOBEAED assumption
+    NEAD  
+   BEAED reductio
+  qedcase
+  case 2:EQAE
+   NOBEAED assumption
+    BEAFD
+    EEAFAF cn:congruencereflexive
+    EEAFEF  cn:equalitysub
+    LTEFAD  defn:lessthan
+    EEADEF 
+    LTEFEF lemma:lessthancongruence
+    NOLTEFEF lemma:trichotomy2
+   BEAED reductio
+  qedcase
+  case 3:EQDE
+   NOBEAED assumption
+    BEDFA  axiom:betweennesssymmetry
+    EEDFDF  cn:congruencereflexive
+    LTDFDA  defn:lessthan
+    LTEFDA  cn:equalitysub
+    EEDAEF  lemma:congruenceflip
+    LTEFEF  lemma:lessthancongruence
+    NOLTEFEF lemma:trichotomy2
+   BEAED reductio
+  qedcase
+  case 4:BEDAE
+   NOBEAED assumption
+    BEEAD axiom:betweennesssymmetry
+    NOBEEAD
+   BEAED reductio
+  qedcase
+  case 5:BEADE
+   NOBEAED assumption
+    NOBEADE
+   BEAED reductio
+  qedcase
+  case 6:BEAED
+   BEAED
+  qedcase
+ BEAED cases
+ BEAEF assumption
+  BEEFD  lemma:3.6a
+  EEEFEF  cn:congruencereflexive
+  LTEFED  defn:lessthan
+  BEAED
+  BEDEA  axiom:betweennesssymmetry
+  EEDEDE cn:congruencereflexive
+  LTDEDA defn:lessthan
+  EEEDDE  cn:equalityreverse
+  LTEFDE  lemma:lessthancongruence
+  LTEFDA  lemma:lessthantransitive
+  EEDAAD cn:equalityreverse
+  LTEFAD lemma:lessthancongruence
+  LTEFEF lemma:lessthancongruence
+  NOLTEFEF lemma:trichotomy2
+ NOBEAEF reductio
+ BEAFE assumption
+  BEFED lemma:3.6a
+  EEFEFE  cn:congruencereflexive
+  LTFEFD defn:lessthan
+  BEAFD
+  BEDFA  axiom:betweennesssymmetry
+  EEDFDF cn:congruencereflexive
+  LTDFDA defn:lessthan
+  EEFDDF  cn:equalityreverse
+  LTFEDF  lemma:lessthancongruence
+  LTFEDA  lemma:lessthantransitive
+  EEDAAD cn:equalityreverse
+  LTFEAD lemma:lessthancongruence
+  EEADFE  lemma:congruenceflip
+  LTFEFE lemma:lessthancongruence
+  NOLTFEFE lemma:trichotomy2
+ NOBEAFE reductio
+ EQEF  axiom:connectivity
+ NEEF
+EFABCDEBCF reductio
+
+ 

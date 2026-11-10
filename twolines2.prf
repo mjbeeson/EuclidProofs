@@ -1,0 +1,62 @@
+NEAB
+NECD
+COPAB
+COPCD
+COQAB
+COQCD
+NOANCOACD+COBCD
+NEBA   lemma:inequalitysymmetric 
+NEDC   lemma:inequalitysymmetric
+NEPQ   assumption
+CODCP  lemma:collinearorder
+CODCQ  lemma:collinearorder
+COCPQ  lemma:collinear4
+COABP  lemma:collinearorder
+COABQ  lemma:collinearorder
+COBPQ  lemma:collinear4
+COPQB  lemma:collinearorder
+COCPQ
+COPQC  lemma:collinearorder
+COQCB   lemma:collinear4
+COQCD  lemma:collinearorder
+EQQC   assumption
+ COCPD lemma:collinearorder
+ COQPB  lemma:collinearorder
+ COBAQ  lemma:collinearorder
+ COBAP  lemma:collinearorder
+ COAQP  lemma:collinear4
+ COQPA  lemma:collinearorder
+ COCPB  cn:equalitysub
+ COCPA  cn:equalitysub
+ COPCA  lemma:collinearorder
+ COPCB  lemma:collinearorder
+ COPCD lemma:collinearorder
+ EQPC   assumption
+  EQPQ   cn:equalitysub
+ NEPC   reductio
+ COCDA  lemma:collinear4
+ COCDB  lemma:collinear4
+ COACD  lemma:collinearorder
+ COBCD  lemma:collinearorder
+ ANCOACD+COBCD
+NEQC  reductio
+COCBD  lemma:collinear4
+COBCD  lemma:collinearorder
+EQBA   assumption
+EQAB   lemma:equalitysymmetric
+NEBA   reductio
+COBAP  lemma:collinearorder
+COBAQ  lemma:collinearorder
+COAPQ  lemma:collinear4
+COPQA  lemma:collinearorder
+COCPQ
+COPQC  lemma:collinearorder
+COQCA   lemma:collinear4
+COQCD  lemma:collinearorder
+COCAD  lemma:collinear4
+COACD  lemma:collinearorder
+ANCOACD+COBCD
+EQPQ   reductio
+
+
+

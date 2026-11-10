@@ -1,0 +1,101 @@
+BEAHC
+NCABC
+EAABHHBC
+RRPSR
+NEBC   lemma:NCdistinct
+NEBA   lemma:NCdistinct
+ANRABCQ+EEBQBA  lemma:layoff
+RABCQ
+EEBQBA
+TRABC   defn:triangle
+EQAA   cn:equalityreflexive
+RABAA   lemma:ray4
+ANRABHM+BEAMQ lemma:crossbar
+RABHM
+RABMH     lemma:ray5
+BEAMQ
+COABH           assumption
+ COHAB         lemma:collinearorder
+ COAHC         defn:collinear
+ COHAC         lemma:collinearorder
+ NEAH          lemma:betweennotequal
+ NEHA          lemma:inequalitysymmetric
+ COABC         lemma:collinear4
+NCABH           reductio
+EAABHABH  lemma:equalanglesreflexive
+EAABHABM   lemma:equalangleshelper
+COBCQ     lemma:rayimpliescollinear
+COQBC     lemma:collinearorder
+EEBABQ    lemma:congruencesymmetric
+NEBQ      axiom:nocollapse
+NEQB      lemma:inequalitysymmetric
+COMBQ  assumption
+ COAMQ     defn:collinear
+ COMQA     lemma:collinearorder
+ COMQB     lemma:collinearorder
+ NEMQ      lemma:betweennotequal
+ COQAB     lemma:collinear4
+ COQBA     lemma:collinearorder
+ COBCA     lemma:collinear4
+ COABC     lemma:collinearorder
+ NCABC
+NCMBQ      reductio
+COHBC      assumption
+ COHCB      lemma:collinearorder
+ COAHC     defn:collinear
+ COHCA     lemma:collinearorder
+ NEHC      lemma:betweennotequal
+ COCBA     lemma:collinear4
+ COABC     lemma:collinearorder
+NCHBC       reductio
+EAHBCHBC   lemma:equalanglesreflexive
+EAHBCMBQ   lemma:equalangleshelper
+EAABMABH  lemma:equalanglessymmetric
+EAABMHBC  lemma:equalanglestransitive
+EAABMMBQ   lemma:equalanglestransitive
+NCQBM      lemma:NCorder
+EAQBMMBQ   lemma:ABCequalsCBA
+EAMBQQBM   lemma:equalanglessymmetric
+EAABMQBM   lemma:equalanglestransitive
+EEBABQ     lemma:congruencesymmetric
+EEBMBM     cn:congruencereflexive
+EEAMQM     proposition:04
+BEQMA      axiom:betweennesssymmetry
+EEQMAM     lemma:congruencesymmetric
+EEBABQ     lemma:congruencesymmetric
+EEABQB     lemma:congruenceflip
+EEQBAB     lemma:congruencesymmetric
+EQMB       assumption
+ COAMQ      defn:collinear
+ COABQ     cn:equalitysub
+ COQBC     
+ COQBA     lemma:collinearorder
+ NEQB 
+ COBCA     lemma:collinear4
+ COABC     lemma:collinearorder     
+NEMB       reductio
+RRQMB      defn:rightangle
+LTQMQB     lemma:legsmallerhypotenuse
+NCQMB      lemma:NCorder
+TRQMB      defn:triangle
+AOMBQQMB   proposition:18 
+EAPSRQMB   lemma:Euclid4
+AOMBQPSR  lemma:angleorderrespectscongruence
+EAMBAMBQ   lemma:equalanglesflip
+AOMBAPSR   lemma:angleorderrespectscongruence2
+EAABMABH
+EAABHABM   lemma:equalanglessymmetric
+NCQBM
+NCMBQ     lemma:NCorder
+COAMQ      defn:collinear
+COQMA      lemma:collinearorder
+COABM     assumption
+ COAMB     lemma:collinearorder
+ COAMQ     defn:collinear
+ NEAM      lemma:betweennotequal
+ COMBQ     lemma:collinear4
+NCABM    reductio
+EAABMMBA    lemma:ABCequalsCBA
+EAABHMBA   lemma:equalanglestransitive
+AOABHPSR   lemma:angleorderrespectscongruence2
+

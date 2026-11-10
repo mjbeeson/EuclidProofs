@@ -1,0 +1,13 @@
+BEADB
+EEACAD
+EEBDBC
+EEADAD   cn:congruencereflexive
+EEDBDB   cn:congruencereflexive
+EEBCBD   lemma:congruencesymmetric
+EEACAD
+EEDCDD   lemma:interior5
+NEDC  assumption
+ NEDD    axiom:nocollapse
+ EQDD    cn:equalityreflexive
+EQDC     reductio
+EQCD     lemma:equalitysymmetric

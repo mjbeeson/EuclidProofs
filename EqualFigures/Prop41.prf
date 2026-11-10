@@ -1,0 +1,22 @@
+PGABCD
+COADE
+PRABCD  defn:parallelogram
+NCABC  lemma:parallelNC
+TRABC  defn:triangle
+cases ETABCEBC:EQAE|NEAE
+ case 1:EQAE
+  ETABCABC lemma:ETreflexive
+  ETABCEBC cn:equalitysub
+ qedcase
+ case 2:NEAE
+  PRADBC  defn:parallelogram
+  CODAE  lemma:collinearorder
+  PRBCAD lemma:parallelsymmetric
+  PRBCDA lemma:parallelflip
+  NEEA  lemma:inequalitysymmetric
+  PRBCEA lemma:collinearparallel
+  PRBCAE lemma:parallelflip
+  PRAEBC lemma:parallelsymmetric
+  ETABCEBC  proposition:37
+ qedcase
+ETABCEBC cases

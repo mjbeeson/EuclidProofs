@@ -1,0 +1,28 @@
+TGAaBbCc
+ANBEAaH+EEaHBb+LTCcAH  defn:togethergreater
+BEAaH 
+EEaHBb
+LTCcAH
+NEAa   lemma:betweennotequal
+NEaA   lemma:inequalitysymmetric
+NEaH   lemma:betweennotequal
+NEBb   axiom:nocollapse
+ANBEaAh+EEAhBb   lemma:extension
+EEAaaA   cn:equalityreverse
+EEaHBb
+EEAhBb
+EEBbAh  lemma:congruencesymmetric
+EEaHAh  lemma:congruencetransitive
+BEAaH
+BEaAh
+EEAHah  cn:sumofparts
+LTCcah  lemma:lessthancongruence
+TGaABbCc defn:togethergreater
+EECccC   cn:equalityreverse
+LTcCAH   lemma:lessthancongruence2
+TGAaBbcC  defn:togethergreater
+ANTGaABbCc+TGAaBbcC
+
+
+
+

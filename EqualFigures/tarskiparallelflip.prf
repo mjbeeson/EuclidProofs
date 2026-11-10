@@ -1,0 +1,46 @@
+TPABCD
+ANNEAB+NECD+NOMEABCD+SSCDAB  defn:tarski_parallel
+NEAB
+NECD
+NOMEABCD
+SSCDAB
+SSDCAB  lemma:samesidesymmetric
+NEDC  lemma:inequalitysymmetric
+MEABDC assumption
+ ANNEAB+NEDC+COABT+CODCT defn:meet
+ NEAB
+ NEDC
+ COABT
+ CODCT
+ COCDT lemma:collinearorder
+ NECD  lemma:inequalitysymmetric
+ ANNEAB+NECD+COABT+COCDT
+ MEABCD defn:meet
+NOMEABDC reductio
+ANNEAB+NEDC+NOMEABDC+SSDCAB
+TPABDC defn:tarski_parallel
+MEBACD assumption
+ ANNEBA+NECD+COBAT+COCDT defn:meet
+ NECD
+ COBAT
+ COCDT
+ COABT lemma:collinearorder
+ MEABCD defn:meet
+NOMEBACD reductio
+NEBA lemma:inequalitysymmetric
+SSCDBA lemma:samesidesymmetric
+SSDCBA lemma:samesidesymmetric
+ANNEBA+NECD+NOMEBACD+SSCDBA
+TPBACD defn:tarski_parallel
+MEBADC assumption
+ ANNEBA+NEDC+COBAT+CODCT defn:meet
+ NECD
+ COBAT
+ CODCT
+ COABT lemma:collinearorder
+ COCDT lemma:collinearorder
+ MEABCD defn:meet
+NOMEBADC reductio
+ANNEBA+NEDC+NOMEBADC+SSDCBA
+TPBADC defn:tarski_parallel
+ANTPBACD+TPABDC+TPBADC

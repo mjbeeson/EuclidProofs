@@ -1,0 +1,9 @@
+PGABCD
+ANPRABCD+PRADBC  defn:parallelogram
+PRABCD
+PRADBC
+PRCDAB  lemma:parallelsymmetric
+PRBCAD  lemma:parallelsymmetric
+PRCBDA  lemma:parallelflip
+ANPRCDAB+PRCBDA 
+PGCDAB defn:parallelogram

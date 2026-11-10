@@ -1,0 +1,169 @@
+PGABCD
+PGEBCF
+BEADF
+COAEF
+ANPRABCD+PRADBC  defn:parallelogram
+ANPREBCF+PREFBC  defn:parallelogram
+PRABCD
+PRADBC
+PREBCF
+PREFBC
+PRABDC  lemma:parallelflip
+PREBFC   lemma:parallelflip
+EEADBC   proposition:34
+EEEFBC   proposition:34
+EEBCEF   lemma:congruencesymmetric
+EEADEF   lemma:congruencetransitive
+COADF   defn:collinear
+COFAE   lemma:collinearorder
+COFAD   lemma:collinearorder
+NEAF  lemma:betweennotequal
+NEFA  lemma:inequalitysymmetric
+COAED  lemma:collinear4
+ANBEAMC+BEBMD  lemma:diagonalsmeet
+BEAMC
+BEBMD
+BEDMB  axiom:betweennesssymmetry
+BEBMD  axiom:betweennesssymmetry
+ANBEEmC+BEBmF  lemma:diagonalsmeet
+NCADB  lemma:parallelNC
+COADF  defn:collinear
+EQAA  cn:equalityreflexive
+COADA  defn:collinear
+NCAFB lemma:NChelper
+ANBEBQF+BEAMQ  postulate:Pasch-outer
+BEBQF
+BEAMQ
+COAMQ  defn:collinear
+COAMC  defn:collinear
+COMAQ  lemma:collinearorder
+COMAC  lemma:collinearorder
+NEAM  lemma:betweennotequal
+NEMA  lemma:inequalitysymmetric
+COAQC lemma:collinear4
+EQAA  cn:equalityreflexive
+EQCC cn:equalityreflexive
+COFAA defn:collinear
+COCCB defn:collinear
+NEAF  lemma:betweennotequal
+NEFA  lemma:inequalitysymmetric
+NEBC  defn:parallel
+NECB  lemma:inequalitysymmetric
+MEFACB  assumption
+ ANNEFA+NECB+COFAp+COCBp defn:meet
+ NEFA
+ COFAp
+ COCBp
+ COADF  defn:collinear
+ COFAD  lemma:collinearorder
+ NEAD lemma:betweennotequal
+ COADp  lemma:collinear4
+ COBCp lemma:collinearorder
+ ANNEAD+NEBC+COADp+COBCp
+ MEADBC  defn:meet
+ NOMEADBC defn:parallel
+NOMEFACB reductio
+BEFQB  axiom:betweennesssymmetry
+COACQ  lemma:collinearorder
+BEAQC  lemma:collinearbetween
+BECQA  axiom:betweennesssymmetry
+EQAE assumption
+ EEAFAF  cn:congruencereflexive
+ EEAFEF  cn:equalitysub
+ EEADEF 
+ EEEFAD  lemma:congruencesymmetric
+ EEAFAD  lemma:congruencetransitive
+ EEADAF  lemma:congruencesymmetric
+ BEADF
+ EEADAD  cn:congruencereflexive
+ LTADAF  defn:lessthan
+ LTAFAF  lemma:lessthancongruence2
+ NOLTAFAF lemma:trichotomy2
+NEAE reductio
+BEAFE  assumption
+ BEEFA axiom:betweennesssymmetry
+ NCADC  lemma:parallelNC
+ COADE  lemma:collinearorder
+ NEAE
+ NCAEC  lemma:NChelper
+ NCCAE  lemma:NCorder
+ ANBECrF+BEErQ  postulate:Pasch-inner
+ BECrF
+ BEErQ
+ BEFQB
+ NCEBF  lemma:parallelNC
+ NCFBE  lemma:NCorder
+ ANBEEHB+BEFrH postulate:Pasch-outer
+ BEEHB
+ BEFrH
+ COEHB  defn:collinear
+ COFrH  defn:collinear
+ COEBH   lemma:collinearorder
+ COCrF  defn:collinear
+ COrFC  lemma:collinearorder
+ COrFH  lemma:collinearorder
+ NErF  lemma:betweennotequal
+ COFCH  lemma:collinear4
+ PREBFC
+ NEBE  lemma:NCdistinct
+ NEEB  lemma:inequalitysymmetric
+ NEFC   defn:parallel
+ ANNEEB+NEFC+COEBH+COFCH
+ MEEBFC  defn:meet
+ NOMEEBFC  defn:parallel
+NOBEAFE  reductio
+COAFE  lemma:collinearorder
+OREQAF|EQAE|EQFE|BEFAE|BEAFE|BEAEF  defn:collinear
+cases BEAEF:EQAF|EQAE|EQFE|BEFAE|BEAFE|BEAEF
+ case 1:EQAF
+  NOBEAEF assumption
+   BEADF
+   BEADA  cn:equalitysub
+   NOBEADA axiom:betweennessidentity
+  BEAEF reductio
+ qedcase
+ case 2:EQAE
+  NOBEAEF assumption
+   NEAE
+  BEAEF reductio
+ qedcase
+ case 3:EQFE
+  NOBEAEF assumption
+   EQEF  lemma:equalitysymmetric
+   COBEF  defn:collinear
+   COEBF  lemma:collinearorder
+   EQFF   cn:equalityreflexive
+   COFCF  defn:collinear
+   NEEB  defn:parallel
+   NEFC  defn:parallel
+   ANNEEB+NEFC+COEBF+COFCF
+   MEEBFC   defn:meet 
+   NOMEEBFC defn:parallel
+  BEAEF reductio
+ qedcase
+ case 4:BEFAE
+  NOBEAEF assumption
+   EEADAD  cn:congruencereflexive
+   LTADAF  defn:lessthan
+   EEADDA  cn:equalityreverse
+   LTDAAF  lemma:lessthancongruence2
+   EEAFFA  cn:equalityreverse
+   LTDAFA  lemma:lessthancongruence
+   EEFAFA  cn:congruencereflexive
+   LTFAFE   defn:lessthan
+   LTDAFE   lemma:lessthantransitive
+   EEDAFE   lemma:congruenceflip
+   LTFEFE   lemma:lessthancongruence2
+   NOLTFEFE  lemma:trichotomy2
+  BEAEF reductio
+ qedcase
+ case 5:BEAFE
+  NOBEAEF assumption
+   NOBEAFE
+  BEAEF reductio
+ qedcase
+ case 6:BEAEF
+  BEAEF
+ qedcase
+BEAEF cases
+ 

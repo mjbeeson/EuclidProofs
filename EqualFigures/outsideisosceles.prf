@@ -1,0 +1,55 @@
+TREBD
+EEEBED
+BEPBD
+BEDBP   axiom:betweennesssymmetry
+NCEBD   defn:triangle
+NCEDB   lemma:NCorder
+NCDBE   lemma:NCorder
+EQBB    cn:equalityreflexive
+CODBB    defn:collinear
+CODBP    defn:collinear
+NEBP    lemma:betweennotequal
+NEPB    lemma:inequalitysymmetric
+NCPBE    lemma:NChelper
+NCEPB    lemma:NCorder  
+TREPB    defn:triangle
+AOBPEEBD   proposition:16
+EADBEEBD   lemma:ABCequalsCBA
+AOBPEDBE  lemma:angleorderrespectscongruence
+NCEBD    lemma:NCorder
+TREBD    defn:triangle
+ISEBD    defn:isosceles
+EAEBDEDB  proposition:05
+EAEBDDBE  lemma:ABCequalsCBA
+EADBEEDB  lemma:equalanglestransitive
+EAEDBDBE  lemma:equalanglessymmetric
+AOBPEEDB  lemma:angleorderrespectscongruence
+NCBPE     lemma:NCorder
+EABPEBPE  lemma:equalanglesreflexive
+BEPBD     axiom:betweennesssymmetry
+NEPB      lemma:betweennotequal
+RAPBD     lemma:ray4
+EQEE      cn:equalityreflexive
+NEPE      lemma:NCdistinct
+RAPEE    lemma:ray4
+EABPEDPE  lemma:equalangleshelper
+NCDBE    lemma:NCorder
+EQDD      cn:equalityreflexive
+CODBD    defn:collinear
+CODBP    defn:collinear
+NEDP     lemma:betweennotequal
+NCDPE     lemma:NChelper
+EADPEBPE  lemma:equalanglessymmetric
+AODPEEDB  lemma:angleorderrespectscongruence2   
+EAEDBEDB  lemma:equalanglesreflexive
+NEDE      lemma:NCdistinct
+RADEE     lemma:ray4
+NEDB      lemma:betweennotequal
+RADBP     lemma:ray4
+EAEDBEDP  lemma:equalangleshelper
+EAEDPEDB  lemma:equalanglessymmetric
+AODPEEDP  lemma:angleorderrespectscongruence
+NCEDP    lemma:NCorder
+TREDP     defn:triangle
+LTEDEP    proposition:19
+

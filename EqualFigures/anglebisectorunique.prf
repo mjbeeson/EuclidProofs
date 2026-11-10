@@ -1,0 +1,131 @@
+DAPQRABC
+DAPQRabc
+ASABCABCPQR    lemma:doublesum2
+ASabcabcPQR    lemma:doublesum2
+ANEAABCPQX+EAABCXQR+BEPXR   defn:anglesum
+EAABCPQX
+EAABCXQR
+BEPXR
+ANEAabcPQY+EAabcYQR+BEPYR   defn:anglesum
+EAabcPQY
+EAabcYQR
+BEPYR 
+NCPQR        lemma:anglesumNC
+NEQR         lemma:NCdistinct
+NEQP         lemma:NCdistinct 
+ANRAQRZ+EEQZQP   lemma:layoff
+RAQRZ
+EEQZQP
+TRPQR        defn:triangle
+EQPP         cn:equalityreflexive
+RAQPP        lemma:ray4
+ANRAQXT+BEPTZ   lemma:crossbar
+RAQXT
+BEPTZ
+NCPRQ           lemma:NCorder
+NEPR            lemma:NCdistinct
+NEPX             lemma:betweennotequal
+EQPP             cn:equalityreflexive
+COPRP             defn:collinear
+COPRX            defn:collinear
+NCPXQ           lemma:NChelper
+NCPQX           lemma:NCorder
+EQXX            cn:equalityreflexive
+NEQX            lemma:NCdistinct
+RAQXT           
+RAQPP           lemma:ray4
+EQTT            cn:equalityreflexive
+NEQT            lemma:raystrict
+RAQTT           lemma:ray4
+EEQTQT          cn:congruencereflexive
+EEQPQP          cn:congruencereflexive
+EEPTPT          cn:congruencereflexive
+EAPQXPQT        defn:equalangles
+EAABCPQT        lemma:equalanglestransitive
+RAQXT
+EQZZ            cn:equalityreflexive
+NEQZ            lemma:raystrict
+RAQZZ           lemma:ray4
+RAQRZ           
+EEQZQZ          cn:congruencereflexive
+EETZTZ          cn:congruencereflexive
+NCPRQ           lemma:NCorder
+COPRX           defn:collinear
+EQRR            cn:equalityreflexive
+COPRR           defn:collinear
+NEPX           lemma:betweennotequal
+NEXR            lemma:betweennotequal
+NCXRQ           lemma:NChelper
+NCXQR           lemma:NCorder
+EAXQRTQZ        defn:equalangles
+EAABCTQZ        lemma:equalanglestransitive
+EATQZABC        lemma:equalanglessymmetric
+EATQZPQT        lemma:equalanglestransitive
+EAPQTTQZ        lemma:equalanglessymmetric
+NCTQZ           lemma:equalanglesNC
+EATQZZQT        lemma:ABCequalsCBA
+EAPQTZQT         lemma:equalanglestransitive
+EEQTQT           cn:congruencereflexive
+EEQPQZ          lemma:congruencesymmetric
+EATQZZQT        lemma:ABCequalsCBA
+EAPQTZQT        lemma:equalanglestransitive
+ANEEPTZT+EAQPTQZT+EAQTPQTZ   proposition:04
+EEPTZT
+ANRAQYS+BEPSZ    lemma:crossbar
+RAQYS
+BEPSZ
+NEPY             lemma:betweennotequal
+COPRY            defn:collinear
+NCPYQ           lemma:NChelper
+NCPQY           lemma:NCorder
+EQYY            cn:equalityreflexive
+NEQY            lemma:NCdistinct
+RAQYS           
+EQSS            cn:equalityreflexive
+NEQS            lemma:raystrict
+RAQSS           lemma:ray4
+EEQSQS          cn:congruencereflexive
+EEPSPS          cn:congruencereflexive
+NCPQY           lemma:NCorder
+EAPQYPQS        defn:equalangles
+EAabcPQS        lemma:equalanglestransitive
+RAQYS      
+EESZSZ          cn:congruencereflexive
+COPRY           defn:collinear
+NEPY           lemma:betweennotequal
+NEYR            lemma:betweennotequal
+NCYRQ           lemma:NChelper
+NCYQR           lemma:NCorder
+EAYQRSQZ        defn:equalangles
+EAabcSQZ        lemma:equalanglestransitive
+EASQZabc        lemma:equalanglessymmetric
+EASQZPQS        lemma:equalanglestransitive
+EAPQSSQZ        lemma:equalanglessymmetric
+NCSQZ           lemma:equalanglesNC
+EASQZZQS        lemma:ABCequalsCBA
+EAPQSZQS         lemma:equalanglestransitive
+EEQSQS           cn:congruencereflexive
+EASQZZQS        lemma:ABCequalsCBA
+EAPQSZQS        lemma:equalanglestransitive
+ANEEPSZS+EAQPSQZS+EAQSPQSZ     proposition:04
+EEPSZS  
+EEPTTZ           lemma:congruenceflip
+EEPSSZ           lemma:congruenceflip
+MIPTZ            defn:midpoint
+MIPSZ            defn:midpoint
+EQTS             lemma:midpointunique
+NCPQX
+NCQXP            lemma:NCorder
+COQXT            lemma:rayimpliescollinear
+NEQX             lemma:ray2
+NEQT             lemma:raystrict
+EQQQ             cn:equalityreflexive
+COQXQ            defn:collinear
+NCQTP           lemma:NChelper
+NCPQT           lemma:NCorder
+EEPTPS           cn:equalitysub
+EEQTQS           cn:equalitysub
+EAPQTPQS         defn:equalangles
+EAABCPQS         lemma:equalanglestransitive
+EAPQSabc         lemma:equalanglessymmetric
+EAABCabc         lemma:equalanglestransitive

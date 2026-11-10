@@ -1,0 +1,29 @@
+TGABBCAC
+EEABAD
+BEADC
+NEAB
+EEADAB           lemma:congruencesymmetric
+EEABAB           cn:congruencereflexive
+EEBCBC           cn:congruencereflexive
+EEACAC           cn:congruencereflexive
+EEDCDC           cn:congruencereflexive
+NEDC             lemma:betweennotequal
+ANBEABX+EEBXDC   lemma:extension
+BEABX
+EEBXDC
+EEAXAC           cn:sumofparts
+ANBEABY+EEBYBC+LTACAY   defn:togethergreater
+BEABY
+EEBYBC
+LTACAY
+EEACAX           lemma:congruencesymmetric
+LTAXAY           lemma:lessthancongruence2
+RAABX            lemma:ray4
+RAABY            lemma:ray4
+RAAXY            lemma:ray3
+BEAXY            lemma:lessthanbetween
+BEBXY            lemma:3.6a
+EEBXBX           cn:congruencereflexive
+LTBXBY           defn:lessthan
+LTDCBY           lemma:lessthancongruence2
+LTDCBC           lemma:lessthancongruence

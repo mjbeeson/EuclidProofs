@@ -1,0 +1,156 @@
+ASABCDEFPQR
+EAPQRpqr
+ANEAABCPQX+EADEFXQR+BEPXR    defn:anglesum
+EAABCPQX
+EADEFXQR
+BEPXR 
+EApqrPQR       lemma:equalanglessymmetric
+NCPQR          lemma:equalanglesNC
+NEQP           lemma:NCdistinct
+NCpqr          lemma:equalanglesNC
+NEqp           lemma:NCdistinct
+NEqr           lemma:NCdistinct
+NEQR           lemma:NCdistinct
+ANRAqpm+EEqmQP lemma:layoff
+RAqpm
+EEqmQP
+EEQPqm        lemma:congruencesymmetric
+NEqm           axiom:nocollapse
+ANRAqrn+EEqnQR  lemma:layoff
+RAqrn
+EEqnQR        
+EEQRqn        lemma:congruencesymmetric
+NEqn          axiom:nocollapse
+EQmm          cn:equalityreflexive
+EQnn          cn:equalityreflexive
+RAqmm         lemma:ray4
+RAqnn         lemma:ray4 
+EEqnqn        cn:congruencereflexive
+EEqmqm        cn:congruencereflexive
+EEmnmn        cn:congruencereflexive
+ANRAqmm+RAqnn+RAqpm+RAqrn+EEqmqm+EEqnqn+EEmnmn+NCpqr
+EApqrmqn      defn:equalangles
+NCmqn         lemma:equalanglesNC
+NEmn          lemma:NCdistinct
+NEPX          lemma:betweennotequal
+ANRAmnx+EEmxPX  lemma:layoff
+RAmnx
+EEmxPX
+BEPXR
+EEPXmx    lemma:congruencesymmetric
+EQPP      cn:equalityreflexive
+EQRR      cn:equalityreflexive
+RAQPP     lemma:ray4 
+RAQRR     lemma:ray4
+NCPQR    lemma:equalanglesNC
+EAPQRmqn   lemma:equalanglestransitive
+ANEEQPqm+EEQRqn+EAPQRmqn 
+ANEEPRmn+EAQPRqmn+EAQRPqnm   proposition:04
+EEPRmn
+EAQPRqmn
+EAQRPqnm
+NCqmn     lemma:equalanglesNC
+NEmq     lemma:NCdistinct
+EEPXPX    cn:congruencereflexive
+LTPXPR   defn:lessthan
+ANBEPXR+EEPXmx+EEPRmn+RAmnx
+LTPXmn   lemma:lessthancongruence
+LTmxmn   lemma:lessthancongruence2
+RAmxn    lemma:ray5
+BEmxn      lemma:lessthanbetween 
+EARPQnmq  lemma:equalanglesflip
+RAPXR    lemma:ray4
+EQqq     cn:equalityreflexive
+EQQQ     cn:equalityreflexive
+RAmqq    lemma:ray4
+NEPQ     lemma:NCdistinct
+RAPQQ    lemma:ray4
+RAPXR    lemma:ray4
+NCPRQ    lemma:NCorder 
+EQPP     cn:equalityreflexive
+COPRP    defn:collinear
+COPRX    defn:collinear
+NCPXQ    lemma:NChelper
+NCXPQ     lemma:NCorder
+RAmxn    lemma:ray5
+EEPRmn
+EEQPqm
+EEPQmq   lemma:congruenceflip
+EERQnq   lemma:congruenceflip
+EAXPQxmq   defn:equalangles
+ANEEXQxq+EAPXQmxq+EAPQXmqx  proposition:04
+EEXQxq
+EAPXQmxq
+EAPQXmqx
+EAABCmqx   lemma:equalanglestransitive
+EEPXmx
+EEPRmn
+BEPXR
+BEmxn
+EEXRxn      lemma:differenceofparts
+NCPXQ
+NEXQ       lemma:NCdistinct
+NExq       axiom:nocollapse
+RAxqq       lemma:ray4
+RAXQQ       lemma:ray4
+SUmxqqn      defn:supplement
+SUPXQQR      defn:supplement
+EAPXQmxq
+EAQXRqxn     lemma:supplements
+EARXQnxq     lemma:equalanglesflip 
+ANEARXQnxq+EEXRxn+EEXQxq
+ANEERQnq+EAXRQxnq+EAXQRxqn   proposition:04
+EAXQRxqn
+EADEFxqn    lemma:equalanglestransitive
+NCmqn
+TRmqn        defn:triangle
+BEmxn
+RAqmp        lemma:ray5
+RAqnr        lemma:ray5
+ANRAqxy+BEpyr   lemma:crossbar
+RAqxy
+BEpyr 
+NEmx         lemma:betweennotequal
+NCmnq        lemma:NCorder
+COmnx         defn:collinear
+COmnm         defn:collinear
+NCmxq         lemma:NChelper
+NCmqx       lemma:NCorder
+RAqmm        lemma:ray4
+RAqnn         lemma:ray4
+EQxx          cn:equalityreflexive
+RAqyx         lemma:ray5
+NEqx          lemma:raystrict
+RAqxx         lemma:ray4
+EEqmqm        cn:congruencereflexive
+EEqnqn        cn:congruencereflexive
+EEmnmn        cn:congruencereflexive
+RAqpm         lemma:ray5
+RAqrn        lemma:ray5
+RAqmm
+RAqxx
+RAqpm
+RAqyx 
+EEmxmx       cn:congruencereflexive
+NCmqx
+EEqmqm       cn:congruencereflexive
+EEqxqx       cn:congruencereflexive
+EAmqxpqy     defn:equalangles
+EEqnqn       cn:congruencereflexive
+RAqrn         lemma:ray5
+RAqnn        lemma:ray4
+NCmnq       
+COmnx        defn:collinear
+EQnn         cn:equalityreflexive
+COmnn        defn:collinear
+NExn         lemma:betweennotequal
+NCxnq         lemma:NChelper
+NCxqn          lemma:NCorder
+RAqyx          lemma:ray5
+RAqrn         lemma:ray5
+EExnxn        cn:congruencereflexive
+EAxqnyqr      defn:equalangles
+EAABCpqy      lemma:equalanglestransitive
+EADEFyqr      lemma:equalanglestransitive
+ASABCDEFpqr    defn:anglesum
+

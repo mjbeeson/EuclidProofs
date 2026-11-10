@@ -1,0 +1,39 @@
+PGABCD
+BEAHD
+BEAEB
+BEDFC
+BEBGC
+BEAKC
+PGEAHK
+PGGKFC
+PGBADC   lemma:PGflip
+TCABCCDA  proposition:34
+ETABCCDA  axiom:congruentequal
+TCAEKKHA  proposition:34
+ETAEKKHA  axiom:congruentequal
+TCKGCCFK  proposition:34
+ETKGCCFK  axiom:congruentequal
+ETKGCKCF  axiom:ETpermutation
+ETKCFKGC  axiom:ETsymmetric
+ETKCFKCG  axiom:ETpermutation
+ETKCGKCF  axiom:ETsymmetric
+ETABCACD axiom:ETpermutation
+ETACDABC axiom:ETsymmetric
+ETACDACB  axiom:ETpermutation
+ETACBACD  axiom:ETsymmetric
+EFAKGBAKFD  axiom:cutoff1
+BEBEA  axiom:betweennesssymmetry
+BEDHA  axiom:betweennesssymmetry
+ETAEKHAK  axiom:ETpermutation
+ETHAKAEK  axiom:ETsymmetric
+ETHAKEAK  axiom:ETpermutation
+ETEAKHAK  axiom:ETsymmetric
+EFAKGBFDAK axiom:EFpermutation
+EFFDAKAKGB axiom:EFsymmetric
+EFFDAKGBAK axiom:EFpermutation
+EFGBAKFDAK axiom:EFsymmetric
+EFGBEKFDHK axiom:cutoff2
+EFGBEKDFKH axiom:EFpermutation
+EFDFKHGBEK axiom:EFsymmetric
+EFDFKHKGBE axiom:EFpermutation
+EFKGBEDFKH axiom:EFsymmetric

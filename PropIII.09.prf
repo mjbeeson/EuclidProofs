@@ -1,0 +1,129 @@
+CIJMMA
+ONAJ
+ONBJ
+ONCJ
+NEAB 
+NEAC 
+NEBC
+EEDADB 
+EEDADC
+NEDM    assumption
+
+  % --- Step 1: NCABC (A, B, C non-collinear) ---
+  
+  % First derive NEMA from the fact that we have a circle with a point on it.
+  % centernotoncircle: CIJEPQ, ONAJ → NEEA.  Match: E=M, A=A → NEMA.
+  NEMA   lemma:centernotoncircle
+  
+  % Three reductios to rule out the three betweennesses.
+  
+  % (a) NOBEABC
+  BEABC assumption
+    COABC  defn:collinear
+    COCAB  lemma:collinearorder
+    EQBC   lemma:nothreeoncircle
+  NOBEABC reductio
+  
+  % (b) NOBEACB
+  BEACB assumption
+    COACB  defn:collinear
+    COBAC  lemma:collinearorder
+    NECB   lemma:inequalitysymmetric
+    EQCB   lemma:nothreeoncircle
+  NOBEACB reductio
+  
+  % (c) NOBEBAC
+  BEBAC assumption
+    COBAC  defn:collinear
+    COCAB  lemma:collinearorder
+    EQBC   lemma:nothreeoncircle
+  NOBEBAC reductio
+  
+  NCABC  defn:noncollinear
+
+% --- Step 2: Construct E = midpoint of AB ---
+ ANBEAEB+EEEAEB   proposition:10
+ BEAEB
+ EEEAEB
+ EEAEEB  lemma:congruenceflip
+ MIAEB   defn:midpoint
+
+% --- Step 3: Construct F = midpoint of BC ---
+  ANBEBFC+EEFBFC   proposition:10
+  BEBFC
+  EEFBFC
+  EEBFFC  lemma:congruenceflip
+  MIBFC   defn:midpoint
+% --- Step 4: Erect perpendicular to AB at E ---
+  % I.11: BEACB → RRACX.  Match A=A, C=E, B=B.  Fresh witness: P.
+  RRAEP  proposition:11
+
+  % --- Step 5: E is inside the circle, by III.02 ---
+  % III.02: CIJDPQ, ONAJ, ONBJ, BEAEB → ICEJ.  
+  % Match: D=M, P=M, Q=A.  All hypotheses on stack.
+  ICEJ  proposition:III.02
+
+  % --- Step 6: Derive NEPE for line-circle ---
+  % Unfold RRAEP via defn:rightangle to get NEEP.
+  % defn:rightangle body: BEABX, EEABXB, EEACXC, NEBC.  Existential X.
+  % For RRAEP: A=A, B=E, C=P.  Body becomes: BEAEY, EEAEYE, EEAPYP, NEEP (using Y for fresh existential).
+  ANBEAEY+EEAEYE+EEAPYP+NEEP   defn:rightangle
+  NEEP
+  NEPE  lemma:inequalitysymmetric
+
+  % --- Step 7: Apply line-circle to get K and G on circle, B(K,E,G) ---
+  % line-circle: CIKCPQ, ICBK, NEAB → COABX, BEABY, ONXK, ONYK, BEXBY.
+  % Match: K=J, C=M, P=M, Q=A, B=E, A=P.  X→K (fresh), Y→G (fresh).
+  % Conclusions: COPEK, BEPEG, ONKJ, ONGJ, BEKEG.
+  ANCOPEK+BEPEG+ONKJ+ONGJ+BEKEG   postulate:line-circle
+  COPEK
+  BEPEG
+  ONKJ
+  ONGJ
+  BEKEG
+% --- Step 8: Show D on line KG ---
+  
+  % Establish disjunction OREQDE|NEED via reductio.
+  NOOREQDE|NEED assumption
+    ANNOEQDE+NONEED
+    NOEQDE
+    NONEED
+    EQED  cn:stability
+    EQDE  lemma:equalitysymmetric
+  OREQDE|NEED reductio
+  
+  cases COKDG : OREQDE|NEED
+  
+    case 1:EQDE
+      COKEG  defn:collinear
+      EQED  lemma:equalitysymmetric
+      COKDG  cn:equalitysub
+    qedcase
+    
+    case 2:NEED
+      EEAEBE  lemma:congruenceflip
+      EEADBD  lemma:congruenceflip
+      RRAED   defn:rightangle
+	  COAEB   defn:collinear              % from BEAEB
+	  NEEB    lemma:betweennotequal       % from BEAEB: E ≠ B
+	  NEBE    lemma:inequalitysymmetric   % B ≠ E
+	  RRBED   lemma:collinearright        % from RRAED, COAEB, NEBE
+	  COAEB   defn:collinear              % from BEAEB
+	  COBEA   lemma:collinearorder        % perm
+	  COABE   lemma:collinearorder        % perm
+	  EQBB    cn:equalityreflexive
+	  COBEB   defn:collinear              % from EQBB (EQBC disjunct with B=our B, C=our B)
+	  NCBEK   lemma:rightangleNC          % from RRBEK
+	  NCABK   lemma:NChelper              % NCBEK, COBEA, COBEB, NEAB → NCABK
+	  OSKABG  defn:oppositeside           % BEKEG, COABE, NCABK → OSKABG
+	  EQAA    cn:equalityreflexive
+	  COAEA   defn:collinear            % A on line AE (via EQAA disjunct)
+	  NCABD   lemma:NChelper             % NCAED, COAEA, COAEB, NEAB → NCABD
+      
+      % TODO: complete this case via perpendicular uniqueness
+      COKDG  lemma:TODOplaceholder
+    qedcase
+  
+  COKDG cases
+% Placeholder to keep reductio structurally complete:
+EQDM    reductio

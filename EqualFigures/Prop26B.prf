@@ -1,0 +1,24 @@
+TRABC
+TRDEF
+EAABCDEF
+EABCAEFD
+EEABDE
+NOLTEFBC  lemma:26helper
+EADEFABC  lemma:equalanglessymmetric
+EAEFDBCA  lemma:equalanglessymmetric
+EEDEAB   lemma:congruencesymmetric
+NOLTBCEF  lemma:26helper
+EQBC assumption
+ COABC  defn:collinear
+ NCABC  defn:triangle
+NEBC reductio
+EQEF  assumption
+ CODEF defn:collinear
+ NCDEF defn:triangle
+NEEF   reductio
+EEBCEF     lemma:trichotomy1
+EEBAED  lemma:congruenceflip
+ANEEACDF+EABACEDF+EABCAEFD  proposition:04
+EEACDF
+EABACEDF
+ANEEBCEF+EEACDF+EABACEDF  

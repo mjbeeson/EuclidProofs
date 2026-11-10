@@ -1,0 +1,39 @@
+BEABC
+BEADE
+EEBCDE
+BEACE
+BEADB  assumption
+ BEADC  lemma:3.6b
+ BEADC  lemma:3.6b
+ BEBCE  lemma:3.6a
+ EEBCBC  cn:congruencereflexive
+ LTBCBE  defn:lessthan
+ EEBEEB  cn:equalityreverse
+ LTBCEB  lemma:lessthancongruence
+ BEDCE  lemma:3.6a
+ BEDBC  lemma:3.6a
+ BEDBE  lemma:3.6b
+ BEEBD  axiom:betweennesssymmetry
+ EEEBEB  cn:congruencereflexive 
+ LTEBED defn:lessthan
+ EEEDDE  cn:equalityreverse
+ LTEBDE  lemma:lessthancongruence
+ LTBCDE  lemma:lessthantransitive
+ EEDEBC  lemma:congruencesymmetric
+ LTBCBC  lemma:lessthancongruence
+ NOLTBCBC lemma:trichotomy2
+NOBEADB reductio
+NOBEABD assumption
+ BEADE
+ BEABE  lemma:3.6b
+ EQBD  axiom:connectivity
+ EEABAB  cn:congruencereflexive
+ EEABAD  cn:equalitysub
+ EEACAE  cn:sumofparts
+ BEABE   cn:equalitysub
+ NEAB   lemma:betweennotequal
+ RAABE   lemma:ray4
+ RAABC   lemma:ray4
+ EQCE    lemma:layoffunique
+ NECE    lemma:betweennotequal
+BEABD reductio

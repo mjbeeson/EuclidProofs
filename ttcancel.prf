@@ -1,0 +1,27 @@
+TTABCDEFGH
+EECDGH
+ANBEEFX+EEFXGH+TGABCDEX  defn:togetherfour
+BEEFX
+EEFXGH
+TGABCDEX
+ANBEABY+EEBYCD+LTEXAY    defn:togethergreater
+BEABY
+EEBYCD
+LTEXAY
+EEGHCD lemma:congruencesymmetric
+EEFXCD lemma:congruencetransitive
+EECDFX lemma:congruencesymmetric
+EEBYFX lemma:congruencetransitive
+NEEF lemma:betweennotequal
+NEAB lemma:betweennotequal
+NOLTEFAB assumption
+ LTABEF assumption
+  LTAYEX lemma:lessthanadditive
+  NOLTAYEX lemma:trichotomy2
+ NOLTABEF reductio
+ EEEFAB lemma:trichotomy1
+ EEABEF lemma:congruencesymmetric
+ EEAYEX cn:sumofparts
+ LTEXEX lemma:lessthancongruence
+ NOLTEXEX lemma:trichotomy2
+LTEFAB reductio

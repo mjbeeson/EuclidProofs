@@ -1,0 +1,236 @@
+PRABCD
+BEAGB
+BECHD
+BEEGH
+OSAGHD
+COCHD  defn:collinear
+NEGH  lemma:betweennotequal
+NEAB  lemma:betweennotequal
+NECD  lemma:betweennotequal
+ANBEARD+COGHR+NCGHA  defn:oppositeside
+OSDGHA  lemma:oppositesidesymmetric
+NCGHD  defn:oppositeside
+NCDHG  lemma:NCorder
+CODHC  lemma:collinearorder
+EQHH   cn:equalityreflexive
+CODHH  defn:collinear
+NECH   lemma:betweennotequal
+NCCHG  lemma:NChelper
+EQCC  cn:equalityreflexive
+COCHC defn:collinear
+COCHD 
+NECD  lemma:betweennotequal
+NCCDG  lemma:NChelper
+ANBEPGQ+EAQGHGHC+EAQGHCHG+EAHGQCHG+EAPGHGHD+EAPGHDHG+EAHGPDHG+PRPQCD+EEPGHD+EEGQCH+EEGSSH+EEPSSD+EECSSQ+BEPSD+BECSQ+BEGSH proposition:31
+BEPGQ
+EAPGHGHD
+EEGSSH
+EEPSSD
+EECSSQ
+BECSQ
+BEGSH
+PRABCD
+NOMEABCD  defn:parallel
+EQPP   cn:equalityreflexive
+NEPG  lemma:betweennotequal
+NEGP  lemma:inequalitysymmetric
+RAGPP lemma:ray4
+BEPSD  
+BEARD  
+COGSH  defn:collinear
+COGHS  lemma:collinearorder
+COGHR
+NCGHA
+EAGHDPGH  lemma:equalanglessymmetric
+NCPGH  lemma:equalanglesNC
+NCGHP  lemma:NCorder
+SSAPGH  defn:sameside
+EQHH  cn:equalityreflexive
+NEGH  lemma:betweennotequal
+RAGHH  lemma:ray4
+RAGPP
+AOHGAHGP   assumption
+ ANBEPMH+RAGAM  lemma:crossbar2
+ RAGAM 
+ BEPSD
+ BEGSH
+ BEPMH
+ EEGSHS  lemma:congruenceflip
+ EESPSD   lemma:congruenceflip
+ ANBEGMK+BEDHK  postulate:Euclid5
+ BEGMK
+ BEDHK
+ COGAM  lemma:rayimpliescollinear
+ COGMK  defn:collinear
+ COMGA  lemma:collinearorder
+ COMGK  lemma:collinearorder
+ NEGM   lemma:raystrict
+ NEMG   lemma:inequalitysymmetric
+ COGAK  lemma:collinear4
+ COAGB defn:collinear
+ COAGK  lemma:collinearorder
+ COGAB  lemma:collinearorder
+ COGAK  lemma:collinearorder
+ NEAG   lemma:betweennotequal
+ NEGA   lemma:inequalitysymmetric
+ COABK  lemma:collinear4
+ COHDK  defn:collinear
+ COHDC  lemma:collinearorder
+ NEHD   lemma:betweennotequal
+ CODKC  lemma:collinear4
+ COCDK  lemma:collinearorder
+ ANNEAB+NECD+COABK+COCDK 
+ MEABCD  defn:meet
+NOAOHGAHGP reductio
+
+AOHGPHGA  assumption
+ NCPGH  lemma:NCorder
+ EAPGHHGP lemma:ABCequalsCBA
+ AOPGHHGA lemma:angleorderrespectscongruence2
+ COHGA  assumption
+  COGHA lemma:collinearorder
+  NCGHA
+ NCHGA reductio
+ EAHGAAGH lemma:ABCequalsCBA
+ EAAGHHGA lemma:equalanglessymmetric
+ AOPGHAGH lemma:angleorderrespectscongruence
+ EQHH  cn:equalityreflexive
+ NEGH  
+ RAGHH  lemma:ray4
+ BEPGQ
+ SUPGHHQ  defn:supplement
+ BEDHC  axiom:betweennesssymmetry
+ EQGG  cn:equalityreflexive
+ NEHG  lemma:inequalitysymmetric
+ RAHGG lemma:ray4
+ SUDHGGC   defn:supplement
+ EAPGHGHD 
+ EAGHDDHG  lemma:ABCequalsCBA
+ EAPGHDHG  lemma:equalanglestransitive
+ EAHGQGHC  lemma:supplements
+ SUAGHHB  defn:supplement
+ AOHGBHGQ  lemma:supplementinequality
+ BEBGA   axiom:betweennesssymmetry
+ EQGG   cn:equalityreflexive
+ COGHG   defn:collinear 
+ COGHB  assumption
+  COAGB  defn:collinear
+  COBGA  lemma:collinearorder
+  COBGH  lemma:collinearorder
+  NEGB  lemma:betweennotequal
+  NEBG  lemma:inequalitysymmetric
+  COGAH  lemma:collinear4
+  COHGA  lemma:collinearorder
+ NCGHB  reductio
+ OSBGHA   defn:oppositeside
+ OSAGHB   lemma:oppositesidesymmetric
+ SSAPGH   defn:sameside
+ SSPAGH  lemma:samesidesymmetric
+ OSPGHB  lemma:planeseparation
+ ANBEPLB+COGHL+NCGHP defn:oppositeside
+ BEPLB
+ BEBLP  axiom:betweennesssymmetry
+ COGHL
+ EAGHCHGQ lemma:equalanglessymmetric
+ NCHGQ  lemma:equalanglesNC
+ COGHQ assumption
+  COHGQ lemma:collinearorder
+ NCGHQ  reductio
+ NCGHB
+ BEQGP  axiom:betweennesssymmetry 
+ SSBQGH  defn:sameside
+ AOHGBHGQ
+ SSBQGH
+ RAGHH
+ EQQQ  cn:equalityreflexive
+ NEQG  lemma:betweennotequal
+ NEGQ  lemma:inequalitysymmetric
+ RAGQQ  lemma:ray4
+ ANBEQMH+RAGBM  lemma:crossbar2
+ RAGBM 
+ EEGSHS   lemma:congruenceflip
+ BEQSC   axiom:betweennesssymmetry
+ BEGSH
+ BEQMH
+ EESQCS lemma:congruencesymmetric
+ EESQSC lemma:congruenceflip
+ NCGHC  lemma:NCorder
+ ANBEGMK+BECHK  postulate:Euclid5
+ BEGMK
+ BECHK
+ COGBM  lemma:rayimpliescollinear
+ COGMK  defn:collinear
+ COMGB  lemma:collinearorder
+ COMGK  lemma:collinearorder
+ NEGM   lemma:raystrict
+ NEMG   lemma:inequalitysymmetric
+ COGBK  lemma:collinear4
+ COBGA defn:collinear
+ COBGK  lemma:collinearorder
+ COGBA  lemma:collinearorder
+ COGBK  lemma:collinearorder
+ NEBG   lemma:betweennotequal
+ NEGB   lemma:inequalitysymmetric
+ COBAK  lemma:collinear4
+ COABK  lemma:collinearorder
+ COHCK  defn:collinear
+ COHCD  lemma:collinearorder
+ NEHC   lemma:betweennotequal
+ COCKD  lemma:collinear4
+ COCDK  lemma:collinearorder
+ ANCOABK+COCDK 
+ MEABCD  defn:meet
+NOAOHGPHGA reductio
+COHGP assumption
+ COGHP lemma:collinearorder
+NCHGP reductio
+COHGA assumption
+ COGHA lemma:collinearorder
+ NCGHA  defn:oppositeside
+NCHGA reductio
+NOEAHGAHGP assumption
+ AOHGAHGP lemma:angletrichotomy2 
+ NOAOHGAHGP
+EAHGAHGP reductio
+EAHGPPGH  lemma:ABCequalsCBA
+EAPGHGHD
+EAHGPGHD lemma:equalanglestransitive
+EAGHDDHG  lemma:ABCequalsCBA
+EAHGPDHG lemma:equalanglestransitive
+EAHGADHG lemma:equalanglestransitive
+COAGH assumption
+ COGHA lemma:collinearorder
+ NCGHA
+NCAGH  reductio
+EAAGHHGA lemma:ABCequalsCBA
+EAAGHDHG  lemma:equalanglestransitive
+NCDHG  lemma:equalanglesNC
+EADHGGHD  lemma:ABCequalsCBA
+EAAGHGHD  lemma:equalanglestransitive
+BEAGB
+BEEGH
+BEHGE  axiom:betweennesssymmetry
+NCAGH 
+EAAGHEGB  proposition:15
+EAEGBAGH  lemma:equalanglessymmetric
+EAEGBGHD   lemma:equalanglestransitive
+EAAGHGHD
+EQHH    cn:equalityreflexive
+RAGHH  lemma:ray4
+SUAGHHB   defn:supplement
+COBGH assumption
+ COAGB  defn:collinear
+ COBGA  lemma:collinearorder
+ NEGB  lemma:betweennotequal
+ NEBG  lemma:inequalitysymmetric
+ COGHA  lemma:collinear4
+ COAGH  lemma:collinearorder
+ NCAGH
+NCBGH reductio
+EABGHBGH  lemma:equalanglesreflexive
+EAGHDAGH  lemma:equalanglessymmetric
+EAAGHHGA  lemma:ABCequalsCBA
+EAGHDHGA  lemma:equalanglestransitive
+SUBGHHA  lemma:supplementsymmetric
+RTBGHGHD  defn:tworightangles
+ANEAAGHGHD+EAEGBGHD+RTBGHGHD

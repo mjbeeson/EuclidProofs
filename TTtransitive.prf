@@ -1,0 +1,30 @@
+TTABCDEFGH
+TTEFGHPQRS
+ANBEEFK+EEFKGH+TGABCDEK  defn:togetherfour
+BEEFK
+TGABCDEK
+ANBEABJ+EEBJCD+LTEKAJ   defn:togethergreater
+BEABJ
+EEBJCD
+LTEKAJ
+ANBEPQL+EEQLRS+TGEFGHPL  defn:togetherfour
+BEPQL
+EEQLRS
+TGEFGHPL  
+ANBEEFM+EEFMGH+LTPLEM  defn:togethergreater
+BEEFM
+LTPLEM
+EQKK  cn:equalityreflexive
+NEFK  lemma:betweennotequal
+RAFKM  defn:ray
+RAFKK  lemma:ray4
+EEFKGH
+EEFMGH
+EEGHFM  lemma:congruencesymmetric
+EEFKFM  lemma:congruencetransitive
+EQKM   lemma:layoffunique
+LTPLEK  cn:equalitysub
+LTPLAJ  lemma:lessthantransitive
+TGABCDPL  defn:togethergreater
+TTABCDPQRS  defn:togetherfour
+ 

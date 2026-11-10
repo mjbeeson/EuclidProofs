@@ -1,0 +1,135 @@
+AOABCDEF
+AODEFABC       assumption
+ AOABCABC       lemma:angleordertransitive
+ ANBEGHJ+RABAG+RABCJ+EAABCABH defn:anglelessthan
+ BEGHJ
+ RABAG
+ RABCJ
+ EAABCABH
+ ANRABAU+RABCV+RABAu+RABHv+EEBUBu+EEBVBv+EEUVuv+NCABC defn:equalangles
+ RABAU
+ RABCV
+ RABAu
+ RABHv
+ EEBUBu
+ EEBVBv
+ EEUVuv
+ NCABC
+ EQAB   assumption
+  COABC  defn:collinear
+ NEAB  reductio
+ EQUu    lemma:layoffunique
+ EEUVUv  cn:equalitysub
+ COBAG   lemma:rayimpliescollinear
+ NEGH   lemma:betweennotequal
+ NEHG   lemma:inequalitysymmetric
+ ANBEHGP+EEGPHG  lemma:extension
+ COBAJ  assumption
+  COBCJ  lemma:rayimpliescollinear
+  COJBA  lemma:collinearorder
+  COJBC  lemma:collinearorder
+  NEBJ   lemma:raystrict
+  NEJB   lemma:inequalitysymmetric
+  COBAC  lemma:collinear4
+  COABC  lemma:collinearorder
+ NCBAJ  reductio
+ COBUH   assumption
+  COBAU  lemma:rayimpliescollinear
+  COUBA lemma:collinearorder
+  COUBH  lemma:collinearorder
+  NEBU   lemma:raystrict
+  NEUB   lemma:inequalitysymmetric
+  COBAH  lemma:collinear4
+  COBAG  
+  COABG  lemma:collinearorder
+  COABH  lemma:collinearorder
+  COBGH  lemma:collinear4
+  COGHB  lemma:collinearorder
+  COGHJ  defn:collinear
+  NEGH   lemma:betweennotequal
+  COHBJ  lemma:collinear4
+  COHBA  lemma:collinearorder
+  NEHB  assumption
+   COBJA  lemma:collinear4
+   COBAJ  lemma:collinearorder
+  EQHB  reductio
+  BEGBJ  cn:equalitysub
+  COGBJ  defn:collinear
+  COBGJ  lemma:collinearorder
+  COBGA  lemma:collinearorder
+  NEBG   lemma:raystrict
+  COGJA  lemma:collinear4
+  COGJB lemma:collinearorder
+  NEGJ  lemma:betweennotequal
+  COJAB lemma:collinear4
+  COBAJ  lemma:collinearorder
+  NCBAJ
+ NCBUH reductio
+ RABAU
+ RABAG
+ RABGU  lemma:ray3
+ COBGU  lemma:rayimpliescollinear
+ COBUG  lemma:collinearorder
+ BEHGP
+ BEJHG   axiom:betweennesssymmetry
+ BEJGP   lemma:3.7a
+ NCBUH
+ COBUJ  assumption
+  COBCJ  lemma:rayimpliescollinear
+  COBJC  lemma:collinearorder
+  COBAU  lemma:rayimpliescollinear
+  COUBA  lemma:collinearorder
+  COUBJ  lemma:collinearorder
+  NEBU  lemma:raystrict
+  NEUB   lemma:inequalitysymmetric
+  COBAJ  lemma:collinear4
+  COJBC  lemma:collinearorder
+  COJBA  lemma:collinearorder
+  NEBJ   lemma:raystrict
+  NEJB   lemma:inequalitysymmetric
+  COBCA  lemma:collinear4
+  COABC  lemma:collinearorder
+ NCBUJ   reductio
+ SSJHBU  defn:sameside
+ SSHJBU  lemma:samesidesymmetric
+ RABJV   lemma:ray3
+ EQBB    cn:equalityreflexive
+ COBBU   defn:collinear
+ SSHVBU  lemma:sameside2
+ SSVHBU  lemma:samesidesymmetric
+ SSVvBU  lemma:sameside2
+ NEBU    lemma:raystrict
+ EEVBvB  lemma:congruenceflip
+ EEVUvU  lemma:congruenceflip  
+ EQVv    proposition:07
+ RABHV   cn:equalitysub
+ COBHV   lemma:rayimpliescollinear
+ COBJV   lemma:rayimpliescollinear
+ COVBJ   lemma:collinearorder
+ COVBH   lemma:collinearorder
+ NEBV    lemma:raystrict
+ NEVB    lemma:inequalitysymmetric
+ COBJH   lemma:collinear4
+ COGHJ   defn:collinear
+ COHJB   lemma:collinearorder
+ COHJG   lemma:collinearorder
+ NEJH    lemma:betweennotequal
+ NEHJ    lemma:inequalitysymmetric 
+ COJBG   lemma:collinear4
+ COBCJ   lemma:rayimpliescollinear
+ COJBC   lemma:collinearorder
+ NEBJ    lemma:raystrict
+ NEJB    lemma:inequalitysymmetric
+ COBGC   lemma:collinear4
+ COGBC   lemma:collinearorder
+ COBAG   lemma:rayimpliescollinear
+ COGBA   lemma:collinearorder
+ NEBG    lemma:raystrict
+ NEGB    lemma:inequalitysymmetric
+ COBCA   lemma:collinear4
+ COABC   lemma:collinearorder
+ NCABC
+NOAODEFABC  reductio
+   
+
+

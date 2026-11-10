@@ -1,0 +1,23 @@
+EAABCabc
+NCABC   defn:equalangles
+EQAB  assumption
+COABC   defn:collinear
+NEAB  reductio
+EQBC  assumption
+COABC  defn:collinear
+NEBC   reductio
+EQAC   assumption
+COABC  defn:collinear
+NEAC   reductio
+EAabcABC  lemma:equalanglessymmetric
+NCabc   defn:equalangles
+EQab  assumption
+COabc   defn:collinear
+NEab  reductio
+EQbc  assumption
+COabc  defn:collinear
+NEbc   reductio
+EQac   assumption
+COabc  defn:collinear
+NEac   reductio
+ANNEAB+NEBC+NEAC+NEab+NEbc+NEac

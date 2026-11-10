@@ -1,0 +1,7 @@
+LTABCD
+EEABEF
+ANBECGD+EECGAB   defn:lessthan
+BECGD
+EECGAB
+EECGEF   lemma:congruencetransitive
+LTEFCD   defn:lessthan

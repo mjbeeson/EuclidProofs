@@ -1,0 +1,56 @@
+RTABCDBE
+RABCD
+OSEDBA
+ANSUabcde+EAABCabc+EADBEdbe  defn:tworightangles
+SUabcde
+EAABCabc
+EADBEdbe
+EAabcABC  lemma:equalanglessymmetric
+EAdbeDBE  lemma:equalanglessymmetric
+NCABC lemma:equalanglesNC
+NEAB lemma:NCdistinct
+NCDBE lemma:equalanglesNC
+NEBE  lemma:NCdistinct
+ANBEABT+EEBTBE  lemma:extension
+BEABT
+EEBTBE
+EEBDBD cn:congruencereflexive
+EADBEdbe
+EAABCabc
+SUABCDT  defn:supplement
+EAabcABC  lemma:equalanglessymmetric
+EAdbeDBE lemma:equalanglessymmetric
+EAdbeDBT  lemma:supplements
+EADBEDBT  lemma:equalanglestransitive
+EADBTDBE  lemma:equalanglessymmetric
+COABT  defn:collinear
+NEBT   lemma:betweennotequal
+NETB  lemma:inequalitysymmetric
+EQBB  cn:equalityreflexive
+COABB  defn:collinear
+NCTBC  lemma:NChelper
+NCCBT  lemma:NCorder
+COBCD  lemma:rayimpliescollinear
+COCBD  lemma:collinearorder
+NEDB  lemma:NCdistinct
+COCBB  defn:collinear
+NCDBT  lemma:NChelper
+EEDTDE    proposition:04
+EETDED  lemma:congruenceflip
+EETBEB  lemma:congruenceflip
+CODBB  defn:collinear
+OSADBE lemma:oppositesidesymmetric
+ANBEAmE+CODBm+NCDBA  defn:oppositeside
+BEAmE
+CODBm
+NCDBE
+BEEmA  axiom:betweennesssymmetry
+BETBA  axiom:betweennesssymmetry
+ANCODBB+CODBm+BETBA+BEEmA+NCDBT+NCDBE
+SSTEDB  defn:sameside
+NEBC lemma:NCdistinct
+NECB  lemma:inequalitysymmetric
+EQTE   proposition:07
+BEABE  cn:equalitysub
+SUABCDE  defn:supplement
+ANSUABCDE+BEABE

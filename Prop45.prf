@@ -1,0 +1,210 @@
+NCJEN
+NCABD
+NCCBD
+BEAOC
+BEBOD
+NERK
+NCKRS
+NEBD  lemma:NCdistinct
+ANBEBmD+EEmBmD  proposition:10
+BEBmD
+EEmBmD
+EEBmmD  lemma:congruenceflip
+MIBmD  defn:midpoint
+NEBm  lemma:betweennotequal
+ANBERKP+EEKPBm lemma:extension
+BERKP
+EEKPBm
+% set up for 42B
+TRABD  defn:triangle
+MIBmD
+NCJEN
+NEKP lemma:betweennotequal
+NEPK  lemma:inequalitysymmetric
+ANBEPKH+EEKHPK  lemma:extension
+BEPKH
+EEKHPK
+EEPKKH lemma:congruencesymmetric
+MIPKH  defn:midpoint
+
+% KH = PK = Bm = mD
+EEPKBm  lemma:congruenceflip
+EEKHBm  lemma:congruencetransitive
+EEBmmD  lemma:congruenceflip
+EEKHmD  lemma:congruencetransitive
+BEPKR  axiom:betweennesssymmetry
+COPKH  defn:collinear
+COPKR  defn:collinear
+NEPK  lemma:betweennotequal
+COKHR  lemma:collinear4
+CORKH  lemma:collinearorder
+NCRKS  lemma:NCorder
+EQKK  cn:equalityreflexive
+CORKK  defn:collinear
+NEKH  lemma:betweennotequal
+NEHK  lemma:inequalitysymmetric
+NCHKS   lemma:NChelper
+NCSKH  lemma:NCorder
+ANPGFKHG+EFABmDFKHG+EAHKFJEN+SSSFKH proposition:42B
+PGFKHG
+
+%Now set up to apply 44
+
+NCDBC  lemma:NCorder
+TRDBC  defn:triangle
+PRFKHG  defn:parallelogram
+NCKHG  lemma:parallelNC
+NCHGK  lemma:NCorder
+NCGHK  lemma:NCorder
+ANPGGHML+EAGHMJEN+EFDBeCGHML+MIBeC+OSMGHK proposition:44
+EAGHMJEN
+MIBeC
+BEBeC  defn:midpoint
+PGFKHG
+PGGHML
+EAHKFJEN
+EAJENGHM  lemma:equalanglessymmetric
+EAHKFGHM  lemma:equalanglestransitive
+PRFKHG  defn:parallelogram
+PRKFHG  lemma:parallelflip
+NEHK lemma:NCdistinct
+ANBEHKs+EEKsHK lemma:extension
+PRFGKH  defn:parallelogram
+PRKHFG  lemma:parallelsymmetric
+TPKHFG  lemma:paralleldef2B
+SSFGKH  defn:tarski_parallel
+RTFKHKHG   proposition:29C
+EAGHMHKF  lemma:equalanglessymmetric
+NCHKF  lemma:equalanglesNC
+NCFKH  lemma:NCorder
+EAFKHHKF  lemma:ABCequalsCBA
+EAFKHGHM  lemma:equalanglestransitive
+RTGHMKHG  lemma:RTcongruence
+RTKHGGHM  lemma:RTsymmetric
+
+%Next to show BEKHM
+
+OSMGHK 
+EQGG  cn:equalityreflexive
+NEHG  lemma:NCdistinct
+RAHGG  lemma:ray4
+RTKHGGHM 
+BEKHM   proposition:14
+
+%next to show PRFKLM  using I.30
+
+NEFK  lemma:NCdistinct
+NCGHM  lemma:equalanglesNC
+NEGH  lemma:NCdistinct
+PRGHML  defn:parallelogram
+NCHML  lemma:parallelNC
+NELM  lemma:NCdistinct
+EQKK  cn:equalityreflexive
+EQHH  cn:equalityreflexive
+EQMM  cn:equalityreflexive
+COFKK  defn:collinear
+COGHH  defn:collinear
+COLMM  defn:collinear
+BEKHM
+PRFKGH  lemma:parallelflip
+PRMLGH  lemma:parallelsymmetric
+PRLMGH   lemma:parallelflip
+PRFKLM  proposition:30
+PRFKML  lemma:parallelflip
+
+% Next show FG and LF both parallel KM and apply Playfair
+% Euclid essentially gives a proof of Playfair here instead
+
+PGFKHG
+PGGHML
+PRFGKH  defn:parallelogram
+PRGLHM  defn:parallelogram
+PRFGHK  lemma:parallelflip
+COKHM  defn:collinear
+COHKM  lemma:collinearorder
+NEKM  lemma:betweennotequal
+NEMK  lemma:inequalitysymmetric
+PRFGMK  lemma:collinearparallel
+COHMK  lemma:collinearorder
+PRGLKM  lemma:collinearparallel
+PRGLMK  lemma:parallelflip
+PRMKGL  lemma:parallelsymmetric
+PRMKFG  lemma:parallelsymmetric
+PRMKGF  lemma:parallelflip
+COGLF   lemma:Playfair
+COGFL   lemma:collinearorder
+NCFLM  lemma:parallelNC
+NELF   lemma:NCdistinct
+PRMKLF  lemma:collinearparallel
+PRLFMK  lemma:parallelsymmetric
+PRFLKM  lemma:parallelflip
+PGFKML  defn:parallelogram
+EAHKFJEN
+NCFKH  lemma:parallelNC
+EAFKHHKF  lemma:ABCequalsCBA
+EAFKHJEN  lemma:equalanglestransitive
+NEKH  lemma:betweennotequal
+RAKHM  lemma:ray4
+RAKMH  lemma:ray5
+EQFF  cn:equalityreflexive
+NEKF lemma:NCdistinct
+RAKFF  lemma:ray4
+NCFKM  lemma:parallelNC
+EAFKMFKM  lemma:equalanglesreflexive
+EAFKMFKH  lemma:equalangleshelper
+EAFKMJEN  lemma:equalanglestransitive
+EFABmDFKHG
+EFDBeCGHML
+COBOD  defn:collinear
+COBDO  lemma:collinearorder
+NCBDA  lemma:NCorder
+OSABDC  defn:oppositeside
+BEKHM
+% Next prove BEFGL
+PRGHLM lemma:parallelflip
+TPGHLM  lemma:paralleldef2B
+SSLMGH  defn:tarski_parallel
+PRFKGH lemma:parallelflip
+PRGHFK  lemma:parallelsymmetric
+TPGHFK  lemma:paralleldef2B
+SSFKGH  defn:tarski_parallel
+EQHH   cn:equalityreflexive
+COGHH  defn:collinear
+OSKGHM  defn:oppositeside
+OSFGHM  lemma:planeseparation
+OSMGHF  lemma:oppositesidesymmetric
+OSLGHF  lemma:planeseparation
+ANBELtF+COGHt+NCGHL  defn:oppositeside
+BELtF
+COGHt
+COFLG lemma:collinearorder
+COLtF  defn:collinear
+COFLt  lemma:collinearorder
+NEFL  lemma:NCdistinct
+COLGt lemma:collinear4
+COtGL  lemma:collinearorder
+COtGH  lemma:collinearorder
+NEtG  assumption
+ COGLH   lemma:collinear4
+ COGHL   lemma:collinearorder
+ NCGHL
+EQtG  reductio
+BELGF  cn:equalitysub
+BEFGL  axiom:betweennesssymmetry
+PGFKML
+ANBEFjM+BEKjL  lemma:diagonalsmeet
+BEFjM
+BEKjL 
+EFABCDFKML  axiom:paste4
+EFFKMLABCD   axiom:EFsymmetric 
+BEPKH
+BEKHM  
+BEPKR
+BEPKM  lemma:3.7b
+ANBEPKM+BEPKR
+RAKRM  defn:ray
+SSSFKH 
+SSFSKH  lemma:samesidesymmetric
+COKHM defn:collinear
+SSFSKM lemma:samesidecollinear
+ANPGFKML+EAFKMJEN+EFFKMLABCD+RAKRM+SSFSKM

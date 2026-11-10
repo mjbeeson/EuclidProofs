@@ -1,0 +1,48 @@
+PGABCD
+PGEFGH
+COADE
+COADH
+COBCF
+COBCG
+EEBCFG
+BEBMH
+BECME
+ANPRABCD+PRADBC  defn:parallelogram
+PRABCD
+EEEHFG   proposition:34
+EEFGEH   lemma:congruencesymmetric
+EEBCEH   lemma:congruencetransitive
+PRADBC   
+PRBCAD  lemma:parallelsymmetric
+COADE
+COADH
+NCABC  lemma:parallelNC
+NEBC   lemma:NCdistinct
+NEEH   axiom:nocollapse
+PRBCEH lemma:collinearparallel2
+BEBMH
+BECME
+ANPRBECH+EEBECH  proposition:33
+PRBECH
+PREBCH lemma:parallelflip
+PREHBC lemma:parallelsymmetric
+PGEBCH  defn:parallelogram
+EFABCDEBCH  proposition:35
+PGCHEB  lemma:PGsymmetric
+NCABC   lemma:parallelNC
+NEBC    lemma:NCdistinct
+NECB    lemma:inequalitysymmetric
+COBCF
+COBCG
+COCFG  lemma:collinear4
+COGFC  lemma:collinearorder
+COCBF  lemma:collinearorder
+COCBG  lemma:collinearorder
+COBFG  lemma:collinear4
+COGFB  lemma:collinearorder
+PGGHEF  lemma:PGsymmetric
+EFGHEFCHEB  proposition:35
+EFGHEFEBCH  axiom:EFpermutation
+EFEBCHGHEF  axiom:EFsymmetric
+EFABCDGHEF  axiom:EFtransitive
+EFABCDEFGH  axiom:EFpermutation

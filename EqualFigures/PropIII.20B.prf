@@ -1,0 +1,308 @@
+EEEDEC
+EEEDEB
+NCDBC
+NCEDB
+NCEDC
+BEEPC
+BEBPD
+BECQG
+BEEQB
+BEGED
+BEGQC       axiom:betweennesssymmetry
+BEBQE       axiom:betweennesssymmetry
+NECB        lemma:NCdistinct
+NEDB        lemma:NCdistinct
+NEDE        lemma:NCdistinct
+NEEB        lemma:betweennotequal
+RAEBQ       lemma:ray4
+BEDEG       axiom:betweennesssymmetry
+NEGE        lemma:betweennotequal
+COEDG       defn:collinear
+EQEE        cn:equalityreflexive
+COEDE       defn:collinear
+NCGEB       lemma:NChelper
+EAGEBGEB      lemma:equalanglesreflexive
+EQGG          cn:equalityreflexive
+NEEG          lemma:inequalitysymmetric
+RAEGG         lemma:ray4
+NEEB          lemma:NCdistinct
+EAGEBGEQ      lemma:equalangleshelper
+EQCC          cn:equalityreflexive
+NEEC          lemma:NCdistinct
+RAECC         lemma:ray4
+NCEBG         lemma:NCorder
+COEBQ         lemma:rayimpliescollinear
+COEBE         defn:collinear
+NEEQ          lemma:raystrict
+NCEQG         lemma:NChelper
+NCGQE         lemma:NCorder
+COGQC         defn:collinear
+EQQQ          cn:equalityreflexive
+COGQQ         defn:collinear
+NEQC          lemma:betweennotequal
+NECQ          lemma:inequalitysymmetric
+NCCQE         lemma:NChelper
+NCEQC         lemma:NCorder
+COEQE         defn:collinear
+COEBQ        lemma:rayimpliescollinear
+COEQB         lemma:collinearorder
+NEEB         lemma:ray2
+NCEBC         lemma:NChelper
+NCBEC         lemma:NCorder
+EABECBEC      lemma:equalanglesreflexive
+EABECQEC      lemma:equalangleshelper  
+ASGEBBECGEC   defn:anglesum
+
+NEEG          lemma:inequalitysymmetric
+RAEGG         lemma:ray4
+EQEE          cn:equalityreflexive
+NEDE          lemma:betweennotequal
+EQDD          cn:equalityreflexive
+COEDD         defn:collinear
+COGED         defn:collinear
+COEDG         lemma:collinearorder
+NEGD          lemma:betweennotequal
+NCGDB         lemma:NChelper
+EAGDBGDB      lemma:equalanglesreflexive
+NEDG          lemma:betweennotequal
+RADGG         lemma:ray4
+NEPD          lemma:betweennotequal
+NEDP         lemma:inequalitysymmetric
+BEDPB         axiom:betweennesssymmetry
+RADPB         lemma:ray4
+RADBP         lemma:ray5
+RADGE         lemma:ray4
+EAGDBGDB      lemma:equalanglesreflexive
+EAGDBEDP      lemma:equalangleshelper
+NCBDC         lemma:NCorder
+EABDCBDC      lemma:equalanglesreflexive
+EQCC          cn:equalityreflexive
+NEDC          lemma:NCdistinct
+RADCC         lemma:ray4
+EABDCPDC      lemma:equalangleshelper
+ASGDBBDCEDC   defn:anglesum
+NCEDC
+EAEDCEDC     lemma:equalanglesreflexive
+RADEG         lemma:ray4
+EAEDCGDC      lemma:equalangleshelper
+ASGDBBDCGDC   lemma:angleaddition2
+
+% Next use the exterior angle theorem to prove DAGEBGDB
+NCBDE        lemma:NCorder
+TRBDE        defn:triangle 
+BEDEG        axiom:betweennesssymmetry
+ASEBDBDEBEG  proposition:32
+TREDB       defn:triangle
+EEEDEB   
+ISEDB        defn:isosceles
+EAEDBEBD     proposition:05
+EAEBDEDB     lemma:equalanglessymmetric
+EAEDBBDE     lemma:ABCequalsCBA
+EAEBDBDE     lemma:equalanglestransitive
+EABDEEBD     lemma:equalanglessymmetric
+EAEBDEDB     lemma:equalanglessymmetric
+EABDEEDB     lemma:ABCequalsCBA
+ASEDBEDBBEG  lemma:anglesumrespectscongruence
+EQBB         cn:equalityreflexive
+RADBB        lemma:ray4
+RADEG        lemma:ray4
+EAEDBEDB     lemma:equalanglesreflexive
+EAEDBGDB     lemma:equalangleshelper
+ASGDBGDBBEG  lemma:anglesumrespectscongruence
+NCBEG        lemma:NCorder
+EABEGGEB     lemma:ABCequalsCBA
+ASGDBGDBGEB  lemma:angleaddition2
+DAGEBGDB     lemma:sumofequalsisdouble
+
+% Next use the exterior angle theorem to prove DAGECGDC
+NCCDE        lemma:NCorder
+TRCDE        defn:triangle 
+BEDEG        
+ASECDCDECEG proposition:32
+TREDC       defn:triangle
+EEEDEC   
+ISEDC        defn:isosceles
+EAEDCECD     proposition:05
+EAECDEDC     lemma:equalanglessymmetric
+EAEDCCDE     lemma:ABCequalsCBA
+EAECDCDE     lemma:equalanglestransitive
+EACDEECD     lemma:equalanglessymmetric
+EAECDEDC     lemma:equalanglessymmetric
+EACDEEDC     lemma:ABCequalsCBA
+ASEDCEDCCEG  lemma:anglesumrespectscongruence
+EQCC        cn:equalityreflexive
+RADCC        lemma:ray4
+RADEG        lemma:ray4
+EAEDCEDC     lemma:equalanglesreflexive
+EAEDCGDC     lemma:equalangleshelper
+ASGDCGDCCEG  lemma:anglesumrespectscongruence
+NCDEC        lemma:NCorder
+EQEE         cn:equalityreflexive
+CODEE        defn:collinear
+CODEG        defn:collinear
+NEGE         lemma:betweennotequal
+NCGEC        lemma:NChelper
+NCCEG        lemma:NCorder   
+EACEGGEC     lemma:ABCequalsCBA
+ASGDCGDCGEC  lemma:angleaddition2
+NCGDC        lemma:equalanglesNC
+EAGDCGDC     lemma:equalanglesreflexive
+DAGECGDC     lemma:sumofequalsisdouble
+
+% 2 =GDB
+% 1 = BDC
+% 2+1 = GDC 
+% EDB = 2
+% BDC = 1 = PDC
+% ECD=EDC    base angles
+% PCD=ECD = EDC =  GDC = 2+1 
+% EPD = PDC+DCP prop 32
+% = 1+ (2+1)= 1 + (1+2)  = BDC+GDC 
+% EPD = (1+1)+2    (1+1 exists by associative3)   
+% EPD = BEP + PBE
+% PBE=2
+% EPD = BEP + 2
+% (1+1) = BEP    lemma:anglesubtraction 
+
+NCEDB
+EAEDBEDB       lemma:equalanglessymmetric
+RADEG         lemma:ray4
+EQBB           cn:equalityreflexive
+RADBB          lemma:ray4
+EAEDBGDB       lemma:equalangleshelper
+NCBDC
+EABDCBDC       lemma:equalanglesreflexive
+RADPB          lemma:ray5
+EQCC           cn:equalityreflexive
+NEDC           lemma:NCdistinct
+RADCC          lemma:ray4
+EQDD           cn:equalityreflexive
+COBDD          defn:collinear
+CODBP          lemma:rayimpliescollinear
+COBDP          lemma:collinearorder
+NEDP           lemma:ray2
+NEPD           lemma:inequalitysymmetric
+NCPDC          lemma:NChelper
+EABDCPDC       lemma:equalangleshelper
+EAPDCBDC       lemma:equalanglessymmetric
+EEEDEC
+NCEDC         
+TREDC          defn:triangle
+ISEDC          defn:isosceles
+EAEDCECD       proposition:05
+BECPE          axiom:betweennesssymmetry
+NECE           lemma:betweennotequal
+RACEP          lemma:ray4
+EQDD           cn:equalityreflexive
+NECD           lemma:NCdistinct
+RACDD          lemma:ray4
+NCGDC
+COGDE          defn:collinear
+COGDD          defn:collinear
+NEED           lemma:betweennotequal
+NCEDC          lemma:NChelper
+NCECD          lemma:NCorder
+COECC          defn:collinear
+COECP          defn:collinear
+NEPC           lemma:betweennotequal
+NCPCD          lemma:NChelper
+EAPCDPCD       lemma:equalanglesreflexive
+RACPE          lemma:ray5
+RACDD
+EAPCDECD       lemma:equalangleshelper
+RADGE          lemma:ray4
+RADCC          lemma:ray4
+NCECD 
+EAECDECD       lemma:equalanglesreflexive
+EAECDGDC       lemma:equalangleshelper
+BECPE          axiom:betweennesssymmetry
+NCDCP          lemma:NCorder
+TRDCP          defn:triangle
+ASPDCDCPDPE    proposition:32
+EAPDCBDC       lemma:equalangleshelper
+EADCPDCP       lemma:equalanglesreflexive
+EADCPDCE      lemma:equalangleshelper
+ISEDC          defn:isosceles
+EAEDCECD       proposition:05
+EACDEDCE       lemma:equalanglesflip
+EADCECDE       lemma:equalanglessymmetric
+EACDECDE       lemma:equalanglesreflexive
+EACDECDG       lemma:equalangleshelper
+NCCDG          lemma:NCorder
+EACDGGDC       lemma:ABCequalsCBA
+EACDEGDC       lemma:equalanglestransitive
+EADCEGDC       lemma:equalanglestransitive
+EADCEGDC
+EADCPDCE
+EADCPGDC       lemma:equalanglestransitive
+ASBDCGDCDPE    lemma:anglesumrespectscongruence
+ASGDBBDCGDC 
+ASBDCGDBGDC    lemma:anglesumcommutative
+ASBDCBDCUVW    lemma:anglesumassociative3
+ASUVWGDBDPE    lemma:anglesumassociative2
+NCDPE          lemma:anglesumNC
+
+EADPEEPD       lemma:ABCequalsCBA
+ASUVWGDBEPD    lemma:angleaddition2  
+NCEPD          lemma:equalanglesNC
+NCDPE          lemma:NCorder
+CODPB           lemma:rayimpliescollinear
+EQPP           cn:equalityreflexive
+CODPP          defn:collinear
+EQBP           assumption
+ EEEBEB        cn:congruencereflexive
+ EEEPEB        cn:equalitysub
+ EEEPEP        cn:congruencereflexive
+ LTEPEC       defn:lessthan
+ LTEBEC       lemma:lessthancongruence2
+ EEEBED       lemma:congruencesymmetric
+ EEEBEC       lemma:congruencetransitive
+ LTECEC      lemma:lessthancongruence2
+ RAECC         lemma:ray4
+ BEECC         lemma:lessthanbetween
+ NECC          lemma:betweennotequal
+NEBP           reductio          
+NCBPE          lemma:NChelper     
+NCEPB          lemma:NCorder
+TREPB          defn:triangle
+
+NCEBP    lemma:NCorder
+TREBP    defn:triangle
+ASPEBEBPEPD    proposition:32
+EAEDBEBD 
+EAEBDEDB     lemma:equalanglessymmetric
+EAEDBGDB 
+EAGDBEDB       lemma:equalanglessymmetric     
+EAGDBEBD       lemma:equalanglestransitive
+EAEBDGDB       lemma:equalanglessymmetric
+NCPEB          lemma:NCorder
+EAPEBBEP       lemma:ABCequalsCBA
+EAEBPEBP       lemma:equalanglesreflexive
+EQEE           cn:equalityreflexive
+NEBE           lemma:betweennotequal
+RABEE          lemma:ray4
+NEBP           lemma:betweennotequal
+RABPD          lemma:ray4
+RABDP          lemma:ray5
+EAEBPEBD       lemma:equalangleshelper
+EAEBPGDB       lemma:equalanglestransitive
+ASBEPGDBEPD    lemma:anglesumrespectscongruence
+
+ASUVWGDBDPE 
+NCDPE
+EADPEEPD       lemma:ABCequalsCBA
+ASUVWGDBEPD    lemma:angleaddition2
+ASGDBUVWEPD    lemma:anglesumcommutative
+ASGDBBEPEPD    lemma:anglesumcommutative
+EAUVWBEP       lemma:anglesubtraction
+
+
+RAEBB          lemma:ray4
+RAECP          lemma:ray4
+RAEPC          lemma:ray5
+NCBEP          lemma:NCorder 
+EABEPBEP       lemma:equalanglesreflexive
+EABEPBEC       lemma:equalangleshelper
+EAUVWBEC       lemma:equalanglestransitive
+ASBDCBDCBEC    lemma:angleaddition2 
+DABECBDC     lemma:doublesum

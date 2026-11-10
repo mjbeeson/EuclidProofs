@@ -1,0 +1,5 @@
+NCABC
+EAABCCBA   lemma:ABCequalsCBA
+NCCBA      lemma:equalanglesNC
+EACBAABC   lemma:ABCequalsCBA
+EAABCABC   lemma:equalanglestransitive

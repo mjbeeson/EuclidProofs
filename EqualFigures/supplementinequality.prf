@@ -1,0 +1,120 @@
+SUABCDF
+SUabcdf
+AOabcABC
+ANBEPRQ+RABAP+RABCQ+EAabcABR  defn:anglelessthan
+BEPRQ
+RABCQ
+EAabcABR
+NCABR   lemma:equalanglesNC
+ANRABCD+BEABF  defn:supplement
+BEQRP  axiom:betweennesssymmetry
+BEABF
+BEFBA  axiom:betweennesssymmetry
+RABAP
+ORBEBPA|EQAP|BEBAP  lemma:ray1
+cases BEFBP:BEBPA|EQAP|BEBAP
+ case 1:BEBPA
+  BEFBP axiom:innertransitivity
+ qedcase
+ case 2:EQAP
+  BEFBP  cn:equalitysub
+ qedcase
+ case 3:BEBAP
+  BEFBP lemma:3.7b
+ qedcase
+BEFBP cases
+COFPQ  assumption
+ COBAP  lemma:rayimpliescollinear
+ COABF  defn:collinear
+ NEAB  lemma:betweennotequal
+ COABP  lemma:collinearorder
+ COBFP  lemma:collinear4
+ COFPB  lemma:collinearorder
+ NEFP  lemma:betweennotequal
+ COPQB lemma:collinear4
+ COPBQ  lemma:collinearorder
+ COPBA  lemma:collinearorder
+ NEBP  lemma:betweennotequal
+ NEPB  lemma:inequalitysymmetric
+ COBQA lemma:collinear4
+ COPRQ  defn:collinear
+ COPQR  lemma:collinearorder
+ COPQB lemma:collinearorder
+ NEPQ  lemma:betweennotequal
+ COQRB  lemma:collinear4
+ COQBR  lemma:collinearorder
+ COQBA lemma:collinearorder
+ NEBQ  lemma:raystrict
+ NEQB  lemma:inequalitysymmetric
+ COBRA lemma:collinear4
+ COABR lemma:collinearorder
+ NCABR
+NCFPQ reductio 
+ANBEFMR+BEQMB  postulate:Pasch-inner
+BEFMR
+BEQMB
+EQRR  cn:equalityreflexive
+EQBR assumption
+ COABR defn:collinear
+NEBR reductio
+RABRR  lemma:ray4
+SUABRRF   defn:supplement
+EAABRabc  lemma:equalanglessymmetric
+EARBFdbf  lemma:supplements
+NEBF  lemma:betweennotequal
+EQFF  cn:equalityreflexive 
+RABFF  lemma:ray4
+EAdbfRBF  lemma:equalanglessymmetric
+NCRBF  lemma:equalanglesNC
+COFBQ assumption
+ COQBF  lemma:collinearorder
+ COQMB  defn:collinear
+ COQBM  lemma:collinearorder
+ NEQB   lemma:betweennotequal
+ COBFM lemma:collinear4
+ COFMR  defn:collinear
+ COMFB  lemma:collinearorder
+ COMFR  lemma:collinearorder
+ NEFM   lemma:betweennotequal
+ NEMF   lemma:inequalitysymmetric
+ COFBR  lemma:collinear4
+ CORBF  lemma:collinearorder
+NCFBQ  reductio
+RABFF
+EAFBQFBQ lemma:equalanglesreflexive
+BEBMQ  axiom:betweennesssymmetry
+NEBM  lemma:betweennotequal
+RABMQ  lemma:ray4
+RABQM  lemma:ray5
+EAFBQFBM  lemma:equalangleshelper
+BERMF   axiom:betweennesssymmetry
+RABRR
+RABFF
+AOFBQFBR   defn:anglelessthan
+EAfbdFBR  lemma:equalanglesflip
+EAFBRfbd  lemma:equalanglessymmetric
+AOFBQfbd  lemma:angleorderrespectscongruence
+RABCQ
+RABCD
+RABQD     lemma:ray3
+EAFBQFBD  lemma:equalangleshelper
+COFBD  assumption
+ COBQD  lemma:rayimpliescollinear
+ CODBQ  lemma:collinearorder
+ CODBF  lemma:collinearorder
+ NEBD   lemma:raystrict
+ NEDB   lemma:inequalitysymmetric
+ COBQF  lemma:collinear4
+ COFBQ  lemma:collinearorder
+ NCFBQ
+NCFBD  reductio
+EAFBDDBF  lemma:ABCequalsCBA
+EAFBQDBF   lemma:equalanglestransitive
+EADBFFBQ   lemma:equalanglessymmetric
+AODBFfbd   lemma:angleorderrespectscongruence2
+NCfbd    lemma:equalanglesNC
+COdbf   assumption
+ COfbd lemma:collinearorder
+NCdbf reductio
+EAdbffbd   lemma:ABCequalsCBA
+AODBFdbf   lemma:angleorderrespectscongruence  

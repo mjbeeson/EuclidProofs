@@ -1,0 +1,23 @@
+EAAEFEFD
+OSAEFD
+NEAE  lemma:angledistinct
+ANBEAEB+EEEBAE lemma:extension
+BEAEB
+NEFD lemma:angledistinct
+NEDF  lemma:inequalitysymmetric
+ANBEDFC+EEFCFD lemma:extension
+BEDFC 
+BECFD  axiom:betweennesssymmetry
+PRABCD    proposition:27
+CODFC  defn:collinear
+COCDF  lemma:collinearorder
+PRABFD  lemma:collinearparallel
+PRFDAB  lemma:parallelsymmetric
+PRFDBA  lemma:parallelflip
+COAEB  defn:collinear
+COBAE  lemma:collinearorder
+NEAE  lemma:betweennotequal
+NEEA lemma:inequalitysymmetric
+PRFDEA lemma:collinearparallel
+PRFDAE lemma:parallelflip
+PRAEFD  lemma:parallelsymmetric

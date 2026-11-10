@@ -1,0 +1,239 @@
+EEFAFB
+EEFAFC
+EEFAFD
+NEAB
+NEAC
+NEAD
+NEBC
+NEBD
+NECD
+NEFA
+NOCRADBC
+NOCRABCD
+ANBEBQC+EEQBQC    proposition:10
+BEBQC
+EEQBQC
+CIJFFA       postulate:Euclid3
+EEFAFA       cn:congruencereflexive
+ONAJ         defn:on
+EEFBFA       lemma:congruencesymmetric
+ONBJ         defn:on
+EEFCFA       lemma:congruencesymmetric
+ONCJ         defn:on
+EEFDFA       lemma:congruencesymmetric
+ONDJ         defn:on
+ICQJ         proposition:III.02
+NOONQJ       lemma:insidenoton
+EQDQ         assumption
+	NOONDJ     cn:equalitysub
+NEDQ         reductio
+ANCODQZ+BEDQR+ONZJ+ONRJ+BEZQR postulate:line-circle
+CODQZ
+BEDQR
+ONZJ
+ONRJ
+BEZQR
+NEDR         lemma:betweennotequal
+NEDQ         lemma:betweennotequal
+CODQR        defn:collinear
+CODRQ        lemma:collinearorder
+COQDZ         lemma:collinearorder
+COQDR         lemma:collinearorder
+NEQD          lemma:inequalitysymmetric
+CODRZ        lemma:collinear4
+EQRZ        assumption
+  BEZQZ     cn:equalitysub
+	NOBEZQZ   axiom:betweennessidentity
+NERZ   reductio
+NERD          lemma:inequalitysymmetric
+COQDR         lemma:collinearorder
+CODZR         lemma:collinear4
+COZRD         lemma:collinearorder
+NEDR       lemma:inequalitysymmetric
+NEDZ          assumption
+  EQDZ          lemma:nothreeoncircle
+EQDZ  reductio
+EQZD   lemma:equalitysymmetric
+BEDQR   cn:equalitysub
+BERQD   axiom:betweennesssymmetry
+EEFRFA  lemma:oncircle
+EEFAFR  lemma:congruencesymmetric
+BEBQC
+BERQD
+NOCRACBD  assumption
+	EQAR assumption
+		EQRA lemma:equalitysymmetric
+		BEAQD cn:equalitysub
+		CRADBC defn:cross
+	NEAR reductio
+  ORCRRDAB|CRRDAC  postulate:circlePasch
+	ORCRRDAC|CRRDAB
+	cases CRACBD:CRRDAC|CRRDAB
+		case 1:CRRDAC
+			ANBERPD+BEAPC defn:cross
+			BERPD
+			BEAPC
+			BEDPR  axiom:betweennesssymmetry
+			BEDQR 
+			EQPQ  assumption
+				BEBPC  cn:equalitysub
+				BEAPC
+				COBPC defn:collinear
+				COAPC defn:collinear
+				COPCB lemma:collinearorder
+				COPCA lemma:collinearorder
+				NEPC  lemma:betweennotequal
+				COCBA lemma:collinear4
+				COCAB lemma:collinearorder
+				EQBC  lemma:nothreeoncircle					
+			NEPQ   reductio
+			NOORBEDPQ|BEDQP  assumption
+				ANNOBEDPQ+NOBEDQP
+				NOBEDPQ
+				NOBEDQP 
+				EQPQ  axiom:connectivity		
+			ORBEDPQ|BEDQP  reductio
+			cases CRACBD:BEDPQ|BEDQP
+				case 1:BEDPQ
+				  BECQB  axiom:betweennesssymmetry
+					COCBD  assumption
+					  EQDC  lemma:nothreeoncircle
+						EQCD  lemma:equalitysymmetric
+					NCCBD reductio
+					ANBEDMB+BECPM  postulate:Pasch-outer
+					BEDMB
+					BECPM
+					BEMPC  axiom:betweennesssymmetry
+					BEAPC
+					ICMJ   proposition:III.02
+					COCPM  defn:collinear
+					COAPC  defn:collinear
+					COPCM  lemma:collinearorder
+					COPCA lemma:collinearorder
+					NECP  lemma:betweennotequal
+					NEPC  lemma:inequalitysymmetric
+					COCMA lemma:collinear4
+					COCAM  lemma:collinearorder
+					NECA  lemma:inequalitysymmetric
+					BECMA  lemma:III.02converse
+					BEAMC  axiom:betweennesssymmetry
+					BEBMD axiom:betweennesssymmetry
+					CRACBD defn:cross
+				qedcase
+				case 2:BEDQP
+					BECPA axiom:betweennesssymmetry
+					COCAD  assumption
+						EQDC lemma:nothreeoncircle
+						NEDC lemma:inequalitysymmetric
+					NCCAD  reductio
+					ANBEDMA+BECQM postulate:Pasch-outer
+					BEDMA
+					BECQM
+					BECQB  axiom:betweennesssymmetry
+					COCQB  defn:collinear
+					COCQM defn:collinear
+					COQCB lemma:collinearorder
+					COQCM lemma:collinearorder
+					NECQ   lemma:betweennotequal
+					NEQC   lemma:inequalitysymmetric
+					COCBM  lemma:collinear4	
+					COMBC lemma:collinearorder
+					ICMJ   proposition:III.02
+					NECB   lemma:inequalitysymmetric
+				  BECMB lemma:III.02converse
+					BEBMC  axiom:betweennesssymmetry
+					BEAMD  axiom:betweennesssymmetry
+					CRADBC defn:cross
+					NOCRACBD assumption
+						CRADBC
+					CRACBD reductio
+				qedcase
+			CRACBD  cases
+		qedcase
+		case 2:CRRDAB
+			BECQB  axiom:betweennesssymmetry
+			NECB   lemma:inequalitysymmetric
+			ANBERPD+BEAPB defn:cross
+	    BERPD
+			BEAPB
+			BEDPR  axiom:betweennesssymmetry
+			BEDQR 
+			EQPQ  assumption
+			  BECPB  cn:equalitysub
+				BEAPB
+				COCPB defn:collinear
+				COAPB defn:collinear
+				COPBC lemma:collinearorder
+				COPBA lemma:collinearorder
+				NEPB  lemma:betweennotequal
+				COBCA lemma:collinear4
+				COBAC lemma:collinearorder
+				EQCB  lemma:nothreeoncircle					
+			NEPQ   reductio
+			NOORBEDPQ|BEDQP  assumption
+				ANNOBEDPQ+NOBEDQP
+				NOBEDPQ
+				NOBEDQP 
+				EQPQ  axiom:connectivity		
+			ORBEDPQ|BEDQP  reductio
+			cases CRABCD:BEDPQ|BEDQP
+				case 1:BEDPQ
+				  BEBQC  axiom:betweennesssymmetry
+					COBCD  assumption
+						EQDB  lemma:nothreeoncircle
+						EQBD  lemma:equalitysymmetric
+					NCBCD reductio
+					ANBEDMC+BEBPM  postulate:Pasch-outer
+					BEDMC
+					BEBPM
+					BEMPB  axiom:betweennesssymmetry
+					BEAPB
+					ICMJ   proposition:III.02
+					COBPM  defn:collinear
+					COAPB  defn:collinear
+					COPBM  lemma:collinearorder
+					COPBA lemma:collinearorder
+					NEBP  lemma:betweennotequal
+					NEPB  lemma:inequalitysymmetric
+					COBMA lemma:collinear4
+					COBAM  lemma:collinearorder
+					NEBA  lemma:inequalitysymmetric
+					BEBMA  lemma:III.02converse
+					BEAMB  axiom:betweennesssymmetry
+					BECMD axiom:betweennesssymmetry
+					CRABCD defn:cross
+				qedcase
+				case 2:BEDQP
+				  BEBPA axiom:betweennesssymmetry
+					COBAD  assumption
+						EQDB lemma:nothreeoncircle
+						NEDB lemma:inequalitysymmetric
+					NCBAD  reductio
+					ANBEDMA+BEBQM postulate:Pasch-outer
+					BEDMA
+					BEBQM
+					BEBQC  axiom:betweennesssymmetry
+					COBQC  defn:collinear
+					COBQM defn:collinear
+					COQBC lemma:collinearorder
+					COQBM lemma:collinearorder
+					NEBQ   lemma:betweennotequal
+					NEQB   lemma:inequalitysymmetric
+					COBCM  lemma:collinear4	
+					COMCB lemma:collinearorder
+					ICMJ   proposition:III.02
+					NEBC   lemma:inequalitysymmetric
+				  BEBMC lemma:III.02converse
+					BEAMD  axiom:betweennesssymmetry
+					CRADBC defn:cross
+					NOCRABCD assumption
+						CRADBC
+					CRABCD reductio
+				qedcase
+			CRABCD  cases
+			NOCRACBD assumption
+				NOCRABCD
+			CRACBD reductio		
+		qedcase
+	CRACBD cases
+CRACBD reductio

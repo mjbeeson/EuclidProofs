@@ -1,0 +1,127 @@
+COAEB
+COCFD
+NEAB
+NECD
+NEAE
+NEFD
+NOMEABCD
+BEAHD
+COEFH
+EQHE assumption
+ COAEB
+ COAHB  cn:equalitysub
+ COHAB  lemma:collinearorder
+ COAHD  defn:collinear
+ COHAD  lemma:collinearorder
+ NEAH  lemma:betweennotequal
+ NEHA   lemma:inequalitysymmetric
+ COABD  lemma:collinear4
+ EQDD  cn:equalityreflexive
+ COCDD  defn:collinear
+ MEABCD defn:meet
+NEHE reductio
+EQHF assumption
+ COAHD  defn:collinear
+ COAFD  cn:equalitysub
+ COFDA  lemma:collinearorder
+ COFDC  lemma:collinearorder
+ CODAC  lemma:collinear4
+ COCDA  lemma:collinearorder
+ EQAA   cn:equalityreflexive
+ COABA  defn:collinear
+ MEABCD defn:meet
+NEHF reductio
+BEEFH  assumption
+ BEDHA  axiom:betweennesssymmetry
+ CODAE assumption
+  COEAB  lemma:collinearorder
+  COEAD lemma:collinearorder
+  NEEA  lemma:inequalitysymmetric
+  COABD lemma:collinear4
+  EQDD   cn:equalityreflexive
+  COCDD  defn:collinear
+  ANNEAB+NECD+COABD+COCDD
+  MEABCD  defn:meet
+ NCDAE reductio
+ ANBEEQA+BEDFQ  postulate:Pasch-outer
+ BEEQA
+ BEDFQ
+ COEQA  defn:collinear
+ CODFQ  defn:collinear
+ COEAQ  lemma:collinearorder
+ COEAB  lemma:collinearorder
+ NEEA  lemma:inequalitysymmetric
+ COAQB lemma:collinear4
+ COABQ  lemma:collinearorder
+ COFDQ lemma:collinearorder
+ COFDC  lemma:collinearorder
+ CODQC  lemma:collinear4
+ COCDQ  lemma:collinearorder
+ MEABCD defn:meet
+NOBEEFH reductio
+BEFEH  assumption
+ BEAHD 
+ COADF  assumption 
+  COFDC  lemma:collinearorder
+  COFDA  lemma:collinearorder
+  CODCA lemma:collinear4
+  COCDA lemma:collinearorder
+  EQAA  cn:equalityreflexive
+  COABA defn:collinear
+  ANNEAB+NECD+COABA+COCDA
+  MEABCD  defn:meet
+ NCADF  reductio
+ ANBEFRD+BEAER  postulate:Pasch-outer
+ BEFRD
+ BEAER
+ COFRD  defn:collinear
+ COAER  defn:collinear
+ COFDR  lemma:collinearorder
+ COFDC  lemma:collinearorder
+ CODRC  lemma:collinear4
+ COCDR  lemma:collinearorder
+ COEAR  lemma:collinearorder
+ COEAB  lemma:collinearorder
+ NEAE   lemma:betweennotequal
+ NEEA   lemma:inequalitysymmetric
+ COARB  lemma:collinear4
+ COABR  lemma:collinearorder
+ MEABCD defn:meet
+NOBEFEH reductio
+EQEF  assumption
+ COCDF  lemma:collinearorder
+ COABE  lemma:collinearorder
+ COABF  cn:equalitysub
+ MEABCD  defn:meet
+NEEF reductio
+COEFH
+OREQEF|EQEH|EQFH|BEFEH|BEEFH|BEEHF  defn:collinear
+cases BEEHF:EQEF|EQEH|EQFH|BEFEH|BEEFH|BEEHF
+ case 1:EQEF
+  NOBEEHF assumption
+  NEEF
+  BEEHF reductio
+ qedcase
+ case 2:EQEH
+  NOBEEHF assumption
+  NEEH  lemma:inequalitysymmetric
+  BEEHF reductio
+ qedcase
+ case 3:EQFH
+  NOBEEHF assumption
+  NEFH lemma:inequalitysymmetric
+  BEEHF reductio
+ qedcase
+ case 4:BEFEH
+  NOBEEHF assumption
+  NOBEFEH
+  BEEHF reductio
+ qedcase
+ case 5:BEEFH
+  NOBEEHF assumption
+  NOBEEFH
+  BEEHF reductio
+ qedcase
+ case 6:BEEHF
+ qedcase
+BEEHF cases

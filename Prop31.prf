@@ -1,0 +1,181 @@
+BEBDC
+NCBCA
+COBDC  defn:collinear
+EQAD  assumption
+ COBAC  cn:equalitysub
+ COBCA  lemma:collinearorder
+NEAD reductio
+ANBEAMD+EEMAMD  proposition:10
+BEAMD
+EEMAMD  
+EEAMMD  lemma:congruenceflip
+COCBD  lemma:collinearorder
+EQBB  cn:equalityreflexive
+COCBB  defn:collinear
+NCCBA  lemma:NCorder
+NEBD  lemma:betweennotequal
+NCBDA   lemma:NChelper
+COBDC  defn:collinear
+EQDD   cn:equalityreflexive
+COBDD  defn:collinear
+NEDC  lemma:betweennotequal
+NECD  lemma:inequalitysymmetric
+NCCDA  lemma:NChelper
+NCADC  lemma:NCorder
+COAMD defn:collinear
+COADM  lemma:collinearorder
+EQAA   cn:equalityreflexive
+COADA  defn:collinear
+NEAM  lemma:betweennotequal
+NCAMC  lemma:NChelper
+EQCM  assumption
+ COACM  defn:collinear
+ COAMC  lemma:collinearorder
+NECM   reductio
+NEMC   lemma:inequalitysymmetric
+ANBECME+EEMEMC lemma:extension
+BECME
+EEMEMC
+EEMCME  lemma:congruencesymmetric
+EECMME  lemma:congruenceflip
+MICME   defn:midpoint
+NEAM   lemma:betweennotequal
+NCADB   lemma:NCorder
+NCAMB   lemma:NChelper
+EQBM  assumption
+ COABM  defn:collinear
+ COAMB  lemma:collinearorder
+NEBM  reductio
+NEMB  lemma:inequalitysymmetric
+ANBEBMF+EEMFMB  lemma:extension
+BEBMF
+EEMFMB
+EEMFBM  lemma:congruenceflip
+EEBMMF  lemma:congruencesymmetric
+MIBMF  defn:midpoint
+EEMDMA  lemma:congruencesymmetric
+BEDMA   axiom:betweennesssymmetry
+EEDMMA  lemma:congruenceflip
+MIDMA  defn:midpoint
+NEBD  lemma:betweennotequal
+NEDC  lemma:betweennotequal
+NEBC  lemma:NCdistinct
+EEBDFA lemma:pointreflectionisometry
+EEDCAE  lemma:pointreflectionisometry
+EEBCFE  lemma:pointreflectionisometry
+BEBDC
+BEFAE  lemma:betweennesspreserved
+BEEAF  axiom:betweennesssymmetry
+EQFF  cn:equalityreflexive
+NEAF  lemma:betweennotequal
+RAAFF  lemma:ray4
+EQBB   cn:equalityreflexive
+NEBD lemma:betweennotequal
+NEDB lemma:inequalitysymmetric
+RADBB  lemma:ray4
+EQAA   cn:equalityreflexive
+NEDA  lemma:betweennotequal
+RADAA  lemma:ray4
+EQDD  cn:equalityreflexive
+NEAD lemma:inequalitysymmetric
+RAADD  lemma:ray4
+NCBMA  lemma:NCorder
+COBMF  defn:collinear
+EQMM   cn:equalityreflexive
+COBMM  defn:collinear
+NEMF   lemma:betweennotequal
+NEFM   lemma:inequalitysymmetric
+NCFMA  lemma:NChelper
+NCAMF  lemma:NCorder
+COAMA  defn:collinear
+COAMD  defn:collinear
+NCADF  lemma:NChelper
+NCFAD  lemma:NCorder
+EEDBAF  lemma:congruenceflip
+MIBMF 
+MIAMD  defn:midpoint 
+NEBA  lemma:NCdistinct
+EEBAFD  lemma:pointreflectionisometry
+EEFDBA  lemma:congruencesymmetric
+RAAFF
+RAADD
+RADBB
+RADAA 
+EEAFDB  lemma:congruencesymmetric
+EEADDA  cn:equalityreverse
+EAFADBDA  defn:equalangles
+NCBDA  lemma:NChelper
+EABDAADB  lemma:ABCequalsCBA
+EAFADADB   lemma:equalanglestransitive
+EAADBFAD  lemma:equalanglessymmetric
+NCDAB   lemma:NCorder
+NCFAD   lemma:NCorder
+EAFADDAF  lemma:ABCequalsCBA
+EAADBDAF  lemma:equalanglestransitive
+EADAFADB  lemma:equalanglessymmetric
+NCADB   lemma:NCorder
+EAADBBDA  lemma:ABCequalsCBA
+EADAFBDA  lemma:equalanglestransitive
+OSBADF    defn:oppositeside
+OSFADB    lemma:oppositesidesymmetric
+BEFAE
+BECDB     axiom:betweennesssymmetry
+PRFECB    proposition:27
+PREFBC    lemma:parallelflip
+EEDCEA   lemma:congruenceflip 
+EEEADC    lemma:congruencesymmetric
+EEBDAF   lemma:congruenceflip
+EEAFBD   lemma:congruencesymmetric
+EEMCEM  lemma:congruenceflip
+EEEMMC  lemma:congruencesymmetric
+NEEA  lemma:betweennotequal
+NEAE  lemma:inequalitysymmetric
+EQEE  cn:equalityreflexive
+RAAEE  lemma:ray4
+NEDC lemma:betweennotequal
+EQCC  cn:equalityreflexive
+RADCC  lemma:ray4
+EEEMMC  lemma:congruenceflip
+BEEMC   axiom:betweennesssymmetry
+MIEMC    defn:midpoint
+MIDMA 
+EQED  assumption
+ BECMD  cn:equalitysub
+ COCMD  defn:collinear
+ COMDC  lemma:collinearorder
+ COAMD  defn:collinear
+ COMDA  lemma:collinearorder
+ NEMD  lemma:betweennotequal
+ CODCA lemma:collinear4
+ CODCB  lemma:collinearorder
+ NEDC  lemma:betweennotequal
+ COCAB lemma:collinear4
+ COBCA  lemma:collinearorder
+NEED  reductio
+NEDA  lemma:betweennotequal
+NEAD  lemma:inequalitysymmetric
+EEEDCA  lemma:pointreflectionisometry
+EEAEDC  lemma:pointreflectionisometry
+COEAF  defn:collinear
+COFAE  lemma:collinearorder
+NCFAD
+COFAA  defn:collinear
+NCEAD  lemma:NChelper
+RAAEE
+RAADD
+RADAA
+EEADDA
+EEAEDC
+EEEDCA
+EAEADCDA  defn:equalangles
+NCCDA   lemma:NCorder
+EACDAADC  lemma:ABCequalsCBA
+EAEADADC  lemma:equalanglestransitive
+NCDAE  lemma:NCorder
+EADAEEAD lemma:ABCequalsCBA
+EADAECDA lemma:equalanglestransitive
+ANBEEAF+EAFADADB+EAFADBDA+EADAFBDA+EAEADADC+EAEADCDA+EADAECDA+PREFBC+EEEADC+EEAFBD+EEAMMD+EEEMMC+EEBMMF+BEEMC+BEBMF+BEAMD
+
+
+
+

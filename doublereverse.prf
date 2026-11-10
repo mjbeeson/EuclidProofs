@@ -1,0 +1,7 @@
+EEABCD
+EECDDC   cn:equalityreverse
+EEABDC   lemma:congruencetransitive
+EEBAAB   cn:equalityreverse
+EEBADC   lemma:congruencetransitive
+EEDCBA   lemma:congruencesymmetric
+ANEEDCBA+EEBADC

@@ -1,0 +1,238 @@
+EEEDEC
+EEEDEB
+NCDBC
+NCEDB
+NCEDC
+EEEKEM
+BEKEM
+BEDUB
+BEDVC
+COKMU
+COKMV
+BEVUE
+EEECED  lemma:congruencesymmetric
+EEECEB  lemma:congruencetransitive
+EEEBEC  lemma:congruencesymmetric
+EEEBED  lemma:congruencetransitive
+NEDE    lemma:NCdistinct
+NEED    lemma:NCdistinct
+ANBEDEG+EEEGED   lemma:localextension
+BEDEG
+EEEGED
+CODBU   defn:collinear
+CODCV   defn:collinear
+EQDD    cn:equalityreflexive
+CODBD   defn:collinear
+COBDU   lemma:collinearorder
+NEDU    lemma:betweennotequal
+NEUD    lemma:inequalitysymmetric
+NCUDC   lemma:NChelper
+NCCDU   lemma:NCorder
+EQCC    cn:equalityreflexive
+COCDV   lemma:collinearorder
+EQDD    cn:equalityreflexive
+COCDD   defn:collinear
+COCDV   lemma:collinearorder
+NEDV    lemma:betweennotequal
+NCDVU   lemma:NChelper
+NCDUV   lemma:NCorder
+NEUV    lemma:NCdistinct
+COKEM   defn:collinear
+COKME   lemma:collinearorder
+COKMU   
+NEKM    lemma:betweennotequal
+COMEU   lemma:collinear4
+COKMV
+COMEV   lemma:collinear4
+NEEM    lemma:betweennotequal
+NEME    lemma:inequalitysymmetric
+COEUV   lemma:collinear4
+COUVE   lemma:collinearorder
+
+%   use outer Pasch to get P and with difficulty prove BEBPD
+  NEDV        lemma:betweennotequal
+  RADVC       lemma:ray4
+  NEDE        lemma:betweennotequal
+  EQEE        cn:equalityreflexive
+  BEEUV       axiom:betweennesssymmetry
+  NCDCE        lemma:NCorder
+  TRDCE       defn:triangle
+  ANBEEPC+BEDUP  postulate:Pasch-outer
+  BEEPC
+  BEDUP
+  RADUP       lemma:ray4
+  BECPE       axiom:betweennesssymmetry
+  NEDU        lemma:betweennotequal
+  RADUB        lemma:ray4
+  RADBP        lemma:ray3
+  NCEDC        lemma:NCorder
+  COEDG        defn:collinear
+  EQDD         cn:equalityreflexive
+  COEDD        defn:collinear
+  NEDG         lemma:betweennotequal
+  NEGD         lemma:inequalitysymmetric
+  NCGDC        lemma:NChelper
+  NCDGC        lemma:NCorder
+
+  RADBP    
+  EEEPEP   cn:congruencereflexive
+  LTEPEC   defn:lessthan
+  LTEPEB   lemma:lessthancongruence    
+  ORBEDPB|EQBP|BEDBP   lemma:ray1
+  cases BEBPD:BEDPB|EQBP|BEDBP
+   case 1:BEDPB
+    BEBPD  axiom:betweennesssymmetry
+   qedcase
+   case 2: EQBP
+    NOBEBPD assumption
+     LTEPEP   cn:equalitysub
+     NOLTEPEP lemma:trichotomy2
+    BEBPD   reductio
+   qedcase
+   case 3: BEDBP
+    BEPBD    axiom:betweennesssymmetry
+    NCEBD    lemma:NCorder
+    TREBD    defn:triangle
+    EEEBED
+    LTEDEP    lemma:outsideisosceles
+    NOBEBPD assumption
+     EEEDEC   
+     LTECEP    lemma:lessthancongruence2
+     NOLTEPEC   lemma:trichotomy2
+     LTEPEC    defn:lessthan
+    BEBPD   reductio
+   qedcase
+  BEBPD cases 
+  BEDEG    
+  NCCDG     lemma:NCorder
+  BECPE       
+  ANBECRG+BEDPR  postulate:Pasch-outer
+  BECRG
+  BEDPR
+  BECPE
+  BEEPC        axiom:betweennesssymmetry
+  BERPD        axiom:betweennesssymmetry
+  BEGRC        axiom:betweennesssymmetry
+  NCDGC        lemma:NCorder
+  EQGG         cn:equalityreflexive
+  CODGG        defn:collinear
+  CODEG        defn:collinear
+  CODGE        lemma:collinearorder
+  NEEG         lemma:betweennotequal
+  NCEGC        lemma:NChelper
+  TREGC        defn:triangle
+  EEEGEC       lemma:congruencetransitive
+  LTEREC       lemma:insideisosceles
+  LTEREB       lemma:lessthancongruence
+  BERBD        assumption
+   NCEBD       lemma:NCorder
+   TREBD       defn:triangle
+   LTEDER      lemma:outsideisosceles
+   EEEDEB      lemma:congruencesymmetric
+   LTEBER      lemma:lessthancongruence2
+   NOLTEREB    lemma:trichotomy2
+  NOBERBD    reductio
+  BEDPR       
+  BEDPB      axiom:betweennesssymmetry
+  NEPB        lemma:betweennotequal
+  ANBEDPR+BEDPB
+  RAPBR       defn:ray
+  ORBEPRB|EQBR|BEPBR  lemma:ray1
+  cases DABECBDC:BEPRB|EQBR|BEPBR
+   case 1: BEPRB
+    BEBRP   axiom:betweennesssymmetry
+    BECPE
+    NCEDB   
+    NCDBE    lemma:NCorder
+    CODPB    defn:collinear
+    CODBP    lemma:collinearorder
+    EQBB     cn:equalityreflexive
+    CODBB    defn:collinear
+    NEPB     lemma:betweennotequal
+    NCPBE    lemma:NChelper
+    NCEPB    lemma:NCorder
+    EQEE     cn:equalityreflexive
+    COEPE    defn:collinear
+    COEPC    defn:collinear
+    NEEC     lemma:betweennotequal
+    NCECB    lemma:NChelper
+    NCCEB    lemma:NCorder
+    ANBEBQE+BECRQ  postulate:Pasch-outer
+    BEBQE
+    BECRQ
+    BEEQB    axiom:betweennesssymmetry
+    EEEQEQ   cn:congruencereflexive
+    LTEQEB   defn:lessthan
+    RARQG    defn:ray
+    NECR     lemma:betweennotequal
+    RACRQ    lemma:ray4
+    BECRG    
+    RACRG    lemma:ray4
+    RACGQ    lemma:ray3
+    ORBECQG|EQGQ|BECGQ  lemma:ray1
+    cases BECQG:BECQG|EQGQ|BECGQ
+     case 1:BECQG
+     qedcase
+     case 2:EQGQ
+      LTEGEB  cn:equalitysub
+      EEEGEB  lemma:congruencetransitive
+      EEEBEG  lemma:congruencesymmetric
+      LTEGEG  lemma:lessthancongruence
+      NOBECQG   assumption
+       NOLTEGEG  lemma:trichotomy2
+      BECQG  reductio
+     qedcase
+     case 3:BECGQ
+      NCEGC 
+      TREGC  defn:triangle
+      EEEGEC
+      BEQGC    axiom:betweennesssymmetry
+      LTECEQ   lemma:outsideisosceles
+      EEECEB
+      LTEBEQ   lemma:lessthancongruence2
+      LTEBEB   lemma:lessthantransitive
+      NOBECQG assumption
+       NOLTEBEB  lemma:trichotomy2
+      BECQG reductio
+     qedcase
+    BECQG cases 
+    EEEDEC
+    EEEDEB
+    NCDBC
+    NCEDB
+    BEEPC
+    BEBPD
+    BECQG
+    BEEQB
+    BEGED      axiom:betweennesssymmetry  
+    DABECBDC    proposition:III.20B 
+   qedcase
+   case 2: EQBR
+    NODABECBDC  assumption
+     LTEBEB    cn:equalitysub
+     NOLTEBEB  lemma:trichotomy2
+    DABECBDC reductio
+   qedcase
+   case 3: BEPBR
+    BERBP   axiom:betweennesssymmetry
+    BEBPD 
+    BERBD   lemma:3.6b
+    NCEBD    lemma:NCorder
+    EEEBED
+    TREBD   defn:triangle
+    LTEDER  lemma:outsideisosceles
+    EEEDEB  lemma:congruencesymmetric
+    LTEBER  lemma:lessthancongruence2
+    BECRG
+    EEEGEC
+    NCEGC
+    TREGC   defn:triangle
+    LTEREC  lemma:insideisosceles
+    LTEREB  lemma:lessthancongruence
+    NODABECBDC  assumption
+     NOLTEBER  lemma:trichotomy2
+    DABECBDC   reductio
+   qedcase
+  DABECBDC  cases  
+
+  

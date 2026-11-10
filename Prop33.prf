@@ -1,0 +1,45 @@
+PRABCD
+EEABCD
+BEAMD
+BEBMC
+ANNEAB+NECD+COABa+COABb+NEab+COCDc+COCDd+NEcd+NOMEABCD+BEamd+BEcmb  defn:parallel
+NOMEABCD
+NEAB
+NECD
+COBMC  defn:collinear
+COBCM  lemma:collinearorder
+COBCA  assumption
+ COABC  lemma:collinearorder
+ EQCC  cn:equalityreflexive
+ COCDC defn:collinear 
+ MEABCD defn:meet
+NCBCA  reductio
+OSABCD   defn:oppositeside
+EAABCBCD  proposition:29B
+COBCD assumption
+ COCDB  lemma:collinearorder
+ EQBB cn:equalityreflexive
+ COABB defn:collinear
+ MEABCD defn:meet
+ NOMEABCD
+NCBCD reductio
+EABCDDCB  lemma:ABCequalsCBA
+EAABCDCB  lemma:equalanglestransitive
+EEBCBC  cn:congruencereflexive
+NCABC  lemma:NCorder
+EEBACD lemma:congruenceflip
+EEBCCB lemma:congruenceflip
+ANEEACDB+EABACCDB+EABCACBD proposition:04
+EEACDB
+EABCACBD
+NCACB lemma:NCorder
+EAACBBCA lemma:ABCequalsCBA
+EAACBCBD  lemma:equalanglestransitive
+EEACBD  lemma:congruenceflip
+BEAMD
+COCBM  lemma:collinearorder
+NCCBA   lemma:NCorder
+ANBEAMD+COCBM+NCBCA
+OSACBD  defn:oppositeside
+PRACBD   proposition:27B
+ANPRACBD+EEACBD 

@@ -1,0 +1,90 @@
+REABCD
+ANRRDAB+RRABC+RRBCD+RRCDA+CRACBD defn:rectangle
+RRDAB
+RRABC
+RRCDA
+CRACBD
+NCDAB  lemma:rightangleNC
+NCABC  lemma:rightangleNC
+NCCDA  lemma:rightangleNC
+ANBEAMC+BEBMD  defn:cross
+BEAMC
+BEBMD
+MEABCD  assumption
+ ANNEAB+NECD+COABP+COCDP  defn:meet
+ COABP
+ COCDP
+ EQAP  assumption
+  COCDA  cn:equalitysub
+  NCCDA
+ NEAP reductio
+ EQDP assumption
+  COABD cn:equalitysub
+  CODAB lemma:collinearorder
+  NCDAB 
+ NEDP reductio
+ RRDAB
+ RRCDA
+ RRBAD  lemma:8.2
+ COBAP  lemma:collinearorder
+ NEPA  lemma:inequalitysymmetric
+ RRPAD  lemma:collinearright
+ NEPD  lemma:inequalitysymmetric
+ RRPDA  lemma:collinearright
+ RRADP  lemma:8.2
+ NORRPAD  lemma:8.7
+NOMEABCD reductio
+NEAB  lemma:NCdistinct
+NECD lemma:NCdistinct
+NEDC  lemma:NCdistinct
+EQAA  cn:equalityreflexive
+COABA  defn:collinear
+EQBB  cn:equalityreflexive
+COABB defn:collinear
+EQCC  cn:equalityreflexive
+COCDC defn:collinear
+EQDD cn:equalityreflexive
+COCDD defn:collinear
+BEAMC
+BEDMB  axiom:betweennesssymmetry
+ANNEAB+NECD+COABA+COABB+NEAB+COCDD+COCDC+NEDC+NOMEABCD+BEAMC+BEDMB
+PRABCD   defn:parallel
+MEADBC  assumption
+ ANNEAD+NEBC+COADP+COBCP  defn:meet
+ COADP
+ COBCP
+ EQAP  assumption
+  COBCA  cn:equalitysub
+  COABC  lemma:collinearorder
+  NCABC
+ NEAP reductio
+ EQBP assumption
+  COADB cn:equalitysub
+  CODAB lemma:collinearorder
+  NCDAB
+ NEBP reductio
+ RRDAB
+ RRABC
+ NEPA lemma:inequalitysymmetric
+ CODAP  lemma:collinearorder
+ RRPAB  lemma:collinearright
+ RRCBA  lemma:8.2
+ COCBP  lemma:collinearorder
+ NEPB  lemma:inequalitysymmetric
+ RRPBA  lemma:collinearright
+ RRBAP  lemma:8.2
+ NORRPBA lemma:8.7
+NOMEADBC reductio
+NEAD  lemma:NCdistinct
+NEBC lemma:NCdistinct
+EQDD cn:equalityreflexive
+COADA  defn:collinear
+COADD defn:collinear
+COBCB defn:collinear
+COBCC defn:collinear
+NEAD
+NEBC
+NOMEADBC
+BEAMC
+PRADBC  defn:parallel
+PGABCD  defn:parallelogram

@@ -1,0 +1,272 @@
+TRABC
+TRDEF
+EEABDE
+EEACDF
+AOEDFBAC
+NCABC  defn:triangle
+EQAB assumption
+ COABC  defn:collinear
+NEAB  reductio
+EQAC  assumption
+ COABC  defn:collinear
+NEAC  reductio
+NECA  lemma:inequalitysymmetric
+EQBC assumption
+ COABC defn:collinear
+NEBC  reductio
+NECB  lemma:inequalitysymmetric
+ANBEPTQ+RAABP+RAACQ+EAEDFBAT defn:anglelessthan
+RAABP
+RAACQ
+EAEDFBAT
+NCBAT   lemma:equalanglesNC
+EQAT  assumption
+ COBAT  defn:collinear
+NEAT  reductio
+EQAC  assumption
+ COABC defn:collinear
+NEAC reductio
+ANRAATH+EEAHAC  lemma:layoff
+RAATH
+EEAHAC
+EEACDF
+EEAHDF  lemma:congruencetransitive
+COHAB  assumption
+ COATH  lemma:rayimpliescollinear
+ COHAT lemma:collinearorder
+ NEAH  lemma:raystrict
+ NEHA  lemma:inequalitysymmetric
+ COABT lemma:collinear4
+ COBAT lemma:collinearorder
+NCHAB  reductio
+EQHB assumption
+ COHAB  defn:collinear
+NEHB reductio
+EEABDE
+EAEDFBAT
+RAATH  
+EQBB    cn:equalityreflexive  
+RAABB   lemma:ray4
+EAEDFBAH  lemma:equalangleshelper
+EABAHEDF  lemma:equalanglessymmetric
+EAHABFDE  lemma:equalanglesflip
+ANEEHBFE+EAAHBDFE+EAABHDEF  proposition:04
+RAAQC   lemma:ray5
+RAAPB   lemma:ray5
+COAQC  lemma:rayimpliescollinear
+COAPB  lemma:rayimpliescollinear
+COQAP   assumption
+ COAPQ  lemma:collinearorder
+ COQAC  lemma:collinearorder
+ COQAP  lemma:collinearorder
+ NEAQ  lemma:ray2
+ NEQA  lemma:inequalitysymmetric
+ COACP  lemma:collinear4
+ COPAB  lemma:collinearorder
+ COPAC  lemma:collinearorder
+ NEAP  lemma:raystrict
+ NEPA  lemma:inequalitysymmetric
+ COABC lemma:collinear4
+NCQAP   reductio
+TRQAP  defn:triangle
+BEPTQ
+BEQTP  axiom:betweennesssymmetry
+ANRAATJ+BECJB  lemma:crossbar
+RAATJ
+BECJB
+RAATH
+RAAJH lemma:ray3
+EEACAH  lemma:congruencesymmetric
+COACH  assumption 
+ COHAC  lemma:collinearorder
+ NEAH   lemma:raystrict
+ NEHA   lemma:inequalitysymmetric
+ COAJH  lemma:rayimpliescollinear
+ COHAJ  lemma:collinearorder
+ COACJ  lemma:collinear4
+ COCJB  defn:collinear
+ COCJA  lemma:collinearorder
+ NECJ   lemma:betweennotequal
+ COJBA  lemma:collinear4
+ COATJ  lemma:rayimpliescollinear
+ COJAT  lemma:collinearorder
+ COJAB  lemma:collinearorder
+ NEAJ   lemma:raystrict
+ NEJA   lemma:inequalitysymmetric
+ COATB  lemma:collinear4
+ COBAT  lemma:collinearorder
+NCACH  reductio
+TRACH  defn:triangle
+ISACH   defn:isosceles
+EAACHAHC proposition:05
+ORBEAHJ|EQJH|BEAJH  lemma:ray1
+cases LTHBCB:BEAHJ|EQJH|BEAJH
+ case 1:BEAHJ
+  COCJH   assumption
+   COAHJ  defn:collinear
+   COJHA  lemma:collinearorder
+   COJHC  lemma:collinearorder
+   NEHJ   lemma:betweennotequal
+   NEJH   lemma:inequalitysymmetric
+   COHAC  lemma:collinear4
+   COACH  lemma:collinearorder
+  NCCJH   reductio
+  TRCJH   defn:triangle
+  BEJHA   axiom:betweennesssymmetry
+  AOJCHCHA  proposition:16
+  COHCJ  assumption
+   COCJH  lemma:collinearorder
+  NCHCJ reductio
+  EAHCJJCH  lemma:ABCequalsCBA
+  AOHCJCHA  lemma:angleorderrespectscongruence2
+  COAHC    assumption
+   COACH   lemma:collinearorder
+  NCAHC   reductio
+  EAAHCCHA  lemma:ABCequalsCBA
+  AOHCJAHC  lemma:angleorderrespectscongruence
+  RAHBB    lemma:ray4
+  BECJB
+  EQCC     cn:equalityreflexive
+  COCHJ    assumption
+   COCJH   lemma:collinearorder
+  NCCHJ   reductio
+  EQCH assumption
+   COCHJ  defn:collinear
+  NECH reductio 
+  NEHC lemma:inequalitysymmetric
+  RAHCC  lemma:ray4
+  EACHJCHJ  lemma:equalanglesreflexive
+  NECJ   lemma:angledistinct
+  NECH   lemma:angledistinct
+  AOCHJCHB  defn:anglelessthan
+  COCAH     assumption
+   COACH    lemma:collinearorder
+   NCACH
+  NCCAH     reductio
+  TRCAH     defn:triangle
+  AOACHCHJ  proposition:16
+  AOHCJAHC
+  EAACHAHC
+  AOHCJACH  lemma:angleorderrespectscongruence
+  AOACHCHJ 
+  AOHCJCHJ  lemma:angleordertransitive
+  AOCHJCHB 
+  AOHCJCHB  lemma:angleordertransitive
+  EQHH     cn:equalityreflexive
+  RACHH    lemma:ray4
+  RACJB    lemma:ray4
+  EAHCJHCJ  lemma:equalanglesreflexive
+  EAHCJHCB  lemma:equalangleshelper
+  EAHCBHCJ  lemma:equalanglessymmetric
+  AOHCBCHB  lemma:angleorderrespectscongruence2
+  COBHC      assumption
+   COCJB     defn:collinear
+   COBCH    lemma:collinearorder
+   COBCJ    lemma:collinearorder
+   NECB     lemma:betweennotequal
+   NEBC     lemma:inequalitysymmetric
+   COCHJ    lemma:collinear4 
+  NCBHC     reductio
+  TRBHC      defn:triangle
+  EABHCCHB  lemma:ABCequalsCBA
+  AOHCBBHC  lemma:angleorderrespectscongruence
+  LTBHBC    proposition:19
+  EEBHHB    cn:equalityreverse
+  LTHBBC    lemma:lessthancongruence2
+  EEBCCB    cn:equalityreverse
+  LTHBCB    lemma:lessthancongruence
+ qedcase
+ case 2:EQJH
+  BECHB  cn:equalitysub
+  BEBHC  axiom:betweennesssymmetry
+  EEBHHB  cn:equalityreverse
+  LTHBBC defn:lessthan
+  EEBCCB  cn:equalityreverse
+  LTHBCB   lemma:lessthancongruence
+ qedcase
+ case 3:BEAJH
+  BEHJA     axiom:betweennesssymmetry
+  COCJH   assumption
+   COAHJ  defn:collinear
+   COJHA  lemma:collinearorder
+   COJHC  lemma:collinearorder
+   NEHJ   lemma:betweennotequal
+   NEJH   lemma:inequalitysymmetric
+   COHAC  lemma:collinear4
+   COACH  lemma:collinearorder
+  NCCJH   reductio
+  COHCB     assumption
+   COCJB     defn:collinear
+   COBCJ    lemma:collinearorder
+   COBCH    lemma:collinearorder
+   NECB     lemma:betweennotequal
+   NEBC     lemma:inequalitysymmetric
+   COCHJ    lemma:collinear4  
+   COCJH    lemma:collinearorder
+   NCCJH      
+  NCHCB     reductio
+  EQHH     cn:equalityreflexive
+  EQAA     cn:equalityreflexive
+  EQCH     assumption
+   COCHB   defn:collinear
+   COHCB   lemma:collinearorder
+  NECH   reductio
+  RACAA     lemma:ray4
+  EAHCBHCB  lemma:equalanglesreflexive
+  RACBJ     lemma:ray4
+  RACHH     lemma:ray4
+  EAHCBHCJ  lemma:equalangleshelper
+  BEHJA     axiom:betweennesssymmetry
+  AOHCBHCA  defn:anglelessthan
+  COBCH  assumption
+   COHCB  lemma:collinearorder
+  NCBCH  reductio
+  EABCHHCB  lemma:ABCequalsCBA
+  AOBCHHCA  lemma:angleorderrespectscongruence2
+  NCACH
+  EAACHHCA   lemma:ABCequalsCBA
+  AOBCHACH  lemma:angleorderrespectscongruence
+  EAACHAHC 
+  EAAHCACH  lemma:equalanglessymmetric
+  AOBCHAHC  lemma:angleorderrespectscongruence
+  COAHC    assumption
+   COACH   lemma:collinearorder
+  NCAHC   reductio
+  EAAHCCHA  lemma:ABCequalsCBA
+  EQCC     cn:equalityreflexive
+  EQBB     cn:equalityreflexive
+  NEHB     lemma:angledistinct
+  NEHC     lemma:angledistinct
+  NEHA     lemma:angledistinct
+  RAHCC    lemma:ray4
+  RAHBB     lemma:ray4
+  RAHAJ     lemma:ray4
+  EAAHCCHJ   lemma:equalangleshelper
+  BECJB
+  AOAHCCHB  defn:anglelessthan
+  COBHC assumption
+   COHCB  lemma:collinearorder
+  NCBHC   reductio
+  EABHCCHB  lemma:ABCequalsCBA
+  AOAHCBHC   lemma:angleorderrespectscongruence
+  AOBCHBHC   lemma:angleordertransitive
+  COHCB assumption
+   COBHC  lemma:collinearorder
+  NCHCB  reductio
+  EAHCBBCH  lemma:ABCequalsCBA
+  AOHCBBHC  lemma:angleorderrespectscongruence2
+  TRBHC   defn:triangle
+  LTBHBC  proposition:19
+  EEBHHB  cn:equalityreverse
+  LTHBBC   lemma:lessthancongruence2
+  EEBCCB   cn:equalityreverse
+  LTHBCB   lemma:lessthancongruence
+ qedcase
+LTHBCB cases 
+EEHBFE
+EEFEEF  cn:equalityreverse
+EEHBEF  lemma:congruencetransitive
+LTEFCB  lemma:lessthancongruence2
+EECBBC  cn:equalityreverse
+LTEFBC  lemma:lessthancongruence
+

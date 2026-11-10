@@ -1,0 +1,472 @@
+DAFEBFAB          
+DAFECFAC          
+ASBEFFECBEC       
+ASBAFFACBAC     
+BEAEH
+BEBHC 
+BEAEF
+ASFACFACFEC      lemma:doublesum2      # 2+2 = FEC
+NCFEC            lemma:anglesumNC
+ANEAFEPPEC+IAFECP   proposition:09   
+EAFEPPEC
+IAFECP
+ANRAEFX+RAECY+BEXPY   defn:interior
+RAEFX
+RAECY
+BEXPY
+NCFEC
+COEFX        lemma:rayimpliescollinear
+COFEX        lemma:collinearorder
+NEEX         lemma:raystrict
+NEXE         lemma:inequalitysymmetric
+EQEE          cn:equalityreflexive
+COFEE         defn:collinear
+NCXEC        lemma:NChelper
+NCECX        lemma:NCorder
+COECY        lemma:rayimpliescollinear
+COECE         defn:collinear
+NEEY          lemma:raystrict
+NEYE          lemma:inequalitysymmetric
+NCEYX         lemma:NChelper
+NCXEY        lemma:NCorder
+NEEX          lemma:raystrict
+EQXX          cn:equalityreflexive
+EQYY          cn:equalityreflexive
+RAEXX        lemma:ray4
+RAEYY       lemma:ray4
+EEXYXY       cn:congruencereflexive
+EEEXEX       cn:congruencereflexive
+EEEYEY       cn:congruencereflexive
+EAXEYFEC      defn:equalangles
+EAPECFEP     lemma:equalanglessymmetric
+NCFEP        lemma:equalanglesNC          
+NCPEC        lemma:equalanglesNC
+EAFEPFEP     lemma:equalanglesreflexive
+EAPECPEC      lemma:equalanglesreflexive
+EEEPEP        cn:congruencereflexive
+EEXPXP        cn:congruencereflexive
+EQPP          cn:equalityreflexive
+NEEP         lemma:NCdistinct
+RAEPP        lemma:ray4
+EAFEPXEP     defn:equalangles
+RAECY
+EQYY         cn:equalityreflexive
+RAEYY        lemma:ray4
+EEEYEY       cn:congruencereflexive
+EEPYPY       cn:congruencereflexive
+EAPECPEY     defn:equalangles
+BEXPY
+ASFEPPECXEY        defn:anglesum
+EAXEYFEC
+ASFEPPECFEC     lemma:angleaddition2
+EAPECFEP
+ASFEPFEPFEC     lemma:anglesumrespectscongruence
+DAFECFEP          lemma:doublesum
+DAFECFAC
+EAFEPFAC          lemma:anglebisectorunique
+
+ASFABFABFEB      lemma:doublesum2      # 2+2 = FEC
+NCFEB            lemma:anglesumNC
+ANEAFEQQEB+IAFEBQ   proposition:09   
+EAFEQQEB
+IAFEBQ
+ANRAEFx+RAEBy+BExQy   defn:interior
+RAEFx
+RAEBy
+BExQy
+NCFEB
+COEFx        lemma:rayimpliescollinear
+COFEx        lemma:collinearorder
+NEEx         lemma:raystrict
+NExE         lemma:inequalitysymmetric
+NCxEB        lemma:NChelper
+NCEBx        lemma:NCorder
+COEBy        lemma:rayimpliescollinear
+COEBE         defn:collinear
+NEEy          lemma:raystrict
+NEyE          lemma:inequalitysymmetric
+NCEyx         lemma:NChelper
+NCxEy        lemma:NCorder
+NEEx         lemma:raystrict
+EQxx          cn:equalityreflexive
+EQyy          cn:equalityreflexive
+RAExx        lemma:ray4
+RAEyy       lemma:ray4
+EExyxy       cn:congruencereflexive
+EEExEx       cn:congruencereflexive
+EEEyEy       cn:congruencereflexive
+EAxEyFEB      defn:equalangles
+EAQEBFEQ     lemma:equalanglessymmetric
+NCFEQ        lemma:equalanglesNC          
+NCQEB       lemma:equalanglesNC
+EAFEQFEQ     lemma:equalanglesreflexive
+EAQEBQEB      lemma:equalanglesreflexive
+EEEQEQ        cn:congruencereflexive
+EExQxQ       cn:congruencereflexive
+EQQQ        cn:equalityreflexive
+NEEQ         lemma:NCdistinct
+RAEQQ        lemma:ray4
+EAFEQxEQ     defn:equalangles
+RAEBy
+EQyy        cn:equalityreflexive
+RAEyy       lemma:ray4
+EEEyEy       cn:congruencereflexive
+EEQyQy       cn:congruencereflexive
+EAQEBQEy     defn:equalangles
+BExQy
+ASFEQQEBxEy        defn:anglesum
+EAxEyFEB
+ASFEQQEBFEB     lemma:angleaddition2
+EAQEBFEQ
+ASFEQFEQFEB     lemma:anglesumrespectscongruence
+DAFEBFEQ          lemma:doublesum
+DAFEBFAB
+EAFEQFAB          lemma:anglebisectorunique
+
+ASFEPFEPFEC
+ASFEQFEQFEB
+
+NCBAC         lemma:anglesumNC
+NEAB          lemma:NCdistinct
+EQBB          cn:equalityreflexive
+NCFEB         lemma:anglesumNC
+NEEB          lemma:NCdistinct
+RAEBB         lemma:ray4
+NCFEB         lemma:anglesumNC
+NEEF          lemma:NCdistinct
+NEAE          lemma:betweennotequal
+RAAEH         lemma:ray4
+NEAE          lemma:betweennotequal
+RAAEF         lemma:ray4
+BEAEF
+BEAEH
+RAEFH         defn:ray
+EQBB          cn:equalityreflexive
+EQHH          cn:equalityreflexive
+RAEBB         lemma:ray4
+NEEH          lemma:betweennotequal
+RAEHH         lemma:ray4
+EEEBEB        cn:congruencereflexive
+EEEHEH        cn:congruencereflexive
+EEBHBH        cn:congruencereflexive
+NCBEF         lemma:NCorder
+EABEFBEH      defn:equalangles
+
+
+NCCAB         lemma:NCorder
+NEAC          lemma:NCdistinct
+EQCC          cn:equalityreflexive
+NCFEC         lemma:anglesumNC
+NEEC          lemma:NCdistinct
+RAECC         lemma:ray4
+NCFEC         lemma:anglesumNC
+EQCC          cn:equalityreflexive
+RAECC         lemma:ray4
+EEECEC        cn:congruencereflexive
+EECHCH        cn:congruencereflexive
+NCCEF         lemma:NCorder
+EACEFCEH      defn:equalangles
+EACEFFEC      lemma:ABCequalsCBA
+EAFECCEF      lemma:equalanglessymmetric
+EAFECCEH      lemma:equalanglestransitive
+NCCEH         lemma:equalanglesNC
+EACEHHEC      lemma:ABCequalsCBA  
+EAFECHEC      lemma:equalanglestransitive
+EAHECFEC      lemma:equalanglessymmetric
+EABEFBEH
+ASBEFFECBEC   defn:anglesum 
+
+RAEFH
+RAEHF        lemma:ray5
+EQFF         cn:equalityreflexive
+RAEFF         lemma:ray4
+EEEFEF        cn:congruencereflexive
+EEEQEQ        cn:congruencereflexive
+EEQFQF        cn:congruencereflexive
+EQQQ          cn:equalityreflexive
+RAEQQ         lemma:ray4
+NCFEQ         lemma:equalanglesNC
+NCQEF         lemma:NCorder
+EAQEFQEH      defn:equalangles
+
+RAEFF
+EQPP          cn:equalityreflexive
+RAEPP         lemma:ray4
+RAEHF         
+EEEPEP        cn:congruencereflexive
+EEEFEF
+EEFPFP        cn:congruencereflexive
+NCFEP         lemma:equalanglesNC
+EAFEPHEP      defn:equalangles
+
+RAEYC         lemma:ray5
+RAEFX
+RAEXH         lemma:ray3
+EACEFFEC 
+NCFEC         lemma:equalanglesNC
+NCFCE         lemma:NCorder
+NCXEY
+TRXEY         defn:triangle
+BEXPY
+ANRAEPs+BEHsC   lemma:crossbar
+RAEPs
+BEHsC
+
+RAEyB         lemma:ray5
+RAEFx
+RAExH         lemma:ray3
+NCFEB         lemma:equalanglesNC
+NCFBE         lemma:NCorder
+NCxEy
+TRxEy         defn:triangle
+BExQy
+ANRAEQr+BEHrB   lemma:crossbar
+RAEQr
+BEHrB
+
+BEBHC
+BEBrH      axiom:betweennesssymmetry
+BErHC      lemma:3.6a
+BEHsC
+BErHs      axiom:innertransitivity
+
+RAEQr
+RAEFH
+EQrr       cn:equalityreflexive
+NEEr       lemma:raystrict
+RAErr      lemma:ray4
+EQHH       cn:equalityreflexive
+NEEH       lemma:raystrict
+RAEHH     lemma:ray4
+EEErEr     cn:congruencereflexive
+EEEHEH     cn:congruencereflexive
+EErHrH     cn:congruencereflexive
+NCQEF
+EAQEFrEH   defn:equalangles
+
+RAEPs
+EQss       cn:equalityreflexive
+NEEs       lemma:raystrict
+RAEss      lemma:ray4
+EEEsEs     cn:congruencereflexive
+EEsHsH     cn:congruencereflexive
+NCPEF      lemma:NCorder
+EAPEFsEH   defn:equalangles
+EAFEPHEs    lemma:equalanglesflip
+ASQEFFEPrEs   defn:anglesum
+
+
+RAEQr
+RAEPs
+EEEsEs       cn:congruencereflexive
+EEErEr       cn:congruencereflexive
+EErsrs       cn:congruencereflexive 
+NCrEs        lemma:anglesumNC
+EArEsQEP     defn:equalangles
+ASQEFFEPQEP  lemma:angleaddition2        # 1+2
+ASFEPQEFQEP  lemma:anglesumcommutative   # 2+1
+
+ASBEFFECBEC 
+
+RAEBy
+EQyy          cn:equalityreflexive
+RAEyy         lemma:ray4
+RAEQr               
+RAEQQ         lemma:ray4
+NCBEQ         lemma:NCorder
+EEExEx       cn:congruencereflexive
+EEEyEy        cn:congruencereflexive 
+EEyQyQ        cn:congruencereflexive
+EABEQyEQ      defn:equalangles 
+RAEFx 
+EQxx          cn:equalityreflexive
+RAExx         lemma:ray4
+NCQEF         lemma:NCorder
+EAQEFQEx      defn:equalangles
+BEyQx         axiom:betweennesssymmetry
+ASBEQQEFyEx   defn:anglesum
+NCyEx         lemma:anglesumNC
+RAEyy
+RAExx
+RAEBy
+RAEFx
+EEEyEy
+EEExEx
+EEyxyx        cn:congruencereflexive
+EAyExBEF      defn:equalangles
+ASBEQQEFBEF   lemma:angleaddition2           # 1+1 
+NCBEF         lemma:anglesumNC
+RAEBB
+RAEFH
+RAEHH
+EEEBEB
+EEEHEH
+EEBHBH
+EABEFBEH      defn:equalangles
+NCFEP         lemma:equalanglesNC
+RAEFH
+RAEHH
+RAEPs
+RAEss
+EEEHEH
+EEEsEs
+EEHsHs       cn:congruencereflexive
+EAFEPHEs     defn:equalangles
+BEBrH
+BErHs
+BEBHs        axiom:innertransitivity      
+ASBEFFEPBEs  defn:anglesum
+NCBEs        lemma:anglesumNC
+RAEBB
+RAEPs
+RAEss
+EEEBEB
+EEEsEs
+EEBsBs       cn:congruencereflexive
+EABEsBEP     defn:equalangles
+ASBEFFEPBEP  lemma:angleaddition2
+ASQEFFEPQEP   
+ASBEQQEPBEP  lemma:anglesumassociative    # 1 + (1+2) = BEP
+NCBEP        lemma:anglesumNC
+NCPEC        lemma:equalanglesNC
+RAEPs
+RAEss
+RAECC
+RAEBB
+EEEsEs
+EEECEC
+EEsCsC       cn:congruencereflexive
+EEBsBs       cn:congruencereflexive
+EABEPBEs     defn:equalangles
+EAPECsEC     defn:equalangles
+BEBsC        lemma:3.5b
+ASBEPPECBEC   defn:anglesum                # (1+(1+2))+2 
+ASPECBEPBEC   lemma:anglesumcommutative    # 2 + (1 +(1+2))    2+1=QEP (next line)
+ASQEPBEQBEP   lemma:anglesumcommutative
+EAFEPPEC      
+ASBEPPECBEC  
+ASPECBEPBEC   lemma:anglesumcommutative
+ASBEQQEPBEP 
+NCQEP         lemma:anglesumNC
+RAEQr
+RAErr
+RAEPs
+RAEss
+RAECC
+EEErEr
+EEEsEs
+EErsrs
+EAQEPrEs      defn:equalangles
+NCPEC
+EAPECsEC
+BEBrH
+BEHsC
+BErsC         lemma:3.5b
+ASQEPPECrEC   defn:anglesum
+NCrEC         lemma:anglesumNC
+RAErQ        lemma:ray5
+RAECC
+EEEQEQ
+EEECEC
+EEQCQC       cn:congruencereflexive
+EArECQEC       defn:equalangles
+ASQEPPECQEC    lemma:angleaddition2
+ASQEPBEQBEP   lemma:anglesumcommutative  
+NCPEC
+EAPECFEP     lemma:equalanglessymmetric
+RAEFH
+RAEPs
+EEEHEH
+EEEsEs
+EEHsHs
+EAFEPHEs      defn:equalangles
+NCHEs         lemma:equalanglesNC
+EAHEssEH      lemma:ABCequalsCBA
+EAFEPsEH      lemma:equalanglestransitive
+EAPECFEP      
+EAPECsEH      lemma:equalanglestransitive
+EAFEQQEB
+EAQEBFEQ      lemma:equalanglessymmetric
+NCFEQ        lemma:equalanglesNC
+RAEFH
+RAEHH
+RAEQr
+RAErr
+EEEHEH
+EEErEr
+EEHrHr       cn:congruencereflexive
+EAFEQHEr     defn:equalangles
+EAQEBHEr     lemma:equalanglestransitive
+NCBEQ
+EABEQQEB     lemma:ABCequalsCBA
+EABEQHEr     lemma:equalanglestransitive
+BEsHr        axiom:betweennesssymmetry
+NCPEC
+ASPECBEQsEr   defn:anglesum
+NCsEr         lemma:anglesumNC
+RAEss
+RAEPs
+RAErr
+RAEQr
+EEEsEs
+EEErEr
+EEsrsr      cn:congruencereflexive
+EAsErPEQ     defn:equalangles
+NCPEQ        lemma:equalanglesNC
+EAPEQQEP     lemma:ABCequalsCBA
+EAsErQEP     lemma:equalanglestransitive
+ASPECBEQQEP  lemma:angleaddition2
+ASQEPQEPBEC   lemma:anglesumassociative2 
+
+   
+EAFACFEP     lemma:equalanglessymmetric
+EAFABFEQ     lemma:equalanglessymmetric
+EABAFQEF     lemma:equalanglesflip
+
+NCFAB        lemma:equalanglesNC
+NCBAF        lemma:NCorder
+EQBB         cn:equalityreflexive
+RAABB        lemma:ray4
+RAAEH
+RAAEF
+RAAFH       lemma:ray3
+EQHH          cn:equalityreflexive
+NEAH         lemma:betweennotequal
+RAAHH        lemma:ray4
+EEABAB       cn:congruencereflexive
+EEAHAH       cn:congruencereflexive
+EEBHBH
+EABAFBAH      defn:equalangles
+
+NCBAC         lemma:anglesumNC
+NCBCA         lemma:NCorder
+COBCH         defn:collinear
+NEHC          lemma:betweennotequal
+COBCC         defn:collinear
+NCHCA         lemma:NChelper
+NCHAC         lemma:NCorder
+RAACC         lemma:ray4
+RAAHH
+RAAFH
+EEAHAH
+EEACAC        cn:congruencereflexive
+EEHCHC        cn:congruencereflexive
+EAHACFAC      defn:equalangles
+EABAFBAH
+EQFF          cn:equalityreflexive
+NEAF          lemma:betweennotequal
+RAAFF         lemma:ray4
+RAAFH
+RAACC
+EEACAC
+EEAHAH
+NCFAC         lemma:equalanglesNC
+EAFACHAC      defn:equalangles
+BEBHC
+ASBAFFACBAC   defn:anglesum
+ASQEFFEPBAC   lemma:anglesumrespectscongruence
+ASQEFFEPQEP   
+EABACQEP      lemma:angleaddition
+EAQEPBAC     lemma:equalanglessymmetric
+ASBACBACBEC   lemma:anglesumrespectscongruence
+DABECBAC        lemma:doublesum

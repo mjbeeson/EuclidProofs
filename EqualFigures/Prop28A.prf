@@ -1,0 +1,31 @@
+BEAGB
+BECHD
+BEEGH
+EAEGBGHD
+SSBDGH
+SSDBGH  lemma:samesidesymmetric
+NCEGB   defn:equalangles
+EQGG    cn:equalityreflexive
+COGHG   defn:collinear
+COGHA  assumption
+ COHGA lemma:collinearorder
+ COEGH  defn:collinear
+ COHGE  lemma:collinearorder
+ NEGH  lemma:betweennotequal
+ NEHG  lemma:inequalitysymmetric
+ COGAE lemma:collinear4
+ COAGE lemma:collinearorder
+ COAGB  defn:collinear
+ NEAG  lemma:betweennotequal
+ COGEB lemma:collinear4
+ COEGB lemma:collinearorder
+NCGHA   reductio 
+OSAGHB   defn:oppositeside
+OSBGHA  lemma:oppositesidesymmetric
+BEBGA  axiom:betweennesssymmetry
+EAEGBAGH proposition:15
+EAAGHEGB lemma:equalanglessymmetric
+EAAGHGHD lemma:equalanglestransitive
+OSDGHA   lemma:planeseparation
+OSAGHD   lemma:oppositesidesymmetric
+PRABCD proposition:27

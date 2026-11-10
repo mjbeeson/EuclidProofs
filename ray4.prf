@@ -1,0 +1,28 @@
+ORBEAEB|EQEB|BEABE
+NEAB
+EQBA  assumption
+EQAB  lemma:equalitysymmetric
+NEBA   reductio
+ANBEBAJ+EEAJAB  lemma:extension
+BEBAJ
+BEJAB  axiom:betweennesssymmetry
+cases RAABE:BEAEB|EQEB|BEABE
+ case 1: BEAEB 
+  BEJAB
+  BEJAE   axiom:innertransitivity
+  RAABE   defn:ray
+ qedcase
+ case 2: EQEB
+  BEJAB
+  BEJAE   cn:equalitysub
+  RAABE   defn:ray
+ qedcase
+ case 3: BEABE
+  BEJAB
+  BEJAE   lemma:3.7b
+  RAABE   defn:ray
+ qedcase
+RAABE   cases
+
+ 
+ 

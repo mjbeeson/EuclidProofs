@@ -1,0 +1,344 @@
+PGABCD
+PGEBCF
+BEADF
+COAEF
+ANPRABCD+PRADBC  defn:parallelogram
+PRABCD
+PRADBC
+PRABDC  lemma:parallelflip
+EEADBC   proposition:34
+EEEFBC   proposition:34
+EEBCEF   lemma:congruencesymmetric
+EEADEF   lemma:congruencetransitive
+EEEFFE  cn:equalityreverse
+EEADFE  lemma:congruencetransitive
+EEADAD  cn:congruencereflexive
+LTADAF   defn:lessthan
+LTFEAF   lemma:lessthancongruence2
+EEAFFA   cn:equalityreverse
+LTFEFA   lemma:lessthancongruence
+ANBEFeA+EEFeFE  defn:lessthan
+BEFeA
+EEFeFE 
+NEFA  lemma:betweennotequal
+RAFAe  lemma:ray4 
+BEAEF   lemma:35helper
+BEFEA axiom:betweennesssymmetry
+RAFAE lemma:ray4
+EQeE    lemma:layoffunique
+BEFEA  cn:equalitysub
+BEAEF  axiom:betweennesssymmetry
+PRDCAB  lemma:parallelsymmetric
+BEFDA   axiom:betweennesssymmetry
+TPADBC  lemma:paralleldef2B
+SSBCAD  defn:tarski_parallel
+SSCBDA  lemma:samesidesymmetric
+EAFDCDAB  proposition:29C
+EQDD   cn:equalityreflexive
+EQCC   cn:equalityreflexive
+EQBB   cn:equalityreflexive
+EQAA   cn:equalityreflexive
+NCADC  lemma:parallelNC
+EQAD assumption
+ COADC defn:collinear
+NEAD reductio
+NEAD lemma:betweennotequal
+NCABC  lemma:parallelNC
+EQAB assumption
+ COABC defn:collinear
+NEAB reductio
+RAABB lemma:ray4
+NOORBEADE|BEAED|EQDE  assumption
+ ANNOBEADE+NOBEAED+NEDE
+ NOBEADE
+ NOBEAED
+ NEDE
+ BEADF  
+ BEAEF
+ EQDE axiom:connectivity
+ORBEADE|BEAED|EQDE  reductio
+cases RAADE:BEADE|BEAED|EQDE
+ case 1:BEADE
+  RAADE  lemma:ray4 
+ qedcase
+ case 2:BEAED
+  RAADE  lemma:ray4
+ qedcase
+ case 3:EQDE
+  NEAD
+  RAADD  lemma:ray4
+  RAADE cn:equalitysub
+ qedcase
+RAADE cases
+NCADB  lemma:parallelNC
+NCDAB  lemma:NCorder
+EADABDAB  lemma:equalanglesreflexive
+EADABEAB  lemma:equalangleshelper
+EAFDCEAB  lemma:equalanglestransitive
+EEABDC    proposition:34
+EEDEED  cn:equalityreverse
+cases EEAEDF:BEADE|BEAED|EQDE
+ case 1:BEADE
+   % the only case Euclid treats
+  BEDEF  lemma:3.6a
+  BEFED  axiom:betweennesssymmetry
+  EEAEFD  cn:sumofparts
+  EEAEDF  lemma:congruenceflip
+ qedcase
+ case 2:BEAED
+  BEDEA  axiom:betweennesssymmetry
+  BEEDF  lemma:3.6a
+  EEADFE
+  EEDAEF  lemma:congruenceflip
+  EEEADF  lemma:differenceofparts
+  EEAEDF  lemma:congruenceflip
+ qedcase
+ case 3:EQDE
+  EEADEF
+  EEAEEF   cn:equalitysub
+  EEAEDF   cn:equalitysub
+ qedcase
+EEAEDF cases
+EEDFAE lemma:congruencesymmetric
+EEDCAB  lemma:congruencesymmetric
+ANEEFCEB+EADFCAEB+EADCFABE proposition:04
+EEFCEB
+EEFDEA  lemma:congruenceflip
+EADCFABE  
+EAABEDCF  lemma:equalanglessymmetric
+NCDCF lemma:equalanglesNC
+NCFDC lemma:NCorder
+TRFDC  defn:triangle
+ANEEFDEA+EEDCAB+EEFCEB+TRFDC
+TCFDCEAB  defn:trianglecongruence
+ETFDCEAB  axiom:congruentequal
+cases EFABCDEBCF:BEADE|BEAED|EQDE
+ case 1:BEADE
+  PGABCD
+  ANBEAMC+BEBMD  lemma:diagonalsmeet
+  BEBMD
+  BEDMB  axiom:betweennesssymmetry
+  NCADB   lemma:parallelNC
+  COADE   defn:collinear
+  COADA   defn:collinear
+  NEAE   lemma:betweennotequal
+  NCAEB   lemma:NChelper
+  BEBMD  axiom:betweennesssymmetry
+  BEAMC
+  ANBEBHE+BEAMH  postulate:Pasch-outer
+  BEBHE
+  BEAMH
+  COAMH  defn:collinear
+  COAMC  defn:collinear
+  NEAM lemma:betweennotequal
+  NEMA  lemma:inequalitysymmetric
+  COMAH  lemma:collinearorder
+  COMAC  lemma:collinearorder
+  COAHC  lemma:collinear4
+  BEEHB  axiom:betweennesssymmetry
+  NEEA  lemma:inequalitysymmetric
+  EQBC assumption
+   COABC  defn:collinear
+  NEBC  reductio
+  NOMEADBC   defn:parallel
+  MEEACB  assumption
+   ANNEEA+NECB+COEAq+COCBq defn:meet
+   NEEA
+   NECB
+   NEBC  lemma:inequalitysymmetric
+   COEAq
+   COCBq
+   COBCq lemma:collinearorder
+   COAEq  lemma:collinearorder
+   COADE  defn:collinear
+   COEAD  lemma:collinearorder
+   COEAq  lemma:collinearorder
+   NEAD  lemma:betweennotequal
+   COADq  lemma:collinear4
+   ANNEAD+NEBC+COADq+COBCq 
+   MEADBC  defn:meet
+  NOMEEACB reductio
+  BEEHB
+  COAHC
+  COACH lemma:collinearorder
+  COEAA  defn:collinear
+  COCCB  defn:collinear
+  NEEA 
+  NEAE 
+  NEBC
+  NECB lemma:inequalitysymmetric
+  BEAHC lemma:collinearbetween
+  BECHA  axiom:betweennesssymmetry
+  BEEDA axiom:betweennesssymmetry
+  NCADC  lemma:parallelNC
+  COADE  defn:collinear
+  NCAEC  lemma:NChelper
+  NCCAE  lemma:NCorder
+  ANBECGD+BEEGH postulate:Pasch-inner
+  BEEGH
+  BEEHB
+  BEEGB  lemma:3.6b
+  BEEGH
+  BEEHB
+  BEEGB  lemma:3.6b
+  COEGB  defn:collinear
+  CODEG  assumption
+   COGED  lemma:collinearorder
+   COGEB  lemma:collinearorder
+   NEEG  lemma:betweennotequal
+   NEGE  lemma:inequalitysymmetric
+   COEDB  lemma:collinear4
+   COBCB  defn:collinear
+   COEDA  lemma:collinearorder
+   COEDD  defn:collinear
+   NEDE  lemma:betweennotequal
+   NEED  lemma:inequalitysymmetric
+   COADB  lemma:collinear5
+   ANNEAD+NEBC+COADB+COBCB
+   MEADBC  defn:meet
+   NOMEADBC
+  NCDEG reductio
+  TRDEG  defn:triangle
+  ETDEGDEG lemma:ETreflexive
+  ETDEGEDG axiom:ETpermutation 
+  ETFDCEAB 
+  ETFDCAEB axiom:ETpermutation
+  ETAEBFDC axiom:ETsymmetric
+  BEBGE   axiom:betweennesssymmetry
+  BECGD
+  BEADE
+  BEDEF  lemma:3.6a
+  BEFED  axiom:betweennesssymmetry
+  EFADGBFEGC   axiom:cutoff1
+  NCDEG
+  NCEGD   lemma:NCorder
+  COEGB 
+  EQGG    cn:equalityreflexive
+  COEGG   defn:collinear  
+  NEGB   lemma:betweennotequal
+  NEBG    lemma:inequalitysymmetric
+  NCBGD   lemma:NChelper
+  NCDGB   lemma:NCorder
+  COCGD  defn:collinear
+  CODGC   lemma:collinearorder
+  CODGG   defn:collinear
+  NECG   lemma:betweennotequal
+  NCCGB   lemma:NChelper
+  NCGCB    lemma:NCorder
+  TRGCB      defn:triangle
+  ETGCBGCB   lemma:ETreflexive
+  ETGCBGBC   axiom:ETpermutation
+  EFADGBFEGC
+  BECGD 
+  BEDGC    axiom:betweennesssymmetry 
+  PGBCDA  lemma:PGrotate
+  PGDABC  lemma:PGsymmetric
+  PGADCB   lemma:PGflip
+  ANBEAqC+BEDqB lemma:diagonalsmeet
+  BEAqC
+  BEDqB
+  PGBCFE  lemma:PGrotate
+  PGCFEB  lemma:PGrotate
+  PGFEBC  lemma:PGrotate
+  ANBEFmB+BEEmC lemma:diagonalsmeet
+  BEFmB
+  BEEmC 
+  EFADCBFEBC   axiom:paste2
+  EFADCBEBCF   axiom:EFpermutation
+  EFEBCFADCB  axiom:EFsymmetric
+  EFEBCFABCD  axiom:EFpermutation
+  EFABCDEBCF  axiom:EFsymmetric
+ qedcase
+ case 2:BEAED
+  ETFDCEAB
+  ETEABFDC   axiom:ETsymmetric
+  ETEABDFC   axiom:ETpermutation
+  ANBEBHD+BECHE  lemma:trapezoiddiagonals
+  BEBHD
+  BECHE
+  BEEHC       axiom:betweennesssymmetry
+  COBED   assumption
+   COAED   defn:collinear
+   COEDA   lemma:collinearorder
+   COEDB   lemma:collinearorder
+   NEED    lemma:betweennotequal
+   CODAB    lemma:collinear4
+   COADB    lemma:collinearorder
+   EQBB     cn:equalityreflexive
+   COBCB    defn:collinear
+   NEAD     defn:parallel
+   NEBC     defn:parallel
+   MEADBC   defn:meet
+   NOMEADBC   defn:parallel 
+  NCBED    reductio
+  EFBEDCBEDC  lemma:EFreflexive
+  EFBEDCCDEB  axiom:EFpermutation
+  EFCDEBBEDC  axiom:EFsymmetric 
+  BEDEA    axiom:betweennesssymmetry
+  BEEDF    lemma:3.6a
+  PGCDAB   lemma:PGsymmetric
+  ANBECpA+BEDpB  lemma:diagonalsmeet
+  BECpA
+  BEDpB
+  PGBEFC    lemma:PGflip
+  ANBEBmF+BEEmC  lemma:diagonalsmeet
+  BEBmF
+  BEEmC 
+  EFCDABBEFC  axiom:paste2
+  EFCDABEBCF  axiom:EFpermutation
+  EFEBCFCDAB  axiom:EFsymmetric
+  EFEBCFABCD  axiom:EFpermutation
+  EFABCDEBCF  axiom:EFsymmetric
+ qedcase
+ case 3: EQDE
+  ETFDCEAB
+  ETFDCBEA   axiom:ETpermutation
+  ETBEAFDC   axiom:ETsymmetric
+  ETBEACDF   axiom:ETpermutation
+  NCDBC     lemma:parallelNC
+  NCEBC     cn:equalitysub
+  NCBEC     lemma:NCorder
+  TRBEC     defn:triangle
+  ETBECBEC   lemma:ETreflexive
+  ETBECCEB   axiom:ETpermutation
+  ETBECCDB   cn:equalitysub
+  PGABCE    cn:equalitysub
+  ANBEAMC+BEBME  lemma:diagonalsmeet
+  BEAMC
+  BEBME
+  BEEMB  axiom:betweennesssymmetry
+  COEMB  defn:collinear
+  COBEM  lemma:collinearorder
+  PRAEBC  defn:parallelogram
+  NCAEB  lemma:parallelNC
+  NCBEA  lemma:NCorder
+  OSABEC  defn:oppositeside
+  PGDBCF  cn:equalitysub
+  NCCDF   lemma:NCorder
+  ANBEDmC+BEBmF  lemma:diagonalsmeet
+  BEDmC
+  BEBmF
+  BEFmB axiom:betweennesssymmetry
+  CODmC  defn:collinear
+  COCDm  lemma:collinearorder
+  OSFCDB defn:oppositeside
+  ANBEAJC+BEBJD  lemma:diagonalsmeet
+  BEAJC
+  BEBJD
+  BEBJE   cn:equalitysub
+  ANBEEjC+BEBjF  lemma:diagonalsmeet
+  BEEjC
+  BEDjC   cn:equalitysub
+  BECjD  axiom:betweennesssymmetry
+  BEBjF 
+  BEFjB   axiom:betweennesssymmetry
+  EFBAECCFDB  axiom:paste3
+  EFBAECDBCF  axiom:EFpermutation
+  EFBAECEBCF  cn:equalitysub
+  EFEBCFBAEC  axiom:EFsymmetric
+  EFEBCFABCE  axiom:EFpermutation
+  EFEBCFABCD  cn:equalitysub
+  EFABCDEBCF  axiom:EFsymmetric
+ qedcase
+EFABCDEBCF cases
+

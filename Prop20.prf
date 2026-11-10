@@ -1,0 +1,85 @@
+TRABC
+NCABC  defn:triangle
+EQBA assumption
+ COBAC defn:collinear
+ COABC lemma:collinearorder
+NEBA  reductio 
+EQBC  assumption
+ COABC defn:collinear
+NEBC reductio
+NECB lemma:inequalitysymmetric
+EQCA assumption
+ COBCA defn:collinear
+ COABC lemma:collinearorder
+ NCABC
+NECA  reductio
+ANBEBAD+EEADCA  lemma:extension
+BEBAD
+NEAD  lemma:betweennotequal
+NEDA lemma:inequalitysymmetric
+NEBD  lemma:betweennotequal
+NEDB  lemma:inequalitysymmetric
+EEADCA
+EEADAC   lemma:congruenceflip
+COADC    assumption
+ COBAD   defn:collinear
+ CODAB   lemma:collinearorder
+ CODAC   lemma:collinearorder
+ NEAD    lemma:betweennotequal
+ NEDA    lemma:inequalitysymmetric
+ COABC   lemma:collinear4
+NCADC    reductio
+EQDC assumption
+ COADC  defn:collinear
+NEDC reductio
+TRADC    defn:triangle
+ISADC    defn:isosceles
+EAADCACD   proposition:05
+COACD    assumption
+ COADC  lemma:collinearorder
+NCACD    reductio
+EAACDDCA  lemma:ABCequalsCBA
+EAADCDCA  lemma:equalanglestransitive
+EQDD     cn:equalityreflexive
+EQBB     cn:equalityreflexive
+EQCC     cn:equalityreflexive
+EQCD  assumption
+ COACD  defn:collinear
+NECD  reductio
+RACDD    lemma:ray4
+RACBB lemma:ray4
+BEDAB    axiom:betweennesssymmetry
+AOADCDCB   defn:anglelessthan
+RADAB    lemma:ray4
+RADCC    lemma:ray4
+RADBB    lemma:ray4
+EEDBDB    cn:congruencereflexive
+EEDCDC    cn:congruencereflexive
+EEBCBC    cn:congruencereflexive
+NCADC
+EAADCBDC  defn:equalangles
+EABDCADC  lemma:equalanglessymmetric
+AOBDCDCB   lemma:angleorderrespectscongruence2
+COBCD   assumption
+ COBAD   defn:collinear
+ CODBA   lemma:collinearorder
+ CODBC   lemma:collinearorder
+ NEBD    lemma:betweennotequal
+ NEDB    lemma:inequalitysymmetric
+ COBAC   lemma:collinear4
+ COABC   lemma:collinearorder
+NCBCD    reductio
+COCDB    assumption
+ COBCD   lemma:collinearorder
+NCCDB    reductio
+EACDBBDC  lemma:ABCequalsCBA
+EABCDDCB  lemma:ABCequalsCBA
+AOCDBDCB   lemma:angleorderrespectscongruence2
+AOCDBBCD   lemma:angleorderrespectscongruence
+TRBCD    defn:triangle
+AOCDBBCD
+LTBCBD   proposition:19
+BEBAD 
+LTBCBD
+EEADAC
+TGBAACBC  defn:togethergreater

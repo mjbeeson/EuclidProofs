@@ -1,0 +1,13 @@
+REABCD
+ANRRDAB+RRABC+RRBCD+RRCDA+CRACBD  defn:rectangle
+RRDAB
+RRABC
+RRBCD
+RRCDA
+CRACBD
+ANBEAMC+BEBMD  defn:cross
+BEAMC
+BEBMD
+BECMA  axiom:betweennesssymmetry
+CRBDCA  defn:cross
+REBCDA  defn:rectangle

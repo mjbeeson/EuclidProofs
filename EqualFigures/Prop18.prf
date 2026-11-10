@@ -1,0 +1,73 @@
+TRABC
+LTABAC
+NCABC   defn:triangle
+EQAB   assumption
+ COABC  defn:collinear
+NEAB   reductio
+NEBA   lemma:inequalitysymmetric
+EQAC   assumption
+ COABC defn:collinear
+NEAC   reductio
+NECA   lemma:inequalitysymmetric
+EEACAC  cn:congruencereflexive
+ANBEADC+EEADAB  proposition:03
+BEADC
+COBCD     assumption
+ CODCB    lemma:collinearorder
+ COADC    defn:collinear
+ CODCA    lemma:collinearorder
+ NEDC    lemma:betweennotequal
+ COCBA   lemma:collinear4
+ COABC   lemma:collinearorder
+NCBCD     reductio
+TRBCD     defn:triangle
+BECDA     axiom:betweennesssymmetry
+AODCBBDA  proposition:16
+EQBC  assumption
+ COBCD  defn:collinear
+NEBC  reductio
+NECB  lemma:inequalitysymmetric
+COADB   assumption
+ COADC   defn:collinear
+ CODAC   lemma:collinearorder
+ CODAB   lemma:collinearorder
+ NEAD    lemma:betweennotequal
+ NEDA    lemma:inequalitysymmetric
+ COACB   lemma:collinear4
+ COABC   lemma:collinearorder
+NCADB    reductio
+TRADB    defn:triangle
+EEADAB
+ISADB     defn:isosceles
+EAADBABD  proposition:05
+RACAD    lemma:ray4
+EQBB     cn:equalityreflexive
+RACBB    lemma:ray4
+COACB    assumption
+ COABC   lemma:collinearorder
+NCACB    reductio
+EAACBACB  lemma:equalanglesreflexive
+EAACBDCB  lemma:equalangleshelper
+AOACBBDA  lemma:angleorderrespectscongruence2
+EAADBBDA  lemma:ABCequalsCBA
+AOACBADB  lemma:angleorderrespectscongruence
+EAADBABD
+EAABDADB  lemma:equalanglessymmetric
+AOACBABD  lemma:angleorderrespectscongruence
+COBCA    assumption
+ COABC   lemma:collinearorder
+NCBCA     reductio
+EABCAACB  lemma:ABCequalsCBA
+AOBCAABD  lemma:angleorderrespectscongruence2
+EQCC      cn:equalityreflexive
+EQAA      cn:equalityreflexive
+RABCC     lemma:ray4
+RABAA     lemma:ray4
+BEADC
+COABD  assumption
+ COADB  lemma:collinearorder
+NCABD  reductio
+EAABDABD   lemma:equalanglesreflexive
+AOABDABC  defn:anglelessthan
+AOBCAABC  lemma:angleordertransitive
+

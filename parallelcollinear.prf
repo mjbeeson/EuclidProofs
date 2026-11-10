@@ -1,0 +1,36 @@
+TPABcd
+COcdC
+NECd
+NEcd defn:tarski_parallel
+OREQcd|EQcC|EQdC|BEdcC|BEcdC|BEcCd defn:collinear
+cases TPABCd:EQcd|EQcC|EQdC|BEdcC|BEcdC|BEcCd
+ case 1:EQcd
+  NOTPABCd assumption
+  NEcd
+  TPABCd reductio
+ qedcase
+ case 2:EQcC
+  TPABCd cn:equalitysub
+ qedcase
+ case 3:EQdC
+  NOTPABCd assumption
+   EQCd lemma:equalitysymmetric
+  TPABCd reductio
+ qedcase
+ case 4:BEdcC
+  BECcd axiom:betweennesssymmetry
+  TPABCd lemma:parallelcollinear1
+ qedcase
+ case 5:BEcdC
+  BECdc   axiom:betweennesssymmetry
+  TPABdc  lemma:tarskiparallelflip
+  TPABCc  lemma:parallelcollinear1
+  TPABcC  lemma:tarskiparallelflip
+  TPABdC  lemma:parallelcollinear2
+  TPABCd  lemma:tarskiparallelflip
+ qedcase
+ case 5:BEcCd
+  TPABCd lemma:parallelcollinear2
+ qedcase
+TPABCd cases  
+TPABCd

@@ -1,0 +1,89 @@
+TRABC
+SQABFG
+SQACKH
+SQBCED
+BEBMC
+BEELD
+EFABFGBMLD
+EFACKHMCEL
+REMCEL
+NCABC  defn:triangle
+NEAC  lemma:NCdistinct
+NEAB  lemma:NCdistinct
+NEBA  lemma:inequalitysymmetric
+ANBEBAR+EEARAB lemma:extension
+BEBAR
+COBAR  defn:collinear
+COABR  lemma:collinearorder
+EQBB  cn:equalityreflexive
+COABB  defn:collinear
+NEBR  lemma:betweennotequal
+NERB  lemma:inequalitysymmetric
+NCRBC  lemma:NChelper
+NCBRC  lemma:NCorder
+ANRRBAQ+OSQBRC  proposition:11B
+RRBAQ
+NCBAQ  lemma:rightangleNC
+NEAQ   lemma:NCdistinct
+ANRAAQc+EEAcAC  lemma:layoff
+RAAQc
+EEAcAC 
+RRBAc  lemma:8.3
+NCBAc  lemma:rightangleNC
+NCABc  lemma:NCorder
+ANSQABfg+OSgABc+PGABfg  proposition:46
+SQABfg
+OSgABc
+NEAc  lemma:NCdistinct
+NCAcB lemma:NCorder
+ANSQAckh+OShAcB+PGAckh  proposition:46
+SQAckh
+OShAcB
+NEBc   lemma:NCdistinct
+NCBcA  lemma:NCorder
+ANSQBced+OSdBcA+PGBced  proposition:46
+SQBced
+OSdBcA
+TRABc  defn:triangle
+OSgBAc  lemma:oppositesideflip
+OShcAB  lemma:oppositesideflip
+OSdcBA  lemma:oppositesideflip
+ANPGBmld+BEBmc+PGmcel+BEdle+EFABfgBmld+EFAckhmcel proposition:47
+BEBmc
+PGmcel
+BEdle
+EFABfgBmld
+EFAckhmcel
+EEACAc  lemma:congruencesymmetric
+EFACKHAckh   lemma:squaresequal
+EEABAB  cn:congruencereflexive
+EFABFGABfg  lemma:squaresequal
+EFABFGBmld  axiom:EFtransitive
+EFBMLDABFG  axiom:EFsymmetric
+EFBMLDBmld  axiom:EFtransitive
+EFMCELACKH  axiom:EFsymmetric
+EFMCELAckh  axiom:EFtransitive
+EFMCELmcel  axiom:EFtransitive
+BEeld  axiom:betweennesssymmetry
+RRBce   defn:square
+NEmc   lemma:betweennotequal
+COBmc  defn:collinear
+COBcm  lemma:collinearorder
+RRmce   lemma:collinearright
+PGcelm  lemma:PGrotate
+REcelm  lemma:PGrectangle
+REelmc  lemma:rectanglerotate
+RElmce lemma:rectanglerotate
+REmcel  lemma:rectanglerotate
+EFBCEDBced  lemma:paste5
+EEBCBc   proposition:48A
+EEACAc   lemma:congruencesymmetric
+TRABc    defn:triangle
+EABACBAc proposition:08
+RRBAC    lemma:equaltorightisright
+
+
+
+
+
+

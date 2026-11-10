@@ -1,0 +1,52 @@
+TREGC
+EEEGEC
+BEGQC
+
+NCEGC     defn:triangle
+NCGCE     lemma:NCorder
+EQGG      cn:equalityreflexive
+COGCG     defn:collinear
+COGQC     defn:collinear
+COGCQ     lemma:collinearorder
+NEGQ      lemma:betweennotequal
+NCGQE     lemma:NChelper
+NCEGQ     lemma:NCorder
+TREGQ     defn:triangle
+
+AOQGEEQC  proposition:16
+NCEGC     defn:triangle
+NCEGC    lemma:NCorder
+TREGC     defn:triangle
+ISEGC     defn:isosceles
+EAEGCECG  proposition:05
+NCECG    lemma:NCorder
+EAECGECG  lemma:equalanglesreflexive
+EQEE      cn:equalityreflexive
+NECE     lemma:NCdistinct
+RACEE     lemma:ray4
+BECQG     axiom:betweennesssymmetry
+NECG      lemma:NCdistinct
+RACGQ    lemma:ray4
+EAECGECQ  lemma:equalangleshelper
+EAEGCECQ  lemma:equalanglestransitive
+NCCGE     lemma:NCorder
+EACGEEGC  lemma:ABCequalsCBA
+EACGEECQ  lemma:equalanglestransitive
+NCQGE     lemma:NCorder
+EAQGEQGE  lemma:equalanglesreflexive
+NEGQ     lemma:NCdistinct
+RAGQC    lemma:ray4
+EQGG      cn:equalityreflexive
+NEGE      lemma:NCdistinct
+RAGEE    lemma:ray4
+EAQGECGE  lemma:equalangleshelper
+EAQGEECQ   lemma:equalanglestransitive 
+EAECQQGE   lemma:equalanglessymmetric
+AOECQEQC  lemma:angleorderrespectscongruence2
+NCECQ      lemma:equalanglesNC
+EAECQQCE  lemma:ABCequalsCBA
+EAQCEECQ  lemma:equalanglessymmetric
+NCEQC     lemma:NCorder
+TREQC      defn:triangle
+AOQCEEQC  lemma:angleorderrespectscongruence2
+LTEQEC   proposition:19

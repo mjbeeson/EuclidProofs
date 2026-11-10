@@ -1,0 +1,289 @@
+PGBEFG
+EAEBGJDN
+BEABE
+PGEFGB lemma:PGrotate
+PGFGBE lemma:PGrotate
+PGGBEF lemma:PGrotate
+PRGFBE defn:parallelogram
+NCGBE  lemma:parallelNC
+NEGB   lemma:NCdistinct
+ANBEGBq+EEBqGB lemma:extension
+BEGBq
+EEBqGB
+NCEBG  lemma:NCorder
+COABE  defn:collinear
+COEBA  lemma:collinearorder
+EQBB   cn:equalityreflexive
+COEBB  defn:collinear
+NEAB   lemma:betweennotequal
+NCABG  lemma:NChelper
+COGBq  defn:collinear
+NCGBA  lemma:NCorder
+NEGq   lemma:betweennotequal
+NEqG   lemma:inequalitysymmetric
+EQGG  cn:equalityreflexive
+COGBG  defn:collinear
+NCqGA  lemma:NChelper
+NCGqA  lemma:NCorder
+ANBEHAh+EAhABABG+EAhABGBA+EABAhGBA+EAHABABq+EAHABqBA+EABAHqBA+PRHhGq+EEHABq+EEAhGB+EEATTB+EEHTTq+EEGTTh+BEHTq+BEGTh+BEATB proposition:31
+BEHAh
+PRHhGq
+BEHTq
+BEATB
+EEHABq
+PRHhqG  lemma:parallelflip
+COGBq  defn:collinear
+COqGB  lemma:collinearorder
+NEBG  lemma:NCdistinct
+PRHhBG  lemma:collinearparallel
+PRHhGB  lemma:parallelflip
+PRGBHh  lemma:parallelsymmetric
+PRGBhH  lemma:parallelflip
+COHAh  defn:collinear
+COhHA  lemma:collinearorder
+NEHA   lemma:betweennotequal
+NEAH   lemma:inequalitysymmetric
+PRGBAH lemma:collinearparallel
+PRGBHA lemma:parallelflip
+PRHAGB  lemma:parallelsymmetric
+EEHAGB  lemma:congruencetransitive
+EQBB  cn:equalityreflexive
+COABB   defn:collinear
+COATB  defn:collinear
+COABT  lemma:collinearorder
+NCBHA  lemma:parallelNC
+NCABH  lemma:NCorder
+NCHAB lemma:parallelNC
+NCABH  lemma:NCorder
+ANCOABT+COABB+BEHTq+BEGBq+NCABH+NCABG  
+SSHGAB  defn:sameside
+ANPRHGAB+EEHGAB  proposition:33B
+PRHGAB
+PRABHG  lemma:parallelsymmetric
+PRABGH  lemma:parallelflip
+PGGBEF
+ANPRGBEF+PRGFBE  defn:parallelogram
+PRGBEF
+PRGFBE
+PRGFEB  lemma:parallelflip
+COABE   defn:collinear
+COEBA   lemma:collinearorder
+PRGFAB  lemma:collinearparallel
+PRABGF  lemma:parallelsymmetric
+COGHF   lemma:Playfair
+PRHABG  lemma:parallelflip
+PRGBFE  lemma:parallelflip
+PRFEGB  lemma:parallelsymmetric
+PGHABG   defn:parallelogram
+ANBEHjB+BEAjG  lemma:diagonalsmeet
+BEHjB
+BEAjG
+PGGBEF 
+ANBEGkE+BEBkF  lemma:diagonalsmeet
+BEGkE
+BEBkF
+PRHAGB
+PRFEGB
+BEEBA  axiom:betweennesssymmetry
+EQEE  cn:equalityreflexive
+EQBB  cn:equalityreflexive
+EQAA  cn:equalityreflexive
+COFEE  defn:collinear
+COGBB  defn:collinear
+COHAA  defn:collinear
+NCFEB  lemma:parallelNC
+NEFE  lemma:NCdistinct
+NEGB  lemma:NCdistinct
+NCHAG  lemma:parallelNC
+NEHA  lemma:NCdistinct
+PRHAFE  proposition:30
+EEHAGB
+EEGBFE  proposition:34
+EEHAFE  lemma:congruencetransitive
+PGHABG
+PGGBEF
+PRGFBE  defn:parallelogram
+PRHGAB  defn:parallelogram
+PRBEGF  lemma:parallelsymmetric
+PRABHG  lemma:parallelsymmetric
+TPBEGF  lemma:paralleldef2B
+TPABHG lemma:paralleldef2B
+SSGFBE  defn:tarski_parallel
+SSHGAB  defn:tarski_parallel
+COABE   defn:collinear
+NEAE    lemma:betweennotequal
+SSHGAE  lemma:samesidecollinear
+SSGFEB  lemma:samesideflip
+COEBA  lemma:collinearorder
+NEEA   lemma:inequalitysymmetric
+SSGFEA  lemma:samesidecollinear
+SSGFAE  lemma:samesideflip
+SSHFAE  lemma:samesidetransitive
+ANPRHAFE+EEHAFE+SSHFAE
+PRHFAE   proposition:33B
+PRHAEF  lemma:parallelflip
+PGHAEF   defn:parallelogram
+NCHFE   lemma:parallelNC
+NCEFH  lemma:NCorder
+ANMIHtE+MIAtF lemma:diagonalsbisect
+MIHtE
+MIAtF
+ANBEHtE+EEHttE  defn:midpoint
+EEHttE
+ANBEAtF+EEAttF defn:midpoint
+EEAttF
+EEAtFt  lemma:congruenceflip
+BEAtF   
+BEHtE
+BEABE
+EEHtEt  lemma:congruenceflip
+EEtAtF  lemma:congruenceflip
+NCHEF   lemma:NCorder
+ANBEHBK+BEFEK  postulate:Euclid5
+BEFEK
+COFEK   defn:collinear
+COEFK   lemma:collinearorder
+NEFK  lemma:betweennotequal
+NEKF  lemma:inequalitysymmetric
+PRHAKF lemma:collinearparallel
+PRHAFK  lemma:parallelflip
+PRFKHA  lemma:parallelsymmetric
+PRFKAH lemma:parallelflip
+EQHH  cn:equalityreflexive
+COAHH   defn:collinear
+ANPGHLKF+COAHL lemma:triangletoparallelogram
+PGHLKF
+COAHL
+PRHLKF  defn:parallelogram
+NCLKF  lemma:parallelNC
+NELK  lemma:NCdistinct
+NEKL  lemma:inequalitysymmetric
+PGGBEF
+PRGBEF defn:parallelogram
+PRGBFE lemma:parallelflip
+COFEE  defn:collinear
+COFEK  defn:collinear
+NEEK   lemma:betweennotequal
+PRGBEK lemma:collinearparallel2
+PREKGB  lemma:parallelsymmetric
+COGBB  defn:collinear
+ANPGBMKE+COGBM lemma:triangletoparallelogram
+%Now set up to apply 43
+PGHLKF
+PGLKFH lemma:PGrotate
+PGKLHF lemma:PGflip
+PGLHFK lemma:PGrotate
+PGHFKL lemma:PGrotate
+BEFEK
+BEABE
+PGHABG
+PGAHGB  lemma:PGflip
+PRAHGB  defn:parallelogram
+EQKK   cn:equalityreflexive
+EQEE  cn:equalityreflexive
+EQFF  cn:equalityreflexive
+BEHBK
+PGBMKE
+PRBEMK defn:parallelogram
+PRMKBE  lemma:parallelsymmetric
+PRKMEB  lemma:parallelflip
+PGGBEF
+PRGFBE  defn:parallelogram
+NCEMK  lemma:parallelNC
+NCBEK lemma:parallelNC
+NCGFB  lemma:parallelNC
+PRMKBE  lemma:parallelflip
+PRGFBE lemma:parallelflip
+BEKEF  axiom:betweennesssymmetry
+COMKK  defn:collinear
+COBEE  defn:collinear
+COGFF  defn:collinear
+NEMK   lemma:NCdistinct
+NEBE   lemma:NCdistinct
+NEGF   lemma:NCdistinct
+PRMKGF   proposition:30
+PRKMFG  lemma:parallelflip
+PRFGKM  lemma:parallelsymmetric
+PGHLKF
+PRHFLK  defn:parallelogram
+PRLKHF  lemma:parallelsymmetric
+PRKLHF  lemma:parallelflip
+COHFG   lemma:collinearorder
+PRKLGF  lemma:collinearparallel
+PRKLFG  lemma:parallelflip
+PRFGKL  lemma:parallelsymmetric
+COKML  lemma:Playfair  
+COMKL  lemma:collinearorder
+PRBEMK  defn:parallelogram
+NELK   lemma:inequalitysymmetric
+PRBELK  lemma:collinearparallel
+PRLKBE  lemma:parallelsymmetric
+PRLKEB  lemma:parallelflip
+COABE  defn:collinear
+COEBA   lemma:collinearorder
+PRLKAB  lemma:collinearparallel
+PRABLK  lemma:parallelsymmetric
+PRABKL  lemma:parallelflip
+BEKBH   axiom:betweennesssymmetry
+COLAH   lemma:collinearorder
+BELAH   lemma:parallelbetween
+BEHAL   axiom:betweennesssymmetry
+PRHAGB lemma:parallelflip
+COGBM 
+NCBMK  lemma:parallelNC
+NEMB  lemma:NCdistinct
+PRHAMB  lemma:collinearparallel
+PRMBHA  lemma:parallelsymmetric
+PRMBAH  lemma:parallelflip
+COAHL   lemma:collinearorder
+PGHLKF
+PRHLKF  defn:parallelogram
+NCHLK   lemma:parallelNC
+NELH  lemma:NCdistinct
+PRMBLH  lemma:collinearparallel
+PRMBHL  lemma:parallelflip
+COLMK   lemma:collinearorder
+BELMK  lemma:parallelbetween
+PGGBEF
+PRGBEF  defn:parallelogram
+COFEK  defn:collinear
+COEFK   lemma:collinearorder
+NEFK  lemma:betweennotequal
+NEKF  lemma:inequalitysymmetric
+PRGBKF  lemma:collinearparallel
+COFGH  lemma:collinearorder
+BEFGH  lemma:parallelbetween
+BEHGF  axiom:betweennesssymmetry
+PGHABG
+PGABGH  lemma:PGrotate
+PGBGHA  lemma:PGrotate
+PGGHAB  lemma:PGrotate
+PGMKEB  lemma:PGrotate
+PGKEBM lemma:PGrotate
+PGEBMK  lemma:PGrotate
+EFBEFGLMBA  proposition:43
+PGHLKF
+BEHGF
+BEHAL
+BELMK
+PGAHGB  lemma:PGflip
+PGMBEK  lemma:PGflip
+PGABML  proposition:43B
+EAEBGJDN
+BEABE
+COHGF  lemma:collinearorder
+COLMK
+NEHF  lemma:betweennotequal
+NELK  lemma:betweennotequal
+NEHG  lemma:betweennotequal
+NEMK  lemma:betweennotequal
+PRHFLK  defn:parallelogram
+NOMEHFLK  defn:parallel
+BEHBK
+COGMB   lemma:collinearorder
+BEGBM  lemma:collinearbetween
+EAABMGBE  proposition:15
+EAGBEEBG  lemma:ABCequalsCBA
+EAABMEBG  lemma:equalanglestransitive
+EAABMJDN  lemma:equalanglestransitive 
+ANPGABML+EAABMJDN+EFBEFGLMBA+BEGBM

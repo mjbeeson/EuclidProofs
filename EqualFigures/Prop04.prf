@@ -1,0 +1,223 @@
+EEABab
+EEACac
+EABACbac
+NCbac  lemma:equalanglesNC
+ANRAABU+RAACV+RAabu+RAacv+EEAUau+EEAVav+EEUVuv+NCBAC defn:equalangles
+RAABU
+RAabu
+RAacv
+EEAVav
+EEUVuv
+NCBAC
+NEab  lemma:ray2
+NEba  lemma:inequalitysymmetric
+COABC  assumption
+ COBAC lemma:collinearorder
+NCABC reductio 
+EQAB   assumption
+ COABC  defn:collinear
+ COBAC  lemma:collinearorder
+NEAB   reductio
+EQAC  assumption
+ COABC  defn:collinear
+ COBAC  lemma:collinearorder
+NEAC   reductio
+NECA   lemma:inequalitysymmetric
+EQac  assumption
+ CObac defn:collinear
+NEac   reductio
+NEca   lemma:inequalitysymmetric
+EQbc  assumption
+ CObac defn:collinear
+NEbc  reductio
+NEcb   lemma:inequalitysymmetric
+EQBC   assumption 
+ COABC  defn:collinear
+ COBAC lemma:collinearorder
+NEBC  reductio
+NECB   lemma:inequalitysymmetric
+ORBEAUB|EQBU|BEABU  lemma:ray1
+cases EEBVbv:BEAUB|EQBU|BEABU
+ case 1:BEAUB
+  EEAUau
+  EEABab
+  EEAUAU cn:congruencereflexive
+  LTAUAB  defn:lessthan
+  LTAUab  lemma:lessthancongruence
+  ANBEawb+EEawAU  defn:lessthan
+  BEawb
+  EEawAU
+  EEawau  lemma:congruencetransitive
+  NEab    lemma:betweennotequal
+  RAabw   lemma:ray4
+  EEawau  lemma:congruencetransitive
+  EQwu    lemma:layoffunique
+  BEaub   cn:equalitysub
+  EEUBub  lemma:differenceofparts
+  EEUVuv
+  EEAVav
+  EEAUau
+  EEVBvb  axiom:5-line
+  EEBVbv  lemma:congruenceflip
+ qedcase
+ case 2:EQBU
+  EEUVuv
+  EEBVuv  cn:equalitysub
+  EEabAB  lemma:congruencesymmetric
+  EEABAB  cn:congruencereflexive
+  EEABAU  cn:equalitysub
+  EEAUau  
+  EEabAU  lemma:congruencetransitive
+  EEabau  lemma:congruencetransitive
+  ORBEaub|EQbu|BEabu  lemma:ray1
+  cases EQbu:BEaub|EQbu|BEabu 
+   case 1: BEaub
+    NEbu  assumption
+     NOEEauab lemma:partnotequalwhole
+     EEauab  lemma:congruencesymmetric
+    EQbu reductio
+   qedcase
+   case 2: EQbu
+   qedcase
+   case 3: BEabu
+    NEbu assumption
+    NOEEabau lemma:partnotequalwhole
+    EEabAB  lemma:congruencesymmetric
+    EEABAB  cn:congruencereflexive
+    EEABAU  cn:equalitysub
+    EEAUau
+    EEABau  lemma:congruencetransitive
+    EEabau  lemma:congruencetransitive
+    EQbu  reductio
+   qedcase
+  EQbu  cases
+  EEUVuv
+  EEBVbv  cn:equalitysub
+ qedcase
+ case 3: BEABU
+  EEAUau
+  EEABAB cn:congruencereflexive
+  LTABAU  defn:lessthan
+  LTABau  lemma:lessthancongruence
+  ANBEafu+EEafAB  defn:lessthan
+  BEafu
+  NEau   lemma:betweennotequal
+  RAauf  lemma:ray4
+  RAabu
+  RAaub   lemma:ray5
+  RAabf   lemma:ray3
+  EEafAB
+  EEABab
+  EEafab  lemma:congruencetransitive
+  EQfb   lemma:layoffunique
+  BEabu   cn:equalitysub  
+  EEBUbu lemma:differenceofparts
+  BEabu   lemma:betweennesspreserved 
+  EEABab
+  EEBUbu   lemma:differenceofparts
+  EEAVav
+  EEUVuv
+  EEBVbv  lemma:interior5
+ qedcase
+EEBVbv  cases
+RAACV
+ORBEAVC|EQCV|BEACV lemma:ray1
+cases EEBCbc:BEAVC|EQCV|BEACV
+ case 1: BEAVC
+  EEAVav
+  EEAVAV cn:congruencereflexive
+  LTAVAC  defn:lessthan   
+  LTAVac lemma:lessthancongruence
+  ANBEagc+EEagAV defn:lessthan
+  BEagc
+  NEag   lemma:betweennotequal
+  RAagc  lemma:ray4
+  RAacg  lemma:ray5
+  RAacv   
+  EEagAV
+  EEagav lemma:congruencetransitive
+  EQgv   lemma:layoffunique 
+  BEavc  cn:equalitysub
+  EEVCvc  lemma:differenceofparts
+  EEABab
+  EEAVav
+  EEVCvc
+  EEVBvb  lemma:congruenceflip
+  EEBCbc   axiom:5-line
+ qedcase
+ case 2: EQCV
+  EEAVav
+  EEACav  cn:equalitysub
+  EEACac
+  EEacAC lemma:congruencesymmetric
+  EEacav lemma:congruencetransitive
+  RAacv
+  NEac   lemma:ray2
+  EQcc   cn:equalityreflexive
+  RAacc  lemma:ray4
+  EQcv  lemma:layoffunique
+  EEBCbv  cn:equalitysub
+  EEBCbc  cn:equalitysub
+ qedcase
+ case 3: BEACV
+  EEAVav
+  EEACAC cn:congruencereflexive
+  LTACAV  defn:lessthan   
+  LTACav lemma:lessthancongruence
+  ANBEagv+EEagAC defn:lessthan
+  BEagv
+  EEagAC
+  NEag   lemma:betweennotequal
+  RAagv  lemma:ray4
+  RAavg  lemma:ray5
+  EEagac lemma:congruencetransitive
+  EEacag lemma:congruencesymmetric
+  RAavc   lemma:ray5
+  EQcg   lemma:layoffunique 
+  BEacv  cn:equalitysub
+  EECVcv  lemma:differenceofparts
+  EEABab
+  EEVBvb  lemma:congruenceflip
+  EECBcb   lemma:interior5
+  EEBCbc   lemma:congruenceflip
+ qedcase
+EEBCbc  cases
+EQAA   cn:equalityreflexive
+EQCC   cn:equalityreflexive
+EQaa   cn:equalityreflexive
+EQcc   cn:equalityreflexive
+EQBB   cn:equalityreflexive
+EQbb   cn:equalityreflexive
+NEBA   lemma:inequalitysymmetric
+RABAA  lemma:ray4
+RABCC  lemma:ray4
+RAbaa   lemma:ray4
+RAbcc  lemma:ray4
+EEBAba  lemma:congruenceflip
+EEBCbc
+EEACac
+NCABC
+EAABCabc   defn:equalangles
+RACAA  lemma:ray4
+RACBB  lemma:ray4
+RAcaa   lemma:ray4
+RAcbb  lemma:ray4
+EECAca  lemma:congruenceflip
+EECBcb  lemma:congruenceflip
+EEABab
+COACB   assumption
+ COABC   lemma:collinearorder
+ NCABC
+NCACB   reductio
+EAACBacb   defn:equalangles
+ANEEBCbc+EAABCabc+EAACBacb
+
+
+ 
+
+  
+  
+
+
+
+

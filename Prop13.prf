@@ -1,0 +1,18 @@
+BEDBC
+NCABC
+EQAA   cn:equalityreflexive
+NEBA  lemma:NCdistinct
+RABAA   lemma:ray4
+BECBD  axiom:betweennesssymmetry
+SUCBAAD  defn:supplement
+NCCBA  lemma:NCorder
+CODBC  defn:collinear
+COCBD  lemma:collinearorder
+EQBB   cn:equalityreflexive
+COCBB  defn:collinear
+NEDB  lemma:betweennotequal
+NCDBA  lemma:NChelper
+NCABD  lemma:NCorder
+EAABDABD  lemma:equalanglesreflexive
+EACBACBA  lemma:equalanglesreflexive
+RTCBAABD  defn:tworightangles

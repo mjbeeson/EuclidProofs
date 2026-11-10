@@ -1,0 +1,223 @@
+CIJEED
+NEEG
+ONGJ
+ONHJ
+ONKJ
+NEGH
+BEAED
+ONAJ 
+ONDJ
+BEEFD
+EEFGFH
+EEFKFH
+NCADG
+NCADH
+NEKH  
+NCADK         proposition:III.07B-NC
+NEKA         lemma:NCdistinct
+NEKD         lemma:NCdistinct
+BEAEF         axiom:innertransitivity
+NEED          lemma:betweennotequal
+NCAHD         lemma:NCorder
+NCAGD         lemma:NCorder
+NEEH          lemma:centernotoncircle
+NEHG          lemma:inequalitysymmetric
+NOCRAGHD      proposition:III.07Bhelper
+CRGAHD        assumption
+  CRAGHD      lemma:crossflip
+NOCRGAHD      reductio
+EEFHFG        lemma:congruencesymmetric
+NOCRAHGD      proposition:III.07Bhelper
+CRGDAH        assumption
+  CRAHGD      lemma:crosssymmetric
+NOCRGDAH      reductio 
+NEKG          assumption
+  NOCRAKHD      proposition:III.07Bhelper
+  EEEGED        lemma:oncircle
+  EEEAED        lemma:oncircle
+  EEEDEA         lemma:congruencesymmetric
+  EEEHED         lemma:oncircle
+  EEEDEH         lemma:congruencesymmetric
+  EEEGEH         lemma:congruencetransitive
+  NEGA           lemma:NCdistinct
+  NEGH   
+  NEGD           lemma:NCdistinct
+  NEAH           lemma:NCdistinct
+  NEAD           lemma:NCdistinct
+  NEHD           lemma:NCdistinct
+  NEEG            lemma:centernotoncircle
+  EEEGEA         lemma:congruencetransitive
+  CRGHAD        lemma:cyclicquad
+ 
+  ANBEGQH+BEAQD defn:cross
+  BEGQH
+  BEAQD
+  COAQD       defn:collinear
+  COAED       defn:collinear
+  COAEF       defn:collinear
+  NEAE        lemma:betweennotequal
+  COEFD       lemma:collinear4
+  CODFE      lemma:collinearorder
+  CODQA       lemma:collinearorder
+  COADQ       lemma:collinearorder
+  COADE       lemma:collinearorder
+  NEAD        lemma:betweennotequal
+  CODQE       lemma:collinear4
+  COEDQ       lemma:collinearorder
+  COEDF        lemma:collinearorder
+  NEED         lemma:betweennotequal
+  CODQF       lemma:collinear4
+  CODEQ        lemma:collinearorder
+  CODEF         lemma:collinearorder
+  NEDE        lemma:inequalitysymmetric
+  COEQF       lemma:collinear4
+  EEEQEQ      cn:congruencereflexive
+  EEQFQF      cn:congruencereflexive
+  EEEGEH
+  EEFGFH
+  EEEFEF      cn:congruencereflexive
+  COEQF
+  EEEQEQ     cn:congruencereflexive
+  EEQFQF     cn:congruencereflexive
+  EEEGEH
+  EEFGFH
+  EEEFEF     cn:congruencereflexive
+  NEEF       lemma:betweennotequal
+  EEQGQH     lemma:fiveline
+  
+  EEEGEH
+  EEFGFH
+  COEAF   defn:collinear
+  EEEAEA  cn:congruencereflexive
+  EEAFAF  cn:congruencereflexive
+  EEAGAH  lemma:fiveline
+  
+  EEGQHQ      lemma:congruenceflip 
+  EEGQQH     lemma:congruenceflip
+  EEGEHE      lemma:congruenceflip
+  NEAQ         lemma:betweennotequal
+  NEQA        lemma:inequalitysymmetric
+  EEGAHA      lemma:congruenceflip
+  EEHAGA      lemma:congruencesymmetric
+  EEHQGQ      lemma:congruencesymmetric
+  BEHQG       axiom:betweennesssymmetry
+ 
+  RRGQA       defn:rightangle
+  RRHQA      defn:rightangle
+  	
+  NOCRAKHD      proposition:III.07Bhelper
+  CRHDAK        assumption
+    CRAKHD       lemma:crosssymmetric
+  NOCRHDAK      reductio
+  NEHK           lemma:inequalitysymmetric
+  EEFHFK    lemma:congruencesymmetric
+  NCAKD      lemma:NCorder 
+  NOCRAHKD      proposition:III.07Bhelper
+  CRHAKD        assumption
+    CRAHKD        lemma:crossflip
+  NOCRHAKD       reductio
+  
+  EEEHED
+  EEEAED
+  EEEDEA       lemma:congruencesymmetric
+  EEEHEA       lemma:congruencetransitive
+  EEEKED       lemma:oncircle
+  EEEDEK       lemma:congruencesymmetric
+  EEEHEK       lemma:congruencetransitive
+  EEEAED
+  NEHA          lemma:inequalitysymmetric
+  NEHK
+  NEHD
+  NEAK          lemma:inequalitysymmetric
+  NEAD
+  NEKD
+  NEEH
+  CRHKAD        lemma:cyclicquad 
+  CRKHAD        lemma:crossflip  
+  
+  % Now repeat what we did after CRGHAD  but with K instead of G and S instead of Q
+  
+  ANBEKSH+BEASD defn:cross
+  BEKSH
+  BEASD
+  COASD       defn:collinear
+  COAED       defn:collinear
+  COAEF       defn:collinear
+  NEAE        lemma:betweennotequal
+  COEFD       lemma:collinear4
+  CODFE      lemma:collinearorder
+  CODSA       lemma:collinearorder
+  COADS       lemma:collinearorder
+  COADE       lemma:collinearorder
+  NEAD        lemma:betweennotequal
+  CODSE       lemma:collinear4
+  COEDS       lemma:collinearorder
+  COEDF        lemma:collinearorder
+  NEED         lemma:betweennotequal
+  CODSF       lemma:collinear4
+  CODES        lemma:collinearorder
+  CODEF         lemma:collinearorder
+  NEDE        lemma:inequalitysymmetric
+  COESF       lemma:collinear4
+  EEESES      cn:congruencereflexive
+  EESFSF      cn:congruencereflexive
+  EEEKED     lemma:oncircle
+  EEEDEH     lemma:congruencesymmetric
+  EEEKEH     lemma:congruencetransitive
+  EEFKFH
+  EEEFEF      cn:congruencereflexive
+  COESF
+  EEESES     cn:congruencereflexive
+  EESFSF     cn:congruencereflexive
+  EEEFEF     cn:congruencereflexive
+  NEEF       lemma:betweennotequal
+  EESKSH     lemma:fiveline
+
+  COEAF   defn:collinear
+  EEEAEA  cn:congruencereflexive
+  EEAFAF  cn:congruencereflexive
+  EEAKAH  lemma:fiveline
+  
+  EEKSHS      lemma:congruenceflip 
+  EEKSSH     lemma:congruenceflip
+  EEKEHE      lemma:congruenceflip
+  NEAS         lemma:betweennotequal
+  NESA        lemma:inequalitysymmetric
+  EEKAHA      lemma:congruenceflip
+  EEHAKA      lemma:congruencesymmetric
+  EEHSKS      lemma:congruencesymmetric
+  BEHSK       axiom:betweennesssymmetry
+ 
+  RRKSA       defn:rightangle
+  RRHSA      defn:rightangle
+  RRHQA
+  
+  RRAQH     lemma:8.2
+  RRASH      lemma:8.2
+  % Now we have two perpendiculars to AD from H,  ending in Q and S.  So Q=S
+  COAQD   defn:collinear
+  CODAQ    lemma:collinearorder
+  COASD    defn:collinear
+  CODAS    lemma:collinearorder
+  NEDA     lemma:inequalitysymmetric
+  COAQS    lemma:collinear4 
+  EQQS   lemma:droppedperpendicularunique
+  EQSQ    lemma:equalitysymmetric
+  BEHQK   cn:equalitysub
+  BEHQG   
+  EEHQKQ  cn:equalitysub
+  EEQGQH  
+  EEQHQG  lemma:congruencesymmetric
+  EEHQGQ  lemma:congruenceflip
+  EEGQHQ  lemma:congruencesymmetric
+  EEGQKQ  lemma:congruencetransitive
+  BEHQG
+  BEHQK
+  NEHQ    lemma:betweennotequal
+  BEHQG
+  BEHQK
+  EEQGQK  lemma:congruenceflip  
+  EQGK    lemma:extensionunique
+  EQKG    lemma:equalitysymmetric
+  NEKG
+EQKG  reductio

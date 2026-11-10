@@ -1,0 +1,121 @@
+SQABCD
+ANEEABCD+EEABBC+EEABDA+RRDAB+RRABC+RRBCD+RRCDA  defn:square
+EEABDA
+RRDAB
+RRCDA
+NCDAB  lemma:rightangleNC
+NEDA   lemma:NCdistinct
+ANBEDAR+EEARDA  lemma:extension
+BEDAR
+BERAD  axiom:betweennesssymmetry
+NEAB  lemma:NCdistinct
+CODAR  defn:collinear
+EQAA  cn:equalityreflexive
+CODAA  defn:collinear
+NERA  lemma:betweennotequal
+NCRAB  lemma:NChelper
+NCABR lemma:NCorder
+ANSQABcE+OSEABR+PGABcE  proposition:46
+SQABcE
+OSEABR
+PGABcE
+ANEEABcE+EEABBc+EEABEA+RREAB+RRABc+RRBcE+RRcEA  defn:square
+RREAB
+RRcEA
+RRDAB  
+CORAD  defn:collinear
+CODAR  lemma:collinearorder
+RRRAB  lemma:collinearright
+RRBAR  lemma:8.2
+OSEBAR  lemma:oppositesideflip
+BEEAR  lemma:righttogether
+BERAE  axiom:betweennesssymmetry
+RAADE  defn:ray
+EEABEA  defn:square
+EEEAAB  lemma:congruencesymmetric
+EEEADA  lemma:congruencetransitive
+EEAEAD  lemma:congruenceflip
+NEAD  lemma:betweennotequal
+EQDD  cn:equalityreflexive
+RAADD  lemma:ray4
+EQED   lemma:layoffunique
+PGABcD  cn:equalitysub
+EEABCD defn:square
+SQABcD  cn:equalitysub
+EEABcD  defn:square
+EEcDAB  lemma:congruencesymmetric
+EEcDCD  lemma:congruencetransitive
+EEABBC  defn:square
+EEABBc  defn:square
+EEBcAB  lemma:congruencesymmetric
+EEBcBC  lemma:congruencetransitive
+EEcBCB  lemma:congruenceflip
+RRBCD   defn:square
+RRBcD   defn:square
+EABcDBCD  lemma:Euclid4
+ANEEBDBD+EAcBDCBD+EAcDBCDB  proposition:04
+EAcDBCDB 
+ANMIAmc+MIBmD  lemma:diagonalsbisect
+MIAmc
+MIBmD
+ANBEAmc+EEAmmc defn:midpoint
+ANBEBmD+EEBmmD  defn:midpoint
+BEAmc
+BEBmD
+EEcDCD
+EACDBcDB  lemma:equalanglessymmetric
+EEDmDm  cn:congruencereflexive
+EEDcDC lemma:congruenceflip
+NCCDA  lemma:rightangleNC
+RRcDA   cn:equalitysub
+NCcDA   lemma:rightangleNC
+NCAcD  lemma:NCorder
+EQcc   cn:equalityreflexive
+COAcc   defn:collinear
+COAmc  defn:collinear
+COAcm   lemma:collinearorder
+NEmc   lemma:betweennotequal
+NCmcD  lemma:NChelper
+NCcDm  lemma:NCorder
+COCDm  assumption
+ COBmD  defn:collinear
+ COmDB  lemma:collinearorder
+ COmDC  lemma:collinearorder
+ NEmD  lemma:betweennotequal
+ CODBC lemma:collinear4
+ COBCD lemma:collinearorder
+ NCBCD  lemma:rightangleNC
+NCCDm  reductio
+EEDcDC
+EAcDBCDB lemma:equalanglessymmetric
+BEDmB   axiom:betweennesssymmetry
+NEDB  lemma:betweennotequal
+RADBm  lemma:ray4
+EQCC   cn:equalityreflexive
+NEDC lemma:NCdistinct
+RADCC  lemma:ray4
+EAcDBCDm lemma:equalangleshelper
+EACDmcDB lemma:equalanglessymmetric
+EQcc  cn:equalityreflexive
+NEDc  lemma:NCdistinct
+RADcc   lemma:ray4
+EACDmcDm  lemma:equalangleshelper
+EAcDmCDm  lemma:equalanglessymmetric
+EEcmCm  proposition:04
+EEmcmC  lemma:congruenceflip
+EEAmAm  cn:congruencereflexive
+EEDADA  cn:congruencereflexive
+RRcDA   cn:equalitysub
+RRADc  lemma:8.2
+RRADC  lemma:8.2
+EAADCADc  lemma:Euclid4
+EEDCDc lemma:congruencesymmetric
+EEACAc   proposition:04
+EEAcAC  lemma:congruencesymmetric
+BEAmc
+BEAmC   lemma:betweennesspreserved
+NEAm  lemma:betweennotequal
+RAAmc   lemma:ray4
+RAAmC   lemma:ray4
+EQcC  lemma:layoffunique
+PGABCD  cn:equalitysub

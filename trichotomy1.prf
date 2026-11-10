@@ -1,0 +1,26 @@
+NOLTABCD
+NOLTCDAB
+NEAB
+NECD
+NEBA  lemma:inequalitysymmetric
+ANBEBAP+EEAPAB  lemma:extension
+BEBAP
+BEPAB  axiom:betweennesssymmetry
+NEAP  lemma:betweennotequal
+NEPA  lemma:inequalitysymmetric
+ANBEPAE+EEAECD  lemma:extension
+BEPAE
+EEAECD
+BEABE  assumption
+ EEABAB  cn:congruencereflexive
+ LTABAE  defn:lessthan
+ LTABCD  lemma:lessthancongruence
+NOBEABE reductio
+BEAEB   assumption
+ LTCDAB  defn:lessthan 
+NOBEAEB  reductio
+EQEB   lemma:outerconnectivity
+EEABAB  cn:congruencereflexive
+EEABAE  cn:equalitysub
+EEAECD
+EEABCD  lemma:congruencetransitive

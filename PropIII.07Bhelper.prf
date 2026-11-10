@@ -1,0 +1,209 @@
+CIJEED
+BEAED
+BEAEF
+ONGJ
+ONHJ
+ONAJ
+NEGH
+EEFGFH
+NCAHD
+NEED  lemma:betweennotequal
+EEEGED   lemma:oncircle
+NEAE  lemma:betweennotequal
+RAAEF  lemma:ray4
+EQEE   cn:equalityreflexive
+RAAEE  lemma:ray4
+NEEF   lemma:betweennotequal
+EEAFAE  assumption
+  EQFE  lemma:layoffunique
+  EQEF  lemma:equalitysymmetric
+NOEEAFAE  reductio
+CRAGHD   assumption
+  ANBEAPG+BEHPD   defn:cross
+  BEAPG
+  BEHPD
+  BEAED
+  NCHDA lemma:NCorder
+  ANBEHQE+BEAQP  postulate:Pasch-inner
+  BEHQE
+  BEAQP
+  BEQPG  lemma:3.6a
+  BEGPQ  axiom:betweennesssymmetry
+  COHEG  assumption
+  	COHQE  defn:collinear
+  	COHEQ  lemma:collinearorder
+	NEHE   lemma:betweennotequal
+	COEQG  lemma:collinear4
+  	COQGE  lemma:collinearorder
+	COQPG  defn:collinear
+	COAQP  defn:collinear
+	COPQA  lemma:collinearorder
+	COPQG  lemma:collinearorder
+	NEPQ   lemma:betweennotequal
+	COQAG  lemma:collinear4
+	COQGA  lemma:collinearorder
+	NEQG   lemma:betweennotequal
+	COGAE  lemma:collinear4
+	COAEG  lemma:collinearorder
+	COAED  defn:collinear
+	COEAG   lemma:collinearorder
+	COEAD   lemma:collinearorder
+	NEAE    lemma:betweennotequal
+	NEEA    lemma:inequalitysymmetric
+	COAGD   lemma:collinear4
+	NEAG    lemma:betweennotequal
+	EEEAED  lemma:oncircle
+	EEEGED 
+	EEEDEG  lemma:congruencesymmetric
+	EEEAEG lemma:congruencetransitive
+	NEAD   lemma:betweennotequal
+	NEAG   lemma:betweennotequal
+	NEDG    assumption
+	  NCADG  lemma:circleNC
+	  NCAGD  lemma:NCorder
+	EQDG   reductio
+	EQGD   lemma:equalitysymmetric
+	COAQG  lemma:collinearorder
+	COAQD  cn:equalitysub
+	COADE  lemma:collinearorder
+	COADQ  lemma:collinearorder
+	NEAD   lemma:betweennotequal
+	CODEQ  lemma:collinear4
+	COQED  lemma:collinearorder
+	COQEH  lemma:collinearorder
+	NEQE   lemma:betweennotequal
+	COEDH  lemma:collinear4
+	COEDA  lemma:collinearorder
+	NEED   lemma:betweennotequal
+	CODHA  lemma:collinear4
+	COAHD  lemma:collinearorder
+  NCHEG  reductio
+  ANBEGME+BEHPM postulate:Pasch-outer
+  BEGME
+  BEHPM
+  EEEDED   cn:congruencereflexive
+  ONDJ     defn:on
+  NEHD     lemma:NCdistinct
+  COHPM   defn:collinear
+  COHPD    defn:collinear
+  COPHM    lemma:collinearorder
+  COPHD    lemma:collinearorder
+  NEHP     lemma:betweennotequal
+  NEPH     lemma:inequalitysymmetric
+  COHMD    lemma:collinear4
+  COHDM    lemma:collinearorder
+  BEEMG    axiom:betweennesssymmetry
+  EEEMEM   cn:congruencereflexive
+  LTEMEG   defn:lessthan
+  LTEMED   lemma:lessthancongruence
+  ICMJ	   defn:inside				 
+  BEHMD    lemma:III.02converse
+  BEDMH    axiom:betweennesssymmetry
+  NEHE     lemma:betweennotequal
+  NEEH     lemma:inequalitysymmetric
+  EQGG     cn:equalityreflexive
+  EQDD     cn:equalityreflexive
+  NEED     lemma:betweennotequal
+  NEEG     lemma:NCdistinct
+  RAEGG    lemma:ray4
+  RAEDD    lemma:ray4
+  EEEDED   cn:congruencereflexive
+  EEEGEG   cn:congruencereflexive
+  NEAG     lemma:betweennotequal
+  NEGA     lemma:inequalitysymmetric
+  COPDH    lemma:collinearorder
+  COAPG    defn:collinear
+  COPGA    lemma:collinearorder
+  EQGD     assumption
+	COPDA  cn:equalitysub
+	NEPD   lemma:betweennotequal
+	CODHA  lemma:collinear4
+	COAHD  lemma:collinearorder
+  NEGD     reductio
+  NEAD     lemma:betweennotequal
+  NEAG
+  NEDG     lemma:inequalitysymmetric
+  NEAE     lemma:betweennotequal
+  EEEAED    lemma:oncircle
+  EEEGED    lemma:oncircle
+  EEEDEG    lemma:congruencesymmetric
+  EEEAEG    lemma:congruencetransitive
+  NCADG    lemma:circleNC
+  CODEG    assumption
+    COEDG  lemma:collinearorder
+	COAED  defn:collinear
+	COEDA  lemma:collinearorder
+	NEED   lemma:betweennotequal
+	CODGA  lemma:collinear4
+	COADG  lemma:collinearorder
+  NCDEG    reductio
+  EADEGDEG lemma:equalanglesreflexive
+  EQDD     cn:equalityreflexive
+  RAEDD    lemma:ray4
+  RAEGM    lemma:ray4
+  EADEGDEM lemma:equalangleshelper
+  RAEGM    lemma:ray4
+  EQHH     cn:equalityreflexive
+  RAEHH    lemma:ray4
+  BEDMH    axiom:betweennesssymmetry
+  AODEGDEH defn:anglelessthan
+  EEFGFH
+  EEFHFG   lemma:congruencesymmetric
+  EEHFGF   lemma:congruenceflip
+  EEEHED   lemma:oncircle
+  EEEGED   lemma:oncircle
+  EEEDEG   lemma:congruencesymmetric
+  EEEHEG   lemma:congruencetransitive
+  EEHEGE   lemma:congruenceflip
+  
+  RAAEF    lemma:ray4
+  RAAED    lemma:ray4
+  EQGG     cn:equalityreflexive
+  RAEGG    lemma:ray4
+  NCDEG
+  CODEH     assumption
+  	COAED   defn:collinear
+  	COEDA   lemma:collinearorder
+	COEDH   lemma:collinearorder
+	NEED    lemma:betweennotequal
+	CODAH   lemma:collinear4
+	COAHD   lemma:collinearorder
+  NCDEH     reductio
+  EADEHDEH  lemma:equalanglesreflexive
+  EADEGDEG  lemma:equalanglesreflexive
+  BEAEF
+  BEAED
+  RAEDF     defn:ray
+  RAEHH
+  RAEGG
+  EADEHFEH  lemma:equalangleshelper
+  EADEGFEG  lemma:equalangleshelper
+  EAFEGDEG  lemma:equalanglessymmetric
+  EAFEHDEH  lemma:equalanglessymmetric
+  AODEGDEH
+  AOFEGDEH  lemma:angleorderrespectscongruence2
+  AOFEGFEH  lemma:angleorderrespectscongruence
+  COFEG  assumption
+	COEDF  lemma:rayimpliescollinear
+	COFED lemma:collinearorder
+	NEFE  lemma:inequalitysymmetric
+	COEGD  lemma:collinear4  
+	CODEG  lemma:collinearorder
+    NCDEG
+  NCFEG  reductio
+  RAEHH
+  RAEGG
+  EQFF     cn:equalityreflexive
+  RAEFF   lemma:ray4
+  EEEDEG  lemma:congruencesymmetric
+  EEEGED  lemma:oncircle
+  EEGFHF  lemma:congruencesymmetric
+  EEEFEF  cn:congruencereflexive
+  EEFHFG   lemma:congruenceflip
+  EEEGEH  lemma:congruencesymmetric
+  EEFGFH
+  EAFEGFEH  defn:equalangles
+  AOFEGFEG lemma:angleorderrespectscongruence
+  NOAOFEGFEG  lemma:angletrichotomy
+NOCRAGHD  reductio
+

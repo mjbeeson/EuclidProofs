@@ -1,0 +1,18 @@
+SQABCD
+ANEEABCD+EEABBC+EEABDA+RRDAB+RRABC+RRBCD+RRCDA defn:square
+EEABCD
+EEABBC
+EEABDA
+RRDAB
+RRABC
+RRBCD
+RRCDA
+EEBADC  lemma:congruenceflip
+EEBAAD  lemma:congruenceflip
+EEBACB  lemma:congruenceflip
+RRCBA lemma:8.2
+RRBAD lemma:8.2
+RRADC  lemma:8.2
+RRDCB  lemma:8.2
+ANEEBADC+EEBAAD+EEBACB+RRCBA+RRBAD+RRADC+RRDCB
+SQBADC  defn:square

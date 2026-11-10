@@ -1,0 +1,34 @@
+BEAGB
+BECHD
+RTBGHGHD
+SSBDGH
+SSDBGH  lemma:samesidesymmetric
+ANSUabced+EABGHabc+EAGHDebd  defn:tworightangles
+SUabced
+EABGHabc
+EAGHDebd
+EAabcBGH  lemma:equalanglessymmetric
+NEGH   lemma:angledistinct
+EAebdGHD  lemma:equalanglessymmetric
+EQHH  cn:equalityreflexive
+RAGHH  lemma:ray4
+SUAGHHB  defn:supplement
+SUBGHHA  lemma:supplementsymmetric
+EAebdHGA lemma:supplements
+EAGHDebd  lemma:equalanglessymmetric
+EAGHDHGA  lemma:equalanglestransitive
+NCHGA    lemma:equalanglesNC
+EAHGAAGH  lemma:ABCequalsCBA
+EAGHDAGH  lemma:equalanglestransitive
+EAAGHGHD  lemma:equalanglessymmetric
+EQGG   cn:equalityreflexive
+COGHG   defn:collinear
+NCAGH   lemma:equalanglesNC
+COGHA  assumption
+ COAGH  lemma:collinearorder
+NCGHA  reductio
+OSAGHB   defn:oppositeside
+OSBGHA  lemma:oppositesidesymmetric
+OSDGHA  lemma:planeseparation
+OSAGHD   lemma:oppositesidesymmetric
+PRABCD proposition:27

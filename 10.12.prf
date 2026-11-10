@@ -1,0 +1,81 @@
+RRABC
+RRABH
+EEBCBH
+ANBEABD+EEABDB+EEACDC+NEBC   defn:rightangle
+BEABD
+EEABDB
+ANBEABF+EEABFB+EEAHFH+NEBH   defn:rightangle
+BEABF
+EEABFB
+EEAHFH
+EEDBAB  lemma:congruencesymmetric
+EEDBFB  lemma:congruencetransitive
+EEBFBD  lemma:doublereverse  
+EQFD   lemma:extensionunique
+EEAHDH  cn:equalitysub
+cases EEACAH:EQCH|NECH
+ case 1:EQCH
+  EEACAC cn:congruencereflexive
+  EEACAH cn:equalitysub
+ qedcase
+ case 2:NECH
+  ANBECMH+EEMCMH   proposition:10
+  BECMH
+  EEMCMH
+  EECBHB  lemma:doublereverse
+  cases EEACAH:EQBM|NEBM
+   case 1:EQBM
+    RRABC
+    RRCBA  lemma:8.2
+    BECBH  cn:equalitysub
+    EEMCMH
+    EEBCBH  cn:equalitysub
+    EECBBH  lemma:congruenceflip
+    EECAHA  lemma:rightreverse
+    EEACAH lemma:congruenceflip
+   qedcase
+   case 2:NEBM
+    NEMB  lemma:inequalitysymmetric
+    BECMH
+    EECMHM  lemma:congruenceflip
+    EECBHB
+    RRCMB  defn:rightangle
+    RRBMC  lemma:8.2
+    EEACDC
+    EEAHDH
+    BECMH
+    EECACD  lemma:congruenceflip
+    EEHAHD  lemma:congruenceflip
+    EECMCM  cn:congruencereflexive
+    EEMHMH  cn:congruencereflexive
+    EEMAMD lemma:interior5
+    EEAMDM  lemma:congruenceflip
+    NEBM     lemma:inequalitysymmetric
+    BEABD
+    EEABDB
+    EEAMDM
+    RRABM    defn:rightangle
+    BECMH
+    EEMCMH
+    BEABD
+    EEBABD  lemma:congruenceflip
+    RRMBA   lemma:8.2
+    RRBMC
+    EECAHD  lemma:linereflectionisometry
+    EEACDH  lemma:congruenceflip
+    RRABH
+    BEABD
+    EEABBD  lemma:congruenceflip
+    EEAHDH  lemma:rightreverse
+    EEDHAH  lemma:congruencesymmetric 
+    EECAHD  lemma:congruenceflip
+    EEHDHA  lemma:congruenceflip
+    EECAHA  lemma:congruencetransitive
+    EEACAH  lemma:congruenceflip
+   qedcase
+  EEACAH cases
+ qedcase
+EEACAH cases
+ 
+
+  

@@ -1,0 +1,86 @@
+PRDCEF
+COEFA
+NCDCE   lemma:parallelNC
+NEDC   lemma:NCdistinct
+NECD   lemma:inequalitysymmetric
+ANBECDB+EEDBCD  lemma:extension
+BECDB
+BEBDC   axiom:betweennesssymmetry
+NCCEF lemma:parallelNC
+NEEF  lemma:NCdistinct
+COBCA   assumption
+ COCDB  defn:collinear
+ COBCD  lemma:collinearorder
+ NEBC  lemma:betweennotequal
+ COCAD lemma:collinear4
+ CODCA lemma:collinearorder
+ MEDCEF  defn:meet
+ NOMEDCEF defn:parallel
+NCBCA reductio
+ANBEcAb+EAbADADB+EAbADBDA+EADAbBDA+EAcADADC+EAcADCDA+EADAcCDA+PRcbBC+EEcADC+EEAbBD+EEAMMD+EEcMMC+EEBMMb+BEcMC+BEBMb+BEAMD proposition:31
+BEcAb
+PRcbBC
+BEcMC
+BEBMb
+BEbMB   axiom:betweennesssymmetry
+NCbBC  lemma:parallelNC
+ANBEbRD+BECRM  postulate:Pasch-inner
+BECRM
+BECMc  axiom:betweennesssymmetry
+BECRc  lemma:3.6b
+BEbAc  axiom:betweennesssymmetry
+NCcbC  lemma:parallelNC
+NCbcC  lemma:NCorder
+ANBEbQR+BECQA  postulate:Pasch-inner
+BEbQR
+BEbRD
+BEbQD  lemma:3.6b
+BECQA
+COCDB  defn:collinear
+COBCD lemma:collinearorder
+PRcbDC lemma:collinearparallel
+PRDCcb  lemma:parallelsymmetric
+COcAb  defn:collinear
+COcbA  lemma:collinearorder
+NEAb lemma:betweennotequal
+PRDCAb lemma:collinearparallel
+PRAbDC  lemma:parallelsymmetric
+PRbACD  lemma:parallelflip
+EEAbBD
+EEDBCD
+EEBDDB  cn:equalityreverse
+EEAbDB  lemma:congruencetransitive
+EEAbCD  lemma:congruencetransitive
+EEbACD  lemma:congruenceflip
+BEbQD  
+BEAQC  axiom:betweennesssymmetry
+ANPRbCAD+EEbCAD proposition:33
+PRbCAD
+PRAbCD  lemma:parallelflip
+PRADbC lemma:parallelsymmetric
+PGAbCD  defn:parallelogram
+PRDCAb 
+PRDCEF
+COEFA
+EQEE  cn:equalityreflexive
+COEFE  defn:collinear
+cases COEFb:EQAF|NEAF
+ case 1:EQAF
+  PRDCEF
+  NEFE  lemma:inequalitysymmetric
+  NEAE  cn:equalitysub
+  PRDCAE lemma:collinearparallel2
+  COAbE  lemma:Playfair
+  COFbE  cn:equalitysub
+  COEFb  lemma:collinearorder
+ qedcase  
+ case 2:NEAF
+  PRDCAF  lemma:collinearparallel
+  COAbF   lemma:Playfair
+  COAFb   lemma:collinearorder
+  COAFE   lemma:collinearorder
+  COFbE lemma:collinear4
+  COEFb  lemma:collinearorder
+ qedcase
+COEFb cases
+ANPGAbCD+COEFb

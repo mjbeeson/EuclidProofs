@@ -1,0 +1,286 @@
+PRABEF
+PRCDEF
+BEGHK
+COABG
+COEFH
+COCDK
+NEAG
+NEEH
+NECK
+ANBEAGb+EEGbAG  lemma:extension
+ANBEEHf+EEHfEH lemma:extension
+ANBECKd+EEKdCK lemma:extension
+BEAGb
+BEEHf
+BECKd
+NCCDE  lemma:parallelNC
+NECD   lemma:NCdistinct
+COAGb  defn:collinear
+COGAb  lemma:collinearorder
+COGAB  lemma:collinearorder
+NEGA lemma:inequalitysymmetric
+COAbB  lemma:collinear4
+COBAb  lemma:collinearorder
+PREFAB  lemma:parallelsymmetric
+PREFBA  lemma:parallelflip
+NEAb  lemma:betweennotequal
+NEbA  lemma:inequalitysymmetric
+PREFbA  lemma:collinearparallel
+PREFAb  lemma:parallelflip
+PRAbEF  lemma:parallelsymmetric
+COEHf   defn:collinear
+COHEf   lemma:collinearorder
+COHEF  lemma:collinearorder
+NEHE    lemma:inequalitysymmetric
+COEfF  lemma:collinear4
+COFEf  lemma:collinearorder
+NEEf   lemma:betweennotequal
+NEfE   lemma:inequalitysymmetric
+PRAbFE lemma:parallelflip
+PRAbfE lemma:collinearparallel
+PRAbEf  lemma:parallelflip
+COCKd  defn:collinear
+COKCd  lemma:collinearorder
+COKCD  lemma:collinearorder
+NEKC lemma:inequalitysymmetric
+COCdD  lemma:collinear4
+CODCd  lemma:collinearorder
+PREFCD  lemma:parallelsymmetric
+PREFDC  lemma:parallelflip
+NECd  lemma:betweennotequal
+NEdC  lemma:inequalitysymmetric
+PREFdC  lemma:collinearparallel
+PREFCd  lemma:parallelflip
+PRCdEF  lemma:parallelsymmetric
+PRCdFE  lemma:parallelflip
+PRCdfE  lemma:collinearparallel
+PRCdEf  lemma:parallelflip
+EQHH  cn:equalityreflexive
+COEHH  defn:collinear
+BEGHK
+COAbG   lemma:collinearorder
+COEfH  lemma:collinearorder
+PRAbEf
+COfEH  lemma:collinearorder
+PRAbfE  lemma:parallelflip
+PRAbHE  lemma:collinearparallel
+PRHEAb  lemma:parallelsymmetric
+PREHbA  lemma:parallelflip
+CObAG lemma:collinearorder
+PREHGA lemma:collinearparallel
+PREHAG lemma:parallelflip
+PRAGEH lemma:parallelsymmetric
+PRCdEf
+PRCdfE  lemma:parallelflip
+COfEH  lemma:collinearorder
+PRCdHE  lemma:collinearparallel
+PRHECd  lemma:parallelsymmetric
+PRHEdC lemma:parallelflip
+COCKd  defn:collinear
+COdCK  lemma:collinearorder
+NECK  lemma:betweennotequal
+NEKC  lemma:inequalitysymmetric
+PRHEKC lemma:collinearparallel
+PREHCK lemma:parallelflip
+TPEHCK lemma:paralleldef2B
+SSCKEH  defn:tarski_parallel
+NCEHK  lemma:parallelNC
+BEKHG  axiom:betweennesssymmetry
+OSKEHG  defn:oppositeside
+OSCEHG  lemma:planeseparation
+ANBECQG+COEHQ+NCEHC  defn:oppositeside
+BECQG
+COEHQ
+PRCdEf
+PREfCd  lemma:parallelsymmetric
+TPEfCd lemma:paralleldef2B
+SSCdEf  defn:tarski_parallel
+SSdCEf  lemma:samesidesymmetric
+COEHf  defn:collinear
+COHEf  lemma:collinearorder
+COHEQ  lemma:collinearorder
+COEfQ lemma:collinear4
+NCCEf  lemma:parallelNC
+NCEfC  lemma:NCorder
+OSCEfG  defn:oppositeside
+OSdEfG  lemma:planeseparation
+ANBEdPG+COEfP+NCEfd defn:oppositeside
+BEdPG
+NOORCRAfGH|CRAEGH  assumption
+ ANNOCRAfGH+NOCRAEGH
+ NOCRAfGH
+ NOCRAEGH
+ CRAEGH  lemma:30helper
+ORCRAfGH|CRAEGH reductio
+NOORCRCfKH|CRCEKH  assumption
+ ANNOCRCfKH+NOCRCEKH
+ NOCRCfKH
+ NOCRCEKH
+ CRCEKH  lemma:30helper
+ORCRCfKH|CRCEKH reductio
+COABG
+COEFH
+COFEH  lemma:collinearorder
+COBAG  lemma:collinearorder
+PRABFE lemma:parallelflip
+PRABHE  lemma:collinearparallel
+PRABEH lemma:parallelflip
+PREHAB lemma:parallelsymmetric
+PREHBA lemma:parallelflip
+PREHGA lemma:collinearparallel
+PREHAG lemma:parallelflip
+PRAGEH lemma:parallelsymmetric
+NCAGH  lemma:parallelNC
+PRCDFE lemma:parallelflip
+PRCDHE lemma:collinearparallel
+PRCDEH lemma:parallelflip
+PREHCD lemma:parallelsymmetric
+PREHDC lemma:parallelflip
+CODCK  lemma:collinearorder
+PREHKC lemma:collinearparallel
+PREHCK lemma:parallelflip
+PRCKEH lemma:parallelsymmetric
+NCCKH   lemma:parallelNC
+NCKHC   lemma:NCorder
+NCEHK   lemma:parallelNC
+COEHf  defn:collinear
+NEHf  lemma:betweennotequal
+NEfH  lemma:inequalitysymmetric 
+EQHH  cn:equalityreflexive
+COEHH  defn:collinear
+NCfHK  lemma:NChelper   
+NCKHf  lemma:NCorder 
+COKHH  defn:collinear                                                                                                                                                                                                                                                                                                                                     
+cases PRAbCd:CRAfGH|CRAEGH
+ case 1:CRAfGH
+  OSAGHf   lemma:crossimpliesopposite
+  cases PRAbCd:CRCfKH|CRCEKH
+   case 1:CRCfKH
+    OSfHKC   lemma:crossimpliesopposite
+    PRAbCd   proposition:30A
+   qedcase
+   case 2:CRCEKH
+    ANBECME+BEKMH  defn:cross
+    BECME
+    BEKMH
+    COKMH  defn:collinear
+    COKHM  lemma:collinearorder
+    BEfHE  axiom:betweennesssymmetry
+    ANCOKHM+COKHH+COKHM+BEfHE+BECME+NCKHf+NCKHC
+    SSfCKH   defn:sameside
+    EQKK  cn:equalityreflexive
+    COKHK  defn:collinear
+    ANBECKd+COKHK+NCKHC
+    OSCKHd   defn:oppositeside
+    OSfKHd   lemma:planeseparation
+    ANBEfmd+COKHm+NCKHf defn:oppositeside
+    BEfmd
+    COKHm
+    PRfECd  lemma:parallelsymmetric
+    NOMEfECd  defn:parallel
+    NECd
+    COfHE  lemma:collinearorder
+    COCKd
+    NEfE  lemma:betweennotequal
+    NEfH   lemma:inequalitysymmetric
+    NEKd   lemma:betweennotequal
+    COHKm   lemma:collinearorder
+    BEHmK  lemma:collinearbetween
+    BEKmH  axiom:betweennesssymmetry
+    BEdmf  axiom:betweennesssymmetry
+    ANBEdmf+BEKmH
+    CRdfKH  defn:cross
+    NCCKH  lemma:NCorder
+    COCKd  defn:collinear
+    NEdK  lemma:inequalitysymmetric
+    COCKK  defn:collinear
+    NCdKH  lemma:NChelper
+    OSdHKf  lemma:crossimpliesopposite
+    PRAbEf
+    PRdCEf  lemma:parallelflip
+    BEdKC  axiom:betweennesssymmetry
+    OSfHKd lemma:oppositesidesymmetric
+    OSAGHf
+    PRAbdC  proposition:30A
+    PRAbCd  lemma:parallelflip
+   qedcase
+  PRAbCd cases
+ qedcase
+ case 2:CRAEGH
+ cases PRAbCd:CRCfKH|CRCEKH
+   case 1:CRCfKH
+    ANBECMf+BEKMH  defn:cross
+    BECMf
+    BEKMH
+    COKMH  defn:collinear
+    COKHM  lemma:collinearorder
+    BEEHf  
+    NCKHE  lemma:NCorder
+    NCKHC  lemma:NCorder
+    ANCOKHM+COKHH+COKHM+BEEHf+BECMf+NCKHE+NCKHC
+    SSECKH   defn:sameside
+    EQKK  cn:equalityreflexive
+    COKHK  defn:collinear
+    ANBECKd+COKHK+NCKHC
+    OSCKHd   defn:oppositeside
+    OSEKHd   lemma:planeseparation
+    ANBEEmd+COKHm+NCKHE defn:oppositeside
+    BEEmd
+    COKHm
+    PREfCd  lemma:parallelsymmetric
+    NOMEEfCd  defn:parallel
+    NECd
+    COEHf  lemma:collinearorder
+    COCKd
+    NEEf  lemma:betweennotequal
+    NEEH   lemma:inequalitysymmetric
+    NEKd   lemma:betweennotequal
+    COHKm   lemma:collinearorder
+    BEHmK  lemma:collinearbetween
+    BEKmH  axiom:betweennesssymmetry
+    BEdmE  axiom:betweennesssymmetry
+    ANBEdmE+BEKmH
+    CRdEKH  defn:cross
+    NCCKH  lemma:NCorder
+    COCKd  defn:collinear
+    NEdK  lemma:inequalitysymmetric
+    COCKK  defn:collinear
+    NCdKH  lemma:NChelper
+    OSdHKE  lemma:crossimpliesopposite
+    PRdCfE  lemma:parallelflip
+    BEdKC  axiom:betweennesssymmetry
+    OSEHKd lemma:oppositesidesymmetric
+    OSAGHE lemma:crossimpliesopposite
+    PRAbfE
+    PRdCfE
+    BEfHE  axiom:betweennesssymmetry
+    BEdKC
+    PRAbdC  proposition:30A
+    PRAbCd  lemma:parallelflip
+   qedcase    
+   case 2:CRCEKH
+    OSCHKE   lemma:crossimpliesopposite
+    OSEHKC   lemma:oppositesidesymmetric
+    OSAGHE   lemma:crossimpliesopposite
+    PRAbfE
+    PRCdfE
+    BECKd
+    BEfHE   axiom:betweennesssymmetry
+    PRAbCd   proposition:30A   
+   qedcase   
+  PRAbCd cases
+ qedcase
+PRAbCd  cases
+PRAbdC  lemma:parallelflip
+COdCD   lemma:collinearorder
+NEDC    lemma:inequalitysymmetric
+PRAbDC   lemma:collinearparallel
+PRAbCD   lemma:parallelflip
+PRCDAb  lemma:parallelsymmetric
+PRCDbA  lemma:parallelflip
+CObAB  lemma:collinearorder
+NCABE  lemma:parallelNC
+NEBA    lemma:NCdistinct
+PRCDBA  lemma:collinearparallel
+PRCDAB  lemma:parallelflip
+PRABCD  lemma:parallelsymmetric

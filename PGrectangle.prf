@@ -1,0 +1,44 @@
+PGACDB
+RRBAC
+ANEEABCD+EEACBD+EACABBDC+EAABDDCA+TCCABBDC proposition:34
+EACABBDC
+EAABDDCA
+PRACDB  defn:parallelogram
+NCACB   lemma:parallelNC
+NCABC  lemma:NCorder
+NCCAB  lemma:NCorder
+EACABBAC lemma:ABCequalsCBA
+RRCAB  lemma:8.2
+NEAB  lemma:NCdistinct
+NEBA  lemma:inequalitysymmetric
+EABACCAB lemma:equalanglessymmetric
+EABACBDC lemma:equalanglestransitive
+EABDCBAC  lemma:equalanglessymmetric
+RRBDC    lemma:equaltorightisright
+RRCDB   lemma:8.2
+PRACBD   lemma:parallelflip
+PRABCD   defn:parallelogram
+TPABCD   lemma:paralleldef2B
+SSCDAB   defn:tarski_parallel
+ANBEBAE+EEAEAB lemma:extension
+BEBAE
+BEEAB  axiom:betweennesssymmetry
+RTCABABD  proposition:29C
+ANSUpqrst+EACABpqr+EAABDsqt  defn:tworightangles
+SUpqrst
+EACABpqr
+EAABDsqt
+EApqrCAB  lemma:equalanglessymmetric
+RRpqr  lemma:equaltorightisright
+RRsqt  lemma:supplementofright
+RRABD  lemma:equaltorightisright
+RRDBA  lemma:8.2
+EADCAABD  lemma:equalanglessymmetric
+RRDCA  lemma:equaltorightisright
+RRACD  lemma:8.2
+ANBEAMD+BECMB  lemma:diagonalsmeet
+BEAMD
+BECMB
+CRADCB  defn:cross
+ANRRBAC+RRACD+RRCDB+RRDBA+CRADCB
+REACDB  defn:rectangle

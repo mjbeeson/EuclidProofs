@@ -1,0 +1,25 @@
+RAABC
+RABAC
+NEBC   lemma:raystrict
+NEAC   lemma:raystrict
+ORBEACB|EQBC|BEABC  lemma:ray1
+ORBEACB|BEABC
+ORBEBCA|EQAC|BEBAC  lemma:ray1
+ORBEBCA|BEBAC
+cases BEACB:BEACB|BEABC
+ case 1:BEACB
+ qedcase
+ case 2:BEABC
+  cases BEACB:BEBCA|BEBAC
+   case 1:BEBCA
+    BEACB  axiom:betweennesssymmetry
+   qedcase
+   case 2:BEBAC
+    NOBEACB  assumption
+     BEABA  axiom:innertransitivity
+     NOBEABA  axiom:betweennessidentity
+    BEACB  reductio
+   qedcase
+  BEACB cases
+ qedcase
+BEACB cases

@@ -1,0 +1,27 @@
+CIJEPQ
+NEPQ
+ICAJ
+ANCIJCST+OREQAC|LTCAST  defn:inside
+CIJCST
+OREQAC|LTCAST
+EQEC    lemma:centerunique
+EQCE    lemma:equalitysymmetric
+cases OREQAE|LTEAPQ:EQAC|LTCAST
+  case 1:EQAC
+	  EQAE  cn:equalitysub
+		OREQAE|LTEAPQ
+	qedcase
+	case 2: LTCAST
+    LTEAST  cn:equalitysub
+		LTEAST cn:equalitysub
+		EQST  assumption
+			LTCATT cn:equalitysub
+			ANBETRT+EETRCA defn:lessthan
+			BETRT  
+			NOBETRT  axiom:betweennessidentity
+		NEST  reductio
+		EESTPQ lemma:radiusunique
+		LTEAPQ  lemma:lessthancongruence
+		OREQAE|LTEAPQ
+	qedcase
+OREQAE|LTEAPQ cases

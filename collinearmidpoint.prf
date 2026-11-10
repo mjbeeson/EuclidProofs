@@ -1,0 +1,59 @@
+COABM
+NEAB
+EEAMMB
+OREQAB|EQAM|EQBM|BEBAM|BEABM|BEAMB  defn:collinear
+EQAM assumption
+ EQMA   lemma:equalitysymmetric
+ EEAAAB  cn:equalitysub
+ EEABAA  lemma:congruencesymmetric
+ NEAA    axiom:nocollapse
+ EQAA    cn:equalityreflexive
+NEAM reductio
+EQBM assumption
+ EQMB  lemma:equalitysymmetric
+ EEABBB  cn:equalitysub
+ NEBB  axiom:nocollapse
+ EQBB  cn:equalityreflexive
+NEBM reductio
+BEBAM assumption
+ BEMAB axiom:betweennesssymmetry
+ EEMAMB lemma:congruenceflip
+ NOEEMAMB lemma:partnotequalwhole
+NOBEBAM reductio
+BEABM assumption
+ BEMBA axiom:betweennesssymmetry
+ EEMAMB lemma:congruenceflip
+ EEMBMA lemma:congruencesymmetric
+ NOEEMBMA lemma:partnotequalwhole
+NOBEABM reductio
+cases BEAMB:EQAB|EQAM|EQBM|BEBAM|BEABM|BEAMB
+ case 1:EQAB
+  NOBEAMB assumption
+   NEAB
+  BEAMB reductio
+ qedcase
+ case 2:EQAM
+  NOBEAMB assumption
+   NEAM
+  BEAMB reductio
+ qedcase
+ case 3:EQBM
+  NOBEAMB assumption
+   NEBM
+  BEAMB reductio
+ qedcase
+ case 4:BEBAM
+  NOBEAMB assumption
+   NOBEBAM
+  BEAMB reductio 
+ qedcase
+ case 5:BEABM
+  NOBEAMB assumption
+   NOBEABM
+  BEAMB reductio
+ qedcase
+ case 6:BEAMB
+ qedcase
+BEAMB cases
+MIAMB  defn:midpoint
+ANBEAMB+MIAMB

@@ -1,0 +1,203 @@
+TGAaBbCc
+TGAaCcBb
+TGBbCcAa
+NEFE
+ANBEAaP+EEaPBb+LTCcAP  defn:togethergreater
+BEAaP
+EEaPBb
+LTCcAP
+NEAa   lemma:betweennotequal
+NEaP   lemma:betweennotequal
+NEBb   axiom:nocollapse
+NECc   lemma:lessthannotequal
+ANRAFEG+EEFGBb  lemma:layoff
+RAFEG
+EEFGBb
+EEBbFG   lemma:congruencesymmetric
+NEFG     axiom:nocollapse
+NEGF     lemma:inequalitysymmetric
+ANBEFGH+EEGHCc  lemma:extension
+BEFGH
+ANBEGFD+EEFDAa  lemma:extension
+BEGFD
+EEFDAa
+EEDFAa   lemma:congruenceflip
+BEDFG    axiom:betweennesssymmetry 
+NEFD    lemma:betweennotequal
+NEGH   lemma:betweennotequal    
+CILFFD     postulate:Euclid3
+CIRGGH     postulate:Euclid3
+EEGHGH    cn:congruencereflexive
+ONHR     defn:on
+EEFGBb
+EEGHCc
+EEDFAa
+TGBbCcAa
+LTDFFH    lemma:together
+ANBEFMH+EEFMDF  defn:lessthan
+BEFMH
+EEFMDF
+EEDFAa
+EEFMAa   lemma:congruencetransitive
+EEAaFM   lemma:congruencesymmetric
+EEAaFD  lemma:congruencesymmetric
+EEFMFD   cn:congruencetransitive
+OCHL     defn:outside
+TGAaBbCc 
+EEDFAa
+EEFGBb
+BEDFG
+EECcCc   cn:congruencereflexive
+LTCcDG  lemma:together
+EEDGGD   cn:equalityreverse
+LTCcGD  lemma:lessthancongruence
+ANBEGND+EEGNCc  defn:lessthan
+BEGND
+BEDFG
+BEFGH
+BEDFH  lemma:3.7b
+BEFMH
+BEDFM  axiom:innertransitivity
+EEFDAa  lemma:congruenceflip
+BEDNG   axiom:betweennesssymmetry
+NEFM   lemma:betweennotequal
+ANBEFMJ+EEMJCc  lemma:extension
+BEFMJ
+BEDFM
+BEDFJ   lemma:3.7b
+EEFGBb
+EEFMAa
+EEMJCc
+TGAaCcBb
+ANLTFGFJ+NEAa+NECc+NEBb lemma:together
+LTFGFJ
+ANBEFQJ+EEFQFG  defn:lessthan
+BEFQJ
+EEFQFG
+NEFJ  lemma:betweennotequal
+RAFJQ lemma:ray4
+BEDFG
+BEDFJ
+RAFGJ defn:ray
+RAFJG  lemma:ray5
+EQQG    lemma:layoffunique
+EQGQ   lemma:equalitysymmetric
+BEFGJ   cn:equalitysub
+BEDFG
+BEDGJ   lemma:3.7a
+EEGNCc
+EEMJCc
+EECcMJ  lemma:congruencesymmetric
+EEGNMJ  lemma:congruencetransitive
+EENGMJ  lemma:congruenceflip
+BEDMJ   lemma:3.7a
+BEDNG   
+BEDNM   lemma:subtractequals
+EEFMAa
+EEGNCc
+BEDFM
+EEFDFD cn:congruencereflexive
+ICNL   lemma:ondiameter
+EECcGH  lemma:congruencesymmetric
+EECcGN  lemma:congruencesymmetric
+EEGNGH cn:congruencetransitive
+ONNR  defn:on
+ONHR
+OCHL
+ANONKL+ONKR  postulate:circle-circle
+ONKL
+ONKR
+EEFKFD   axiom:circle-center-radius
+EEFKAa   lemma:congruencetransitive
+EEGKGH   axiom:circle-center-radius
+EEGKCc   lemma:congruencetransitive
+COFGK    assumption
+ OREQFG|EQFK|EQGK|BEGFK|BEFGK|BEFKG  defn:collinear
+ cases NCFGK:EQFG|EQFK|EQGK|BEGFK|BEFGK|BEFKG
+  case 1:EQFG
+   COFGK assumption
+    NEFG
+   NCFGK  reductio
+  qedcase
+  case 2: EQFK
+   EEFKAa
+   NEAa
+   EEAaFK  lemma:congruencesymmetric
+   COFGK assumption
+    NEFK    axiom:nocollapse 
+   NCFGK  reductio
+  qedcase
+  case 3:EQGK
+   EEGKCc
+   EECcGK  lemma:congruencesymmetric
+   COFGK assumption
+    NECc
+    NEGK  axiom:nocollapse
+   NCFGK  reductio
+  qedcase
+  case 4: BEGFK
+   BEKFG  axiom:betweennesssymmetry
+   EEFKAa
+   EEKFAa lemma:congruenceflip
+   EEGKCc
+   TGAaBbCc
+   ANBEAaS+EEaSBb+LTCcAS  defn:togethergreater
+   EEaSBb
+   LTCcAS
+   EEAaKF   lemma:congruencesymmetric
+   EEaSFG   lemma:congruencetransitive
+   BEAaS
+   BEKFG
+   EEASKG   cn:sumofparts
+   EEASGK   lemma:congruenceflip
+   LTCcGK   lemma:lessthancongruence
+   EECcGK   lemma:congruencesymmetric
+   LTGKGK   lemma:lessthancongruence2
+   COFGK assumption
+    NOLTGKGK  lemma:trichotomy2
+   NCFGK   reductio
+  qedcase
+  case 5: BEFGK
+   EEFKAa
+   EEGKCc
+   EEFGBb
+   TGBbCcAa
+   ANBEBbS+EEbSCc+LTAaBS defn:togethergreater
+   BEBbS
+   EEbSCc
+   LTAaBS
+   EECcbS  lemma:congruencesymmetric
+   EEGKbS  lemma:congruencetransitive
+   EEFKBS  cn:sumofparts
+   EEAaFK  lemma:congruencesymmetric
+   LTFKBS  lemma:lessthancongruence2
+   EEBSFK  lemma:congruencesymmetric
+   LTFKFK  lemma:lessthancongruence
+   COFGK  assumption
+    NOLTFKFK  lemma:trichotomy2
+   NCFGK  reductio
+  qedcase
+  case 6:BEFKG
+   EEFKAa
+   EEGKCc
+   TGAaCcBb   
+   ANBEAaS+EEaSCc+LTBbAS  defn:togethergreater
+   BEAaS
+   EEaSCc
+   LTBbAS
+   LTFGAS   lemma:lessthancongruence2
+   EECcaS   lemma:congruencesymmetric
+   EEGKaS   lemma:congruencetransitive
+   EEKGaS   lemma:congruenceflip
+   EEFGAS   cn:sumofparts
+   EEASFG   lemma:congruencesymmetric
+   LTFGFG   lemma:lessthancongruence
+   COFGK  assumption
+    NOLTFGFG  lemma:trichotomy2
+   NCFGK  reductio
+  qedcase
+ NCFGK cases
+NCFGK    reductio
+TRFGK    defn:triangle
+ANEEFGBb+EEFKAa+EEGKCc+RAFEG+TRFGK
+

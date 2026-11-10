@@ -1,0 +1,22 @@
+SSPQAB
+COABC
+NEAC
+ANCOABp+COABq+BEPpr+BEQqr+NCABP+NCABQ  defn:sameside
+COABp
+COABq
+BEPpr
+BEQqr
+NCABP
+NCABQ
+NEAB  lemma:NCdistinct
+EQAA  cn:equalityreflexive
+COABA  defn:collinear
+NCACP  lemma:NChelper
+NCACQ  lemma:NChelper
+COBAp  lemma:collinearorder
+COBAC  lemma:collinearorder
+NEBA  lemma:inequalitysymmetric
+COACp  lemma:collinear4
+COBAq lemma:collinearorder
+COACq lemma:collinear4
+SSPQAC  defn:sameside

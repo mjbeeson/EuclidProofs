@@ -1,0 +1,265 @@
+CIJFFA
+EEFAFB
+EEFAFC
+EEFAFD
+NCACF
+NCBDF
+CUABCDE
+MIAEC
+MIBED
+CUCDABE   lemma:cutsymmetric
+NCCDA  defn:cut
+NCCDB  defn:cut
+NCADC  lemma:NCorder
+BEBED  defn:midpoint
+BEAEC  defn:midpoint
+
+EEAEEC defn:midpoint
+EEBEED defn:midpoint
+EEEDDE cn:equalityreverse
+EEBEDE lemma:congruencetransitive
+EEECCE cn:equalityreverse
+EEAECE lemma:congruencetransitive
+NEEF   assumption
+	NEFE  lemma:inequalitysymmetric
+	EEFBFD cn:congruencetransitive
+	EEBFDF lemma:congruenceflip
+	EEAFCF lemma:congruenceflip
+	RRBEF  defn:rightangle
+	RRAEF  defn:rightangle
+	EEDFBF  lemma:congruencesymmetric
+	EEDEBE  lemma:congruencesymmetric
+	BEDEB  axiom:betweennesssymmetry
+	RRDEF  defn:rightangle
+	EEBEDE lemma:congruenceflip
+	EEDEBE  lemma:congruencesymmetric
+	EEDFBF lemma:congruencesymmetric
+	RRDEF  defn:rightangle
+	EECFAF lemma:congruencesymmetric
+	BECEA  axiom:betweennesssymmetry
+	EECEAE lemma:congruencesymmetric
+	EECFAF lemma:congruencesymmetric
+	RRCEF  defn:rightangle
+	EABEFAEF lemma:Euclid4
+	EABEFCEF lemma:Euclid4
+	NEAE  lemma:betweennotequal
+	NCABC  defn:cut
+	NCABD  defn:cut
+
+	ORCRACFB|CRACFD|BEAFC lemma:III.04helper
+	cases EQEF:CRACFB|CRACFD|BEAFC
+		case 1:CRACFB
+			NEEF  assumption
+				ANBEAMC+BEFMB  defn:cross
+				BEAMC
+				BEFMB
+				BEBMF  axiom:betweennesssymmetry
+			  % as in Euclid's diagram
+				EQBB   cn:equalityreflexive
+				NEBE   lemma:betweennotequal
+				NEEB   lemma:inequalitysymmetric
+			  RAEBB  lemma:ray4
+				EQFF  cn:equalityreflexive 
+				EQMM  cn:equalityreflexive
+				RAEFF  lemma:ray4
+				NEAB  lemma:NCdistinct
+			  NEEA  lemma:inequalitysymmetric
+				COAEC  defn:collinear
+				COEAC  lemma:collinearorder
+				COBEA  assumption
+					COEAB  lemma:collinearorder
+					COABC  lemma:collinear4
+				NCBEA  reductio
+				EEEFEF   cn:congruencereflexive
+				EEEMEM   cn:congruencereflexive
+				EEFMFM   cn:congruencereflexive
+				NCAFC   lemma:NCorder
+				COACE    lemma:collinearorder
+				EQAA    cn:equalityreflexive
+				COACA    defn:collinear
+				NCAEF    lemma:NChelper
+				NCFEA   lemma:NCorder
+				BEFMB    axiom:betweennesssymmetry
+				BEEMA  assumption
+					NEEA  lemma:betweennotequal
+					NEEM  lemma:betweennotequal
+					RAEAM  lemma:ray4
+					RAEMM  lemma:ray4
+					EAFEAFEM  defn:equalangles
+					EQFF     cn:equalityreflexive
+					NEAE  lemma:betweennotequal
+					RAEFF   lemma:ray4
+					AOFEAFEB  defn:anglelessthan
+					EAFEAAEF  lemma:ABCequalsCBA
+					NCBEF      lemma:rightangleNC
+					EABEFFEB  lemma:ABCequalsCBA
+					EAAEFFEA  lemma:ABCequalsCBA
+			  	AOFEABEF  lemma:angleorderrespectscongruence
+					AOAEFBEF  lemma:angleorderrespectscongruence2
+					EAAEFBEF  lemma:equalanglessymmetric
+					AOAEFAEF  lemma:angleorderrespectscongruence
+					NOAOAEFAEF  lemma:angletrichotomy
+				NOBEEMA  reductio
+				NCCAF   lemma:NCorder
+				COCAE    lemma:collinearorder
+				EQCC    cn:equalityreflexive
+				COCAC    defn:collinear
+				NEEC     lemma:betweennotequal
+				NECE     lemma:inequalitysymmetric
+				NCCEF    lemma:NChelper
+				NCFEC   lemma:NCorder
+				BEEMC   assumption
+					NEEC  lemma:betweennotequal
+					NEEM  lemma:betweennotequal
+					RAECM  lemma:ray4
+					RAEMM  lemma:ray4
+					EAFECFEM  defn:equalangles
+					EQFF     cn:equalityreflexive
+					RAEFF   lemma:ray4
+					AOFECFEB  defn:anglelessthan
+					EAFECCEF  lemma:ABCequalsCBA
+					NCBEF      lemma:rightangleNC
+					EABEFFEB  lemma:ABCequalsCBA
+					EACEFFEC  lemma:ABCequalsCBA
+			  	AOFECBEF  lemma:angleorderrespectscongruence
+					AOCEFBEF  lemma:angleorderrespectscongruence2
+					EACEFBEF  lemma:equalanglessymmetric
+					AOCEFCEF  lemma:angleorderrespectscongruence
+					NOAOCEFCEF  lemma:angletrichotomy
+				NOBEEMC  reductio
+				BEAME  assumption
+					BEEMA axiom:betweennesssymmetry
+				NOBEAME reductio
+				COBMF  defn:collinear
+				EQME  assumption
+					COBEF cn:equalitysub
+					NCBEF lemma:rightangleNC
+				NEME  reductio
+				BEAMC
+				BEAEC
+				NOBEEMA
+				BEAEM assumption
+				  BEAMC
+				  BEEMC   lemma:3.6a   
+				NOBEAEM   reductio
+				NOBEAME
+				EQME  axiom:connectivity
+			EQEF reductio
+			qedcase
+		case 2: CRACFD  
+				% The case Euclid did not present
+			ANBEAMC+BEFMD  defn:cross
+			BEAMC
+			BEFMD
+			BEDMF  axiom:betweennesssymmetry
+			EQDD   cn:equalityreflexive
+			NEED   lemma:betweennotequal
+			NEDE   lemma:inequalitysymmetric
+		  RAEDD  lemma:ray4
+			EQFF  cn:equalityreflexive 
+			EQMM  cn:equalityreflexive
+			RAEFF  lemma:ray4
+			NEAD  lemma:NCdistinct
+			NEAE  lemma:betweennotequal
+		  NEEA  lemma:inequalitysymmetric
+			COAEC  defn:collinear
+			COEAC  lemma:collinearorder
+			CODEA  assumption
+				COEAD  lemma:collinearorder
+				COADC  lemma:collinear4
+			NCDEA  reductio
+			EEEFEF   cn:congruencereflexive
+			EEEMEM   cn:congruencereflexive
+			EEFMFM   cn:congruencereflexive
+			NCAFC   lemma:NCorder
+			COACE    lemma:collinearorder
+			EQAA    cn:equalityreflexive
+			COACA    defn:collinear
+			NEAE     lemma:betweennotequal
+			NCAEF    lemma:NChelper
+			NCFEA   lemma:NCorder
+			BEFMD    axiom:betweennesssymmetry
+
+			BEEMA  assumption
+				NEEA  lemma:betweennotequal
+				NEEM  lemma:betweennotequal
+				RAEAM  lemma:ray4
+				RAEMM  lemma:ray4
+				EAFEAFEM  defn:equalangles
+				EQFF     cn:equalityreflexive
+				NEAE  lemma:betweennotequal
+				RAEFF   lemma:ray4
+				AOFEAFED  defn:anglelessthan
+				EAFEAAEF  lemma:ABCequalsCBA
+				NCDEF      lemma:rightangleNC
+				EADEFFED  lemma:ABCequalsCBA
+				EAAEFFEA  lemma:ABCequalsCBA
+		  	AOFEADEF  lemma:angleorderrespectscongruence
+				AOAEFDEF  lemma:angleorderrespectscongruence2
+				RRAEF
+				RRDEF
+				EAAEFDEF  lemma:Euclid4
+				AOAEFAEF  lemma:angleorderrespectscongruence
+				NOAOAEFAEF  lemma:angletrichotomy
+			NOBEEMA  reductio
+			NCCAF   lemma:NCorder
+			COCAE    lemma:collinearorder
+			EQCC    cn:equalityreflexive
+			COCAC    defn:collinear
+			NEEC     lemma:betweennotequal
+			NECE     lemma:inequalitysymmetric
+			NCCEF    lemma:NChelper
+			NCFEC   lemma:NCorder
+			BEEMC   assumption
+				NEEC  lemma:betweennotequal
+				NEEM  lemma:betweennotequal
+				RAECM  lemma:ray4
+				RAEMM  lemma:ray4
+				EAFECFEM  defn:equalangles
+				EQFF     cn:equalityreflexive
+				RAEFF   lemma:ray4
+				AOFECFED  defn:anglelessthan
+				EAFECCEF  lemma:ABCequalsCBA
+				NCBEF      lemma:rightangleNC
+				RRDEF
+				NCDEF  lemma:rightangleNC
+				EADEFFED  lemma:ABCequalsCBA
+				EACEFFEC  lemma:ABCequalsCBA
+		  	AOFECDEF  lemma:angleorderrespectscongruence
+				AOCEFDEF  lemma:angleorderrespectscongruence2
+				RRCEF
+				EACEFDEF  lemma:Euclid4
+				AOCEFCEF  lemma:angleorderrespectscongruence
+				NOAOCEFCEF  lemma:angletrichotomy
+			NOBEEMC  reductio
+			BEAME  assumption
+				BEEMA axiom:betweennesssymmetry
+			NOBEAME reductio
+			CODMF  defn:collinear
+			EQME  assumption
+				CODEF cn:equalitysub
+				NCDEF lemma:rightangleNC
+			NEME  reductio
+			BEAMC
+			BEAEC
+			NOBEEMA
+			BEAEM assumption
+			  BEAMC
+			  BEEMC   lemma:3.6a   
+			NOBEAEM   reductio
+			NOBEAME
+			EQME  axiom:connectivity
+			NEEF assumption
+				EQME
+			EQEF reductio
+			qedcase
+		case 3: BEAFC
+			COAFC  defn:collinear
+			COACF  lemma:collinearorder
+			NEEF  assumption
+				NCACF 
+			EQEF  reductio
+			qedcase
+	EQEF cases
+EQEF reductio
+

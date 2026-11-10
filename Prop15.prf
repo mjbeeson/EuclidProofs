@@ -1,0 +1,82 @@
+BEAEB
+BECED
+NCAEC
+NEED     lemma:betweennotequal
+NEDE     lemma:inequalitysymmetric
+NEEB     lemma:betweennotequal
+NEBE     lemma:inequalitysymmetric
+COBED     assumption
+ COAEB    defn:collinear
+ COBEA    lemma:collinearorder
+ COEAD    lemma:collinear4
+ COCED    defn:collinear
+ CODEC    lemma:collinearorder
+ CODEA    lemma:collinearorder
+ COECA    lemma:collinear4
+ COAEC    lemma:collinearorder
+NCBED     reductio
+EQDD      cn:equalityreflexive
+EQBB      cn:equalityreflexive
+EQCC      cn:equalityreflexive
+RAEDD      lemma:ray4
+RAEBB      lemma:ray4
+BEBEA      axiom:betweennesssymmetry
+SUBEDDA    defn:supplement
+BEDEC      axiom:betweennesssymmetry
+SUDEBBC    defn:supplement
+COAED      assumption
+ COCED     defn:collinear
+ CODEC     lemma:collinearorder
+ CODEA     lemma:collinearorder
+ NEDE
+ COECA     lemma:collinear4
+ COAEC     lemma:collinearorder
+NCAED      reductio
+EABEDDEB  lemma:ABCequalsCBA
+EADEABEC  lemma:supplements
+COBEC      assumption
+ COAEB     defn:collinear
+ COBEA     lemma:collinearorder
+ NEBE
+ COEAC     lemma:collinear4
+ COAEC     lemma:collinearorder
+NCBEC      reductio
+EABECCEB  lemma:ABCequalsCBA
+EADEACEB  lemma:equalanglestransitive
+EAAEDDEA  lemma:ABCequalsCBA
+EAAEDCEB  lemma:equalanglestransitive
+EACEBAED  lemma:equalanglessymmetric
+% Now switch C and D
+EQEC  assumption
+ COBEC  defn:collinear
+NEEC    reductio
+RAECC      lemma:ray4
+SUBECCA    defn:supplement
+BECED      axiom:betweennesssymmetry
+SUCEBBD    defn:supplement
+COAEC      assumption
+ CODEC     defn:collinear
+ COCED     lemma:collinearorder
+ COCEA     lemma:collinearorder
+ NECE      lemma:betweennotequal
+ COEDA     lemma:collinear4
+ COAED     lemma:collinearorder
+NCAEC      reductio
+EABECCEB  lemma:ABCequalsCBA
+EACEABED  lemma:supplements
+COBED      assumption
+ COAEB     defn:collinear
+ COBEA     lemma:collinearorder
+ NEBE
+ COEAD     lemma:collinear4
+ COAED     lemma:collinearorder
+NCBED      reductio
+EABEDDEB  lemma:ABCequalsCBA
+EACEADEB  lemma:equalanglestransitive
+EAAECCEA  lemma:ABCequalsCBA
+EAAECDEB  lemma:equalanglestransitive
+ANEAAECDEB+EACEBAED
+
+
+
+ 

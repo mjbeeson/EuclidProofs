@@ -1,0 +1,13 @@
+ASABCDEFPQR
+EAABCabc
+EADEFdef
+ANEAABCPQX+EADEFXQR+BEPXR   defn:anglesum
+EAABCPQX
+EADEFXQR
+BEPXR
+EAabcABC    lemma:equalanglessymmetric
+EAabcPQX    lemma:equalanglestransitive
+EAdefDEF    lemma:equalanglessymmetric
+EAdefXQR    lemma:equalanglestransitive
+ASabcdefPQR   defn:anglesum
+

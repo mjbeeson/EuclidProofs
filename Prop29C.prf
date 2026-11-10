@@ -1,0 +1,89 @@
+PRGBHD
+SSBDGH
+BEEGH
+NCGBH  lemma:parallelNC
+EQGB assumption
+ COGBH defn:collinear
+NEGB reductio
+NEBG lemma:inequalitysymmetric
+ANBEBGA+EEGABG lemma:extension
+BEBGA
+BEAGB axiom:betweennesssymmetry
+NEAB lemma:betweennotequal
+COABG  defn:collinear
+COGBA  lemma:collinearorder
+PRHDGB lemma:parallelsymmetric
+PRHDAB lemma:collinearparallel
+PRHDBA lemma:parallelflip
+COBAG  lemma:collinearorder
+NEGA  lemma:betweennotequal
+PRHDGA lemma:collinearparallel
+PRHDAG lemma:parallelflip
+PRAGHD lemma:parallelsymmetric
+ANNEAG+NEHD+COAGa+COAGg+NEag+COHDh+COHDd+NEhd+NOMEAGHD+BEamd+BEhmg  defn:parallel
+NEAG
+NEHD
+NEDH lemma:inequalitysymmetric
+COAGa
+COAGg
+NEag
+NEhd
+BEamd
+BEhmg
+ANBEDHC+EEHCDH  lemma:extension
+BEAGB
+BEDHC
+BEHGE axiom:betweennesssymmetry
+NEAB  lemma:betweennotequal
+NEBA  lemma:inequalitysymmetric
+NEDC lemma:betweennotequal
+NECD  lemma:inequalitysymmetric
+COAGB  defn:collinear
+COGAB  lemma:collinearorder
+COGAa lemma:collinearorder
+NEGA  lemma:inequalitysymmetric
+COABa  lemma:collinear4
+COGAg  lemma:collinearorder
+COABg  lemma:collinear4
+CODHC  defn:collinear
+COHDC  lemma:collinearorder
+COHDh
+CODCh  lemma:collinear4
+COCDh  lemma:collinearorder
+COHDd
+CODdC  lemma:collinear4
+COCDd  lemma:collinearorder
+COABa
+COABg
+COCDh
+COCDd
+MEABCD assumption
+ ANNEAB+NECD+COABM+COCDM  defn:meet
+ COABM
+ COCDM
+ COBAG  lemma:collinearorder
+ COBAM lemma:collinearorder
+ COAGM  lemma:collinear4
+ COCDH  lemma:collinearorder
+ CODHM lemma:collinear4
+ COHDM lemma:collinearorder
+ ANNEAG+NEHD+COAGM+COHDM
+ MEAGHD  defn:meet
+ NOMEAGHD
+NOMEABCD reductio
+PRABCD  defn:parallel
+BEAGB
+BECHD  axiom:betweennesssymmetry
+BEEGH  axiom:betweennesssymmetry
+EQGG  cn:equalityreflexive
+COGHG  defn:collinear
+NCGBH  lemma:parallelNC
+NCGHB  lemma:NCorder
+SSDBGH  lemma:samesidesymmetric
+OSBGHA  defn:oppositeside
+OSDGHA  lemma:planeseparation
+OSAGHD  lemma:oppositesidesymmetric
+ANEAAGHGHD+EAEGBGHD+RTBGHGHD  proposition:29
+EAEGBGHD
+RTBGHGHD 
+ANEAEGBGHD+RTBGHGHD

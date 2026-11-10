@@ -1,0 +1,51 @@
+EAABCDEF
+EADEFPQR
+NEAB    lemma:angledistinct
+NEDE    lemma:angledistinct
+NEBA    lemma:inequalitysymmetric
+NEED    lemma:inequalitysymmetric
+NEEF    lemma:angledistinct
+NEBC    lemma:angledistinct
+NEPQ    lemma:angledistinct
+NEQP    lemma:inequalitysymmetric
+ANRAEDU+EEEUBA lemma:layoff
+ANRAEFV+EEEVBC lemma:layoff
+RAEDU
+RAEFV
+NEEU    lemma:raystrict
+NEEV    lemma:raystrict
+EAPQRDEF  lemma:equalanglessymmetric
+NEQR    lemma:angledistinct
+ANRAQPu+EEQuEU lemma:layoff
+ANRAQRv+EEQvEV lemma:layoff
+EEEUBA
+EEEVBC
+RAQPu
+RAQRv
+EEQuEU
+EEQvEV
+NCABC    defn:equalangles
+EAABCDEF
+RAEDU
+RAEFV
+EAABCUEV  lemma:equalangleshelper
+EEBAEU   lemma:congruencesymmetric
+EEBCEV   lemma:congruencesymmetric
+ANEEACUV+EABACEUV+EABCAEVU   proposition:04
+EEACUV
+EEEUQu   lemma:congruencesymmetric
+EEEVQv   lemma:congruencesymmetric
+EADEFuQv lemma:equalangleshelper
+EAuQvDEF lemma:equalanglessymmetric
+EAuQvUEV lemma:equalangleshelper
+EAUEVuQv lemma:equalanglessymmetric
+ANEEUVuv+EAEUVQuv+EAEVUQvu   proposition:04
+EEUVuv
+EEACuv   lemma:congruencetransitive
+EEBAQu   lemma:congruencetransitive
+EEBCQv  lemma:congruencetransitive
+EQAA    cn:equalityreflexive
+EQCC    cn:equalityreflexive
+RABAA   lemma:ray4
+RABCC   lemma:ray4
+EAABCPQR  defn:equalangles

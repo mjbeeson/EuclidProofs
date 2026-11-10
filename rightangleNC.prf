@@ -1,0 +1,93 @@
+RRABC
+ANBEABD+EEABDB+EEACDC+NEBC  defn:rightangle
+BEABD 
+EEABDB
+EEABBD  lemma:congruenceflip
+EEACDC
+NEBC
+MIABD   defn:midpoint
+BEACD  assumption
+ EEACCD lemma:congruenceflip
+ MIACD  defn:midpoint
+ EQBC   lemma:midpointunique
+NOBEACD  reductio
+NEAB    lemma:betweennotequal
+EQCA    assumption
+ EEACDC
+ EECCDC  cn:equalitysub
+ EEDCCC  lemma:congruencesymmetric
+ NEDC    assumption
+  NECC   axiom:nocollapse
+  EQCC   cn:equalityreflexive
+ EQDC    reductio
+ EQAC    lemma:equalitysymmetric
+ EQDA    cn:equalitytransitive
+ EQAD    lemma:equalitysymmetric
+ NEAD    lemma:betweennotequal
+NECA     reductio
+EQCD     assumption
+ EEACDC
+ EEACDD  cn:equalitysub
+ NEAC    assumption
+  NEDD   axiom:nocollapse
+  EQDD   cn:equalityreflexive
+ EQAC    reductio
+ EQCA    lemma:equalitysymmetric
+NECD     reductio
+BECAD    assumption
+ EECACD   lemma:congruenceflip
+ NOEECACD   lemma:partnotequalwhole
+NOBECAD  reductio
+BEADC    assumption
+ BECDA   axiom:betweennesssymmetry
+ EECDCA  lemma:doublereverse
+ NOEECDCA  lemma:partnotequalwhole
+NOBEADC  reductio
+COABC     assumption
+ COABD    defn:collinear
+ COBAC    lemma:collinearorder
+ COBAD    lemma:collinearorder
+ NEBA     lemma:inequalitysymmetric
+ COACD    lemma:collinear4
+ OREQAC|EQAD|EQCD|BECAD|BEACD|BEADC  defn:collinear
+ cases NCABC:EQAC|EQAD|EQCD|BECAD|BEACD|BEADC
+  case 1:EQAC
+   COABC  assumption
+   NEAC   lemma:inequalitysymmetric
+   NCABC  reductio
+  qedcase
+  case 2:EQAD
+   COABC  assumption
+   NEAD  lemma:betweennotequal
+   NCABC  reductio
+  qedcase
+  case 3:EQCD
+    COABC  assumption
+    NECD
+    NCABC reductio
+  qedcase
+  case 4:BECAD
+    COABC  assumption
+    NOBECAD
+    NCABC reductio
+  qedcase
+  case 5:BEACD
+    COABC  assumption
+    NOBEACD
+    NCABC reductio
+  qedcase
+  case 6:BEADC
+    COABC  assumption
+    NOBEADC
+    NCABC reductio
+  qedcase
+ NCABC cases
+NCABC     reductio
+ 
+
+
+ 
+
+
+
+ 

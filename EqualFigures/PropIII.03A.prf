@@ -1,0 +1,24 @@
+CIJEEA
+ONCJ
+ONDJ
+ONAJ
+ONBJ
+MIAFB
+NCABE
+EEEAEB  lemma:radiiequal
+EEAFFB  defn:midpoint
+BEAFB   defn:midpoint
+COAFB   defn:collinear
+COABF   lemma:collinearorder
+EEAFBF  lemma:congruenceflip
+EQEF   assumption
+ NCABF  cn:equalitysub
+NEEF   reductio
+NEFE    lemma:inequalitysymmetric
+EEAEBE  lemma:congruenceflip
+RRAFE   defn:rightangle
+EEBFAF   lemma:congruencesymmetric
+EEBEAE lemma:congruencesymmetric
+BEBFA   axiom:betweennesssymmetry
+RRBFE   defn:rightangle
+ANRRAFE+RRBFE

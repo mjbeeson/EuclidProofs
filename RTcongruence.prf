@@ -1,0 +1,10 @@
+RTABCDEF
+EAABCPQR
+ANSUabcde+EAABCabc+EADEFdbe  defn:tworightangles
+SUabcde
+EAABCabc
+EADEFdbe
+EAPQRABC  lemma:equalanglessymmetric
+EAPQRabc  lemma:equalanglestransitive
+ANSUabcde+EAPQRabc+EADEFdbe  
+RTPQRDEF  defn:tworightangles

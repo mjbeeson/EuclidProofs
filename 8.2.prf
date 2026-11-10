@@ -1,0 +1,46 @@
+RRABC
+ANBEABD+EEABDB+EEACDC+NEBC  defn:rightangle
+BEABD 
+EEABDB
+NEBC
+NECB         lemma:inequalitysymmetric   
+ANBECBE+EEBEBC  lemma:extension
+BECBE
+EEBEBC
+NEAB        lemma:betweennotequal
+NEBA   lemma:inequalitysymmetric
+EQCC    cn:equalityreflexive
+EQAA    cn:equalityreflexive
+RABCC   lemma:ray4
+NCABC   lemma:rightangleNC
+SUABCCD  defn:supplement
+RABAA   lemma:ray4
+SUCBAAE  defn:supplement
+EAABCCBA  lemma:ABCequalsCBA
+EACBDABE  lemma:supplements
+EEBCBE   lemma:congruencesymmetric
+EEBDBA   lemma:doublereverse
+COEBA    assumption
+ COCBE    defn:collinear
+ COEBC    lemma:collinearorder
+ NEBE     lemma:betweennotequal
+ NEEB     lemma:inequalitysymmetric
+ COEBA
+ COBAC    lemma:collinear4
+ COABC    lemma:collinearorder
+NCEBA     reductio
+COABE     assumption
+ COEBA    lemma:collinearorder
+NCABE     reductio
+EAABEEBA  lemma:ABCequalsCBA
+EACBDEBA  lemma:equalanglestransitive
+ANEECDEA+EABCDBEA+EABDCBAE proposition:04
+EECDEA
+EEACDC
+EEACCD   lemma:congruenceflip
+EEACEA   lemma:congruencetransitive
+EECAEA   lemma:congruenceflip
+EECBEB    lemma:congruenceflip
+NEBA     lemma:inequalitysymmetric
+ANBECBE+EECBEB+EECAEA+NEBA
+RRCBA    defn:rightangle

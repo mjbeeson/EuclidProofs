@@ -1,0 +1,29 @@
+OREQPA|EQPB
+OREQPA|EQPC
+NEAB
+NEAC
+NCABC
+NEPA   assumption
+  cases EQPB:EQPA|EQPB
+   case 1:EQPA
+    NEPB assumption
+    NEPA
+    EQPB reductio
+   qedcase
+   case 2: EQPB
+   qedcase
+  EQPB cases
+  cases EQPC:EQPA|EQPC
+   case 1:EQPA
+    NEPC assumption
+    NEPA
+    EQPC reductio
+   qedcase
+   case 2:EQPC
+   qedcase
+  EQPC cases
+  EQCP  lemma:equalitysymmetric
+  EQBP  lemma:equalitysymmetric
+  EQBC  cn:equalitytransitive
+  COABC  defn:collinear
+EQPA reductio

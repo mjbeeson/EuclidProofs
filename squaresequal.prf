@@ -1,0 +1,64 @@
+EEABab
+SQABCD
+SQabcd
+RRDAB  defn:square
+RRdab  defn:square
+EADABdab  lemma:Euclid4
+EEABDA   defn:square
+EEabda  defn:square
+EEDAAB  lemma:congruencesymmetric
+EEDAab  lemma:congruencetransitive
+EEDAda  lemma:congruencetransitive
+PGABCD  lemma:squareparallelogram
+PGabcd  lemma:squareparallelogram
+PRABCD  defn:parallelogram
+PRabcd  defn:parallelogram
+NCABD  lemma:parallelNC
+NCabd  lemma:parallelNC
+EEADad  lemma:congruenceflip
+EEDBdb  proposition:04
+EEBDbd  lemma:congruenceflip
+TRABD  defn:triangle
+TCABDabd  defn:trianglecongruence
+ETABDabd  axiom:congruentequal
+ETABDbda  axiom:ETpermutation
+ETbdaABD  axiom:ETsymmetric
+ETbdaBDA  axiom:ETpermutation
+ETBDAbda axiom:ETsymmetric
+EEABBC   defn:square
+EEabbc   defn:square
+EEABCD  defn:square
+EEabcd defn:square
+EEBCAB   lemma:congruencesymmetric
+EEBCab   lemma:congruencetransitive
+EEBCbc   lemma:congruencetransitive
+EECDAB   lemma:congruencesymmetric
+EECDab   lemma:congruencetransitive
+EECDcd   lemma:congruencetransitive
+NCBCD lemma:parallelNC
+TRBCD  defn:triangle 
+TCBCDbcd  defn:trianglecongruence
+ETBCDbcd  axiom:congruentequal
+ETBCDbdc  axiom:ETpermutation
+ETbdcBCD  axiom:ETsymmetric
+ETbdcBDC  axiom:ETpermutation
+ETBDCbdc  axiom:ETsymmetric
+REABCD    lemma:squarerectangle
+CRACBD  defn:rectangle
+ANBEAMC+BEBMD  defn:cross
+BEAMC
+BEBMD
+REabcd   lemma:squarerectangle
+CRacbd defn:rectangle
+ANBEamc+BEbmd  defn:cross
+BEamc
+BEbmd
+ETBDAbda
+ETBDCbdc
+EFBADCbadc  axiom:paste3
+EFBADCabcd  axiom:EFpermutation
+EFabcdBADC  axiom:EFsymmetric
+EFabcdABCD  axiom:EFpermutation
+EFABCDabcd  axiom:EFsymmetric
+
+

@@ -1,0 +1,13 @@
+RRABC
+BEABD
+EEABBD
+ANBEABE+EEABEB+EEACEC+NEBC defn:rightangle
+BEABE
+EEABEB
+EEACEC
+EEBDAB  lemma:congruencesymmetric
+EEBDEB  lemma:congruencetransitive
+EEBDBE  lemma:congruenceflip
+EQDE   lemma:extensionunique
+EEACDC  cn:equalitysub
+

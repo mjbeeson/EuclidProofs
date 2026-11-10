@@ -1,0 +1,18 @@
+NCABC
+COABP
+COABQ
+NEPQ
+EQAB assumption
+ COABC defn:collinear
+NEAB reductio
+COBPQ lemma:collinear4
+NEBA lemma:inequalitysymmetric
+COBAP lemma:collinearorder
+COBAQ lemma:collinearorder
+COAPQ lemma:collinear4
+COPQA  lemma:collinearorder
+COPQB lemma:collinearorder
+COPQC assumption
+ COABC lemma:collinear5
+ NCABC
+NCPQC  reductio

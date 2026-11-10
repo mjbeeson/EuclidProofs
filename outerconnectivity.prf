@@ -1,0 +1,53 @@
+BEABC
+BEABD
+NOBEBCD
+NOBEBDC
+EQAC  assumption
+BEABA cn:equalitysub
+NOBEABA axiom:betweennessidentity
+NEAC  reductio
+NEAD lemma:betweennotequal
+ANBEACE+EECEAD  lemma:extension
+BEACE	
+BEABE lemma:3.6b
+EQAD  assumption
+ BEABA cn:equalitysub
+ NOBEABA  axiom:betweennessidentity
+NEAD  reductio
+NEAC  lemma:betweennotequal
+ANBEADF+EEDFAC  lemma:extension
+BEADF
+BEABD
+BEFDA  axiom:betweennesssymmetry
+BEDBA  axiom:betweennesssymmetry
+BEFBA  lemma:3.5b
+BEABF  axiom:betweennesssymmetry
+EEDFAC
+EEFDDF  cn:equalityreverse
+EEFDAC  lemma:congruencetransitive
+EECEAD
+EEADCE lemma:congruencesymmetric
+EEDAAD cn:equalityreverse
+EEDACE lemma:congruencetransitive
+EEFAAE cn:sumofparts
+EEAEFA lemma:congruencesymmetric
+EEFAAF  cn:equalityreverse
+EEAEAF lemma:congruencetransitive
+EEABAB cn:congruencereflexive
+EEBEBF lemma:differenceofparts
+BEABF
+BEABE
+EEBEBF
+EQEF  lemma:extensionunique
+BEACE
+BEADE  cn:equalitysub
+BEABC
+BEABD
+BEBCE  lemma:3.6a
+BEBDE  lemma:3.6a
+EQCD axiom:connectivity
+
+
+
+
+ 

@@ -1,0 +1,19 @@
+TGAaBbCc
+ANBEAaH+EEaHBb+LTCcAH  defn:togethergreater
+BEAaH 
+EEaHBb
+LTCcAH
+NEaH  lemma:betweennotequal
+NEBb  axiom:nocollapse
+NEAa  lemma:betweennotequal
+ANBEBbF+EEbFAa  lemma:extension
+BEBbF
+EEbFAa
+EEaAFb  lemma:doublereverse
+EEAaFb  lemma:congruenceflip
+EEaHbB  lemma:congruenceflip
+BEFbB   axiom:betweennesssymmetry
+EEAHFB  cn:sumofparts
+EEAHBF  lemma:congruenceflip
+LTCcBF  lemma:lessthancongruence
+TGBbAaCc  defn:togethergreater

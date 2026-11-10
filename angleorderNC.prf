@@ -1,0 +1,41 @@
+AOABCDEF
+ANBEPQR+RAEDP+RAEFR+EAABCDEQ  defn:anglelessthan
+BEPQR
+RAEDP
+RAEFR
+EAABCDEQ
+EADEQABC lemma:equalanglessymmetric
+NCABC  lemma:equalanglesNC
+EADEQABC lemma:equalanglessymmetric
+NCDEQ lemma:equalanglesNC
+NCEDQ  lemma:NCorder
+COEDP  lemma:rayimpliescollinear
+EQDD   cn:equalityreflexive
+COEDD   defn:collinear
+NEEP    lemma:raystrict
+EQEE   cn:equalityreflexive
+COEDE  defn:collinear
+NCEDQ
+NCEPQ   lemma:NChelper
+NCPQE  lemma:NCorder
+COPQR  defn:collinear
+EQPP   cn:equalityreflexive
+COPQP  defn:collinear
+NEPR   lemma:betweennotequal
+NCPRE  lemma:NChelper
+NCERP  lemma:NCorder
+COEFR  lemma:rayimpliescollinear
+COERF lemma:collinearorder
+EQEE   cn:equalityreflexive
+COERE  defn:collinear
+NEEF   lemma:ray2
+NCEFP  lemma:NChelper
+NCEPF  lemma:NCorder
+COEPD  lemma:collinearorder
+COEPE  defn:collinear
+NEDE  lemma:NCdistinct
+NEED  lemma:inequalitysymmetric
+NCEDF  lemma:NChelper
+NCDEF  lemma:NCorder
+NCABC
+ANNCABC+NCDEF

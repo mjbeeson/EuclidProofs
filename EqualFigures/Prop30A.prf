@@ -1,0 +1,133 @@
+PRABEF
+PRCDEF
+BEGHK
+BEAGB
+BEEHF
+BECKD
+OSAGHF
+OSFHKC
+PREFCD lemma:parallelsymmetric
+NEGH lemma:betweennotequal
+NEHG lemma:inequalitysymmetric
+ANBEHGP+EEGPGH lemma:extension
+BEHGP
+BEPGH axiom:betweennesssymmetry
+BEPGK  lemma:3.7b
+ANBEAMF+COGHM+NCGHA defn:oppositeside
+ANBEFNC+COHKN+NCHKF  defn:oppositeside
+COGHM
+NOMECDEF  defn:parallel
+NCGHA    defn:oppositeside
+NEAG  lemma:betweennotequal
+NEGA  lemma:inequalitysymmetric
+NEGH lemma:betweennotequal
+NCAGH lemma:NCorder
+EAAGHGHF  proposition:29
+EQAA  cn:equalityreflexive
+RAGAA  lemma:ray4
+RAGHK  lemma:ray4
+NCAGH   
+EAAGHAGH  lemma:equalanglesreflexive
+EAAGHAGK  lemma:equalangleshelper
+EAAGKAGH  lemma:equalanglessymmetric
+EAAGKGHF  lemma:equalanglestransitive
+BEFNC
+BECNF axiom:betweennesssymmetry
+PREFCD
+BEEHF
+BEGHK
+EQHH  cn:equalityreflexive
+NCHKF
+NCFHK  lemma:NCorder
+COEHF  defn:collinear
+COFHE  lemma:collinearorder
+COFHH  defn:collinear
+NEEH  lemma:betweennotequal
+NCEHK lemma:NChelper
+COEHF  defn:collinear
+COEHH defn:collinear
+NEHF  lemma:betweennotequal
+NEFH  lemma:inequalitysymmetric
+NCFHK  lemma:NChelper
+NCHKF  lemma:NCorder
+COHKN
+EQHH   cn:equalityreflexive
+COHKH  defn:collinear
+COKHN  lemma:collinearorder
+NOMECDEF
+BECNF
+BECKD
+BEEHF 
+COCKD  defn:collinear
+COEHF  defn:collinear
+NECK   lemma:betweennotequal
+NECD   lemma:betweennotequal
+NEHF  lemma:betweennotequal
+NEEF  lemma:betweennotequal
+BEKNH  lemma:collinearbetween
+NENH  lemma:betweennotequal
+NEHN  lemma:inequalitysymmetric
+NCHNF  lemma:NChelper
+NCFNH  lemma:NCorder
+BEFNC  axiom:betweennesssymmetry
+COFNC  defn:collinear
+EQNN  cn:equalityreflexive
+COFNN  defn:collinear
+NECN  lemma:betweennotequal
+NCCNH  lemma:NChelper
+NCHNC  lemma:NCorder
+BEHNK  axiom:betweennesssymmetry
+COHNK  defn:collinear
+COHNH  defn:collinear
+NEHK  lemma:betweennotequal
+NCHKC  lemma:NChelper
+NCHKE  lemma:NCorder
+SSECHK defn:sameside
+EQKK  cn:equalityreflexive
+COHKK  defn:collinear
+OSCHKD  defn:oppositeside
+OSEHKD lemma:planeseparation
+EAGHFHKD  proposition:29
+NCCKH  lemma:NCorder
+COCKD  defn:collinear
+EQKK  cn:equalityreflexive
+COCKK  defn:collinear
+NEKD  lemma:betweennotequal
+NEDK  lemma:inequalitysymmetric
+NCDKH  lemma:NChelper
+NCHKD  lemma:NCorder 
+EAHKDHKD  lemma:equalanglesreflexive
+EQDD  cn:equalityreflexive
+RAKDD  lemma:ray4
+BEKHG  axiom:betweennesssymmetry
+NEKH  lemma:betweennotequal
+RAKHG  lemma:ray4
+EAHKDGKD  lemma:equalangleshelper
+EAGHFGKD  lemma:equalanglestransitive
+EAAGKGKD  lemma:equalanglestransitive
+COGHK  defn:collinear
+NEGH  lemma:betweennotequal
+COHMK  lemma:collinear4
+COHKM  lemma:collinearorder
+COHKG  lemma:collinearorder
+NEHK  lemma:betweennotequal
+COKMG lemma:collinear4
+COGKM  lemma:collinearorder
+COHKN  
+COHKG  lemma:collinearorder
+COKNG  lemma:collinear4
+COGKN  lemma:collinearorder
+BECNF
+BEAMF
+NCAGK  lemma:equalanglesNC
+NCGKA  lemma:NCorder
+NCHKC  lemma:NCorder
+COHKG lemma:collinearorder
+COHKK  defn:collinear
+NEGK  lemma:betweennotequal
+NCGKC  lemma:NChelper
+SSACGK   defn:sameside
+COGKK   defn:collinear
+OSCGKD   defn:oppositeside
+OSAGKD  lemma:planeseparation
+PRABCD  proposition:27

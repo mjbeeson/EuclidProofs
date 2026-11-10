@@ -1,0 +1,55 @@
+PRABCD
+ANNEAB+NECD+COABa+COABb+NEab+COCDc+COCDd+NEcd+NOMEABCD+BEaMd+BEcMb defn:parallel
+NEAB
+NECD
+COABa
+COABb
+NEab
+COCDc
+COCDd
+NEcd
+NOMEABCD
+BEaMd
+BEcMb
+COBAa  lemma:collinearorder
+COBAb  lemma:collinearorder
+CODCc  lemma:collinearorder
+CODCd  lemma:collinearorder
+NEBA  lemma:inequalitysymmetric
+NEDC  lemma:inequalitysymmetric
+BEdMa  axiom:betweennesssymmetry
+BEbMc  axiom:betweennesssymmetry
+NEdc  lemma:inequalitysymmetric
+NEba  lemma:inequalitysymmetric
+MEABDC assumption
+ ANNEAB+NEDC+COABP+CODCP  defn:meet
+ COABP
+ CODCP
+ COCDP  lemma:collinearorder
+ ANNEAB+NEDC+COABP+COCDP
+ MEABCD  defn:meet
+NOMEABDC reductio
+MEBACD assumption
+ ANNEBA+NECD+COBAP+COCDP defn:meet
+ COBAP
+ COCDP
+ COABP lemma:collinearorder
+ ANNEAB+NECD+COBAP+COCDP
+ MEABCD defn:meet
+NOMEBACD reductio
+MEBADC assumption
+ ANNEBA+NEDC+COBAP+CODCP defn:meet
+ COBAP
+ CODCP
+ COABP lemma:collinearorder
+ COCDP  lemma:collinearorder
+ ANNEAB+NECD+COABP+COCDP
+ MEABCD defn:meet
+NOMEBADC reductio
+ANNEBA+NECD+COBAa+COBAb+NEba+COCDc+COCDd+NEcd+NOMEBACD+BEaMd+BEcMb
+PRBACD  defn:parallel
+ANNEAB+NEDC+COABa+COABb+NEab+CODCc+CODCd+NEdc+NOMEABDC+BEaMd+BEcMb
+PRABDC  defn:parallel
+ANNEBA+NEDC+COBAa+COBAb+NEba+CODCc+CODCd+NEdc+NOMEBADC+BEaMd+BEcMb
+PRBADC  defn:parallel
+ANPRBACD+PRABDC+PRBADC

@@ -1,0 +1,142 @@
+COABC
+COABD
+NEAB
+cases COBCD:EQBC|EQBD|EQCD|EQAC|EQAD|ANNEBC+NEBD+NECD+NEAC+NEAD
+ case 1:  EQBC
+  COBCD defn:collinear
+ qedcase
+ case 2: EQBD
+  COBCD defn:collinear
+ qedcase
+ case 3: EQCD
+  COBCD defn:collinear
+ qedcase
+ case 4: EQAC
+  COABD
+  COCBD  cn:equalitysub
+  COBCD  lemma:collinearorder
+ qedcase
+ case 5: EQAD
+  COABC
+  CODBC cn:equalitysub
+  COBCD lemma:collinearorder
+ qedcase
+ case 6: ANNEBC+NEBD+NECD+NEAC+NEAD
+  NEBC
+  NEBD
+  NEAC
+  NEAD
+  OREQAB|EQAC|EQBC|BEBAC|BEABC|BEACB  defn:collinear
+  ORBEBAC|BEABC|BEACB
+  cases COBCD: BEBAC|BEABC|BEACB
+   case 1: BEBAC
+    COABD
+    OREQAB|EQAD|EQBD|BEBAD|BEABD|BEADB defn:collinear
+    ORBEBAD|BEABD|BEADB 
+    cases COBCD:BEBAD|BEABD|BEADB 
+     case 1: BEBAD
+      NCBCD    assumption
+       BEBCD    assumption
+        COBCD    defn:collinear
+        NOBEBCD  reductio
+        BEACD    assumption
+        BEBCD    lemma:3.5b
+       NOBEACD  reductio
+       NCBDC    assumption
+        BEADC    assumption
+         BEBDC    lemma:3.5b
+         COBDC    defn:collinear
+         NCBDC
+         NOBEADC  reductio
+        EQCD  lemma:outerconnectivity
+        COBCD  defn:collinear
+        COBDC  lemma:collinearorder
+       COBDC   reductio
+       COBCD   lemma:collinearorder
+      COBCD  reductio
+     qedcase
+     case 2: BEABD
+      BEDBA  axiom:betweennesssymmetry
+      BEDBC  lemma:3.7b
+      CODBC  defn:collinear
+      COBCD lemma:collinearorder
+     qedcase
+     case 3: BEADB
+      BEBDA   axiom:betweennesssymmetry
+      BEBAC
+      BEBDC   lemma:3.6b  
+      COBDC   defn:collinear
+      COBCD   lemma:collinearorder
+     qedcase
+    COBCD cases
+   qedcase
+   case 2: BEABC
+    COABD  
+    OREQAB|EQAD|EQBD|BEBAD|BEABD|BEADB  defn:collinear
+    ORBEBAD|BEABD|BEADB 
+    cases COBCD:BEBAD|BEABD|BEADB 
+     case 1: BEBAD
+      BEDAB  axiom:betweennesssymmetry
+      BEDBC  lemma:3.7a
+      CODBC  defn:collinear
+      COBCD  lemma:collinearorder
+     qedcase
+     case 2: BEABD
+      NCBCD  assumption
+       BEBCD   assumption
+        COBCD   defn:collinear
+       NOBEBCD reductio
+       BEBDC   assumption
+        COBDC   defn:collinear
+        COBCD   lemma:collinearorder
+        NCBCD
+       NOBEBDC  reductio
+       EQCD   lemma:outerconnectivity
+       COBCD  defn:collinear
+      COBCD  reductio
+     qedcase
+     case 3: BEADB
+      BEDBC   lemma:3.6a
+      CODBC  defn:collinear
+      COBCD  lemma:collinearorder
+     qedcase
+    COBCD cases
+   qedcase
+   case 3: BEACB
+    COABD
+    OREQAB|EQAD|EQBD|BEBAD|BEABD|BEADB  defn:collinear
+    ORBEBAD|BEABD|BEADB 
+    cases COBCD:BEBAD|BEABD|BEADB 
+     case 1: BEBAD
+      BEDAB  axiom:betweennesssymmetry
+      BEDCB  lemma:3.5b
+      BEBCD  axiom:betweennesssymmetry
+      COBCD  defn:collinear
+     qedcase
+     case 2: BEABD
+      BEACB
+      BECBD   lemma:3.6a
+      COBCD   defn:collinear
+     qedcase
+     case 3: BEADB
+      NCBCD  assumption
+       NOBEBDC   assumption
+        NOBEBCD   assumption
+         BEBCA   axiom:betweennesssymmetry
+         BEBDA   axiom:betweennesssymmetry
+         EQCD    axiom:connectivity
+         NECD
+        BEBCD reductio
+        COBCD   defn:collinear
+       BEBDC   reductio
+       COBDC   defn:collinear
+       COBCD  lemma:collinearorder
+      COBCD  reductio
+     qedcase
+    COBCD cases
+   qedcase
+  COBCD cases
+ qedcase 
+COBCD cases
+
+

@@ -1,0 +1,83 @@
+CIJEED
+BEAED
+BEEFD
+ONAJ
+ONBJ
+ONCJ
+AODECDEB
+ANNCDEC+NCDEB lemma:angleorderNC
+NCDEC
+NCDEB
+BEAEF   lemma:3.6c
+RAEDF   defn:ray
+NEDB lemma:NCdistinct
+EQBB    cn:equalityreflexive
+NEEB   lemma:NCdistinct
+RAEBB   lemma:ray4
+EQCC    cn:equalityreflexive
+NEEC    lemma:NCdistinct
+RAECC   lemma:ray4
+EADECDEC  lemma:equalanglesreflexive
+EADEBDEB  lemma:equalanglesreflexive
+EADECFEC   lemma:equalangleshelper
+RAEDF    defn:ray
+EADEBFEB   lemma:equalangleshelper
+EAFEBDEB   lemma:equalanglessymmetric
+AODECFEB  lemma:angleorderrespectscongruence
+EAFECDEC  lemma:equalanglessymmetric
+AOFECFEB  lemma:angleorderrespectscongruence2
+NCDEB     
+COEFD    defn:collinear
+CODEF    lemma:collinearorder
+EQEE      cn:equalityreflexive
+CODEE     defn:collinear
+NEEF      lemma:betweennotequal
+NEFE     lemma:inequalitysymmetric
+NCFEB     lemma:NChelper
+NCEBF     lemma:NCorder
+TREBF      defn:triangle
+TGBEEFBF   proposition:20
+NEAE       lemma:betweennotequal
+NEBE       lemma:NCdistinct
+NEED       lemma:NCdistinct
+EEEAED     lemma:oncircle
+EEEBED     lemma:oncircle
+EEEDEB     lemma:congruencesymmetric
+EEEAEB     lemma:congruencetransitive
+EEAEBE     lemma:congruenceflip
+EEEFEF     cn:congruencereflexive
+EEBFBF     cn:congruencereflexive
+LTBFAF     lemma:together
+EEBFFB     lemma:congruenceflip
+LTFBAF     lemma:lessthancongruence2
+EEAFAF      cn:congruencereflexive
+EEAFFA     lemma:congruenceflip
+LTFBFA     lemma:lessthancongruence
+EEEFEF     cn:congruencereflexive
+EEECED     lemma:oncircle
+EEEDEC     lemma:congruencesymmetric
+EEEBEC     lemma:congruencetransitive
+NCDEC     
+NCFEC     lemma:NChelper
+NCEFB      lemma:NCorder
+TREFB      defn:triangle
+
+NCEFC      lemma:NCorder
+TREFC      defn:triangle
+EEEFEF     cn:congruencereflexive
+EEEBEC   
+AOFECFEB
+LTFCFB     proposition:24
+TRFEC      defn:triangle
+TGEFFCEC   proposition:20
+EEECED    lemma:oncircle
+LTFDFC    lemma:togethersubtract
+BEEFD
+BEAED
+BEAFD     lemma:3.7a
+LTFDFC
+LTFCFB
+LTFBFA
+LTFDFB   lemma:lessthantransitive
+LTFDFA   lemma:lessthantransitive
+ANLTFDFC+LTFCFB+LTFBFA+LTFDFA

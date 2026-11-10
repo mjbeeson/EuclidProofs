@@ -1,0 +1,26 @@
+BEEGH
+EAEGBGHD
+SSBDGH
+NCGHB  defn:sameside
+NCGHD  defn:sameside
+NEHD  lemma:NCdistinct
+NEDH  lemma:inequalitysymmetric
+NEGB  lemma:NCdistinct
+NEBG  lemma:inequalitysymmetric
+ANBEBGA+EEGAGB lemma:extension
+BEBGA
+BEAGB  axiom:betweennesssymmetry
+ANBEDHC+EEHCHD lemma:extension
+BEDHC  
+BECHD  axiom:betweennesssymmetry
+PRABCD proposition:28A
+CODHC  defn:collinear
+COCDH  lemma:collinearorder
+NEHD  lemma:NCdistinct
+PRABHD  lemma:collinearparallel
+PRHDAB lemma:parallelsymmetric
+COBGA  defn:collinear
+COABG  lemma:collinearorder
+PRHDGB lemma:collinearparallel
+PRGBHD lemma:parallelsymmetric
+

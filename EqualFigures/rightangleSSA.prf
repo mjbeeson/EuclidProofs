@@ -1,0 +1,80 @@
+TRABC 
+TRabc
+RRABC
+RRabc
+EEACac
+EEBCbc
+NCABC   lemma:rightangleNC
+NCBAC   lemma:NCorder
+NCabc   lemma:rightangleNC
+NCbac   lemma:NCorder
+NEAB    lemma:NCdistinct
+NEab    lemma:NCdistinct
+ANBEABF+EEBFab   lemma:extension
+BEABF
+EEBFab
+COABF    defn:collinear
+EEabBF   lemma:congruencesymmetric
+NEBF     axiom:nocollapse
+NEFB     lemma:inequalitysymmetric
+RRFBC    lemma:collinearright
+EEBCBC   cn:congruencereflexive
+EEabBF   lemma:congruencesymmetric
+EEbaBF   lemma:congruenceflip
+EEbcBC   lemma:congruencesymmetric
+EAabcFBC  lemma:Euclid4
+ANEEacFC+EAbacBFC+EAbcaBCF proposition:04
+EEacFC
+EAbacBFC
+EAbcaBCF
+EAcabCFB  lemma:equalanglesflip
+EACFBcab  lemma:equalanglessymmetric
+COCAF    assumption
+ COFAC   lemma:collinearorder
+ COABF   defn:collinear
+ COFAB    lemma:collinearorder
+ NEAF     lemma:betweennotequal
+ NEFA     lemma:inequalitysymmetric
+ COACB    lemma:collinear4
+ COABC    lemma:collinearorder
+NCCAF     reductio
+TRCAF     defn:triangle
+EEcaCF    lemma:congruenceflip
+EECAca    lemma:congruenceflip
+EECACF    lemma:congruencetransitive
+ISCAF    defn:isosceles
+EACAFCFA  proposition:05
+EAFACAFC  lemma:equalanglesflip
+EAAFCFAC  lemma:equalanglessymmetric
+EABACBAC   lemma:equalanglesreflexive
+EQCC       cn:equalityreflexive
+NEAC   lemma:NCdistinct
+RAACC     lemma:ray4
+RAABF      lemma:ray4
+EABACFAC   lemma:equalangleshelper
+COBFC      assumption
+ COABF     defn:collinear
+ COFBA     lemma:collinearorder
+ COFBC     lemma:collinearorder
+ NEBF      lemma:betweennotequal
+ NEFB      lemma:inequalitysymmetric
+ COBAC     lemma:collinear4
+ COABC     lemma:collinearorder
+NCBFC      reductio
+EABFCBFC   lemma:equalanglesreflexive
+NEFC      lemma:NCdistinct
+BEFBA      axiom:betweennesssymmetry
+RAFBA      lemma:ray4
+RAFCC      lemma:ray4
+EABFCAFC   lemma:equalangleshelper
+EAAFCBFC   lemma:equalanglessymmetric
+EAbacBFC   lemma:equalanglesflip
+EABFCAFC   lemma:equalanglestransitive
+EABFCFAC   lemma:equalanglestransitive
+EAFACBAC   lemma:equalanglessymmetric
+EABFCBAC   lemma:equalanglestransitive
+EABFCBAC   lemma:equalanglestransitive
+EAbacBAC   lemma:equalanglestransitive
+EAcabCAB   lemma:equalanglesflip
+EACABcab   lemma:equalanglessymmetric
+ 

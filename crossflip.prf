@@ -1,0 +1,13 @@
+CRABCD
+ANBEAQB+BECQD   defn:cross
+BEAQB
+BECQD
+BEBQA   axiom:betweennesssymmetry
+BEDQC   axiom:betweennesssymmetry
+ANBEBQA+BECQD
+CRBACD   defn:cross
+ANBEAQB+BEDQC
+CRABDC   defn:cross
+ANBEBQA+BEDQC
+CRBADC   defn:cross
+ANCRBACD+CRABDC+CRBADC

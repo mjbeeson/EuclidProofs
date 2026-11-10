@@ -1,0 +1,33 @@
+RRABC
+RABCD
+ANBEABE+EEABEB+EEACEC+NEBC defn:rightangle
+BEABE
+EEABEB
+EEACEC
+EEBCBC  cn:congruencereflexive
+EECDCD  cn:congruencereflexive
+EEBABE  lemma:congruenceflip
+EECACE   lemma:congruenceflip
+ORBEBDC|EQCD|BEBCD  lemma:ray1
+cases RRABD:BEBDC|EQCD|BEBCD
+ case 1: BEBDC
+  EEBDBD   cn:congruencereflexive
+  EEDCDC   cn:congruencereflexive
+  EEBABE
+  EECACE
+  EEDADE   lemma:interior5
+  EEADED   lemma:congruenceflip
+  NEBD     lemma:betweennotequal
+  ANBEABE+EEABEB+EEADED+NEBD
+  RRABD   defn:rightangle
+ qedcase
+ case 2:EQCD
+  RRABD cn:equalitysub
+ qedcase
+ case 3:BEBCD
+  EEADED  axiom:5-line
+  NEBD     lemma:betweennotequal
+  ANBEABE+EEABEB+EEADED+NEBD
+  RRABD  defn:rightangle
+ qedcase
+RRABD cases

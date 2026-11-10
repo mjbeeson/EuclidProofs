@@ -1,0 +1,57 @@
+LTABCD
+LTCDEF
+ANBECGD+EECGAB  defn:lessthan
+BECGD
+EECGAB
+ANBEEHF+EEEHCD  defn:lessthan
+BEEHF
+EEEHCD
+NEEH  lemma:betweennotequal
+NECG   lemma:betweennotequal
+ANRAEHK+EEEKCG  lemma:layoff
+RAEHK
+EEEKCG
+EEEKAB  lemma:congruencetransitive
+ORBEEKH|EQHK|BEEHK lemma:ray1
+cases BEEKH:BEEKH|EQHK|BEEHK
+ case 1:BEEKH
+ qedcase
+ case 2:EQHK
+  EECGEK  lemma:congruencesymmetric
+  EECGEH  cn:equalitysub
+  EEEHCD
+  EECGCD  lemma:congruencetransitive
+  RACGD   lemma:ray4
+  EQGG    cn:equalityreflexive
+  RACGG   lemma:ray4
+  NOBEEKH  assumption
+   EQGD    lemma:layoffunique
+   NEGD    lemma:betweennotequal
+  BEEKH   reductio
+ qedcase
+ case 3:BEEHK
+  EECDEH  lemma:congruencesymmetric
+  NECD   lemma:betweennotequal
+  NEHK   lemma:betweennotequal
+  ANBECDJ+EEDJHK  lemma:extension
+  BECDJ
+  RACDJ   lemma:ray4
+  RACDG    lemma:ray4
+  EECDEH
+  EEDJHK
+  EECJEK  cn:sumofparts
+  EECJCG  lemma:congruencetransitive
+  EQJG    lemma:layoffunique
+  BECDJ
+  BECGD
+  BEGDJ   lemma:3.6a
+  NOBEEKH  assumption
+   NEGJ  lemma:betweennotequal
+   NEJG   lemma:inequalitysymmetric
+  BEEKH  reductio
+ qedcase
+BEEKH cases
+BEEHF
+BEEKF  lemma:3.6b
+LTABEF  defn:lessthan
+

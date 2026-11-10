@@ -1,0 +1,40 @@
+PGABCD
+BEAED
+PRABCD   defn:parallelogram
+PRADBC   defn:parallelogram 
+NOMEABCD  defn:parallel
+NEAB     defn:parallel
+NECD     defn:parallel
+ANMIAMC+MIBMD  lemma:diagonalsbisect
+MIAMC
+MIBMD
+BEAMC   defn:midpoint
+EEAMMC  defn:midpoint
+BEBMD   defn:midpoint
+EEBMMD  defn:midpoint
+EEBMDM  lemma:congruenceflip
+EQBB   cn:equalityreflexive
+COBDC  assumption
+ COCDB  lemma:collinearorder
+ COABB defn:collinear
+ MEABCD defn:meet
+ NOMEABCD
+NCBDC reductio
+EEMAMC lemma:congruenceflip
+ANBEBEP+BECDP  postulate:Euclid5
+BEBEP
+BECDP
+COBPC   assumption
+ COPCB   lemma:collinearorder
+ COCDP   defn:collinear
+ COPCD   lemma:collinearorder
+ NECP  lemma:betweennotequal
+ NEPC   lemma:inequalitysymmetric
+ COCBD   lemma:collinear4
+ COCDB   lemma:collinearorder
+ COABB   defn:collinear
+ MEABCD  defn:meet
+ NOMEABCD
+NCBPC   reductio
+ANBEBHD+BECHE   postulate:Pasch-inner
+

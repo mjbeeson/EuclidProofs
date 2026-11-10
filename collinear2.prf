@@ -1,0 +1,26 @@
+COABC
+OREQAB|EQAC|EQBC|BEBAC|BEABC|BEACB defn:collinear
+cases COBCA:EQAB|EQAC|EQBC|BEBAC|BEABC|BEACB
+case 1: EQAB
+EQBA lemma:equalitysymmetric
+COBCA defn:collinear
+qedcase
+case 2: EQAC
+EQCA lemma:equalitysymmetric
+COBCA defn:collinear
+qedcase
+case 3: EQBC
+COBCA defn:collinear
+qedcase
+case 4: BEBAC
+COBCA defn:collinear
+qedcase
+case 5: BEABC
+BECBA axiom:betweennesssymmetry
+COBCA defn:collinear
+qedcase
+case 6: BEACB
+BEBCA axiom:betweennesssymmetry
+COBCA defn:collinear
+qedcase
+COBCA cases

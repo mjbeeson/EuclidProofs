@@ -1,0 +1,219 @@
+TRABC
+BEBCD
+NCABC  defn:triangle
+NEBA lemma:NCdistinct
+NEAB lemma:inequalitysymmetric
+ANBEBAF+EEAFBA lemma:extension
+BEBAF
+COBAF defn:collinear
+COABF  lemma:collinearorder
+EQBB  cn:equalityreflexive
+COABB defn:collinear
+NEBF  lemma:betweennotequal
+NEFB lemma:inequalitysymmetric
+NCFBC  lemma:NChelper
+BEFAB  axiom:betweennesssymmetry
+ANBEECH+EAECACAB+PREHFB+BEESB+BECSA  proposition:31short
+NEBC lemma:betweennotequal
+NECB lemma:inequalitysymmetric
+ANBECBG+EEBGCB  lemma:extension
+NECA lemma:NCdistinct
+ANBECAJ+EEAJCA lemma:extension
+NEAC lemma:inequalitysymmetric
+ANBEACK+EECKAC lemma:extension
+BEACK
+ANBEABM+EEBMAB lemma:extension
+BEABM
+PREHFB
+COFBA  lemma:collinearorder
+PREHAB  lemma:collinearparallel
+BEECH
+BEKCA  axiom:betweennesssymmetry
+BEESB
+BECSA
+COCSA defn:collinear
+COCAS lemma:collinearorder
+NCACB  lemma:NCorder
+COACS  lemma:collinearorder
+NECS  lemma:betweennotequal
+NESC  lemma:inequalitysymmetric
+EQCC  cn:equalityreflexive
+COACC  defn:collinear
+NCSCB  lemma:NChelper
+NCBSC  lemma:NCorder
+COESB  defn:collinear
+COBSE  lemma:collinearorder
+EQBB   cn:equalityreflexive
+COBSB  defn:collinear
+BEBSE  axiom:betweennesssymmetry
+NEBE lemma:betweennotequal
+NCBEC  lemma:NChelper
+COBES  lemma:collinearorder
+EQEE  cn:equalityreflexive
+COBEE  defn:collinear
+NESE  lemma:betweennotequal
+NCSEC  lemma:NChelper
+NCSCE  lemma:NCorder
+COSCC  defn:collinear
+COCSA  defn:collinear
+COSCA  lemma:collinearorder
+NECA lemma:betweennotequal
+NCCAE  lemma:NChelper
+COABM  defn:collinear
+COBAM  lemma:collinearorder
+PREHBA lemma:parallelflip
+NEAM  lemma:betweennotequal
+NEMA  lemma:inequalitysymmetric
+PREHMA lemma:collinearparallel 
+BEHCE  axiom:betweennesssymmetry
+BEMBA  axiom:betweennesssymmetry
+BEFAB  axiom:betweennesssymmetry
+BEDCB  axiom:betweennesssymmetry
+NCBCA  lemma:NCorder
+BECSA  
+BEBSE
+NCACB lemma:NCorder
+EQAA  cn:equalityreflexive
+NEBE  lemma:betweennotequal
+BEECH  axiom:betweennesssymmetry
+BEASC  axiom:betweennesssymmetry
+NCCAE 
+NCCEA   lemma:NCorder 
+COCEH   defn:collinear
+COCEE   defn:collinear
+NEEH lemma:betweennotequal
+NEHE  lemma:inequalitysymmetric
+NCHEA  lemma:NChelper
+NCEHA  lemma:NCorder
+ANBEAQH+BEESQ  postulate:Pasch-outer
+BEAQH
+BEESQ
+COESQ  defn:collinear
+COSEB  lemma:collinearorder
+COSEQ  lemma:collinearorder
+NESE   
+COEBQ  lemma:collinear4
+COBEQ  lemma:collinearorder
+NEHE   lemma:betweennotequal
+NECE  lemma:betweennotequal
+ANBEHEL+EEELCE  lemma:extension
+BEHEL
+BELEH  axiom:betweennesssymmetry
+COLEH  defn:collinear
+NELH  lemma:betweennotequal
+NEEH  lemma:betweennotequal
+BEABM  
+COABM  defn:collinear
+NEAM  lemma:betweennotequal
+NEAB  lemma:betweennotequal
+MEAMLH  assumption
+ ANNEAM+NELH+COAMc+COLHc  defn:meet
+ COAMc
+ COLHc
+ COHEL  defn:collinear
+ COLHE  lemma:collinearorder
+ NEHL lemma:betweennotequal
+ NELH  lemma:inequalitysymmetric
+ COHcE  lemma:collinear4
+ COEHc  lemma:collinearorder
+ COABM  defn:collinear
+ COMAB lemma:collinearorder
+ COMAc  lemma:collinearorder
+ NEAM  lemma:betweennotequal
+ NEMA  lemma:inequalitysymmetric
+ COABc lemma:collinear4
+ COBAF  defn:collinear
+ COABF  lemma:collinearorder
+ COBcF  lemma:collinear4
+ COFBc  lemma:collinearorder
+ ANNEEH+NEFB+COEHc+COFBc
+ MEEHFB  defn:meet
+ NOMEEHFB  defn:parallel
+NOMEAMLH reductio
+BEBQE  lemma:collinearbetween
+NCAHE  lemma:NCorder
+COAQH  defn:collinear
+COAHQ  lemma:collinearorder
+EQHH  cn:equalityreflexive
+COAHH  defn:collinear
+NEQH  lemma:betweennotequal
+NCQHE  lemma:NChelper
+NCQEH  lemma:NCorder
+EQEE   cn:equalityreflexive
+COQEE  defn:collinear
+COQEB  lemma:collinearorder
+NCBEH  lemma:NChelper
+ANBEBTC+BEHTQ  postulate:Pasch-inner
+BEBTC
+BEHTQ
+BEQTH  axiom:betweennesssymmetry
+BEAQH 
+BEATH  lemma:3.5b
+COBTC   defn:collinear
+COCBT  lemma:collinearorder
+NCCBA  lemma:NCorder
+OSACBH  defn:oppositeside
+OSHCBA  lemma:oppositesidesymmetric
+PRHEMA  lemma:parallelflip
+BEHCE
+BEMBA
+EAECACAB
+EAACEBAC  lemma:equalanglesflip
+ANEAHCBCBA+EADCECBA+RTECBCBA  proposition:29
+EADCECBA
+EACBAABC  lemma:ABCequalsCBA
+EADCEABC  lemma:equalanglestransitive
+BEBTC
+BEBCD
+BETCD  lemma:3.6a
+NETD lemma:betweennotequal
+NCBCA  lemma:NCorder
+COBCT  lemma:collinearorder
+COBCD  defn:collinear
+NCTDA  lemma:NChelper
+NCATD  lemma:NCorder
+COATA  defn:collinear
+COATH  defn:collinear
+NEAH  lemma:betweennotequal
+NCAHD  lemma:NChelper
+NCHAD  lemma:NCorder
+BEHTA  axiom:betweennesssymmetry
+BEDCT  axiom:betweennesssymmetry
+ANBEDRA+BEHCR  postulate:Pasch-outer
+BEDRA
+BEHCR
+RACER defn:ray
+RACAA  lemma:ray4
+NECD  lemma:betweennotequal
+EQDD  cn:equalityreflexive
+BEARD  axiom:betweennesssymmetry
+EABACACE  lemma:equalanglessymmetric
+EABACACR lemma:equalangleshelper
+NCCAB  lemma:NCorder
+EACABBAC lemma:ABCequalsCBA
+EACABACR lemma:equalanglestransitive
+BEARD
+RACDD   lemma:ray4
+EAABCDCE  lemma:equalanglessymmetric
+EAABCDCR  lemma:equalangleshelper
+NCADH  lemma:NCorder
+CODRA  defn:collinear
+COADR  lemma:collinearorder
+EQDD  cn:equalityreflexive
+COADD  defn:collinear
+NEDR  lemma:betweennotequal
+NERD  lemma:inequalitysymmetric
+NCRDH  lemma:NChelper
+NCRHD  lemma:NCorder
+COHCR  defn:collinear
+CORHC  lemma:collinearorder
+EQRR   cn:equalityreflexive
+CORHR  defn:collinear
+NECR  lemma:betweennotequal
+NERC  lemma:inequalitysymmetric
+NCRCD  lemma:NChelper
+NCDCR  lemma:NCorder
+EADCRRCD  lemma:ABCequalsCBA
+EAABCRCD  lemma:equalanglestransitive
+ANEACABACR+EAABCRCD+BEARD
+ASCABABCACD  defn:anglesum

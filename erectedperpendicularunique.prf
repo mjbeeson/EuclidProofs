@@ -1,0 +1,25 @@
+RRABC
+RRABE
+SSCEAB
+ANBEABD+EEABDB+EEACDC+NEBC   defn:rightangle
+NEBC
+NEBE  defn:rightangle
+ANRABEH+EEBHBC  lemma:layoff
+RABEH
+EEBHBC
+EQBB   cn:equalityreflexive
+COABB  defn:collinear
+SSCHAB  lemma:sameside2
+RRABH  lemma:8.3
+EEBCBH  lemma:congruencesymmetric
+EEACAH  lemma:10.12
+EECAHA  lemma:congruenceflip
+EECBHB  lemma:congruenceflip
+EQAB  assumption
+ COABC  defn:collinear
+ NCABC  lemma:rightangleNC
+NEAB    reductio
+EQCH    proposition:07
+RABEC   cn:equalitysub
+RABCE   lemma:ray5
+  

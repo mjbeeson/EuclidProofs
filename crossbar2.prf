@@ -1,0 +1,91 @@
+AOHGAHGP
+SSAPGH
+RAGHS
+RAGPT
+NCGHP  defn:sameside
+ANBELKJ+RAGHL+RAGPJ+EAHGAHGK  defn:anglelessthan
+BELKJ
+RAGHL
+RAGPJ
+EAHGAHGK
+NCHGK  lemma:equalanglesNC
+COLGJ   assumption
+ COGHL  lemma:rayimpliescollinear
+ COGPJ  lemma:rayimpliescollinear
+ COLGH  lemma:collinearorder
+ NEGL  lemma:raystrict
+ NELG   lemma:inequalitysymmetric
+ COGJH  lemma:collinear4
+ COJGH  lemma:collinearorder
+ COJGP  lemma:collinearorder
+ NEGJ  lemma:raystrict
+ NEJG  lemma:inequalitysymmetric
+ COGHP lemma:collinear4
+ NCGHP
+NCLGJ  reductio
+TRLGJ  defn:triangle
+RAGPT
+RAGPJ
+RAGJT lemma:ray3
+RAGLS lemma:ray3
+ANRAGKM+BESMT  lemma:crossbar
+RAGKM
+BESMT
+BETMS  axiom:betweennesssymmetry
+EAHGKHGA  lemma:equalanglessymmetric
+NEGA   lemma:angledistinct
+NEGM lemma:raystrict
+ANRAGAN+EEGNGM  lemma:layoff
+RAGAN
+EQHH   cn:equalityreflexive
+EQGH  assumption
+ COGHP  defn:collinear
+NEGH reductio
+RAGHH  lemma:ray4
+COHGM assumption
+ COGKM  lemma:rayimpliescollinear
+ COMGK  lemma:collinearorder
+ COMGH  lemma:collinearorder
+ NEGM  lemma:raystrict
+ NEMG  lemma:inequalitysymmetric
+ COGKH lemma:collinear4
+ COHGK  lemma:collinearorder
+ NCHGK  
+NCHGM reductio
+EAHGMHGM   lemma:equalanglesreflexive
+RAGMK    lemma:ray5
+EAHGMHGK   lemma:equalangleshelper
+EAHGMHGA   lemma:equalanglestransitive
+NCHGA     lemma:equalanglesNC
+EAHGAHGA   lemma:equalanglesreflexive
+EAHGAHGN  lemma:equalangleshelper
+EAHGMHGN  lemma:equalanglestransitive
+EAHGNHGM  lemma:equalanglessymmetric
+EEGNGM
+EEGHGH   cn:congruencereflexive
+EEHNHM   proposition:04
+SSAPGH
+RAGPT
+EQGG    cn:equalityreflexive
+COGGH  defn:collinear
+SSATGH  lemma:sameside2
+BESMT
+NESM   lemma:betweennotequal
+RASMT lemma:ray4
+RASTM lemma:ray5
+COGHS  lemma:rayimpliescollinear
+COGSH  lemma:collinearorder
+SSAMGH  lemma:sameside2
+SSMAGH  lemma:samesidesymmetric
+RAGAN
+SSMNGH  lemma:sameside2
+EENHMH  lemma:congruenceflip
+EEMHNH  lemma:congruencesymmetric
+EENGMG  lemma:congruenceflip
+EEMGNG  lemma:congruencesymmetric
+NEGH
+EQMN  proposition:07
+EQNM  lemma:equalitysymmetric
+RAGAM  cn:equalitysub
+ANBETMS+RAGAM 
+ 

@@ -1,0 +1,137 @@
+CIJGPQ
+ONAJ
+ONBJ
+NEAB
+MIADB
+ONCJ
+ONEJ
+PACEABD
+SSCGAB
+MICFE
+BECDE
+ANBEADB+EEADDB  defn:midpoint
+BEADB
+EEADDB
+ANBECFE+EECFFE defn:midpoint
+BECFE
+EECFFE
+EECFEF   lemma:congruenceflip
+BEEFC    axiom:betweennesssymmetry
+EEEFCF   lemma:congruencesymmetric
+EEADBD   lemma:congruenceflip
+EEBDAD   lemma:congruencesymmetric
+EEGAPQ   axiom:circle-center-radius
+EEGBPQ   axiom:circle-center-radius
+EEGEPQ   axiom:circle-center-radius
+EEGAPQ   axiom:circle-center-radius
+EEPQGB   lemma:congruencesymmetric
+EEGAGB   lemma:congruencetransitive
+EEAGBG   lemma:congruenceflip
+EEBGAG   lemma:congruencesymmetric
+BEBDA    axiom:betweennesssymmetry
+EEDBAD   lemma:congruencesymmetric
+EEBDAD   lemma:congruenceflip
+EEPQGB
+EEGAGB   lemma:congruencetransitive
+EEAGBG   lemma:congruenceflip
+ANCOCED+COABD+COABH+RRHDC  defn:perpat
+COABD
+COABH
+RRHDC
+EEGCPQ   axiom:circle-center-radius
+EEGEPQ   axiom:circle-center-radius
+EEPQGE   lemma:congruencesymmetric
+EEGCGE   lemma:congruencetransitive
+EEGEGC   lemma:congruencesymmetric
+EEEGGC   lemma:congruenceflip
+RRCDH   lemma:8.2
+NEDH  defn:rightangle
+NEHD  lemma:inequalitysymmetric
+NEAB  lemma:betweennotequal
+COBDH lemma:collinear4
+COHDB lemma:collinearorder
+NEDB lemma:betweennotequal
+NEBD  lemma:inequalitysymmetric
+RRBDC  lemma:collinearright
+EQDG  assumption
+ SSCGAB
+ SSCDAB cn:equalitysub
+ SSDCAB lemma:samesidesymmetric
+ BECDE 
+ COADB defn:collinear
+ COABD lemma:collinearorder
+ NCABC  defn:sameside
+ OSCABE defn:oppositeside
+ OSDABE lemma:planeseparation
+ NCABD  defn:oppositeside
+ COADB  defn:collinear
+ COABD  lemma:collinearorder
+NEDG reductio
+RRBDG     defn:rightangle
+RRBDC 
+SSCGBA  lemma:samesidesymmetric
+COADB  defn:collinear
+COBAD  lemma:collinearorder
+NEDB   lemma:betweennotequal
+NEBD   lemma:inequalitysymmetric
+SSCGBD  lemma:samesidecollinear
+SSGCBD lemma:samesidesymmetric
+RADGC    lemma:erectedperpendicularunique
+ORBEDCG|EQGC|BEDGC  lemma:ray1
+cases COCDG:BEDCG|EQGC|BEDGC
+ case 1:BEDCG
+  CODCG  defn:collinear
+  COCDG  lemma:collinearorder
+ qedcase
+ case 2:EQGC
+  COGCD defn:collinear
+  COCDG  lemma:collinearorder
+ qedcase
+ case 3:BEDGC
+  CODGC defn:collinear
+  COCDG lemma:collinearorder
+ qedcase
+COCDG cases
+COCED   
+COCDE    lemma:collinearorder
+NCHDC    lemma:rightangleNC
+NECD     lemma:NCdistinct
+CODGE    lemma:collinear4
+CODEG    lemma:collinearorder
+COCFE    defn:collinear
+COCEF    lemma:collinearorder
+COCED
+NECE   lemma:betweennotequal
+COEFD    lemma:collinear4
+CODEF   lemma:collinearorder
+cases COEFG:NEDE|EQDE
+ case 1:NEDE
+  COEGF   lemma:collinear4
+  COEFG    lemma:collinearorder  
+ qedcase
+ case 2:EQDE
+  COCDG
+  COCEG  cn:equalitysub
+  COCFE  defn:collinear
+  COCEF  lemma:collinearorder
+  NECE   lemma:betweennotequal
+  COEGF  lemma:collinear4
+  COEFG  lemma:collinearorder
+ qedcase
+COEFG cases
+RRGDB  lemma:8.2
+RRBDC  lemma:collinearright
+RRCDB  lemma:8.2
+NEGF  assumption
+ BEEFC
+ EEEFCF
+ EEGEPQ
+ EEGCPQ
+ EEPQGC  lemma:congruencesymmetric
+ EEGEGC  lemma:congruencetransitive
+ EEEGCG   lemma:congruenceflip
+ NEFG  lemma:inequalitysymmetric
+ RREFG  defn:rightangle
+ NCEFG  lemma:rightangleNC
+EQGF   reductio
+  

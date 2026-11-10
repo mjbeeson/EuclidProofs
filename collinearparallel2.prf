@@ -1,0 +1,43 @@
+PRABCD
+COCDE
+COCDF
+NEEF
+NEFE  lemma:inequalitysymmetric
+NCACD  lemma:parallelNC
+NECD   lemma:NCdistinct
+NEDC   lemma:inequalitysymmetric
+CODCE  lemma:collinearorder
+CODCF  lemma:collinearorder
+COCEF  lemma:collinear4
+cases PRABEF:EQED|NEED
+ case 1:EQED
+  NEDF  cn:equalitysub
+  NEFD  lemma:inequalitysymmetric
+  PRABCD
+  PRABFD  lemma:collinearparallel
+  PRABDF  lemma:parallelflip
+  COCFD  lemma:collinearorder
+  COCFE  lemma:collinearorder
+  cases COFDE:EQCF|NECF
+   case 1:EQCF
+    COCDE lemma:collinearorder
+    COFDE cn:equalitysub
+   qedcase
+   case 2:NECF
+    COFDE  lemma:collinear4
+   qedcase
+  COFDE cases 
+  CODFE   lemma:collinearorder
+  PRABEF  lemma:collinearparallel
+ qedcase
+ case 2:NEED
+  PRABCD
+  PRABED  lemma:collinearparallel
+  PRABDE  lemma:parallelflip
+  CODEF   lemma:collinear4
+  PRABFE   lemma:collinearparallel
+  PRABEF   lemma:parallelflip
+ qedcase
+PRABEF cases
+
+  

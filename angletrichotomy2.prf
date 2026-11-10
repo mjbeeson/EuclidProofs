@@ -1,0 +1,463 @@
+NCABC
+NCDEF
+NOEAABCDEF
+NOAODEFABC
+EQBA  assumption
+ EQAB  lemma:equalitysymmetric
+ COABC defn:collinear
+NEBA  reductio
+EQBC assumption
+ COABC  defn:collinear
+NEBC reductio
+COBAC assumption
+ COABC  lemma:collinearorder
+NCBAC reductio
+ANRABAJ+EAGBJDEF+SSGCBA proposition:23C
+RABAJ
+EAGBJDEF
+SSGCBA
+NCBAG   defn:sameside
+EQBG assumption
+ COBAG defn:collinear
+NEBG reductio
+EQAG assumption
+ COBAG defn:collinear
+NEAG reductio
+EADEFGBJ  lemma:equalanglessymmetric
+RABJA  lemma:ray5
+EQGG    cn:equalityreflexive
+RABGG  lemma:ray4
+EADEFGBA  lemma:equalangleshelper
+NCGBA  lemma:equalanglesNC
+COABG assumption
+ COBAG lemma:collinearorder
+NCABG reductio
+EAGBADEF  lemma:equalanglessymmetric
+EAABGGBA   lemma:ABCequalsCBA
+EAABGDEF  lemma:equalanglestransitive
+
+COABG  assumption
+ COGBA  lemma:collinearorder
+NCABG reductio
+EQGA  assumption
+ EQAG   lemma:equalitysymmetric
+ COABG  defn:collinear
+NEGA  reductio
+ANBEGAP+EEAPGA lemma:extension
+BEGAP
+EQAA   cn:equalityreflexive
+COBAA   defn:collinear
+COBAG   assumption
+ COGBA  lemma:collinearorder
+NCBAG   reductio
+SSCGBA   lemma:samesidesymmetric
+OSGBAP   defn:oppositeside
+OSCBAP   lemma:planeseparation
+ANBECRP+COBAR+NCBAC  defn:oppositeside
+BECRP
+BEPRC   axiom:betweennesssymmetry
+NCBAC
+cases AOABCDEF:OSGBCA|NOOSGBCA
+ case 1:OSGBCA
+  ANBEGHA+COBCH+NCBCG defn:oppositeside
+  BEGHA
+  COBCH
+  BEAHG  axiom:betweennesssymmetry
+  RABAA  lemma:ray4
+  RABGG
+  COABH  assumption
+   EQBH  assumption
+    BEABG  cn:equalitysub
+    COABG  defn:collinear
+    COGBA  lemma:collinearorder
+   NEBH  reductio
+   NEHB  lemma:inequalitysymmetric
+   COHBA  lemma:collinearorder
+   COHBC  lemma:collinearorder
+   COBAC   lemma:collinear4
+   COABC   lemma:collinearorder
+  NCABH  reductio
+  EAABHABH  lemma:equalanglesreflexive
+  AOABHABG  defn:anglelessthan
+  EAGBAABG  lemma:ABCequalsCBA
+  AOABHGBA  lemma:angleorderrespectscongruence
+  COHBA   assumption
+   COABH  lemma:collinearorder
+  NCHBA   reductio
+  EAHBAABH  lemma:ABCequalsCBA
+  AOHBAGBA  lemma:angleorderrespectscongruence2
+  AOHBADEF  lemma:angleorderrespectscongruence
+  EAABHHBA  lemma:ABCequalsCBA
+  AOABHDEF  lemma:angleorderrespectscongruence2
+  RABAA   lemma:ray4
+  SSGCBA  
+  SSCGBA  lemma:samesidesymmetric
+  BEAHG
+  RAAGH   lemma:ray4
+  EQAA     cn:equalityreflexive
+  COBAA    defn:collinear
+  SSCHBA   lemma:sameside2
+  BECBH  assumption
+   EQBB   cn:equalityreflexive
+   COBAB  defn:collinear
+   OSCBAH  defn:oppositeside
+   OSHBAC  lemma:oppositesidesymmetric
+   OSCBAC  lemma:planeseparation
+   ANBECMC+COBAM+NCBAC defn:oppositeside
+   BECMC
+   NOBECMC  axiom:betweennessidentity
+  NOBECBH  reductio
+  COBCH
+  OREQBC|EQBH|EQCH|BECBH|BEBCH|BEBHC  defn:collinear
+  cases RABCH:EQBC|EQBH|EQCH|BECBH|BEBCH|BEBHC
+   case 1:EQBC
+    COABC defn:collinear
+    NORABCH  assumption
+     NCABC
+    RABCH  reductio
+   qedcase
+   case 2:EQBH
+    COBHA  defn:collinear
+    NORABCH assumption
+     COBHA assumption
+      COHBA  lemma:collinearorder
+      NCHBA
+     NCBHA reductio
+    RABCH reductio
+   qedcase
+   case 3:EQCH
+    EQHH  cn:equalityreflexive
+    cases RABCH:EQBH|NEBH
+     case 1:EQBH
+      COBHA  defn:collinear
+	  NORABCH assumption
+	   COBHA assumption
+	    COHBA  lemma:collinearorder
+	    NCHBA
+	   NCBHA reductio
+	  RABCH reductio
+	 qedcase
+	 case 2:NEBH
+      RABHH  lemma:ray4
+      RABCH  cn:equalitysub
+     qedcase
+    RABCH cases
+   qedcase
+   case 4:BECBH
+    NORABCH assumption
+     NOBECBH
+    RABCH reductio
+   qedcase
+   case 5:BEBCH
+    NEBC  lemma:betweennotequal
+    RABCH  lemma:ray4
+   qedcase
+   case 6:BEBHC
+    NEBC  lemma:betweennotequal
+    RABCH lemma:ray4
+   qedcase
+  RABCH cases
+  EAABCABC  lemma:equalanglesreflexive
+  EAABCABH  lemma:equalangleshelper
+  AOABCDEF  lemma:angleorderrespectscongruence2
+ qedcase
+ case 2: NOOSGBCA
+  COBAR
+  OREQBA|EQBR|EQAR|BEABR|BEBAR|BEBRA defn:collinear
+  cases AOABCDEF:EQBA|EQBR|EQAR|BEABR|BEBAR|BEBRA
+  case 1:EQBA
+   NOAOABCDEF assumption
+     NEBA
+   AOABCDEF reductio
+  qedcase
+  case 2:EQBR
+   BEGAP
+   BECRP axiom:betweennesssymmetry
+   COCPG assumption
+    COCRP defn:collinear
+    COCBP cn:equalitysub
+    COGAP defn:collinear
+    COGPA lemma:collinearorder
+    COGPC lemma:collinearorder
+    NEGP  lemma:betweennotequal
+    COPCA lemma:collinear4
+    COPCB lemma:collinearorder
+    NECP lemma:betweennotequal
+    NEPC lemma:inequalitysymmetric
+    COCAB lemma:collinear4
+    COABC lemma:collinearorder
+    NCABC
+   NCCPG reductio
+   ANBECQA+BEGQR  postulate:Pasch-inner
+   BECQA
+   BEGQR 
+   BEGQB  cn:equalitysub
+   BEBQG  axiom:betweennesssymmetry
+   NEBQ  lemma:betweennotequal
+   NEBG   lemma:betweennotequal
+   RABQG  lemma:ray4
+   RABGQ  lemma:ray5
+   EQQQ   cn:equalityreflexive
+   EQAA   cn:equalityreflexive
+   EQCC   cn:equalityreflexive
+   RABAA  lemma:ray4
+   RABCC  lemma:ray4
+   RABGG  lemma:ray4
+   RABQQ  lemma:ray4
+   NCABG
+   EEAQAQ  cn:congruencereflexive
+   EEBQBQ  cn:congruencereflexive
+   EEBABA  cn:congruencereflexive
+   EAABGABQ  defn:equalangles
+   BEAQC  axiom:betweennesssymmetry
+   AOABGABC  defn:anglelessthan
+   EAABGDEF
+   EADEFABG  lemma:equalanglessymmetric
+   AODEFABC  lemma:angleorderrespectscongruence2
+   NOAOABCDEF assumption
+     NOAODEFABC
+   AOABCDEF reductio
+  qedcase
+  case 3:EQAR
+   NOAOABCDEF assumption
+    BEPAG   axiom:betweennesssymmetry
+    BEPAC  cn:equalitysub
+    EQGG  cn:equalityreflexive
+    RABGG lemma:ray4
+    EQAA  cn:equalityreflexive
+    RABAA  lemma:ray4
+    EQCC  cn:equalityreflexive
+    RABCC  lemma:ray4
+    EADEFABG  lemma:equalanglessymmetric
+    BEAGC  assumption   
+     EAABGABG lemma:equalanglesreflexive
+     AOABGABC defn:anglelessthan  
+     AODEFABC  lemma:angleorderrespectscongruence2
+     NOAODEFABC
+    NOBEAGC reductio
+    BEACG  assumption
+     EAABCABC lemma:equalanglesreflexive
+     AOABCABG defn:anglelessthan
+     AOABCDEF lemma:angleorderrespectscongruence
+    NOBEACG  reductio
+    EQCG  lemma:outerconnectivity
+    EAABCABC lemma:equalanglesreflexive
+    EAABGABC cn:equalitysub
+    EAABCABG lemma:equalanglessymmetric
+    EAABCDEF  lemma:equalanglestransitive
+    EAABCDEF
+   AOABCDEF reductio
+  qedcase
+  case 4:BEABR
+   BERBA   axiom:betweennesssymmetry
+   BECRP
+   BEABR  axiom:betweennesssymmetry
+   COCPA assumption
+    COCRP  defn:collinear
+    COCPR  lemma:collinearorder
+    NECP  lemma:betweennotequal
+    COPAR lemma:collinear4
+    CORBA defn:collinear
+    CORAB lemma:collinearorder
+    CORAP lemma:collinearorder
+    NERA  lemma:betweennotequal
+    COABP lemma:collinear4
+    COPAB lemma:collinearorder
+    COGAP defn:collinear
+    COPAG lemma:collinearorder
+    NEAP lemma:betweennotequal
+    NEPA lemma:inequalitysymmetric
+    COABG lemma:collinear4
+    NCABG
+   NCCPA reductio
+   ANBEAMP+BECBM  postulate:Pasch-outer
+   BEAMP
+   BECBM 
+   BEGAP
+   BEPAG   axiom:betweennesssymmetry
+   BEPMA   axiom:betweennesssymmetry
+   BEMAG lemma:3.6a
+   BEGAM   axiom:betweennesssymmetry
+   COCMG  assumption
+    BEPMA  axiom:betweennesssymmetry
+    BEPAG  axiom:betweennesssymmetry
+    BEPMG  lemma:3.6b
+    COPMG  defn:collinear
+    COMGP  lemma:collinearorder
+    COMGC lemma:collinearorder
+    NEMG lemma:betweennotequal
+    COGPC lemma:collinear4
+    COPAG  defn:collinear
+    COGPA lemma:collinearorder
+    NEPG  lemma:betweennotequal
+    NEGP lemma:inequalitysymmetric
+    COPCA  lemma:collinear4
+    COCPA  lemma:collinearorder
+    NCCPA
+   NCCMG reductio
+   ANBECQA+BEGQB postulate:Pasch-inner
+   BECQA
+   BEGQB 
+   BEBQG  axiom:betweennesssymmetry
+   NEBQ   lemma:betweennotequal
+   NEBG   lemma:betweennotequal
+   RABQG  lemma:ray4
+   RABGQ  lemma:ray5
+   EQQQ   cn:equalityreflexive
+   EQAA   cn:equalityreflexive
+   EQCC   cn:equalityreflexive
+   RABAA  lemma:ray4
+   RABCC  lemma:ray4
+   RABGG  lemma:ray4
+   RABQQ  lemma:ray4
+   NCABG
+   EEAQAQ  cn:congruencereflexive
+   EEBQBQ  cn:congruencereflexive
+   EEBABA  cn:congruencereflexive
+   EAABGABQ  defn:equalangles
+   BEAQC  axiom:betweennesssymmetry
+   AOABGABC  defn:anglelessthan
+   EAABGDEF
+   EADEFABG  lemma:equalanglessymmetric
+   AODEFABC  lemma:angleorderrespectscongruence2
+   NOAOABCDEF assumption
+     NOAODEFABC
+   AOABCDEF reductio
+  qedcase
+  case 5:BEBAR
+   COPCB  assumption
+    COBAR  defn:collinear
+    COPRC  defn:collinear
+    COPCR lemma:collinearorder
+    NEPC  lemma:betweennotequal
+    COCBR lemma:collinear4
+    CORBC lemma:collinearorder
+    CORBA lemma:collinearorder
+    NEBR  lemma:betweennotequal
+    NERB  lemma:inequalitysymmetric
+    COBCA lemma:collinear4
+    COABC lemma:collinearorder
+    NCABC
+   NCPCB  reductio
+   ANBEBQC+BEPAQ  postulate:Pasch-outer
+   BEBQC
+   COBCQ   defn:collinear
+   EQGQ   assumption
+    BEBGC cn:equalitysub
+    RABCG  lemma:ray4
+    RABAA  lemma:ray4
+    RABGG  lemma:ray4
+    EEAGAG cn:congruencereflexive
+    EEBGBG  cn:congruencereflexive
+    EEBABA  cn:congruencereflexive
+    NCABG
+    EAABGABC  defn:equalangles
+    EAABCABG  lemma:equalanglessymmetric
+    EAABGDEF
+    EAABCDEF  lemma:equalanglestransitive
+    NOEAABCDEF
+   NEGQ   reductio
+   COBCG  assumption
+    BEPAQ
+    BEPAG  axiom:betweennesssymmetry
+    RAAGQ  defn:ray
+    COAGQ  lemma:rayimpliescollinear
+    COCBG  lemma:collinearorder
+    COCBQ  lemma:collinearorder
+    NEBC   lemma:betweennotequal
+    NECB   lemma:inequalitysymmetric
+    EQBB   cn:equalityreflexive
+    COCBB  defn:collinear
+    COGQB  lemma:collinear5
+    COQGB  lemma:collinearorder
+    COQGA  lemma:collinearorder   
+    NEQG   lemma:inequalitysymmetric 
+    COGBA  lemma:collinear4
+    COABG  lemma:collinearorder
+   NCBCG  reductio
+   BEAQG  assumption
+    BEGQA   axiom:betweennesssymmetry
+    OSGBCA  defn:oppositeside
+   NOBEAQG  reductio
+   RABCQ   lemma:ray4
+   RABAA    lemma:ray4
+   BEAGQ   assumption
+    EAABGABG  lemma:equalanglesreflexive
+    AOABGABC  defn:anglelessthan
+    EADEFABG  lemma:equalanglessymmetric
+    AODEFABC  lemma:angleorderrespectscongruence2
+   NOBEAGQ  reductio
+   BEPAQ
+   BEPAG  axiom:betweennesssymmetry
+   NOBEAGQ
+   NOBEAQG
+   EQGQ   lemma:outerconnectivity
+   NOAOABCDEF assumption
+    NEGQ  
+   AOABCDEF reductio 
+  qedcase
+  case 6:BEBRA 
+   NOAOABCDEF assumption
+    BEPAG   axiom:betweennesssymmetry
+    BEBRA  
+    COPGB  assumption
+     COPAG  defn:collinear
+     COPGA  lemma:collinearorder
+     NEPG  lemma:betweennotequal
+     COGBA  lemma:collinear4
+     COABG  lemma:collinearorder
+     NCABG
+    NCPGB reductio
+    ANBEBQG+BEPRQ  postulate:Pasch-outer
+    BEBQG
+    NEBQ  lemma:betweennotequal
+    RABQG   lemma:ray4
+    BERCQ  assumption
+     RABAR  lemma:ray4
+     RABGQ  lemma:ray4
+     EAABCABC lemma:equalanglesreflexive
+     AOABCABG  defn:anglelessthan
+     EAABGDEF
+     EADEFABG lemma:equalanglessymmetric
+     AOABCDEF  lemma:angleorderrespectscongruence
+    NOBERCQ  reductio
+    BERQC   assumption
+     EQAA   cn:equalityreflexive
+     RABAA  lemma:ray4
+     RABQG   lemma:ray4
+     EQGG   cn:equalityreflexive
+     RABGG  lemma:ray4
+     EEBABA  cn:congruencereflexive
+     EEBGBG  cn:congruencereflexive
+     EEAGAG  cn:congruencereflexive 
+     NCABG
+     EAABGABQ defn:equalangles
+     RABAR  lemma:ray4
+     EQCC    cn:equalityreflexive
+     RABCC   lemma:ray4
+     AOABGABC  defn:anglelessthan
+     EADEFABG  lemma:equalanglessymmetric
+     AODEFABC  lemma:angleorderrespectscongruence2
+     NOAODEFABC 
+    NOBERQC   reductio
+    BEPRQ
+    BEPRC
+    EQQC    lemma:outerconnectivity
+    EQCC   cn:equalityreflexive
+    RABCC  lemma:ray4
+    RABCG   cn:equalitysub
+    EQAA   cn:equalityreflexive
+    RABAA  lemma:ray4
+    EQGG   cn:equalityreflexive
+    RABGG  lemma:ray4
+    EEBABA  cn:congruencereflexive
+    EEBGBG  cn:congruencereflexive
+    EEAGAG  cn:congruencereflexive 
+    EAABCABG  defn:equalangles
+    EAABCDEF  lemma:equalanglestransitive 
+    EAABCDEF
+    AOABCDEF reductio
+  qedcase
+ AOABCDEF cases
+ qedcase 
+AOABCDEF cases

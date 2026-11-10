@@ -1,0 +1,9 @@
+ASDEFGHJXYZ      
+ASABCXYZRST      
+ASABCDEFUVW      
+ASGHJABCLMN       
+ASXYZABCRST       lemma:anglesumcommutative  #(2+3)+1
+ASDEFLMNRST       lemma:anglesumassociative  #2+(3+1)
+ASLMNDEFRST       lemma:anglesumcommutative  #(3+1)+2
+ASGHJUVWRST       lemma:anglesumassociative  #3 + (1+2)
+ASUVWGHJRST       lemma:anglesumcommutative  #(1+2)+3

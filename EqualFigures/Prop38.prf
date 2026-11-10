@@ -1,0 +1,68 @@
+PRPQBC
+COPQA
+COPQD
+EEBCEF
+COBCE
+COBCF
+PRBCPQ   lemma:parallelsymmetric
+PRCBPQ  lemma:parallelflip
+ANPGAGBC+COPQG  lemma:triangletoparallelogram
+PGAGBC
+COPQG
+PGGBCA  lemma:PGrotate
+NCPBC  lemma:parallelNC
+NEBC  lemma:NCdistinct
+NEEF  axiom:nocollapse
+PRPQEF lemma:collinearparallel2
+PREFPQ  lemma:parallelsymmetric
+ANPGDHFE+COPQH  lemma:triangletoparallelogram
+PGDHFE
+COPQH
+PGHFED lemma:PGrotate
+EEBCFE  lemma:congruenceflip
+NCPQB   lemma:parallelNC
+NEPQ    lemma:NCdistinct
+COGAH   lemma:collinear5
+COGAD   lemma:collinear5
+COBCF
+COBCE
+EFGBCAHFED  proposition:36
+EFGBCAEFHD  axiom:EFpermutation
+EFEFHDGBCA  axiom:EFsymmetric
+EFEFHDCBGA  axiom:EFpermutation
+ANBEDMF+BEHME  lemma:diagonalsmeet
+BEDMF
+BEHME
+CODMF  defn:collinear
+COFDM  lemma:collinearorder
+ANBEAmB+BEGmC lemma:diagonalsmeet
+BEAmB
+BEGmC
+COAmB  defn:collinear
+COBAm  lemma:collinearorder
+PRAGBC  defn:parallelogram
+NCAGB   lemma:parallelNC
+NCBAG   lemma:NCorder
+PRDHFE  defn:parallelogram
+NCDHF   lemma:parallelNC
+NCFDH   lemma:NCorder
+OSGBAC   defn:oppositeside
+OSCBAG   lemma:oppositesidesymmetric
+OSHFDE    defn:oppositeside
+OSEFDH    lemma:oppositesidesymmetric
+PGHFED
+TCFHDDEF  proposition:34
+ETFHDDEF  axiom:congruentequal
+ETFHDEFD  axiom:ETpermutation
+ETEFDFHD  axiom:ETsymmetric
+ETEFDFDH  axiom:ETpermutation
+PGGBCA   lemma:PGrotate
+TCBGAACB  proposition:34
+ETBGAACB  axiom:congruentequal
+ETBGACBA  axiom:ETpermutation
+ETCBABGA  axiom:ETsymmetric
+ETCBABAG  axiom:ETpermutation
+ETEFDCBA   axiom:halvesofequals
+ETEFDABC   axiom:ETpermutation
+ETABCEFD  axiom:ETsymmetric
+ETABCDEF  axiom:ETpermutation

@@ -1,0 +1,59 @@
+TPABCD
+ANNEAB+NECD+NOMEABCD+SSCDAB defn:tarski_parallel
+NEAB
+NECD
+NOMEABCD
+SSCDAB
+ANCOABa+COABb+BECae+BEDbe+NCABC+NCABD defn:sameside
+COABa
+COABb
+BECae
+BEDbe
+COCae  defn:collinear
+CODbe  defn:collinear
+NEae  lemma:betweennotequal
+NECe lemma:betweennotequal
+NEDe  lemma:betweennotequal
+NEeD  lemma:inequalitysymmetric
+EQab  assumption
+ COCae
+ CODae cn:equalitysub
+ COaeC lemma:collinearorder
+ COaeD lemma:collinearorder
+ COeCD lemma:collinear4
+ COeDC  lemma:collinearorder
+ COeDb  lemma:collinearorder
+ CODCb   lemma:collinear4
+ COCDb   lemma:collinearorder
+ COABb
+ MEABCD  defn:meet
+ NOMEABCD
+NEab reductio
+COCeD assumption
+ COCea  lemma:collinearorder
+ COeDa  lemma:collinear4
+ COeDC  lemma:collinearorder
+ CODCa  lemma:collinear4
+ COCDa  lemma:collinearorder
+ COABa
+ MEABCD  defn:meet
+ NOMEABCD 
+NCCeD  reductio
+BECae
+BEDbe
+ANBECMb+BEDMa  postulate:Pasch-inner
+BECMb
+BEDMa
+BEaMD  axiom:betweennesssymmetry
+EQCC  cn:equalityreflexive
+COCDC  defn:collinear
+EQDD cn:equalityreflexive
+COCDD defn:collinear
+ANNEAB+NECD+COABa+COABb+NEab+COCDC+COCDD+NECD+NOMEABCD+BEaMD+BECMb
+PRABCD  defn:parallel
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,7 @@
+NEAB
+EEABCD
+EQCD   assumption
+EEABCC  cn:equalitysub
+EQAB   axiom:nullsegment1
+NEAB
+NECD  reductio

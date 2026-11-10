@@ -1,0 +1,13 @@
+SSPQAB
+ANCOABp+COABq+BEPpr+BEQqr+NCABP+NCABQ  defn:sameside
+COABp
+COABq
+BEPpr
+BEQqr
+NCABP
+NCABQ
+COBAp  lemma:collinearorder
+COBAq  lemma:collinearorder
+NCBAP  lemma:NCorder
+NCBAQ  lemma:NCorder
+SSPQBA  defn:sameside

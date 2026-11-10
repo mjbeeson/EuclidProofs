@@ -1,0 +1,102 @@
+TRABC
+TRDEF
+EAABCDEF
+EABCAEFD
+EEBCEF
+NCABC defn:triangle
+EQAB assumption
+ COABC defn:collinear
+NEAB  reductio
+NEBA  lemma:inequalitysymmetric
+EQBC assumption
+ COABC defn:collinear
+NEBC reductio
+NECB lemma:inequalitysymmetric
+EQAC assumption
+ COABC defn:collinear
+NEAC reductio
+NECA  lemma:inequalitysymmetric
+LTDEAB  assumption
+ EEABBA  cn:equalityreverse
+ LTDEBA  lemma:lessthancongruence
+ ANBEBGA+EEBGDE  defn:lessthan
+ BEBGA
+ NEBG  lemma:betweennotequal
+ EEBGDE
+ EEBGED  lemma:congruenceflip
+ RABAG  lemma:ray4
+ EQCC  cn:equalityreflexive
+ RABCC  lemma:ray4
+ EEGCGC  cn:congruencereflexive
+ EQBB      cn:equalityreflexive
+ EQGG      cn:equalityreflexive
+ RABGG    lemma:ray4
+ EEBGBG    cn:congruencereflexive
+ EEBCBC    cn:congruencereflexive
+ EAABCGBC  defn:equalangles
+ EAGBCABC  lemma:equalanglessymmetric
+ EAGBCDEF  lemma:equalanglestransitive
+ ANEEGCDF+EABGCEDF+EABCGEFD  proposition:04
+ EABCGEFD
+ EAEFDBCA  lemma:equalanglessymmetric
+ EABCGBCA  lemma:equalanglestransitive
+ EABCABCG  lemma:equalanglessymmetric
+ RACBB    lemma:ray4
+ EQAA     cn:equalityreflexive
+ RACAA    lemma:ray4
+ AOBCABCA  defn:anglelessthan
+ NOAOBCABCA  lemma:angletrichotomy
+NOLTDEAB reductio
+LTABDE  assumption
+ EEDEED  cn:equalityreverse
+ LTABED  lemma:lessthancongruence
+ ANBEEGD+EEEGAB  defn:lessthan
+ BEEGD
+ EEEGAB
+ EEEGBA  lemma:congruenceflip
+ NEED lemma:betweennotequal
+ RAEDG  lemma:ray4
+ EQDD  cn:equalityreflexive
+ EQFF  cn:equalityreflexive
+ NCDEF   defn:triangle
+ EQEF  assumption
+  CODEF  defn:collinear
+ NEEF  reductio
+ RAEFF  lemma:ray4
+ EEGFGF  cn:congruencereflexive
+ EQEE      cn:equalityreflexive
+ EQGG      cn:equalityreflexive
+ NEEG lemma:raystrict
+ RAEGG    lemma:ray4
+ EEEGEG    cn:congruencereflexive
+ EEEFEF    cn:congruencereflexive
+ EADEFGEF  defn:equalangles
+ EAGEFDEF  lemma:equalanglessymmetric
+ EADEFABC  lemma:equalanglessymmetric
+ EAGEFABC  lemma:equalanglestransitive
+ EEEFBC    lemma:congruencesymmetric
+ ANEEGFAC+EAEGFBAC+EAEFGBCA  proposition:04
+ EAEFGBCA
+ EAEFGEFD  lemma:equalanglestransitive
+ EAEFDEFG  lemma:equalanglessymmetric
+ NCEFG   lemma:equalanglesNC
+ EAEFGEFG  lemma:equalanglesreflexive
+ NEEF  lemma:angledistinct
+ NEFE  lemma:inequalitysymmetric
+ RAFEE    lemma:ray4
+ NEFD   lemma:angledistinct
+ RAFDD    lemma:ray4
+ AOEFDEFD  defn:anglelessthan
+ NOAOEFDEFD  lemma:angletrichotomy
+NOLTABDE reductio
+EQDE assumption
+ CODEF defn:collinear
+ NCDEF defn:triangle
+NEDE reductio
+NEDE	
+EEABDE   lemma:trichotomy1
+EEBAED   lemma:congruenceflip
+ANEEACDF+EABACEDF+EABCAEFD  proposition:04	
+EEACDF
+EABACEDF
+ANEEABDE+EEACDF+EABACEDF

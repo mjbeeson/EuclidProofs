@@ -1,0 +1,75 @@
+TRabc
+NCJDN
+NCABR
+NEAB lemma:NCdistinct
+NCabc  defn:triangle
+NEbc  lemma:NCdistinct
+ANBEbmc+EEmbmc  proposition:10
+BEbmc
+EEmbmc
+EEbmmc  lemma:congruenceflip
+MIbmc  defn:midpoint
+NEmc lemma:betweennotequal
+ANBEABE+EEBEmc lemma:extension
+BEABE
+EEBEmc
+NEBE  lemma:betweennotequal
+COABE defn:collinear
+COBAE  lemma:collinearorder
+EQBB  cn:equalityreflexive
+COBAB  defn:collinear
+NCBAR  lemma:NCorder
+NCBER  lemma:NChelper
+ANRABEe+EAgBeJDN+SSgRBE proposition:23C
+NEBA  lemma:inequalitysymmetric
+ANBEBAP+EEAPBA lemma:extension
+NEBE lemma:betweennotequal
+NEEB lemma:inequalitysymmetric
+NEbm lemma:betweennotequal
+ANBEEBQ+EEBQbm  lemma:extension  
+BEEBQ
+EEBQbm
+EEbmmc  lemma:congruenceflip
+EEBQmc  lemma:congruencetransitive
+EEmcBE  lemma:congruencesymmetric
+EEBQBE lemma:congruencetransitive
+BEQBE  axiom:betweennesssymmetry
+EEQBBE lemma:congruenceflip
+MIQBE   defn:midpoint
+NCABR  
+NCBAR  lemma:NCorder
+COABE defn:collinear
+COBAE lemma:collinearorder
+NEBE lemma:betweennotequal
+NCBER lemma:NChelper
+NCRBE  lemma:NCorder
+ANPGGBEF+EFabmcGBEF+EAEBGJDN+SSRGBE proposition:42B
+PGGBEF
+PGBEFG  lemma:PGrotate
+EFabmcGBEF
+EAEBGJDN
+SSRGBE
+ANPGABML+EAABMJDN+EFBEFGLMBA+BEGBM  proposition:44A
+PGABML
+EAABMJDN
+EFBEFGLMBA
+BEGBM
+EQBB  cn:equalityreflexive
+COABB  defn:collinear
+PRGBEF  defn:parallelogram
+NCGBE  lemma:parallelNC
+NCEBG  lemma:NCorder
+COEBA  lemma:collinearorder
+EQBB   cn:equalityreflexive
+COEBB  defn:collinear
+NCABG  lemma:NChelper
+OSGABM  defn:oppositeside
+EFabmcBEFG  axiom:EFpermutation
+EFabmcLMBA  axiom:EFtransitive 
+EFabmcABML  axiom:EFpermutation
+COBEA  lemma:collinearorder
+SSRGBA  lemma:samesidecollinear
+SSRGAB  lemma:samesideflip
+OSRABM  lemma:planeseparation
+OSMABR  lemma:oppositesidesymmetric
+ANPGABML+EAABMJDN+EFabmcABML+MIbmc+OSMABR

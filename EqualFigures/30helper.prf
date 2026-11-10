@@ -1,0 +1,84 @@
+PRABEF
+BEAGB
+BEEHF
+NOCRAFGH
+COAGB  defn:collinear
+COEHF  defn:collinear
+COBAG  lemma:collinearorder
+COEFH  lemma:collinearorder
+NEHF  lemma:betweennotequal
+NEEH  lemma:betweennotequal
+NEHE lemma:inequalitysymmetric
+NEFH lemma:inequalitysymmetric
+NEAG lemma:betweennotequal
+NEGA  lemma:inequalitysymmetric
+PRABFE  lemma:parallelflip
+COFEH  lemma:collinearorder
+PRABHE  lemma:collinearparallel
+PRABHF  lemma:collinearparallel
+PRHFAB  lemma:parallelsymmetric
+PRHFBA lemma:parallelflip
+PRHFGA lemma:collinearparallel
+PRHFAG  lemma:parallelflip
+PRAGHF lemma:parallelsymmetric
+PRAGFH  lemma:parallelflip
+CRAHFG  lemma:crisscross
+ANBEAMH+BEFMG  defn:cross
+BEAMH
+NCAEF  lemma:parallelNC
+NCFEA  lemma:NCorder
+BEFHE  axiom:betweennesssymmetry
+ANBEApE+BEFMp  postulate:Pasch-outer
+BEApE
+BEFMp
+BEFMG
+COFMG  defn:collinear
+COFMp  defn:collinear
+NEFM  lemma:betweennotequal
+COMGp lemma:collinear4
+COMpG  lemma:collinearorder
+COMpF  lemma:collinearorder
+NEMp  lemma:betweennotequal
+COpGF  lemma:collinear4
+COGFp  lemma:collinearorder
+COAGB
+COHFE lemma:collinearorder
+NEAB lemma:betweennotequal
+NEAG lemma:betweennotequal
+NEEF  lemma:betweennotequal
+NEFE  lemma:inequalitysymmetric
+PRABHE
+NOMEABHE defn:parallel
+BEGpF  lemma:collinearbetween
+BEFMp
+BEFpG  axiom:betweennesssymmetry
+BEMpG  lemma:3.6a
+BEGpM  axiom:betweennesssymmetry
+NCAGH  lemma:parallelNC
+NCAHG  lemma:NCorder
+ANBEGmH+BEApm  postulate:Pasch-outer
+BEGmH
+BEApm
+COApm  defn:collinear
+COApE  defn:collinear
+NEAp  lemma:betweennotequal
+COpmE  lemma:collinear4
+COpmA  lemma:collinearorder
+NEpm lemma:betweennotequal
+COmEA  lemma:collinear4
+COAEm  lemma:collinearorder
+PRHFAG  
+COAGB 
+NEGB  lemma:betweennotequal
+NEBG  lemma:inequalitysymmetric
+PRHFBG lemma:collinearparallel
+PRBGHF  lemma:parallelsymmetric
+PRGBFH  lemma:parallelflip
+NOMEGBFH defn:parallel
+COGAB  lemma:collinearorder
+COFEH
+NEFH
+NEGA
+NEEH
+BEAmE  lemma:collinearbetween
+CRAEGH  defn:cross

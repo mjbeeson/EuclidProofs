@@ -1,0 +1,204 @@
+CIJMMA   %  M is center, MA is radius
+OCDJ     %  D outside
+BEDGM    %  G between D and M
+EEMAMG   %  G on circle
+EEMAMK   %  K on circle
+EEMAML   %  L on circle
+EEMAMk   %  k on circle
+EEMAMl   %  l on circle
+BEDKk    %  K entry of secant Dk
+BEDLl    %  L entry of secant Dl
+EEDKDL   %  DK = DL
+BEWUK    %  W,U,V witness sameside of K,L w.r.t. DM
+BEWVL
+BEDUV
+BEDVM    %  D-V-M in order (forces order D-U-V-M with BEDUV)
+NCDMK    %  K not on line DM
+NCDML    %  L not on line DM
+BEMVG
+
+% ============================================================
+% Reductio: assume NEKL, derive contradiction.
+% ============================================================
+NEKL assumption
+
+  % --- Preliminary derivations ---
+  % Order on line DM: D-U-V-M
+  BEVUD    axiom:betweennesssymmetry
+  BEMVD    axiom:betweennesssymmetry
+  BEDUM    lemma:3.6b
+  BEMUD    axiom:betweennesssymmetry 
+  BEMVU    lemma:3.6c
+  BEUVM    axiom:betweennesssymmetry
+  BEKUW    axiom:betweennesssymmetry  % from BEWUK
+  BELVW    axiom:betweennesssymmetry  % from BEWVL
+  NEMG    lemma:betweennotequal     % from BEDGM
+  EEMGMA  lemma:congruencesymmetric  % from EEMAMG
+  NEMA    axiom:nocollapse           % NEMG, EEMGMA → NEMA
+
+  % --- NCWKM: W,K,M non-collinear ---
+  % Strategy: if M on line WK, then since W,U,K collinear (BEWUK), line WK = line WU.
+  % If M is on line WU, and U,M both on line DM, with M ≠ U, then line WU = line DM,
+  % so W on line DM, so K on line DM, contradicting NCDMK.
+  COWKM assumption
+    NEMU   lemma:betweennotequal     % from BEMVU
+    COWUK  defn:collinear             % from BEWUK
+    NEWK   lemma:betweennotequal     % from BEWUK
+    COWMK  lemma:collinearorder       % perm of COWKM: CO(W,M,K)
+    COWKU  lemma:collinearorder       % perm of COWUK
+    COKUM  lemma:collinear4           % from COWKU, COWKM, NEWK
+    NEKU   lemma:betweennotequal      % from BEWUK
+    % Now COKUM means K,U,M collinear.  Also U,M on line DM (CODUM).
+    CODUV  defn:collinear              % from BEDUV
+    CODVM  defn:collinear              % from BEDVM
+    NEDV   lemma:betweennotequal       % from BEDVM
+    CODVU  lemma:collinearorder        % perm of CODUV
+    COVUM  lemma:collinear4            % from CODVU, CODVM, NEDV: CO(V,U,M)
+    NEVU   lemma:betweennotequal       % from BEUVM
+    COUMK  lemma:collinearorder        % perm of COKUM
+    % Now we have V,U,M collinear and U,M,K collinear.
+    % With U ≠ M, we get V,U,K collinear (combining lines), hence K on line UV = line DM.
+    COUMV  lemma:collinearorder        % perm of COVUM
+	NEUM     lemma:inequalitysymmetric   % from NEMU
+    COMKV  lemma:collinear4            % from COUMK, COUMV, NEUM: CO(M,K,V)
+    % We want CO(D,M,K) to contradict NCDMK.  
+    % We have CO(M,K,V) and CO(D,V,M).  By collinear4 (similar argument): CO(D,M,K).
+    COVMK  lemma:collinearorder        % perm of COMKV
+    CODMV  lemma:collinearorder        % perm of CODVM
+    NEVM   lemma:betweennotequal       % from BEMVU (or BEUVM)
+    % collinear4: COABC, COABD, NEAB -> COBCD.  With A=V,B=M,C=K,D=D:
+    %   COVMK ✓, COVMD (perm of CODMV) ?, NEVM ✓ -> COMKD
+    COVMD  lemma:collinearorder        % perm of CODMV
+    COMKD  lemma:collinear4            % CO(M,K,D)
+    CODMK  lemma:collinearorder        % perm
+  NCWKM reductio
+
+  % --- Pasch #1 (outer) on W,U,K,M,V ---
+  % Pasch-outer: BEAPC, BEBCQ, NCBQA -> BEAXQ, BEBPX
+  % A=M, P=V, C=U, B=W, Q=K:  BEMVU ✓, BEWUK ✓, NCWKM ✓
+  % Conclusion: BEMXK, BEWVX -- with X=p: BEMPK, BEWVP
+  ANBEMPK+BEWVP   postulate:Pasch-outer
+  BEMPK
+  BEWVP
+
+  % --- P is inside circle J (LTMPMA) ---
+  EEMPMP   cn:congruencereflexive
+  LTMPMK   defn:lessthan             % from BEMPK and EEMPMP: LT(MP)(MK)
+  EEMKMA   lemma:congruencesymmetric  % from EEMAMK
+  LTMPMA   lemma:lessthancongruence   % LT(MP)(MA)
+
+  % --- P ≠ L ---
+  % If P=L: then MP = ML = MA, contradicting LT(MP)(MA).
+  EQPL assumption
+    EEMAML                            % hypothesis -- repeat to put on stack
+    EEMLMA  lemma:congruencesymmetric  % ML = MA
+    EEMPML  cn:equalitysub             % from EQPL: MP = ML
+    EEMPMA  lemma:congruencetransitive % MP = MA
+    % Now LTMPMA and EEMPMA contradict.
+    % Unfold LTMPMA: exists X with B(M,X,A), EE(MX,MP).
+    ANBEMxA+EEMxMP   defn:lessthan    % unfold LTMPMA -- introduces x
+    BEMxA
+    EEMxMP
+    EEMxMA  lemma:congruencetransitive % MX = MP = MA
+    NEMA                               % already on stack
+    NOEEMxMA  lemma:partnotequalwhole  % from BEMxA: NOT EE(Mx)(MA)
+  NEPL reductio
+  EEMLMA   lemma:congruencesymmetric    % from EEMAML
+  ONLJ     defn:on
+  BEVLP assumption
+    % V inside
+    EEMVMV   cn:congruencereflexive
+    LTMVMG   defn:lessthan
+    LTMVMA   lemma:lessthancongruence
+    OREQVM|LTMVMA   
+    ICVJ     defn:inside
+  
+    % P outside via insideoutside (V inside, L on circle, B(V,L,P))
+    OCPJ     lemma:insideoutside
+  
+    % Derive LT(MA)(MP) from OCPJ via outsidecircle
+    LTMAMP   lemma:outsidecircle
+  
+    % But LTMPMA (already on stack) contradicts LTMAMP via trichotomy2
+    NOLTMAMP lemma:trichotomy2
+  NOBEVLP reductio
+  NOBEVPL assumption
+    EQPL   lemma:outerconnectivity
+  BEVPL reductio
+  BELPV   axiom:betweennesssymmetry
+
+
+  % --- Pasch #2 (outer) on M,V,D,L,P ---
+  % Pasch-outer: BEAPC, BEBCQ, NCBQA -> BEAXQ, BEBPX
+  % A=L, P=p, C=V, B=M, Q=D: BELPV ✓, BEMVD ✓ (from BEDVM), NCMDL ✓ (from NCDML)
+  % Conclusion: BELQD, BEMPQ -- with X=q: BELQD (= BEDQL by sym), BEMPQ
+  BEMVD   axiom:betweennesssymmetry   % B(M,V,D) from BEDVM
+  NCMDL   lemma:NCorder                % from NCDML
+  
+  ANBELQD+BEMPQ   postulate:Pasch-outer
+  BELQD
+  BEMPQ
+  
+  BEDQL   axiom:betweennesssymmetry   % B(D,q,L)
+
+  % --- outsidesecant on q ---
+  % Need: CIJMMA ✓, NEMA ✓, ONLJ, ONlJ, NELl, COLlq, NEqL, NEql, NOBELQL
+
+  EEMlMA   lemma:congruencesymmetric    % from EEMAMl
+  ONlJ    defn:on                     % from CIJMMA, EEMAMl, NEMA
+  
+  NEDL    lemma:betweennotequal       % from BEDLl: gives NEDL, NELl, NEDl
+  NELl    lemma:betweennotequal       % from BEDLl: L ≠ l
+  NEQL    lemma:betweennotequal       % from BEDQL: q ≠ L
+  
+  % Collinearity COLlQ:
+  CODQL   defn:collinear               % from BEDQL: CO(D,q,L)
+  CODLl   defn:collinear               % from BEDLl: CO(D,L,l)
+  CODLQ   lemma:collinearorder         % perm of CODQL: CO(D,L,q)
+  COLQl   lemma:collinear4             % CO(D,L,q), CO(D,L,l), NEDL -> CO(L,q,l)
+  
+  BEQLl   lemma:3.6a                   % from BEDQL, BEDLl: B(q,L,l)
+  NEQl    lemma:betweennotequal         % from BEqLl: q ≠ l
+  
+  BELQl assumption
+    BEQLQ  axiom:innertransitivity     % from BEqLl, BELql: B(q,L,q)
+    NOBEQLQ  axiom:betweennessidentity
+  NOBELQl reductio
+  
+  COLlQ    lemma:collinearorder    % perm of COLQl
+  LTMAMQ   lemma:outsidesecant
+  LTMKMQ  lemma:lessthancongruence2
+  BEMKQ   lemma:lessthanbetween2
+
+  % --- Pasch #3 (outer) on D,q,L,M,K ---
+  % Pasch-outer: A=M, P=K, C=q, B=D, Q=L:  BEMKQ ✓, BEDQL ✓, NCDLM ✓ (from NCDML)
+  % Conclusion: BEMXL, BEDKX -- with X=s: BEMSL, BEDKS
+  NCDLM   lemma:NCorder                % from NCDML
+  
+  ANBEMSL+BEDKS   postulate:Pasch-outer
+  BEMSL
+  BEDKS
+
+  % --- NCDSL ---
+  % If CO(D,s,L), then with B(M,s,L) (M,s,L collinear), and s ≠ L, line DL = line ML,
+  % so M on line DL, contradicting NCDML.
+  NESL    lemma:betweennotequal         % from BEMSL: s ≠ L (and s ≠ M)
+  
+  CODSL assumption
+    COMSL  defn:collinear                % from BEMSL: CO(M,S,L)
+    COSLD  lemma:collinearorder          % perm of CODSL
+    COSLM  lemma:collinearorder          % perm of COMSL
+    COLDM  lemma:collinear4              % from COsLD, COSLM, NESL -> CO(L,D,M)
+    CODML  lemma:collinearorder          % perm: CO(D,M,L)
+  NCDSL reductio
+
+  % --- Apply III.08B ---
+  ANLTDGDK+LTDKDL   proposition:III.08B
+  LTDKDL                                 % extract conjunct
+
+  % --- Derive contradiction with EEDKDL ---
+  EEDLDK   lemma:congruencesymmetric    % from EEDKDL
+  LTDKDK   lemma:lessthancongruence     % LT(DK)(DL) and EE(DL)(DK) -> LT(DK)(DK)
+  NOLTDKDK lemma:trichotomy2            % LT(DK)(DK) -> NOT LT(DK)(DK)
+
+EQKL reductio

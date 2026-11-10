@@ -1,0 +1,279 @@
+cn	equalitytransitive	`EQ A C /\ EQ B C ==> EQ A B`	
+cn	congruencetransitive	`EE P Q B C /\ EE P Q D E ==> EE B C D E`	
+cn	equalityreflexive	`EQ A A`	
+cn	congruencereflexive	`EE A B A B`	
+cn	equalityreverse	`EE A B B A`	
+cn	sumofparts	`EE A B a b /\ EE B C b c /\ BE A B C /\ BE a b c ==> EE A C a c`	
+cn	stability	`~(NE A B) ==> EQ A B`	
+cn	equalitysub	`EQ D A /\ BE A B C ==> BE D B C`	
+axiom	betweennessidentity	`~(BE A B A)`	
+axiom	betweennesssymmetry	`BE A B C ==> BE C B A`	
+axiom	innertransitivity	`BE A B D /\ BE B C D ==> BE A B C`	
+axiom	connectivity	`BE A B D /\ BE A C D /\ ~(BE A B C) /\ ~(BE A C B) ==> EQ B C`	
+axiom	nocollapse	`NE A B /\ EE A B C D ==> NE C D`	
+axiom	5-line	`EE B C b c /\ EE A D a d /\ EE B D b d /\ BE A B C /\ BE a b c /\ EE A B a b ==> EE D C d c`	
+postulate	Pasch-inner	`BE A P C /\ BE B Q C /\ NC A C B ==> ?X. BE A X Q /\ BE B X P`	
+postulate	Pasch-outer	`BE A P C /\ BE B C Q /\ NC B Q A ==> ?X. BE A X Q /\ BE B P X`	
+postulate	Euclid2	`NE A B ==> ?X. BE A B X`	
+postulate	Euclid3	`NE A B ==> ?X. CI X A A B`	
+postulate	line-circle	`CI K C P Q /\ IC B K /\ NE A B ==> ?X Y. CO A B X /\ BE A B Y /\ ON X K /\ ON Y K /\ BE X B Y`	
+postulate	circle-circle	`CI J C R S /\ IC P J /\ OC Q J /\ CI K D F G /\ ON P K /\ ON Q K ==> ?X. ON X J /\ ON X K`	
+postulate	Euclid5	`BE r t s /\ BE p t q /\ BE r a q /\ EE p t q t /\ EE t r t s /\ NC p q s ==> ?X. BE p a X /\ BE s q X`	
+axiom	circle-center-radius	`CI J A B C /\ ON P J ==> EE A P B C`	
+axiom	congruentequal	`TC A B C a b c ==> ET A B C a b c`	
+axiom	ETpermutation	`ET A B C a b c ==> ET A B C b c a /\ ET A B C a c b /\ ET A B C b a c /\ ET A B C c b a /\ ET A B C c a b`	
+axiom	ETsymmetric	`ET A B C a b c ==> ET a b c A B C`	
+axiom	EFpermutation	`EF A B C D a b c d ==> EF A B C D b c d a /\ EF A B C D d c b a /\ EF A B C D c d a b /\ EF A B C D b a d c /\ EF A B C D d a b c /\ EF A B C D c b a d /\ EF A B C D a d c b`	
+axiom	halvesofequals	`ET A B C B C D /\ OS A B C D /\ ET a b c b c d /\ OS a b c d /\ EF A B D C a b d c ==> ET A B C a b c`	
+axiom	EFsymmetric	`EF A B C D a b c d ==> EF a b c d A B C D`	
+axiom	EFtransitive	`EF A B C D a b c d /\ EF a b c d P Q R S ==> EF A B C D P Q R S`	
+axiom	ETtransitive	`ET A B C a b c /\ ET a b c P Q R ==> ET A B C P Q R`	
+axiom	cutoff1	`BE A B C /\ BE a b c /\ BE E D C /\ BE e d c /\ ET B C D b c d /\ ET A C E a c e ==> EF A B D E a b d e`	
+axiom	cutoff2	`BE B C D /\ BE b c d /\ ET C D E c d e /\ EF A B D E a b d e ==> EF A B C E a b c e`	
+axiom	paste1	`BE A B C /\ BE a b c /\ BE E D C /\ BE e d c /\ ET B C D b c d /\ EF A B D E a b d e ==> ET A C E a c e`	
+axiom	deZolt1	`BE B E D ==> ~(ET D B C E B C)`	
+axiom	deZolt2	`TR A B C /\ BE B E A /\ BE B F C ==> ~(ET A B C E B F)`	
+axiom	paste2	`BE B C D /\ BE b c d /\ ET C D E c d e /\ EF A B C E a b c e /\ BE A M D /\ BE B M E /\ BE a m d /\ BE b m e ==> EF A B D E a b d e`	
+axiom	paste3	`ET A B C a b c /\ ET A B D a b d /\ BE C M D /\ (BE A M B \/ EQ A M \/ EQ M B) /\ BE c m d /\ (BE a m b \/ EQ a m \/ EQ m b) ==> EF A C B D a c b d`	
+axiom	paste4	`EF A B m D F K H G /\ EF D B e C G H M L /\ BE A P C /\ BE B P D /\ BE K H M /\ BE F G L /\ BE B m D /\ BE B e C /\ BE F J M /\ BE K J L ==> EF A B C D F K M L`	
+lemma	equalitysymmetric	`EQ B A ==> EQ A B`	equalitysymmetric.prf
+lemma	inequalitysymmetric	`NE A B ==> NE B A`	inequalitysymmetric.prf
+lemma	congruencesymmetric	`EE B C A D ==> EE A D B C`	congruencesymmetric.prf
+lemma	congruencetransitive	`EE A B C D /\ EE C D E F ==> EE A B E F`	congruencetransitive.prf
+lemma	3.6a	`BE A B C /\ BE A C D ==> BE B C D`	3.6a.prf
+lemma	betweennotequal	`BE A B C ==> NE B C /\ NE A B /\ NE A C`	betweennotequal.prf
+lemma	extensionunique	`BE A B E /\ BE A B F /\ EE B E B F ==> EQ E F`	extensionunique.prf
+lemma	doublereverse	`EE A B C D ==> EE D C B A /\ EE B A D C`	doublereverse.prf
+lemma	congruenceflip	`EE A B C D ==> EE B A D C /\ EE B A C D /\ EE A B D C`	congruenceflip.prf
+lemma	localextension	`NE A B /\ NE B Q ==> ?X. BE A B X /\ EE B X B Q`	localextension.prf
+lemma	betweennesspreserved	`EE A B a b /\ EE A C a c /\ EE B C b c /\ BE A B C ==> BE a b c`	betweennesspreserved.prf
+lemma	differenceofparts	`EE A B a b /\ EE A C a c /\ BE A B C /\ BE a b c ==> EE B C b c`	differenceofparts.prf
+lemma	3.7a	`BE A B C /\ BE B C D ==> BE A C D`	3.7a.prf
+lemma	3.5b	`BE A B D /\ BE B C D ==> BE A C D`	3.5b.prf
+lemma	3.6b	`BE A B C /\ BE A C D ==> BE A B D`	3.6b.prf
+lemma	3.7b	`BE A B C /\ BE B C D ==> BE A B D`	3.7b.prf
+lemma	partnotequalwhole	`BE A B C ==> ~(EE A B A C)`	partnotequalwhole.prf
+lemma	NCdistinct	`NC A B C ==> NE A B /\ NE B C /\ NE A C /\ NE B A /\ NE C B /\ NE C A`	NCdistinct.prf
+proposition	01	`NE A B ==> ?X. EL A B X /\ TR A B X`	Prop01.prf
+proposition	02	`NE A B /\ NE B C ==> ?X. EE A X B C`	Prop02.prf
+lemma	extension	`NE A B /\ NE P Q ==> ?X. BE A B X /\ EE B X P Q`	extension.prf
+lemma	lessthancongruence2	`LT A B C D /\ EE A B E F ==> LT E F C D`	lessthancongruence2.prf
+lemma	lessthancongruence	`LT A B C D /\ EE C D E F ==> LT A B E F`	lessthancongruence.prf
+lemma	outerconnectivity	`BE A B C /\ BE A B D /\ ~(BE B C D) /\ ~(BE B D C) ==> EQ C D`	outerconnectivity.prf
+lemma	trichotomy1	`~(LT A B C D) /\ ~(LT C D A B) /\ NE A B /\ NE C D ==> EE A B C D`	trichotomy1.prf
+lemma	interior5	`BE A B C /\ BE a b c /\ EE A B a b /\ EE B C b c /\ EE A D a d /\ EE C D c d ==> EE B D b d`	interior5.prf
+lemma	collinear1	`CO A B C ==> CO B A C`	collinear1.prf
+lemma	collinear2	`CO A B C ==> CO B C A`	collinear2.prf
+lemma	collinearorder	`CO A B C ==> CO B A C /\ CO B C A /\ CO C A B /\ CO A C B /\ CO C B A`	collinearorder.prf
+lemma	NCorder	`NC A B C ==> NC B A C /\ NC B C A /\ NC C A B /\ NC A C B /\ NC C B A`	NCorder.prf
+lemma	collinear4	`CO A B C /\ CO A B D /\ NE A B ==> CO B C D`	collinear4.prf
+lemma	collinear5	`NE A B /\ CO A B C /\ CO A B D /\ CO A B E ==> CO C D E`	collinear5.prf
+lemma	NChelper	`NC A B C /\ CO A B P /\ CO A B Q /\ NE P Q ==> NC P Q C`	NChelper.prf
+lemma	fiveline	`CO A B C /\ EE A B a b /\ EE B C b c /\ EE A D a d /\ EE C D c d /\ EE A C a c /\ NE A C ==> EE B D b d`	fiveline.prf
+lemma	twolines	`CU A B C D E /\ CU A B C D F /\ NC B C D ==> EQ E F`	twolines.prf
+lemma	ray2	`RA A B C ==> NE A B`	ray2.prf
+lemma	ray	`RA A B P /\ NE P B /\ ~(BE A P B) ==> BE A B P`	ray.prf
+lemma	ray1	`RA A B P ==> (BE A P B \/ EQ B P \/ BE A B P)`	ray1.prf
+lemma	ray3	`RA B C D /\ RA B C V ==> RA B D V`	ray3.prf
+lemma	raystrict	`RA A B C ==> NE A C`	raystrict.prf
+lemma	ray4	`(BE A E B \/ EQ E B \/ BE A B E) /\ NE A B ==> RA A B E`	ray4.prf
+lemma	ray5	`RA A B C ==> RA A C B`	ray5.prf
+lemma	rayimpliescollinear	`RA A B C ==> CO A B C`	rayimpliescollinear.prf
+lemma	tworays	`RA A B C /\ RA B A C ==> BE A C B`	tworays.prf
+lemma	twolines2	`NE A B /\ NE C D /\ CO P A B /\ CO P C D /\ CO Q A B /\ CO Q C D /\ ~(CO A C D /\ CO B C D) ==> EQ P Q`	twolines2.prf
+lemma	supplements	`EA A B C a b c /\ SU A B C D F /\ SU a b c d f ==> EA D B F d b f`	supplements.prf
+lemma	supplementsymmetric	`SU A B C E D ==> SU D B E C A`	supplementsymmetric.prf
+lemma	collinearitypreserved	`CO A B C /\ EE A B a b /\ EE A C a c /\ EE B C b c ==> CO a b c`	collinearitypreserved.prf
+lemma	trichotomy2	`LT A B C D ==> ~(LT C D A B)`	trichotomy2.prf
+lemma	lessthannotequal	`LT A B C D ==> NE A B /\ NE C D`	lessthannotequal.prf
+lemma	layoff	`NE A B /\ NE C D ==> ?X. RA A B X /\ EE A X C D`	layoff.prf
+lemma	layoffunique	`RA A B C /\ RA A B D /\ EE A C A D ==> EQ C D`	layoffunique.prf
+lemma	lessthanbetween	`LT A B A C /\ RA A B C ==> BE A B C`	lessthanbetween.prf
+lemma	lessthantransitive	`LT A B C D /\ LT C D E F ==> LT A B E F`	lessthantransitive.prf
+lemma	lessthanadditive	`LT A B C D /\ BE A B E /\ BE C D F /\ EE B E D F ==> LT A E C F`	lessthanadditive.prf
+lemma	subtractequals	`BE A B C /\ BE A D E /\ EE B C D E /\ BE A C E ==> BE A B D`	subtractequals.prf
+lemma	crossbar	`TR A B C /\ BE A E C /\ RA B A U /\ RA B C V ==> ?X. RA B E X /\ BE U X V`	crossbar.prf
+lemma	ABCequalsCBA	`NC A B C ==> EA A B C C B A`	ABCequalsCBA.prf
+lemma	equalanglessymmetric	`EA A B C a b c ==> EA a b c A B C`	equalanglessymmetric.prf
+lemma	angledistinct	`EA A B C a b c ==> NE A B /\ NE B C /\ NE A C /\ NE a b /\ NE b c /\ NE a c`	angledistinct.prf
+lemma	4.19	`BE A D B /\ EE A C A D /\ EE B D B C ==> EQ C D`	4.19.prf
+lemma	collinearbetween	`CO A E B /\ CO C F D /\ NE A B /\ NE C D /\ NE A E /\ NE F D /\ ~(ME A B C D) /\ BE A H D /\ CO E F H ==> BE E H F`	collinearbetween.prf
+lemma	9.5a	`OS P A B C /\ BE R P Q /\ NC R Q C /\ CO A B R ==> OS Q A B C`	9.5a.prf
+lemma	9.5b	`OS P A B C /\ BE R Q P /\ NC C P R /\ CO A B R ==> OS Q A B C`	9.5b.prf
+lemma	9.5	`OS P A B C /\ RA R Q P /\ CO A B R ==> OS Q A B C`	9.5.prf
+lemma	samesidereflexive	`NC A B P ==> SS P P A B`	samesidereflexive.prf
+lemma	samesidesymmetric	`SS P Q A B ==> SS Q P A B /\ SS P Q B A /\ SS Q P B A`	samesidesymmetric.prf
+lemma	oppositesidesymmetric	`OS P A B Q ==> OS Q A B P`	oppositesidesymmetric.prf
+lemma	oppositesideflip	`OS P A B Q ==> OS P B A Q`	oppositesideflip.prf
+lemma	samesidecollinear	`SS P Q A B /\ CO A B C /\ NE A C ==> SS P Q A C`	samesidecollinear.prf
+lemma	equalanglesNC	`EA A B C a b c ==> NC a b c`	equalanglesNC.prf
+lemma	ondiameter	`CI K F P Q /\ EE F D P Q /\ EE F M P Q /\ BE D F M /\ BE D N M ==> IC N K`	ondiameter.prf
+proposition	03	`LT C D A B /\ EE E F A B ==> ?X. BE E X F /\ EE E X C D`	Prop03.prf
+proposition	04	`EE A B a b /\ EE A C a c /\ EA B A C b a c ==> EE B C b c /\ EA A B C a b c /\ EA A C B a c b`	Prop04.prf
+lemma	equalangleshelper	`EA A B C a b c /\ RA b a p /\ RA b c q ==> EA A B C p b q`	equalangleshelper.prf
+lemma	equalanglestransitive	`EA A B C D E F /\ EA D E F P Q R ==> EA A B C P Q R`	equalanglestransitive.prf
+lemma	equalanglesreflexive	`NC A B C ==> EA A B C A B C`	equalanglesreflexive.prf
+lemma	equalanglesflip	`EA A B C D E F ==> EA C B A F E D`	equalanglesflip.prf
+lemma	supplements2	`RT A B C P Q R /\ EA A B C J K L /\ RT J K L D E F ==> EA P Q R D E F /\ EA D E F P Q R`	supplements2.prf
+lemma	RTsymmetric	`RT A B C D E F ==> RT D E F A B C`	RTsymmetric.prf
+lemma	RTcongruence	`RT A B C D E F /\ EA A B C P Q R ==> RT P Q R D E F`	RTcongruence.prf
+lemma	midpointunique	`MI A B C /\ MI A D C ==> EQ B D`	midpointunique.prf
+lemma	rightangleNC	`RR A B C ==> NC A B C`	rightangleNC.prf
+lemma	8.2	`RR A B C ==> RR C B A`	8.2.prf
+lemma	rightreverse	`RR A B C /\ BE A B D /\ EE A B B D ==> EE A C D C`	rightreverse.prf
+lemma	8.3	`RR A B C /\ RA B C D ==> RR A B D`	8.3.prf
+lemma	equaltorightisright	`RR A B C /\ EA a b c A B C ==> RR a b c`	equaltorightisright.prf
+lemma	altitudebisectsbase	`BE A M B /\ EE A P B P /\ RR A M P ==> MI A M B`	altitudebisectsbase.prf
+lemma	collinearright	`RR A B D /\ CO A B C /\ NE C B ==> RR C B D`	collinearright.prf
+lemma	droppedperpendicularunique	`RR A M P /\ RR A J P /\ CO A M J ==> EQ M J`	droppedperpendicularunique.prf
+lemma	8.7	`RR C B A ==> ~(RR A C B)`	8.7.prf
+lemma	angleorderrespectscongruence	`AO A B C D E F /\ EA P Q R D E F ==> AO A B C P Q R`	angleorderrespectscongruence.prf
+lemma	angleordertransitive	`AO A B C D E F /\ AO D E F P Q R ==> AO A B C P Q R`	angleordertransitive.prf
+lemma	angleorderrespectscongruence2	`AO A B C D E F /\ EA a b c A B C ==> AO a b c D E F`	angleorderrespectscongruence2.prf
+proposition	15	`BE A E B /\ BE C E D /\ NC A E C ==> EA A E C D E B /\ EA C E B A E D`	Prop15.prf
+lemma	supplementinequality	`SU A B C D F /\ SU a b c d f /\ AO a b c A B C ==> AO D B F d b f`	supplementinequality.prf
+proposition	05	`IS A B C ==> EA A B C A C B`	Prop05.prf
+proposition	05b	`IS A B C /\ BE A B F /\ BE A C G ==> EA C B F B C G`	Prop05b.prf
+proposition	10	`NE A B ==> ?X. BE A X B /\ EE X A X B`	Prop10.prf
+lemma	planeseparation	`SS C D A B /\ OS D A B E ==> OS C A B E`	planeseparation.prf
+lemma	samesidetransitive	`SS P Q A B /\ SS Q R A B ==> SS P R A B`	samesidetransitive.prf
+lemma	samesideflip	`SS P Q A B ==> SS P Q B A`	samesideflip.prf
+lemma	samenotopposite	`SS A B C D ==> ~(OS A C D B)`	samenotopposite.prf
+lemma	sameside2	`SS E F A C /\ CO A B C /\ RA B F G ==> SS E G A C`	sameside2.prf
+proposition	12	`NE A B /\ NC A B C ==> ?X. PA C X A B X`	Prop12.prf
+proposition	13	`BE D B C /\ NC A B C ==> RT C B A A B D`	Prop13.prf
+proposition	07	`NE A B /\ EE C A D A /\ EE C B D B /\ SS C D A B ==> EQ C D`	Prop07.prf
+lemma	crossbar2	`AO H G A H G P /\ SS A P G H /\ RA G H S /\ RA G P T ==> ?X. BE T X S /\ RA G A X`	crossbar2.prf
+lemma	angletrichotomy	`AO A B C D E F ==> ~(AO D E F A B C)`	angletrichotomy.prf
+proposition	06a	`TR A B C /\ EA A B C A C B ==> ~(LT A C A B)`	Prop06a.prf
+proposition	06	`TR A B C /\ EA A B C A C B ==> EE A B A C`	Prop06.prf
+proposition	08	`TR A B C /\ TR D E F /\ EE A B D E /\ EE A C D F /\ EE B C E F ==> EA B A C E D F /\ EA C B A F E D /\ EA A C B D F E`	Prop08.prf
+proposition	09	`NC B A C ==> ?X. EA B A X X A C /\ IA B A C X`	Prop09.prf
+proposition	11	`BE A C B ==> ?X. RR A C X`	Prop11.prf
+lemma	pointreflectionisometry	`MI A B C /\ MI P B Q /\ NE A P ==> EE A P C Q`	pointreflectionisometry.prf
+lemma	rightreflection	`RR A B C /\ MI A E a /\ MI B E b /\ MI C E c ==> RR a b c`	rightreflection.prf
+lemma	notperp	`BE A C B /\ NC A B P ==> ?X. NC A B X /\ SS X P A B /\ ~(RR A C X)`	notperp.prf
+proposition	11B	`BE A C B /\ NC A B P ==> ?X. RR A C X /\ OS X A B P`	Prop11B.prf
+lemma	linereflectionisometry	`RR B A C /\ RR A B D /\ BE C A E /\ BE D B F /\ EE A C A E /\ EE B D B F ==> EE C D E F`	linereflectionisometry.prf
+lemma	10.12	`RR A B C /\ RR A B H /\ EE B C B H ==> EE A C A H`	10.12.prf
+lemma	erectedperpendicularunique	`RR A B C /\ RR A B E /\ SS C E A B ==> RA B C E`	erectedperpendicularunique.prf
+proposition	14	`RT A B C D B E /\ RA B C D /\ OS E D B A ==> SU A B C D E /\ BE A B E`	Prop14.prf
+proposition	16	`TR A B C /\ BE B C D ==> AO B A C A C D /\ AO C B A A C D`	Prop16.prf
+proposition	17	`TR A B C ==> ?X Y Z. AS A B C B C A X Y Z`	Prop17.prf
+proposition	18	`TR A B C /\ LT A B A C ==> AO B C A A B C`	Prop18.prf
+proposition	19	`TR A B C /\ AO B C A A B C ==> LT A B A C`	Prop19.prf
+proposition	20	`TR A B C ==> TG B A A C B C`	Prop20.prf
+lemma	together	`TG A a B b C c /\ EE D F A a /\ EE F G B b /\ BE D F G /\ EE P Q C c ==> LT P Q D G /\ NE A a /\ NE B b /\ NE C c`	together.prf
+lemma	together2	`TG A a C c B b /\ EE F G B b /\ RA F G M /\ EE F M A a /\ RA G F N /\ EE G N C c ==> RA M F N`	together2.prf
+lemma	TGsymmetric	`TG A a B b C c ==> TG B b A a C c`	TGsymmetric.prf
+lemma	TGflip	`TG A a B b C c ==> TG a A B b C c /\ TG A a B b c C`	TGflip.prf
+lemma	21helper	`TG B A A E B E /\ BE A E C ==> TT B A A C B E E C`	21helper.prf
+lemma	TTorder	`TT A B C D E F G H ==> TT C D A B E F G H`	TTorder.prf
+lemma	TTflip	`TT A B C D E F G H ==> TT B A D C E F G H`	TTflip.prf
+lemma	TTtransitive	`TT A B C D E F G H /\ TT E F G H P Q R S ==> TT A B C D P Q R S`	TTtransitive.prf
+lemma	TTflip2	`TT A B C D E F G H ==> TT A B C D H G F E`	TTflip2.prf
+proposition	21	`TR A B C /\ BE A E C /\ BE B D E ==> TT B A A C B D D C /\ AO B A C B D C`	Prop21.prf
+proposition	22	`TG A a B b C c /\ TG A a C c B b /\ TG B b C c A a /\ NE F E ==> ?X Y. EE F X B b /\ EE F Y A a /\ EE X Y C c /\ RA F E X /\ TR F X Y`	Prop22.prf
+lemma	Euclid4	`RR A B C /\ RR a b c ==> EA A B C a b c`	Euclid4.prf
+lemma	legsmallerhypotenuse	`RR A B C ==> LT A B A C /\ LT B C A C`	legsmallerhypotenuse.prf
+proposition	23	`NE A B /\ NC D C E ==> ?X Y. RA A B Y /\ EA X A Y D C E`	Prop23.prf
+proposition	23B	`NE A B /\ NC D C E /\ NC A B P ==> ?X Y. RA A B Y /\ EA X A Y D C E /\ OS X A B P`	Prop23B.prf
+proposition	23C	`NE A B /\ NC D C E /\ NC A B P ==> ?X Y. RA A B Y /\ EA X A Y D C E /\ SS X P A B`	Prop23C.prf
+proposition	24	`TR A B C /\ TR D E F /\ EE A B D E /\ EE A C D F /\ AO E D F B A C ==> LT E F B C`	Prop24.prf
+lemma	angletrichotomy2	`NC A B C /\ NC D E F /\ ~(EA A B C D E F) /\ ~(AO D E F A B C) ==> AO A B C D E F`	angletrichotomy2.prf
+proposition	25	`TR A B C /\ TR D E F /\ EE A B D E /\ EE A C D F /\ LT E F B C ==> AO E D F B A C`	Prop25.prf
+proposition	26A	`TR A B C /\ TR D E F /\ EA A B C D E F /\ EA B C A E F D /\ EE B C E F ==> EE A B D E /\ EE A C D F /\ EA B A C E D F`	Prop26A.prf
+lemma	26helper	`TR A B C /\ EA A B C D E F /\ EA B C A E F D /\ EE A B D E ==> ~(LT E F B C)`	26helper.prf
+proposition	26B	`TR A B C /\ TR D E F /\ EA A B C D E F /\ EA B C A E F D /\ EE A B D E ==> EE B C E F /\ EE A C D F /\ EA B A C E D F`	Prop26B.prf
+lemma	parallelsymmetric	`PR A B C D ==> PR C D A B`	parallelsymmetric.prf
+lemma	paralleldef2A	`TP A B C D ==> PR A B C D`	paralleldef2A.prf
+lemma	parallelcollinear1	`TP A B c d /\ BE C c d ==> TP A B C d`	parallelcollinear1.prf
+lemma	tarskiparallelflip	`TP A B C D ==> TP B A C D /\ TP A B D C /\ TP B A D C`	tarskiparallelflip.prf
+lemma	parallelcollinear2	`TP A B c d /\ BE c C d ==> TP A B C d`	parallelcollinear2.prf
+lemma	parallelcollinear	`TP A B c d /\ CO c d C /\ NE C d ==> TP A B C d`	parallelcollinear.prf
+lemma	paralleldef2B	`PR A B C D ==> TP A B C D`	paralleldef2B.prf
+lemma	parallelflip	`PR A B C D ==> PR B A C D /\ PR A B D C /\ PR B A D C`	parallelflip.prf
+lemma	collinearparallel	`PR A B c d /\ CO c d C /\ NE C d ==> PR A B C d`	collinearparallel.prf
+lemma	parallelNC	`PR A B C D ==> NC A B C /\ NC A C D /\ NC B C D /\ NC A B D`	parallelNC.prf
+lemma	collinearparallel2	`PR A B C D /\ CO C D E /\ CO C D F /\ NE E F ==> PR A B E F`	collinearparallel2.prf
+proposition	27	`BE A E B /\ BE C F D /\ EA A E F E F D /\ OS A E F D ==> PR A B C D`	Prop27.prf
+proposition	27B	`EA A E F E F D /\ OS A E F D ==> PR A E F D`	Prop27B.prf
+proposition	28A	`BE A G B /\ BE C H D /\ BE E G H /\ EA E G B G H D /\ SS B D G H ==> PR A B C D`	Prop28A.prf
+proposition	28B	`BE A G B /\ BE C H D /\ RT B G H G H D /\ SS B D G H ==> PR A B C D`	Prop28B.prf
+proposition	28C	`RT B G H G H D /\ SS B D G H ==> PR G B H D`	Prop28C.prf
+proposition	28D	`BE E G H /\ EA E G B G H D /\ SS B D G H ==> PR G B H D`	Prop28D.prf
+proposition	31	`BE B D C /\ NC B C A ==> ?X Y Z. BE X A Y /\ EA Y A D A D B /\ EA Y A D B D A /\ EA D A Y B D A /\ EA X A D A D C /\ EA X A D C D A /\ EA D A X C D A /\ PR X Y B C /\ EE X A D C /\ EE A Y B D /\ EE A Z Z D /\ EE X Z Z C /\ EE B Z Z Y /\ BE X Z C /\ BE B Z Y /\ BE A Z D`	Prop31.prf
+proposition	31short	`BE B D C /\ NC B C A ==> ?X Y Z. BE X A Y /\ EA X A D A D C /\ PR X Y B C /\ BE X Z C /\ BE A Z D`	Prop31short.prf
+proposition	29	`PR A B C D /\ BE A G B /\ BE C H D /\ BE E G H /\ OS A G H D ==> EA A G H G H D /\ EA E G B G H D /\ RT B G H G H D`	Prop29.prf
+proposition	29B	`PR A G H D /\ OS A G H D ==> EA A G H G H D`	Prop29B.prf
+proposition	29C	`PR G B H D /\ SS B D G H /\ BE E G H ==> EA E G B G H D /\ RT B G H G H D`	Prop29C.prf
+lemma	crossimpliesopposite	`CR A B C D /\ NC A C D ==> OS A C D B /\ OS A D C B /\ OS B C D A /\ OS B D C A`	crossimpliesopposite.prf
+lemma	crisscross	`PR A C B D /\ ~(CR A B C D) ==> CR A D B C`	crisscross.prf
+proposition	30A	`PR A B E F /\ PR C D E F /\ BE G H K /\ BE A G B /\ BE E H F /\ BE C K D /\ OS A G H F /\ OS F H K C ==> PR A B C D`	Prop30A.prf
+lemma	30helper	`PR A B E F /\ BE A G B /\ BE E H F /\ ~(CR A F G H) ==> CR A E G H`	30helper.prf
+proposition	30	`PR A B E F /\ PR C D E F /\ BE G H K /\ CO A B G /\ CO E F H /\ CO C D K /\ NE A G /\ NE E H /\ NE C K ==> PR A B C D`	Prop30.prf
+proposition	30B	`PR A B E F /\ PR C D E F /\ BE G K H /\ BE A G B /\ BE E H F /\ BE C K D /\ OS A G H F /\ OS C K H F ==> PR A B C D`	Prop30B.prf
+proposition	32	`TR A B C /\ BE B C D ==> AS C A B A B C A C D`	Prop32.prf
+proposition	33	`PR A B C D /\ EE A B C D /\ BE A M D /\ BE B M C ==> PR A C B D /\ EE A C B D`	Prop33.prf
+lemma	diagonalsmeet	`PG A B C D ==> ?X. BE A X C /\ BE B X D`	diagonalsmeet.prf
+lemma	TCreflexive	`TR A B C ==> TC A B C A B C`	TCreflexive.prf
+lemma	EFreflexive	`BE a p c /\ BE b p d /\ NC a b c ==> EF a b c d a b c d`	EFreflexive.prf
+lemma	parallelPasch	`PG A B C D /\ BE A D E ==> ?X. BE B X E /\ BE C X D`	parallelPasch.prf
+lemma	parallelbetween	`BE H B K /\ PR M B H L /\ CO L M K ==> BE L M K`	parallelbetween.prf
+proposition	34	`PG A C D B ==> EE A B C D /\ EE A C B D /\ EA C A B B D C /\ EA A B D D C A /\ TC C A B B D C`	Prop34.prf
+lemma	diagonalsbisect	`PG A B C D ==> ?X. MI A X C /\ MI B X D`	diagonalsbisect.prf
+lemma	trapezoiddiagonals	`PG A B C D /\ BE A E D ==> ?X. BE B X D /\ BE C X E`	trapezoiddiagonals.prf
+lemma	ETreflexive	`TR A B C ==> ET A B C A B C`	ETreflexive.prf
+lemma	PGflip	`PG A B C D ==> PG B A D C`	PGflip.prf
+lemma	PGsymmetric	`PG A B C D ==> PG C D A B`	PGsymmetric.prf
+lemma	PGrotate	`PG A B C D ==> PG B C D A`	PGrotate.prf
+proposition	33B	`PR A B C D /\ EE A B C D /\ SS A C B D ==> PR A C B D /\ EE A C B D`	Prop33B.prf
+lemma	Playfairhelper	`PR A B C D /\ PR A B C E /\ CR A D B C /\ CR A E B C ==> CO C D E`	Playfairhelper.prf
+lemma	Playfairhelper2	`PR A B C D /\ PR A B C E /\ CR A D B C ==> CO C D E`	Playfairhelper2.prf
+lemma	Playfair	`PR A B C D /\ PR A B C E ==> CO C D E`	Playfair.prf
+lemma	triangletoparallelogram	`PR D C E F /\ CO E F A ==> ?X. PG A X C D /\ CO E F X`	triangletoparallelogram.prf
+lemma	35helper	`PG A B C D /\ PG E B C F /\ BE A D F /\ CO A E F ==> BE A E F`	35helper.prf
+proposition	35A	`PG A B C D /\ PG E B C F /\ BE A D F /\ CO A E F ==> EF A B C D E B C F`	Prop35A.prf
+proposition	35	`PG A B C D /\ PG E B C F /\ CO A D E /\ CO A D F ==> EF A B C D E B C F`	Prop35.prf
+proposition	36A	`PG A B C D /\ PG E F G H /\ CO A D E /\ CO A D H /\ CO B C F /\ CO B C G /\ EE B C F G /\ BE B M H /\ BE C M E ==> EF A B C D E F G H`	Prop36A.prf
+proposition	36	`PG A B C D /\ PG E F G H /\ CO A D E /\ CO A D H /\ CO B C F /\ CO B C G /\ EE B C F G ==> EF A B C D E F G H`	Prop36.prf
+proposition	37	`PR A D B C ==> ET A B C D B C`	Prop37.prf
+proposition	38	`PR P Q B C /\ CO P Q A /\ CO P Q D /\ EE B C E F /\ CO B C E /\ CO B C F ==> ET A B C D E F`	Prop38.prf
+proposition	39A	`TR A B C /\ ET A B C D B C /\ BE A M C /\ RA B D M ==> PR A D B C`	Prop39A.prf
+proposition	39	`TR A B C /\ TR D B C /\ SS A D B C /\ ET A B C D B C /\ NE A D ==> PR A D B C`	Prop39.prf
+proposition	40	`EE B C H E /\ ET A B C D H E /\ TR A B C /\ TR D H E /\ CO B C H /\ CO B C E /\ SS A D B C /\ NE A D ==> PR A D B C`	Prop40.prf
+proposition	41	`PG A B C D /\ CO A D E ==> ET A B C E B C`	Prop41.prf
+proposition	42	`TR A B C /\ NC J D K /\ MI B E C ==> ?X Z. PG X E C Z /\ EF A B E C X E C Z /\ EA C E X J D K /\ CO X Z A`	Prop42.prf
+proposition	42B	`TR a b c /\ MI b e c /\ NC J D K /\ MI B E C /\ EE E C e c /\ NC R E C ==> ?X Z. PG X E C Z /\ EF a b e c X E C Z /\ EA C E X J D K /\ SS R X E C`	Prop42B.prf
+proposition	43	`PG A B C D /\ BE A H D /\ BE A E B /\ BE D F C /\ BE B G C /\ BE A K C /\ PG E A H K /\ PG G K F C ==> EF K G B E D F K H`	Prop43.prf
+proposition	43B	`PG A B C D /\ BE A H D /\ BE A E B /\ BE D F C /\ BE B G C /\ PG E A H K /\ PG G K F C ==> PG E K G B`	Prop43B.prf
+proposition	44A	`PG B E F G /\ EA E B G J D N /\ BE A B E ==> ?X Y. PG A B X Y /\ EA A B X J D N /\ EF B E F G Y X B A /\ BE G B X`	Prop44A.prf
+proposition	44	`TR a b c /\ NC J D N /\ NC A B R ==> ?X Y Z. PG A B X Y /\ EA A B X J D N /\ EF a b Z c A B X Y /\ MI b Z c /\ OS X A B R`	Prop44.prf
+proposition	45	`NC J E N /\ NC A B D /\ NC C B D /\ BE A O C /\ BE B O D /\ NE R K /\ NC K R S ==> ?X Z U. PG X K Z U /\ EA X K Z J E N /\ EF X K Z U A B C D /\ RA K R Z /\ SS X S K Z`	Prop45.prf
+proposition	46	`NE A B /\ NC A B R ==> ?X Y. SQ A B X Y /\ OS Y A B R /\ PG A B X Y`	Prop46.prf
+lemma	righttogether	`RR G A B /\ RR B A C /\ OS G B A C ==> RT G A B B A C /\ BE G A C`	righttogether.prf
+lemma	twoperpsparallel	`RR A B C /\ RR B C D /\ SS A D B C ==> PR A B C D`	twoperpsparallel.prf
+lemma	squareparallelogram	`SQ A B C D ==> PG A B C D`	squareparallelogram.prf
+lemma	squareunique	`SQ A B C D /\ SQ A B C E ==> EQ E D`	squareunique.prf
+lemma	altitudeofrighttriangle	`RR B A C /\ RR A M p /\ CO B C p /\ CO B C M ==> BE B M C`	altitudeofrighttriangle.prf
+lemma	squareflip	`SQ A B C D ==> SQ B A D C`	squareflip.prf
+proposition	47A	`TR A B C /\ RR B A C /\ SQ B C E D /\ OS D C B A ==> ?X Y. PG B X Y D /\ BE B X C /\ PG X C E Y /\ BE D Y E /\ BE Y X A /\ RR D Y A`	Prop47A.prf
+lemma	angleaddition	`AS A B C D E F P Q R /\ EA A B C a b c /\ EA D E F d e f /\ AS a b c d e f p q r ==> EA P Q R p q r`	angleaddition.prf
+proposition	47B	`TR A B C /\ RR B A C /\ SQ A B F G /\ OS G B A C /\ SQ B C E D /\ OS D C B A ==> ?X Y. PG B X Y D /\ BE B X C /\ PG X C E Y /\ BE D Y E /\ BE Y X A /\ RR D Y A /\ EF A B F G B X Y D`	Prop47B.prf
+proposition	47	`TR A B C /\ RR B A C /\ SQ A B F G /\ OS G B A C /\ SQ A C K H /\ OS H C A B /\ SQ B C E D /\ OS D C B A ==> ?X Y. PG B X Y D /\ BE B X C /\ PG X C E Y /\ BE D Y E /\ EF A B F G B X Y D /\ EF A C K H X C E Y`	Prop47.prf
+lemma	rectangleparallelogram	`RE A B C D ==> PG A B C D`	rectangleparallelogram.prf
+lemma	supplementofright	`SU A B C D F /\ RR A B C ==> RR F B D /\ RR D B F`	supplementofright.prf
+lemma	PGrectangle	`PG A C D B /\ RR B A C ==> RE A C D B`	PGrectangle.prf
+lemma	squarerectangle	`SQ A B C D ==> RE A B C D`	squarerectangle.prf
+lemma	rectanglereverse	`RE A B C D ==> RE D C B A`	rectanglereverse.prf
+lemma	rectanglerotate	`RE A B C D ==> RE B C D A`	rectanglerotate.prf
+lemma	squaresequal	`EE A B a b /\ SQ A B C D /\ SQ a b c d ==> EF A B C D a b c d`	squaresequal.prf
+lemma	paste5	`EF B M L D b m l d /\ EF M C E L m c e l /\ BE B M C /\ BE b m c /\ BE E L D /\ BE e l d /\ RE M C E L /\ RE m c e l ==> EF B C E D b c e d`	paste5.prf
+proposition	48A	`SQ A B C D /\ SQ a b c d /\ EF A B C D a b c d ==> EE A B a b`	Prop48A.prf
+proposition	48	`TR A B C /\ SQ A B F G /\ SQ A C K H /\ SQ B C E D /\ BE B M C /\ BE E L D /\ EF A B F G B M L D /\ EF A C K H M C E L /\ RE M C E L ==> RR B A C`	Prop48.prf
+lemma	collinearmidpoint	`CO A B M /\ NE A B /\ EE A M M B ==> BE A M B /\ MI A M B`	collinearmidpoint.prf
+proposition	III.01	`CI J G P Q /\ ON A J /\ ON B J /\ NE A B /\ MI A D B /\ ON C J /\ ON E J /\ PA C E A B D /\ SS C G A B /\ MI C F E /\ BE C D E ==> EQ G F`	PropIII.01.prf
+lemma	centerunique	`CI J F P Q /\ CI J G p q ==> EQ F G`	centerunique.prf
+lemma	radiusdetermined	`CI J F P Q /\ CI J G p q /\ NE P Q /\ NE p q ==> EE P Q p q`	radiusdetermined.prf
+lemma	radiiequal	`CI J C P Q /\ ON A J /\ ON B J ==> EE C A C B`	radiiequal.prf
+proposition	III.02	`CI J D P Q /\ ON A J /\ ON B J /\ BE A E B ==> IC E J`	PropIII.02.prf

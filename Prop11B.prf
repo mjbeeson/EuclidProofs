@@ -1,0 +1,136 @@
+BEACB
+NCABP
+ANNCABM+SSMPAB+NORRACM  lemma:notperp
+NCABM
+NEAB  lemma:betweennotequal
+PAMQABQ  proposition:12
+ANCOMQQ+COABQ+COABE+RREQM defn:perpat
+COABQ
+RREQM
+EQMQ  assumption
+ COABQ
+ COABM  cn:equalitysub
+ NCABM
+NEMQ reductio
+NEQM  lemma:inequalitysymmetric
+COABC defn:collinear
+COABE
+COBAE lemma:collinearorder
+COBAC lemma:collinearorder
+NEBA  lemma:inequalitysymmetric
+EQCQ   assumption
+ RRECM  cn:equalitysub
+ COAEC lemma:collinear4
+ COECA  lemma:collinearorder
+ NEAC   lemma:betweennotequal
+ RRACM  lemma:collinearright
+ NORRACM
+NECQ  reductio
+COABE
+COABC
+COABQ
+COCQE  lemma:collinear5
+COEQC lemma:collinearorder
+RRCQM   lemma:collinearright
+NEQC  lemma:inequalitysymmetric
+ANBEQGC+EEGQGC  proposition:10
+BEQGC
+EEGQGC
+EQMG  assumption
+ BEQMC  cn:equalitysub
+ COQMC  defn:collinear
+ COABQ
+ COABC
+ COBQC lemma:collinear4
+ COQCM lemma:collinearorder
+ COQCB lemma:collinearorder
+ NEQC lemma:betweennotequal
+ COCMB lemma:collinear4
+ COCBM lemma:collinearorder
+ COCBA lemma:collinearorder
+ NECB  lemma:betweennotequal
+ COBMA lemma:collinear4
+ COABM lemma:collinearorder
+ NCABM
+NEMG  reductio
+ANBEMGH+EEGHMG  lemma:extension
+BEMGH
+EEGHMG
+EEMGGH lemma:congruencesymmetric
+MIMGH   defn:midpoint
+EEQGGC  lemma:congruenceflip
+MIQGC   defn:midpoint
+COQGC   defn:collinear
+COCQG  lemma:collinearorder
+NEQG  lemma:betweennotequal
+NEGQ   lemma:inequalitysymmetric
+RRGQM   lemma:collinearright
+MIQGC
+MIMGH
+ANBEMQJ+EEQJMQ lemma:extension
+BEMQJ
+EEQJMQ
+EEMQQJ  lemma:congruencesymmetric
+RRMQG  lemma:8.2
+EEMGJG  lemma:rightreverse
+BEJQM   axiom:betweennesssymmetry
+EEJQMQ  lemma:congruenceflip
+EEJGMG  lemma:congruencesymmetric
+RRJQG  defn:rightangle
+EQJG  assumption
+ COJQG  defn:collinear
+ NCJQG  lemma:rightangleNC
+NEJG  reductio
+ANBEJGK+EEGKJG  lemma:extension
+BEJGK
+EEGKJG  
+EEJGGK  lemma:congruencesymmetric
+MIJGK   defn:midpoint
+EEMQHC  lemma:pointreflectionisometry
+NEJQ    lemma:betweennotequal
+NEQJ    lemma:inequalitysymmetric
+NEMJ    lemma:betweennotequal
+EEQJCK  lemma:pointreflectionisometry
+EEMJHK  lemma:pointreflectionisometry
+BEHCK   lemma:betweennesspreserved
+EEHGGM  lemma:congruenceflip
+EEMGJG  
+EEGMJG  lemma:congruenceflip
+EEHGJG  lemma:congruencetransitive
+EEJGGK  lemma:congruencesymmetric
+EEHGGK  lemma:congruencetransitive
+EEHGKG  lemma:congruenceflip
+NEGC  lemma:betweennotequal
+BEHCK
+EEHCMQ lemma:congruencesymmetric
+EEMQQJ lemma:congruencesymmetric
+EEHCQJ  lemma:congruencetransitive
+EEQJCK
+EEHCCK lemma:congruencetransitive
+EEHCKC lemma:congruenceflip
+EEHGKG
+NEGC  lemma:betweennotequal
+NECG  lemma:inequalitysymmetric
+RRHCG   defn:rightangle
+RRGCH  lemma:8.2
+COABQ
+COABC
+EQAA   cn:equalityreflexive
+COABA  defn:collinear
+COQCA  lemma:collinear5
+COQCG  lemma:collinearorder
+COCAG  lemma:collinear4
+RRGCH
+COGCA lemma:collinearorder
+NEAC  lemma:betweennotequal
+RRACH  lemma:collinearright
+COCAB  lemma:collinearorder
+NECA lemma:inequalitysymmetric
+COAGB  lemma:collinear4
+COABG  lemma:collinearorder
+SSMPAB 
+SSPMAB  lemma:samesidesymmetric
+OSMABH  defn:oppositeside
+OSPABH  lemma:planeseparation
+OSHABP  lemma:oppositesidesymmetric
+ANRRACH+OSHABP

@@ -1,0 +1,79 @@
+RRABC
+MIAEa
+MIBEb
+MICEc
+ANBEABD+EEABDB+EEACDC+NEBC  defn:rightangle
+NEBC
+BEABD
+EEACDC
+NEBC
+NCABC   lemma:rightangleNC
+NEAC    lemma:NCdistinct
+NEAB   lemma:betweennotequal
+EEABab  lemma:pointreflectionisometry
+EEACac  lemma:pointreflectionisometry
+EEBCbc  lemma:pointreflectionisometry
+cases RRabc:EQDE|NEDE
+ case 1:EQDE 
+  EEBEEb  defn:midpoint
+  EECEEc  defn:midpoint
+  BEABD   
+  EEABab
+  EEAEEa  defn:midpoint
+  EEADDa  cn:equalitysub
+  EEADaD  lemma:congruenceflip
+  EEBEEb  defn:midpoint
+  EEBDDb  cn:equalitysub
+  EEBDbD  lemma:congruenceflip
+  EEDBDb  lemma:congruenceflip
+  BEabD   lemma:betweennesspreserved
+  EEabAB  lemma:congruencesymmetric
+  EEABDB   
+  EEabDB  lemma:congruencetransitive
+  EEabDb lemma:congruencetransitive
+  EEacAC  lemma:congruencesymmetric
+  EEACDC  
+  EEacDC  lemma:congruencetransitive
+  EECEEc  defn:midpoint
+  EECDDc  cn:equalitysub
+  EEDCDc  lemma:congruenceflip
+  EEacDc  lemma:congruencetransitive
+  NEbc    axiom:nocollapse
+  RRabc   defn:rightangle
+ qedcase
+ case 2:NEDE
+  ANBEDEd+EEEdDE  lemma:extension
+  BEDEd
+  EEEdDE
+  EEEDdE  lemma:doublereverse
+  EEDEEd  lemma:congruenceflip
+  MIDEd   defn:midpoint
+  NEBD    lemma:betweennotequal 
+  EEBDbd  lemma:pointreflectionisometry
+  EEACDC 
+  NEDC    axiom:nocollapse
+  EEDCdc  lemma:pointreflectionisometry
+  EEacAC  lemma:congruencesymmetric  
+  EEacDC  lemma:congruencetransitive
+  EEacdc  lemma:congruencetransitive
+  NEbc    axiom:nocollapse
+  BEABD
+  EEABab
+  NEAD    lemma:betweennotequal
+  EEADad  lemma:pointreflectionisometry
+  EEBDbd
+  BEabd  lemma:betweennesspreserved
+  EEabAB  lemma:congruencesymmetric
+  EEABDB   
+  EEabDB  lemma:congruencetransitive
+  EEDBdb  lemma:congruenceflip
+  EEabdb  lemma:congruencetransitive
+  EEacdc
+  NEbc
+  RRabc   defn:rightangle
+ qedcase
+RRabc  cases
+ 
+
+
+

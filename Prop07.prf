@@ -1,0 +1,301 @@
+NEAB
+EECADA
+EECBDB
+SSCDAB
+NCABC  defn:sameside
+PACFABF proposition:12
+ANCOCFF+COABF+COABH+RRHFC defn:perpat
+COABF
+COABH
+EQCF  assumption
+ COABC  cn:equalitysub
+NECF reductio
+NECF
+NEFC  lemma:inequalitysymmetric
+ANBECFE+EEFEFC  lemma:extension
+BECFE
+EEFEFC
+cases EEACAE:EQAF|NEAF
+ case 1:EQAF
+  EEFEFC
+  EEAEAC  cn:equalitysub
+  EEACAE  lemma:congruencesymmetric
+ qedcase
+ case 2:NEAF
+  COABF
+  COABH
+  NEBA   lemma:inequalitysymmetric
+  COBAF lemma:collinearorder
+  COBAH  lemma:collinearorder
+  COAFH  lemma:collinear4
+  COHFA  lemma:collinearorder
+  RRHFC
+  RRAFC  lemma:collinearright
+  RRCFA  lemma:8.2
+  ANBECFP+EECFPF+EECAPA+NEFA  defn:rightangle
+  EECAPA
+  BECFE
+  BECFP
+  EECFPF
+  EEFEFC
+  EEFECF  lemma:congruenceflip
+  EEFEPF  lemma:congruencetransitive
+  EEFEFP  lemma:congruenceflip
+  EQEP   lemma:extensionunique
+  EECAEA  cn:equalitysub
+  EEACAE  lemma:congruenceflip
+ qedcase
+EEACAE cases
+cases EEBCBE:EQBF|NEBF
+ case 1:EQBF
+  EEFEFC
+  EEBEBC  cn:equalitysub
+  EEBCBE  lemma:congruencesymmetric
+ qedcase
+ case 2:NEBF
+  COABF
+  COBAF  lemma:collinearorder
+  COBAH   lemma:collinearorder
+  NEAB    
+  COABF lemma:collinearorder
+  COABH  lemma:collinearorder
+  COBFH  lemma:collinear4
+  COHFB  lemma:collinearorder
+  RRHFC
+  RRBFC  lemma:collinearright
+  RRCFB  lemma:8.2
+  ANBECFP+EECFPF+EECBPB+NEFB  defn:rightangle
+  EECBPB
+  BECFE
+  BECFP
+  EECFPF
+  EEFEFC
+  EEFECF  lemma:congruenceflip
+  EEFEPF  lemma:congruencetransitive
+  EEFEFP  lemma:congruenceflip
+  EQEP   lemma:extensionunique
+  EECBEB  cn:equalitysub
+  EEBCBE  lemma:congruenceflip
+ qedcase
+EEBCBE cases
+OSCABE    defn:oppositeside
+SSDCAB    lemma:samesidesymmetric
+OSDABE    lemma:planeseparation
+ANBEDGE+COABG+NCABD  defn:oppositeside
+BEDGE
+COABG
+EEACAE
+EECADA   
+EEEACA  lemma:doublereverse
+EEAECA  lemma:congruenceflip
+EEAEDA  lemma:congruencetransitive
+EEAEAD  lemma:congruenceflip
+EEADAE  lemma:congruencesymmetric
+EEBDBC  lemma:doublereverse
+EEBDBE  lemma:congruencetransitive
+EEAGAG  cn:congruencereflexive
+EEGBGB  cn:congruencereflexive
+COABG
+OREQAB|EQAG|EQBG|BEBAG|BEABG|BEAGB  defn:collinear
+cases EEGDGE:EQAB|EQAG|EQBG|BEBAG|BEABG|BEAGB
+ case 1:EQAB
+  NOEEGDGE  assumption
+  NEAB
+  EEGDGE  reductio
+ qedcase
+ case 2:EQAG
+  EEADAE lemma:congruencesymmetric
+  EEGDGE cn:equalitysub
+ qedcase
+ case 3:EQBG
+  EEBDBE
+  EEGDGE cn:equalitysub
+ qedcase
+ case 4:BEBAG
+  EEBABA  cn:congruencereflexive
+  EEAGAG  cn:congruencereflexive
+  EEBDBE
+  EEADAE  lemma:congruencesymmetric
+  EEDGEG  axiom:5-line
+  EEGDGE  lemma:congruenceflip
+ qedcase
+ case 4:BEABG
+  EEABAB cn:congruencereflexive
+  EEBGBG cn:congruencereflexive
+  EEADAE 
+  EEBDBE  
+  EEDGEG axiom:5-line
+  EEGDGE lemma:congruenceflip
+ qedcase
+ case 5:BEAGB
+  EEAGAG  cn:congruencereflexive
+  EEGBGB  cn:congruencereflexive
+  EEADAE
+  EEBDBE
+  EEGDGE lemma:interior5
+ qedcase
+EEGDGE cases
+EEBDBE
+EEDAEA  lemma:congruenceflip
+cases EQFG:EQAG|NEAG
+ case 1:EQAG
+  BEEGD  axiom:betweennesssymmetry
+  EEEGDG  lemma:doublereverse
+  EEEBDB  lemma:doublereverse
+  EQGB   assumption
+   EQAB  cn:equalitysub
+  NEGB   reductio
+  RREGB  defn:rightangle
+  BEEFC axiom:betweennesssymmetry
+  EEEFCF lemma:doublereverse
+  EEEBCB lemma:doublereverse
+  EQFB  assumption
+   EEAEAD lemma:congruenceflip
+   NEBA   lemma:inequalitysymmetric
+   BEEAD  cn:equalitysub
+   EEEADA lemma:congruenceflip
+   EEEBDB
+   NEAB
+   RREAB   defn:rightangle
+   RRBAE   lemma:8.2
+   BEEBC   cn:equalitysub
+   EEEBCB
+   EEEACA
+   NEBA 
+   RREBA   defn:rightangle
+   ANBEBAJ+EEAJAB  lemma:extension
+   BEBAJ
+   RABAJ   lemma:ray4
+   RREBJ   lemma:8.3
+   RRJBE   lemma:8.2
+   COABJ   defn:collinear
+   RREAB
+   COBAJ   lemma:collinearorder
+   RRBAE  lemma:8.2
+   NEAJ    lemma:betweennotequal
+   NEJA    lemma:inequalitysymmetric
+   RRJAE   lemma:collinearright
+   RRJBE
+   COJAB   lemma:collinearorder
+   EQAB    lemma:droppedperpendicularunique
+   NEAB
+  NEFB  reductio
+  RREFB  defn:rightangle
+  RRBGE  lemma:8.2
+  RRBFE  lemma:8.2
+  COABG
+  COABF
+  NEAB
+  COBGF lemma:collinear4
+  EQGF  lemma:droppedperpendicularunique
+  EQFG  lemma:equalitysymmetric
+ qedcase
+ case 2:NEAG
+  cases EQFG:EQAF|NEAF
+   case 1:EQAF
+    NEFB  cn:equalitysub
+    EEEFCF  lemma:congruenceflip
+    EEEBCB  lemma:doublereverse
+    BEEFC   axiom:betweennesssymmetry
+    RREFB   defn:rightangle
+    RRBFE lemma:8.2
+    EQBG  assumption
+	  EEBEBD  lemma:congruencesymmetric
+	  BEEGD  axiom:betweennesssymmetry
+	  BEEBD  cn:equalitysub
+	  EEEBDB lemma:congruenceflip
+	  EEEADA  lemma:congruencesymmetric
+	  NEBA   lemma:inequalitysymmetric
+	  RREBA   defn:rightangle
+	  RRABE   lemma:8.2
+	  BEEAC   cn:equalitysub
+	  EEEACA
+	  EEEBCB
+	  RREAB   defn:rightangle
+	  ANBEABK+EEBKBA  lemma:extension
+	  BEABK
+	  RAABK  lemma:ray4
+	  RREAK   lemma:8.3
+	  RRKAE   lemma:8.2
+	  COBAK   defn:collinear
+	  RREBA
+	  COABK   lemma:collinearorder
+	  RRABE  lemma:8.2
+	  NEBK    lemma:betweennotequal
+	  NEKB   lemma:inequalitysymmetric
+	  RRKBE   lemma:collinearright
+	  RRKAE
+	  COKBA   lemma:collinearorder
+	  EQBA    lemma:droppedperpendicularunique
+	  NEAB
+	  NEBA   lemma:inequalitysymmetric
+	NEBG  reductio
+	NEGB  lemma:inequalitysymmetric
+    EEEGDG  lemma:doublereverse  
+    EEEBDB  lemma:doublereverse 
+    BEEGD     axiom:betweennesssymmetry
+    RREGB    defn:rightangle
+    RRBGE    lemma:8.2
+    COABG  
+    COFBG  cn:equalitysub
+    COBGF  lemma:collinearorder
+    EQGF  lemma:droppedperpendicularunique
+    EQFG   lemma:equalitysymmetric
+   qedcase
+   case 2:NEAF
+    NEFA   lemma:inequalitysymmetric
+    EEEACA
+    EEEFCF  lemma:doublereverse
+    BEEFC  axiom:betweennesssymmetry
+    RREFA   defn:rightangle 
+    RRAFE   lemma:8.2
+    BEEGD    axiom:betweennesssymmetry
+    EEEGDG   lemma:doublereverse
+    EEEADA  lemma:congruencesymmetric
+    NEGA    lemma:inequalitysymmetric
+    RREGA   defn:rightangle
+    RRAGE   lemma:8.2
+    COABF
+    COABG
+    COBAF  lemma:collinearorder
+    COBAG   lemma:collinearorder
+    NEBA    lemma:inequalitysymmetric
+    COAFG   lemma:collinear4
+    EQFG  lemma:droppedperpendicularunique
+   qedcase
+  EQFG cases
+ qedcase
+EQFG cases 
+EEBFBF  cn:congruencereflexive
+EEAFAG  cn:equalitysub
+COAFB   lemma:collinearorder
+NEAB
+EEAFAG
+EEFBFB cn:congruencereflexive
+EEFBGB  cn:equalitysub
+EEACAD  lemma:congruenceflip
+EEBCBD  lemma:congruenceflip
+EEABAB cn:congruencereflexive
+EEFCGD  lemma:fiveline
+EEFCFD  cn:equalitysub
+BEEFC   axiom:betweennesssymmetry
+BEEGD  axiom:betweennesssymmetry
+BEEFD  cn:equalitysub
+RAFDC  defn:ray
+EQDD   cn:equalityreflexive
+EQFD  assumption
+ COABF  lemma:collinearorder
+ COABD  cn:equalitysub
+ NCABD
+NEFD  reductio
+RAFDD  lemma:ray4
+EQCD   lemma:layoffunique 
+
+
+
+ 
+
+
+
+ 
+

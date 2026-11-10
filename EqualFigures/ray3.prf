@@ -1,0 +1,23 @@
+RABCD
+RABCV
+ANBEEBD+BEEBC  defn:ray
+ANBEHBV+BEHBC  defn:ray
+BEEBC
+BEEBD
+BEHBV
+BEHBC
+NOBEEBV assumption
+ BEBEH  assumption
+  BEHEB  axiom:betweennesssymmetry
+  BEEBV  lemma:3.6a
+ NOBEBEH reductio
+ BEBHE  assumption
+  BEEHB  axiom:betweennesssymmetry
+  BEEBV  lemma:3.7a
+ NOBEBHE reductio
+ BECBE  axiom:betweennesssymmetry
+ BECBH  axiom:betweennesssymmetry
+ EQHE   lemma:outerconnectivity
+ BEEBV  cn:equalitysub
+BEEBV  reductio
+RABDV        defn:ray

@@ -1,0 +1,58 @@
+MIABC
+MIADC
+ANBEABC+EEABBC  defn:midpoint
+ANBEADC+EEADDC  defn:midpoint
+BEABC
+BEADC
+EEABBC
+EEADDC
+EEABAB   cn:congruencereflexive
+BECDB   assumption 
+ BEBDC   axiom:betweennesssymmetry
+ BEABD    axiom:innertransitivity
+ LTABAD   defn:lessthan
+ EEADCD   lemma:congruenceflip
+ LTABCD   lemma:lessthancongruence
+ BECDB    axiom:betweennesssymmetry
+ EECDCD   cn:congruencereflexive
+ LTCDCB   defn:lessthan
+ LTABCB   lemma:lessthantransitive
+ EECBBC   cn:equalityreverse
+ LTABBC   lemma:lessthancongruence
+ EEBCAB   lemma:congruencesymmetric
+ LTABAB   lemma:lessthancongruence
+ ANBEAEB+EEAEAB   defn:lessthan
+ BEAEB
+ EEAEAB    
+ NOEEAEAB  lemma:partnotequalwhole
+NOBECDB    reductio
+
+BECBD   assumption 
+ BEDBC    axiom:betweennesssymmetry
+ BEADB    axiom:innertransitivity
+ EEADAD   cn:congruencereflexive
+ LTADAB   defn:lessthan
+ EEABBC   
+ EEABCB   lemma:congruenceflip
+ LTADCB   lemma:lessthancongruence
+ BECBD    axiom:betweennesssymmetry
+ EECBCB   cn:congruencereflexive
+ LTCBCD   defn:lessthan
+ LTADCD   lemma:lessthantransitive
+ EEDCAD   lemma:congruencesymmetric
+ EECDAD   lemma:congruenceflip
+ LTADCD
+ LTADAD   lemma:lessthancongruence
+ ANBEAFD+EEAFAD   defn:lessthan
+ BEAFD    
+ EEAFAD    
+ NOEEAFAD  lemma:partnotequalwhole
+NOBECBD    reductio
+BECDA  axiom:betweennesssymmetry
+BECBA  axiom:betweennesssymmetry
+EQBD      axiom:connectivity
+ 
+ 
+ 
+
+  

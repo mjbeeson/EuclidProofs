@@ -1,0 +1,43 @@
+CIJEED
+BEAED
+BEEFD
+NEEG
+NEFE
+ONGJ
+ONKJ
+ONHJ
+ONAJ
+ONDJ
+NEGH
+EEFGFH
+EEFGFK
+NEHG   lemma:inequalitysymmetric
+EEFKFG  lemma:congruencesymmetric
+EEFKFH  lemma:congruencetransitive
+EEFHFG  lemma:congruencesymmetric
+BEAEF   axiom:innertransitivity
+NEEH  lemma:centernotoncircle
+NOOREQKG|EQKH assumption
+  ANNEKG+NEKH
+  NEKG
+  NEKH
+  EQEE  cn:equalityreflexive
+  ICEJ  defn:inside   
+  NOANCOADG+COADH  proposition:III.07Bhelper2
+  NOORNCADG|NCADH   assumption
+    ANCOADG+COADH
+  ORNCADG|NCADH  reductio     % proof-checker can't get this in one line, so we prove it by reductio
+  cases OREQKG|EQKH:NCADG|NCADH
+    case 1:NCADG
+	    NEHG  lemma:inequalitysymmetric
+        NCADH  proposition:III.07B-NC
+        EQKG  proposition:III.07Bhelper3
+		OREQKG|EQKH
+	qedcase
+	case 2:NCADH
+	   NCADG  proposition:III.07B-NC 
+	   EQKH  proposition:III.07Bhelper3
+	   OREQKG|EQKH
+	qedcase
+	OREQKG|EQKH cases
+OREQKG|EQKH reductio

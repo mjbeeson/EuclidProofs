@@ -1,0 +1,139 @@
+EEFAFB
+EEFAFC
+EEFAFD
+BEAEC
+BEBED
+NCABC
+EQAD  assumption
+	BEDEC cn:equalitysub
+	BECED axiom:betweennesssymmetry
+	COCED defn:collinear
+	COBED defn:collinear
+	COEDC lemma:collinearorder
+	COEDB lemma:collinearorder
+	NEED  lemma:betweennotequal
+	CODCB lemma:collinear4
+	CODBC lemma:collinearorder
+	NCDBC cn:equalitysub
+NEAD  reductio   
+NEAB    lemma:NCdistinct
+NEBD    lemma:betweennotequal
+NEAB     lemma:NCdistinct
+NEAC    lemma:betweennotequal
+EQFA     assumption 
+	EQAF   lemma:equalitysymmetric
+	EQAA   cn:equalityreflexive
+	EEFAFB 
+	EEAAAB  cn:equalitysub
+	EEABAA  lemma:congruencesymmetric
+	NEAA   axiom:nocollapse
+NEFA     reductio
+NEAF     lemma:inequalitysymmetric
+CIKFFA   postulate:Euclid3
+ANBEAFH+EEFHAF lemma:extension
+BEAFH
+EEFHAF  
+EEAFFB  lemma:congruenceflip
+EEFHFB   lemma:congruencetransitive
+EEAFFD  lemma:congruenceflip
+EEFHFD  lemma:congruencetransitive
+EEFHFA lemma:congruenceflip
+EEFHFC lemma:congruencetransitive
+NEAC    lemma:betweennotequal
+NECA    lemma:inequalitysymmetric
+NEAH  lemma:betweennotequal
+NEHA   lemma:inequalitysymmetric
+cases ORCRACFB|CRACFD|BEAFC:EQCH|NECH
+	case 1:EQCH
+		BEAFH  
+		BEAFC  cn:equalitysub
+		ORCRACFB|CRACFD|BEAFC
+		qedcase
+	case 2:NECH
+		NEHC  lemma:inequalitysymmetric
+		cases ORCRACHB|CRACHD:EQBH|NEBH
+			case 1:EQBH
+				BEHED  cn:equalitysub
+				ANBEAEC+BEHED
+				CRACHD  defn:cross
+				ORCRACHB|CRACHD
+				qedcase
+			case 2:NEBH
+				NEHB lemma:inequalitysymmetric
+				cases ORCRACHB|CRACHD:EQDH|NEDH
+					case 1:EQDH
+						BEBEH  cn:equalitysub
+						BEHEB  axiom:betweennesssymmetry
+						ANBEAEC+BEHEB
+						CRACHB  defn:cross
+						ORCRACHB|CRACHD
+						qedcase
+					case 2:NEDH
+						EEFHFB
+						EEFHFD
+						EEFHFA
+						EEFHFC
+						NEHB   
+						NEHD  lemma:inequalitysymmetric
+						NEAC
+						BEBED
+						BEAEC
+						ORCRACHB|CRACHD  postulate:circlePasch
+						qedcase
+				ORCRACHB|CRACHD cases
+				qedcase
+		ORCRACHB|CRACHD cases
+		cases ORCRACFB|CRACFD|BEAFC:CRACHB|CRACHD
+			case 1: CRACHB
+				ANBEAPC+BEHPB  defn:cross
+				BEAPC
+				BEHPB
+				BEAFH
+				BEBPH  axiom:betweennesssymmetry
+				EEFHAF
+				EEFHFA lemma:congruenceflip
+				EEFAFH  lemma:congruencesymmetric
+				EEFAFB
+				NEAF
+				NEAH
+				NEAB  
+				NEBH  lemma:betweennotequal
+				NEHB  lemma:inequalitysymmetric
+				NCAHB  lemma:circleNC
+				ANBEAMP+BEBMF  postulate:Pasch-inner
+				BEAMP
+				BEBMF
+				BEFMB  axiom:betweennesssymmetry
+				BEAPC 
+				BEAMC  lemma:3.6b
+				CRACFB  defn:cross
+				ORCRACFB|CRACFD|BEAFC
+				qedcase
+			case 2: CRACHD
+				ANBEAPC+BEHPD defn:cross
+				BEAPC
+				BEHPD
+				BEAFH
+				BEDPH  axiom:betweennesssymmetry
+				EEFHAF
+				EEFHFA lemma:congruenceflip
+				EEFAFH  lemma:congruencesymmetric
+				EEFAFD
+				NEAF
+				NEAH
+				NEAD  
+				NEDH  lemma:betweennotequal
+				NEHD  lemma:inequalitysymmetric
+				NCAHD  lemma:circleNC
+				ANBEAMP+BEDMF  postulate:Pasch-inner
+				BEAMP
+				BEDMF
+				BEFMD  axiom:betweennesssymmetry
+				BEAPC 
+				BEAMC  lemma:3.6b
+				CRACFD  defn:cross
+				ORCRACFB|CRACFD|BEAFC
+				qedcase
+		ORCRACFB|CRACFD|BEAFC cases
+		qedcase
+ORCRACFB|CRACFD|BEAFC cases

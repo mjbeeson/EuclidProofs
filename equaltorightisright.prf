@@ -1,0 +1,52 @@
+RRABC
+EAabcABC
+EAABCabc  lemma:equalanglessymmetric
+ANRABAE+RABCF+RAbae+RAbcf+EEBEbe+EEBFbf+EEEFef+NCABC defn:equalangles
+RABAE
+RABCF
+RAbae
+RAbcf
+EEBEbe
+EEBFbf
+EEEFef
+RRABF   lemma:8.3
+RRFBA   lemma:8.2
+RRFBE   lemma:8.3
+RREBF   lemma:8.2
+NEBE   lemma:raystrict
+NEEB   lemma:inequalitysymmetric
+ANBEEBW+EEEBWB+EEEFWF+NEBF  defn:rightangle
+BEEBW
+EEEBWB
+EEEFWF
+NEBF
+NEbe  axiom:nocollapse
+NEeb  lemma:inequalitysymmetric
+ANBEebw+EEbweb  lemma:extension
+BEebw
+EEbweb
+EEebEB  lemma:doublereverse
+EEbwEB  lemma:congruencetransitive
+EEEBBW  lemma:congruenceflip
+EEbwBW  lemma:congruencetransitive
+EEbfBF  lemma:congruencesymmetric
+EEefEF  lemma:congruencesymmetric
+EEewEW  cn:sumofparts
+EEfwFW  axiom:5-line
+EEebBW  lemma:congruencetransitive
+EEBWbw  lemma:congruencesymmetric
+EEebbw  lemma:congruencetransitive
+EEebwb  lemma:congruenceflip
+EEefWF  lemma:congruencetransitive
+EEWFwf  lemma:doublereverse
+EEefwf  lemma:congruencetransitive
+NEbf    lemma:raystrict 
+ANBEebw+EEebwb+EEefwf+NEbf
+RRebf   defn:rightangle
+RAbfc   lemma:ray5
+RRebc   lemma:8.3
+RRcbe   lemma:8.2
+RAbea   lemma:ray5
+RRcba   lemma:8.3
+RRabc   lemma:8.2
+ 

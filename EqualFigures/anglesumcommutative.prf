@@ -1,0 +1,30 @@
+ASABCDEFabe
+ANEAABCabc+EADEFcbe+BEace  defn:anglesum
+EAABCabc
+EADEFcbe
+BEace                
+BEeca                 axiom:betweennesssymmetry
+EACBAcba              lemma:equalanglesflip
+EAFEDebc              lemma:equalanglesflip
+EAebcFED              lemma:equalanglessymmetric
+NCFED                 lemma:equalanglesNC
+EAcbaCBA              lemma:equalanglessymmetric
+NCCBA                 lemma:equalanglesNC
+EAFEDDEF              lemma:ABCequalsCBA
+EAebcDEF              lemma:equalanglestransitive
+EADEFebc              lemma:equalanglessymmetric
+EACBAABC              lemma:ABCequalsCBA
+EAcbaCBA              lemma:equalanglessymmetric
+EAcbaABC              lemma:equalanglestransitive
+EAABCcba              lemma:equalanglessymmetric
+ASFEDCBAeba           defn:anglesum
+EAcbaCBA              lemma:equalanglessymmetric
+EAebcFED              lemma:equalanglessymmetric
+NCFED                 lemma:equalanglesNC
+NCCBA                 lemma:equalanglesNC
+NCeba                 lemma:anglesumNC
+EAebaabe              lemma:ABCequalsCBA
+ANEADEFebc+EAABCcba+BEeca
+ASDEFABCeba           defn:anglesum
+ASDEFABCabe           lemma:angleaddition2
+ANASDEFABCeba+ASDEFABCabe  

@@ -1,0 +1,23 @@
+CIJEPQ
+NEPQ
+OCAJ
+ANCIJFST+BEFRA+EEFRST  defn:outside
+CIJFST
+BEFRA
+EEFRST 
+EQFE    lemma:centerunique
+EQEF    lemma:equalitysymmetric
+EQEF    lemma:equalitysymmetric
+NEFR    lemma:betweennotequal
+EQST    assumption
+	EEFRTT cn:equalitysub
+  NETT  axiom:nocollapse
+	EQTT  cn:equalityreflexive
+NEST    reductio
+CIJEST   cn:equalitysub
+EEPQST  lemma:radiusunique
+EESTPQ  lemma:congruencesymmetric
+BEERA    cn:equalitysub
+EEERST   cn:equalitysub
+LTSTEA  defn:lessthan
+LTPQEA  lemma:lessthancongruence2

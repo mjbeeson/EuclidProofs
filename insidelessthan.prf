@@ -1,0 +1,28 @@
+ICPJ
+CIJFAB
+NEPF
+ANCIJfab+OREQPf|ANBEfYX+EEfXab+EEfPfY  defn:inside
+CIJfab
+OREQPf|ANBEfYX+EEfXab+EEfPfY
+CIJfab
+EQFf   lemma:centerunique
+EQfF   lemma:equalitysymmetric
+CIJFab  cn:equalitysub
+ANBEFYX+EEFXFab+EEFPFY
+cases LTFPFA:EQPF|NEPF
+	case 1:EQPF
+		NOLTFPFA  assumption
+			NEPF
+		LTFPFA reductio		
+		qedcase
+	case 2: 
+			NEAF
+			ANBEFXY+EEFXFA+EEFAFY
+			BEFXY
+			EEFXFA
+			EEFAFX  lemma:congruencesymmetric
+			EEFAFY
+			LTFXFA  defn:lessthan
+			LTFAFA  lemma:lessthanrespectscongruence
+
+LTFPFA

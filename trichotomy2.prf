@@ -1,0 +1,14 @@
+LTABCD
+ANBECED+EECEAB  defn:lessthan
+BECED
+EECEAB
+EEABCE lemma:congruencesymmetric
+LTCDAB assumption
+LTCDCE  lemma:lessthancongruence
+ANBECFE+EECFCD   defn:lessthan
+BECFE
+BECFD   lemma:3.6b
+NOEECFCD  lemma:partnotequalwhole
+EECFCD
+NOLTCDAB   reductio
+

@@ -1,0 +1,15 @@
+NEAB
+NECD
+EQBA assumption
+EQAB lemma:equalitysymmetric
+NEBA reductio
+ANBEBAE+EEAECD lemma:extension
+BEBAE
+BEEAB axiom:betweennesssymmetry
+NEEA  lemma:betweennotequal
+BEEAB   axiom:betweennesssymmetry
+ANBEEAP+EEAPCD lemma:extension
+BEEAP
+EEAPCD
+RAABP defn:ray
+ANRAABP+EEAPCD

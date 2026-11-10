@@ -1,0 +1,12 @@
+ISABC
+ANTRABC+EEABAC  defn:isosceles
+TRABC
+EEABAC
+EEACAB  lemma:congruencesymmetric
+NCABC    defn:triangle
+COCAB   assumption
+ COABC   lemma:collinearorder
+NCCAB   reductio
+EACABBAC  lemma:ABCequalsCBA
+ANEECBBC+EAACBABC+EAABCACB  proposition:04
+EAABCACB

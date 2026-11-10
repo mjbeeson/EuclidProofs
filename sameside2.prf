@@ -1,0 +1,125 @@
+SSEFAC
+COABC
+RABFG
+ANCOACU+COACV+BEEUQ+BEFVQ+NCACE+NCACF defn:sameside
+COACU
+COACV
+BEEUQ
+BEFVQ
+NCACE
+NCACF 
+OSFACQ   defn:oppositeside
+COACB   lemma:collinearorder
+EQAC assumption
+ COACF defn:collinear
+ NCACF
+NEAC reductio
+COBFG  lemma:rayimpliescollinear
+COBGF  lemma:collinearorder
+COACB  lemma:collinearorder
+NOOSGACQ  assumption
+ EQFG assumption
+  OSGACQ cn:equalitysub 
+ NEFG reductio 
+ EQBV assumption
+  BEFBQ  cn:equalitysub
+  ORBEBGF|EQFG|BEBFG  lemma:ray1
+  cases BEGBQ:BEBGF|EQFG|BEBFG
+   case 1:BEBGF
+    BEFGB axiom:betweennesssymmetry
+    BEGBQ  lemma:3.6a
+   qedcase
+   case 2:EQFG
+    NOBEGBQ assumption
+     NEFG
+    BEGBQ reductio
+   qedcase
+   case 3:BEBFG
+	BEGFB axiom:betweennesssymmetry
+    BEGBQ lemma:3.7a
+   qedcase
+  BEGBQ cases
+  COACG  assumption
+   COACB  lemma:collinearorder
+   COCGB  lemma:collinear4
+   COGBC  lemma:collinearorder
+   COGBF  lemma:collinearorder
+   NEBG  lemma:raystrict
+   NEGB  lemma:inequalitysymmetric
+   COBCF lemma:collinear4
+   NEBC assumption
+	COBCA lemma:collinearorder
+    COCFA lemma:collinear4
+    COACF  lemma:collinearorder
+   EQBC reductio
+   COABG cn:equalitysub
+   COGBA  lemma:collinearorder
+   COGBF 
+   COBAF  lemma:collinear4
+   COABF lemma:collinearorder
+   COACF  cn:equalitysub
+   NCACF  
+  NCACG  reductio
+  OSGACQ defn:oppositeside
+ NEBV reductio
+ COQFB  assumption
+  COFVQ  defn:collinear
+  COQFV  lemma:collinearorder
+  NEFQ  lemma:betweennotequal
+  NEQF  lemma:inequalitysymmetric
+  COFBV  lemma:collinear4
+  NEAC
+  COCBV  lemma:collinear4
+  COBVF  lemma:collinearorder
+  COBVC  lemma:collinearorder
+  COVFC  lemma:collinear4
+  COVCF lemma:collinearorder
+  COVCA  lemma:collinearorder
+  NEVC  assumption
+   COCFA  lemma:collinear4
+   COACF  lemma:collinearorder
+   NCACF
+  EQVC  reductio
+  NEAC
+  NEAV  cn:equalitysub
+  NEVA  lemma:inequalitysymmetric
+  COCAB lemma:collinearorder
+  COCAV lemma:collinearorder
+  NECA  lemma:inequalitysymmetric
+  COABV  lemma:collinear4
+  COBVA  lemma:collinearorder
+  COVFA  lemma:collinear4
+  COVAF  lemma:collinearorder
+  COVAC lemma:collinearorder
+  COAFC  lemma:collinear4
+  COACF  lemma:collinearorder
+  NCACF
+ NCQFB reductio
+ ORBEBGF|EQFG|BEBFG  lemma:ray1
+  cases OSGACQ:BEBGF|EQFG|BEBFG
+   case 1:BEBGF 
+    OSGACQ lemma:9.5b
+   qedcase
+   case 2:EQFG
+    OSGACQ  cn:equalitysub
+   qedcase
+   case 3:BEBFG
+    COBGQ  assumption
+     COGBF  lemma:collinearorder
+     NEBG lemma:betweennotequal
+     NEGB  lemma:inequalitysymmetric
+     COGBQ  lemma:collinearorder
+     COBFQ  lemma:collinear4
+     COQFB  lemma:collinearorder
+     NCQFB
+    NCBGQ  reductio
+    OSGACQ   lemma:9.5a
+   qedcase
+  OSGACQ cases
+ OSGACQ reductio
+ANBEGHQ+COACH+NCACG defn:oppositeside
+NCACG
+BEGHQ
+COACH 
+SSEGAC   defn:sameside
+

@@ -1,0 +1,25 @@
+TGEFFCEC
+EEECED
+BEEFD
+ANBEEFP+EEFPFC+LTECEP  defn:togethergreater
+BEEFP
+EEFPFC
+LTECEP
+LTEDEP  lemma:lessthancongruence2
+BEEDP    lemma:lessthanbetween2
+NEEF   lemma:betweennotequal
+COEFP   defn:collinear
+COEFD  defn:collinear
+EQPD  assumption
+  LTEDED  cn:equalitysub
+	NOLTEDED lemma:trichotomy2
+NEPD  reductio
+COFPD  lemma:collinear4
+OREQFP|EQFD|EQPD|BEPFD|BEFPD|BEFDP  defn:collinear
+NEFD   lemma:betweennotequal
+NEFP  lemma:betweennotequal
+BEFDP  lemma:3.6a 
+BEEDP
+EEFDFD  cn:congruencereflexive
+LTFDFP  defn:lessthan
+LTFDFC  lemma:lessthancongruence

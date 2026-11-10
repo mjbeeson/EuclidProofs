@@ -1,0 +1,60 @@
+CIJMMA   %  M is the center and MA the radius of J
+BEDMA    %  M is the center and MA the radius of J
+OCDJ     %  D is outside circle J
+EEMAME   %  E is on the circle
+EEMAMF   %  F is on the circle
+CRFMED   %  FM crosses ED, i.e., ED is "nearer to the center"
+NCDME
+NCDMF
+ANBEFQM+BEEQD  defn:cross
+BEFQM
+BEEQD
+EEMEMA   lemma:congruencesymmetric
+EEMFMA   lemma:congruencesymmetric
+EEMEMF   lemma:congruencetransitive
+BEAMD    axiom:betweennesssymmetry
+NEMD     lemma:betweennotequal
+NEDM     lemma:inequalitysymmetric
+EQDD     cn:equalityreflexive
+RAMDD    lemma:ray4
+NEFM     lemma:betweennotequal
+NEMF     lemma:inequalitysymmetric
+BEMQF    axiom:betweennesssymmetry
+RAMFQ    lemma:ray4
+NEAM     lemma:betweennotequal
+NEMA     lemma:inequalitysymmetric
+NEME     axiom:nocollapse
+EQEE     cn:equalityreflexive
+RAMEE    lemma:ray4
+EADMFDMF    lemma:equalanglesreflexive
+EADMFDMQ    lemma:equalangleshelper
+BEDQE    axiom:betweennesssymmetry
+AODMFDME    defn:anglelessthan
+EADMFFMD    lemma:ABCequalsCBA
+EAFMDDMF    lemma:equalanglessymmetric
+AOFMDDME    lemma:angleorderrespectscongruence2
+EADMEEMD    lemma:ABCequalsCBA
+EAEMDDME    lemma:equalanglessymmetric
+AOFMDEMD    lemma:angleorderrespectscongruence
+NCMDE    lemma:NCorder
+TRMDE    defn:triangle
+TGDMMEDE    proposition:20
+ANBEDMX+EEMXME+LTDEDX    defn:togethergreater
+BEDMX
+EEMXME
+LTDEDX
+EEMEMX    lemma:congruencesymmetric
+EEMAMX    lemma:congruencetransitive
+EQAX      lemma:extensionunique
+LTDEDA    cn:equalitysub
+EEDEED    cn:equalityreverse
+LTEDDA    lemma:lessthancongruence2
+EEDAAD    cn:equalityreverse
+LTEDAD    lemma:lessthancongruence
+NCMED    lemma:NCorder
+TRMED    defn:triangle
+NCMFD    lemma:NCorder
+TRMFD    defn:triangle
+EEMDMD   cn:congruencereflexive
+LTFDED   proposition:24
+ANLTEDAD+LTFDED   // ED < AD and $FD < ED

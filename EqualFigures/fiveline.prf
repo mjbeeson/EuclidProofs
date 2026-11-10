@@ -1,0 +1,49 @@
+COABC
+EEABab
+EEBCbc
+EEADad
+EECDcd
+EEACac
+NEAC
+OREQAB|EQAC|EQBC|BEBAC|BEABC|BEACB   defn:collinear
+OREQAB|EQBC|BEBAC|BEABC|BEACB
+cases EEBDbd:EQAB|EQBC|BEBAC|BEABC|BEACB 
+ case 1:EQAB
+  EEBBab cn:equalitysub
+  EEabBB lemma:congruencesymmetric
+  NEab assumption
+   NEBB  axiom:nocollapse
+   EQBB  cn:equalityreflexive
+  EQab   reductio
+  EEBDad cn:equalitysub
+  EEBDbd cn:equalitysub
+ qedcase
+ case 2:EQBC
+  EEBBbc  cn:equalitysub
+  EEbcBB  lemma:congruencesymmetric
+  NEbc  assumption
+   NEBB axiom:nocollapse
+   EQBB cn:equalityreflexive
+  EQbc  reductio
+  EEBDcd  cn:equalitysub
+  EEBDbd  cn:equalitysub
+ qedcase
+ case 3:BEBAC
+  BECAB  axiom:betweennesssymmetry
+  EECAca  lemma:congruenceflip
+  EECBcb lemma:congruenceflip
+  BEcab  lemma:betweennesspreserved
+  EEDBdb axiom:5-line
+  EEBDbd lemma:congruenceflip
+ qedcase
+ case 4:BEABC
+  BEabc lemma:betweennesspreserved
+  EEBDbd lemma:interior5
+ qedcase
+ case 5:BEACB
+  EECBcb  lemma:congruenceflip
+  BEacb lemma:betweennesspreserved
+  EEDBdb axiom:5-line
+  EEBDbd lemma:congruenceflip
+ qedcase
+EEBDbd cases

@@ -1,0 +1,68 @@
+CIJFPQ
+CIJGpq
+NEFG  assumption
+ NEGF lemma:inequalitysymmetric
+ EQFF cn:equalityreflexive
+ ICFJ defn:inside
+ ANCOGFB+BEGFA+ONBJ+ONAJ+BEBFA postulate:line-circle
+ COGFB
+ BEGFA
+ ONBJ
+ ONAJ
+ BEBFA
+ BEAFB  axiom:betweennesssymmetry
+ RRAFH  proposition:11
+ NCAFH  lemma:rightangleNC
+ NEHF   lemma:NCdistinct
+ EQFF   cn:equalityreflexive
+ ICFJ   defn:inside
+ ANCOHFC+BEHFE+ONCJ+ONEJ+BECFE postulate:line-circle
+ COHFC
+ BEHFE
+ ONCJ
+ ONEJ
+ BECFE
+ EEFCPQ  axiom:circle-center-radius
+ EEFEPQ  axiom:circle-center-radius
+ EEPQFE  lemma:congruencesymmetric
+ EEFCFE  lemma:congruencetransitive
+ EECFEF  lemma:congruenceflip
+ BEAFG  axiom:betweennesssymmetry
+ EEGCpq   axiom:circle-center-radius
+ EEGEpq  axiom:circle-center-radius
+ EEpqGE   lemma:congruencesymmetric
+ EEGCGE  lemma:congruencetransitive
+ EECGEG  lemma:congruenceflip
+ RRCFG   defn:rightangle
+ RRGFC   lemma:8.2
+ LTFCGC  lemma:legsmallerhypotenuse
+ EEFCPQ  axiom:circle-center-radius
+ LTPQGC  lemma:lessthancongruence2
+ LTPQpq   lemma:lessthancongruence
+ EEFBPQ   axiom:circle-center-radius
+ EEGBpq   axiom:circle-center-radius
+ EEBGpq   lemma:congruenceflip
+ EEBFPQ   lemma:congruenceflip
+ EEGApq   axiom:circle-center-radius
+ EEpqGA   lemma:congruencesymmetric
+ EEBGGA   lemma:congruencetransitive
+ EEGABG   lemma:congruencesymmetric
+ EEAGGB   lemma:congruenceflip
+ COFGB    lemma:collinearorder
+ COAFG    defn:collinear
+ COFGA    lemma:collinearorder
+ COGBA    lemma:collinear4
+ COABG    lemma:collinearorder
+ NEAB    lemma:betweennotequal
+ MIAGB    lemma:collinearmidpoint
+ BEAGB    defn:midpoint 
+ BEFGB    lemma:3.6a
+ BEBGF    axiom:betweennesssymmetry
+ EEBGBG   cn:congruencereflexive
+ LTBGBF   defn:lessthan
+ LTpqBF   lemma:lessthancongruence2
+ LTpqPQ   lemma:lessthancongruence
+ NOLTPQpq lemma:trichotomy2
+EQFG  reductio 
+
+

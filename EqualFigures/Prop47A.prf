@@ -1,0 +1,214 @@
+TRABC
+RRBAC
+SQBCED
+OSDCBA
+ANBEDNA+COCBN+NCCBD  defn:oppositeside
+BEDNA
+COCBN
+RRCAB  lemma:8.2
+NCCAB lemma:rightangleNC
+NEAB  lemma:NCdistinct
+NCABC  defn:triangle
+NEBC  lemma:NCdistinct
+EEBCED  defn:square
+NEED  axiom:nocollapse
+NEDE  lemma:inequalitysymmetric
+OSDCBA
+ANBEDqA+COCBq+NCCBD  defn:oppositeside
+BEDqA
+COCBq
+NCCBD   
+PGBCED lemma:squareparallelogram
+PRBCED defn:parallelogram
+NOMEBCED defn:parallel
+EQAE assumption
+ BEDqE  cn:equalitysub
+ CODqE  defn:collinear
+ COEDq  lemma:collinearorder
+ COBCq  lemma:collinearorder
+ MEBCED defn:meet
+NEAE reductio
+CODEA assumption
+ CODAE  lemma:collinearorder
+ CODqA  defn:collinear
+ CODAq  lemma:collinearorder
+ NEDA  lemma:betweennotequal
+ COAEq  lemma:collinear4
+ COqAE lemma:collinearorder
+ COqAD lemma:collinearorder
+ NEqA  lemma:betweennotequal
+ COAED lemma:collinear4
+ COAEq lemma:collinearorder
+ COEDq  lemma:collinear4
+ COBCq  lemma:collinearorder
+ MEBCED  defn:meet
+NCDEA reductio
+% Now drop perpendicular AL to DE from A
+% Euclid draws AL parallel to BD but then why would it meet DE?
+PAALDEL   proposition:12
+ANCOALL+CODEL+CODEp+RRpLA  defn:perpat
+CODEL
+CODEp
+RRpLA
+RRALp  lemma:8.2
+EQBN  assumption
+ BEDBA  cn:equalitysub
+ CODBA  defn:collinear
+ RRDBC  defn:square
+ RRABC  lemma:collinearright
+ NORRCAB  lemma:8.7
+ RRCAB  lemma:8.2  
+NEBN  reductio
+PGBCED
+PRBCED  defn:parallelogram
+PRBCDE  lemma:parallelflip
+PRDEBC  lemma:parallelsymmetric
+PRDECB  lemma:parallelflip
+NENB  lemma:inequalitysymmetric
+PRDENB  lemma:collinearparallel
+PRDEBN  lemma:parallelflip
+TPDEBN  lemma:paralleldef2B
+SSBNDE  defn:tarski_parallel
+EQDD   cn:equalityreflexive
+CODDE  defn:collinear
+NEDN   lemma:betweennotequal
+RADNA   lemma:ray4
+SSBADE  lemma:sameside2
+SSBAED  lemma:samesideflip
+SSABED  lemma:samesidesymmetric 
+EQDL  assumption
+ RRADp  cn:equalitysub
+ RRpDA  lemma:8.2
+ COpDE lemma:collinearorder
+ RREDA  lemma:collinearright
+ RREDB  defn:square
+ SSABED 
+ RADAB  lemma:erectedperpendicularunique
+ CODAB  lemma:rayimpliescollinear
+ COADB  lemma:collinearorder
+ CODNA  defn:collinear
+ COADN  lemma:collinearorder
+ NEDA  lemma:betweennotequal
+ NEAD  lemma:inequalitysymmetric
+ CODBN lemma:collinear4
+ CONBC  lemma:collinearorder
+ CONBD  lemma:collinearorder
+ COBCD  lemma:collinear4
+ NCBCD  lemma:NCorder
+NEDL  reductio
+NELD  lemma:inequalitysymmetric
+PRBCED  lemma:parallelflip
+COEDL  lemma:collinearorder
+PRBCLD  lemma:collinearparallel
+PRLDBC  lemma:parallelsymmetric
+TPBCLD  lemma:paralleldef2B
+SSLDBC  defn:tarski_parallel
+NCBCD   lemma:parallelNC
+COBCN lemma:collinearorder
+OSDBCA  defn:oppositeside
+OSLBCA  lemma:planeseparation
+ANBELMA+COBCM+NCBCL  defn:oppositeside
+BELMA
+COBCM
+NEDE  lemma:NCdistinct
+NEED  lemma:inequalitysymmetric
+NELM  lemma:betweennotequal
+RALMA lemma:ray4
+RALAM  lemma:ray5
+RREDB  defn:square
+RRpLA
+CODEp
+COEDp lemma:collinearorder
+COEDL lemma:collinearorder
+CODpL  lemma:collinear4
+COpLD  lemma:collinearorder
+RRDLA  lemma:collinearright
+RRDLM  lemma:8.3
+EQBM  assumption
+ RRDLB  cn:equalitysub
+ RRLDB  lemma:collinearright
+ RRBDL  lemma:8.2
+ NORRBDL  lemma:8.7
+NEBM  reductio
+NEMB  lemma:inequalitysymmetric
+PRLDCB  lemma:parallelflip
+COCBM   lemma:collinearorder
+PRLDMB  lemma:collinearparallel
+PRLDBM  lemma:parallelflip
+PRBMLD  lemma:parallelsymmetric
+PRBMDL  lemma:parallelflip
+PRDLBM  lemma:parallelsymmetric
+TPDLBM  lemma:paralleldef2B
+SSBMDL   defn:tarski_parallel
+PRBMLD  lemma:parallelsymmetric
+RRLDB  lemma:collinearright
+RRBDL  lemma:8.2
+PRBDLM lemma:twoperpsparallel
+PRBDML  lemma:parallelflip
+PGBMLD  defn:parallelogram
+PRMLBD  lemma:parallelsymmetric
+TPMLBD  lemma:paralleldef2B
+SSBDML  defn:tarski_parallel
+BEAML  axiom:betweennesssymmetry
+PRMBLD lemma:parallelflip
+EAAMBMLD  proposition:29C
+RRMLD   lemma:8.2
+RRAMB  lemma:equaltorightisright
+EQBB  cn:equalityreflexive
+COBCB  defn:collinear
+BEBMC   lemma:altitudeofrighttriangle
+EQMC assumption
+ RRAMB
+ RRACB cn:equalitysub
+ NORRBAC lemma:8.7
+NEMC reductio
+EQLE  assumption
+ PGBCED
+ PRBDCE  defn:parallelogram
+ PRCEBD  lemma:parallelsymmetric
+ PRMEBD  cn:equalitysub
+ PRBDME  lemma:parallelsymmetric
+ PRBDCE  lemma:parallelsymmetric
+ PRBDEC  lemma:parallelflip
+ PRBDEM  lemma:parallelflip
+ COECM   lemma:Playfair
+ COMCE   lemma:collinearorder
+ COMCB  lemma:collinearorder
+ NEMC 
+ COCEB  lemma:collinear4
+ COBCE  lemma:collinearorder
+ NCBCE  lemma:parallelNC
+NELE reductio
+PRBMLD  defn:parallelogram
+PRBMDL  lemma:parallelflip
+CODLE   lemma:collinearorder
+NEEL  lemma:inequalitysymmetric
+PRBMEL lemma:collinearparallel
+PRELBM lemma:parallelsymmetric
+COBMC  lemma:collinearorder
+NECM   lemma:inequalitysymmetric
+PRELCM  lemma:collinearparallel
+PRCMEL  lemma:parallelsymmetric
+PRMCEL  lemma:parallelflip
+RRDLM
+CODLE  lemma:collinearorder
+RRELM  lemma:collinearright
+RRMLE  lemma:8.2
+RRCED   defn:square
+RRDEC   lemma:8.2
+CODEL
+NELE
+RRLEC  lemma:collinearright
+PRMCLE lemma:parallelflip
+PRLEMC  lemma:parallelsymmetric
+TPLEMC  lemma:paralleldef2B
+SSMCLE  defn:tarski_parallel
+PRMLEC  lemma:twoperpsparallel
+PRMLCE  lemma:parallelflip
+PGMCEL  defn:parallelogram
+EEBMDL   proposition:34
+EEMCLE   proposition:34
+EEBCDE   proposition:34
+BEBMC
+BEDLE    lemma:betweennesspreserved
+ANPGBMLD+BEBMC+PGMCEL+BEDLE+BELMA+RRDLA

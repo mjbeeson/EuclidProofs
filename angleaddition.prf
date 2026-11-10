@@ -1,0 +1,96 @@
+ASABCDEFPQR
+EAABCabc
+EADEFdef
+ASabcdefpqr
+ANEAABCPQS+EADEFSQR+BEPSR  defn:anglesum
+ANEAabcpqs+EAdefsqr+BEpsr  defn:anglesum
+EAABCPQS
+EADEFSQR
+BEPSR
+EAabcpqs
+EAdefsqr
+NCPQS lemma:equalanglesNC
+NCSQR   lemma:equalanglesNC
+NEQP  lemma:NCdistinct
+NEQS  lemma:NCdistinct
+NEQR lemma:NCdistinct
+NCpqs  lemma:equalanglesNC
+NCsqr  lemma:equalanglesNC
+NEqp  lemma:NCdistinct
+NEqr  lemma:NCdistinct
+NEqs  lemma:NCdistinct
+ANRAqpG+EEqGQP  lemma:layoff
+RAqpG
+ANRAqsH+EEqHQS  lemma:layoff
+RAqsH
+ANRAqrK+EEqKQR lemma:layoff
+RAqrK
+EEqKQR
+EAPQSABC  lemma:equalanglessymmetric
+EAPQSabc  lemma:equalanglestransitive
+EAPQSpqs  lemma:equalanglestransitive
+EAPQSGqH  lemma:equalangleshelper
+EASQRDEF  lemma:equalanglessymmetric
+EASQRdef  lemma:equalanglestransitive
+EASQRsqr  lemma:equalanglestransitive
+EASQRHqK  lemma:equalangleshelper
+NCGqH  lemma:equalanglesNC
+EEqGQP   
+EEqHQS   
+EAGqHPQS  lemma:equalanglessymmetric
+ANEEGHPS+EAqGHQPS+EAqHGQSP  proposition:04
+EEGHPS
+EAqHGQSP 
+EAHqKSQR  lemma:equalanglessymmetric
+ANEEHKSR+EAqHKQSR+EAqKHQRS  proposition:04
+EEHKSR
+EAqHKQSR
+EAGHqPSQ  lemma:equalanglesflip
+EQQQ  cn:equalityreflexive
+NESQ  lemma:NCdistinct
+RASQQ   lemma:ray4
+SUPSQQR   defn:supplement
+RTGHqqHK  defn:tworightangles
+BEpsr
+COqsH  lemma:rayimpliescollinear
+COqHs  lemma:collinearorder
+NCGqH 
+COqpG  lemma:rayimpliescollinear 
+COGqp  lemma:collinearorder
+EQqq   cn:equalityreflexive
+COGqq  defn:collinear
+NEqp  lemma:ray2
+NEpq   lemma:inequalitysymmetric
+NCpqH  lemma:NChelper
+NCqHp  lemma:NCorder
+OSpqHr defn:oppositeside
+OSrqHp  lemma:oppositesidesymmetric
+COqHq  defn:collinear
+RAqKr  lemma:ray5
+OSKqHp lemma:9.5
+OSpqHK  lemma:oppositesidesymmetric
+RAqGp  lemma:ray5
+OSGqHK  lemma:9.5
+OSKqHG  lemma:oppositesidesymmetric
+NEqH lemma:raystrict
+NEHq  lemma:inequalitysymmetric
+RAHqq  lemma:ray4
+BEGHK  proposition:14
+EEGKPR    cn:sumofparts
+EEqGQP
+EEqKQR
+EQPP  cn:equalityreflexive
+EQRR  cn:equalityreflexive
+RAQPP  lemma:ray4
+RAQRR  lemma:ray4
+NCPSQ  lemma:NCorder
+COPSR  defn:collinear
+EQPP   cn:equalityreflexive
+COPSP  defn:collinear
+NEPR   lemma:betweennotequal
+NCPRQ  lemma:NChelper
+NCPQR  lemma:NCorder
+EEQPqG lemma:congruencesymmetric
+EEQRqK lemma:congruencesymmetric
+EEPRGK  lemma:congruencesymmetric
+EAPQRpqr  defn:equalangles

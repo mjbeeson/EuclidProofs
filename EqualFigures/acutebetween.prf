@@ -1,0 +1,43 @@
+RRDFB
+COBFC
+AODBCBFD
+NCDBC
+NCDFB     lemma:rightangleNC
+NCBFD     lemma:NCorder
+TRDFB     defn:triangle
+TRBFD     defn:triangle
+EQBF      assumption
+ NCDBB    cn:equalitysub
+ EQBB     cn:equalityreflexive
+ CODBB    defn:collinear
+NEBF      reductio
+NEFB      lemma:inequalitysymmetric
+BEFBC     assumption
+ RAFBC    lemma:ray4
+ EQDD     cn:equalityreflexive
+ NEFD     lemma:NCdistinct
+ RAFDD    lemma:ray4
+ EADFBDFB lemma:equalanglesreflexive
+ EADFBDFC lemma:equalangleshelper
+ AOBFDDBC  proposition:16
+ NOAODBCBFD lemma:angletrichotomy
+NOBEFBC   reductio
+NEBC      lemma:NCdistinct
+OREQBF|EQBC|EQFC|BEFBC|BEBFC|BEBCF  defn:collinear
+OREQFC|BEBFC|BEBCF
+cases RABFC:EQFC|BEBFC|BEBCF
+ case 1:EQFC
+  EQCF   lemma:equalitysymmetric
+  RABFC lemma:ray4
+ qedcase
+ case 2:BEBFC
+  RABFC lemma:ray4
+ qedcase
+ case 3:BEBCF
+  RABFC lemma:ray4
+ qedcase
+RABFC cases
+
+
+
+ 

@@ -1,0 +1,25 @@
+RRABC
+RRBCD
+SSADBC
+NCABC  lemma:rightangleNC
+NEBC  lemma:NCdistinct
+ANBEBCE+EECEBC lemma:extension
+BEBCE
+COBCE  defn:collinear
+NECE  lemma:betweennotequal
+NEEC  lemma:inequalitysymmetric
+RRECD  lemma:collinearright
+RRDCE  lemma:8.2
+EQDD   cn:equalityreflexive
+NCBCD  lemma:rightangleNC
+NECD  lemma:NCdistinct
+RACDD  lemma:ray4
+SUBCDDE  defn:supplement
+EAABCBCD  lemma:Euclid4
+EABCDDCE  lemma:Euclid4
+RTABCBCD defn:tworightangles
+PRBACD  proposition:28C
+PRCDBA  lemma:parallelsymmetric
+PRCDAB  lemma:parallelflip
+PRABCD  lemma:parallelsymmetric
+

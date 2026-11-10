@@ -1,0 +1,33 @@
+PRABCD
+PRABCE
+NOORCRADBC|CRACBD  assumption 
+ ANNOCRADBC+NOCRACBD
+ NOCRADBC
+ NOCRACBD
+ PRABDC  lemma:parallelflip
+ CRACDB lemma:crisscross
+ ANBEApC+BEDpB  defn:cross
+ BEApC
+ BEDpB
+ BEBpD  axiom:betweennesssymmetry
+ ANBEApC+BEBpD
+ CRACBD defn:cross
+ORCRADBC|CRACBD reductio
+cases COCDE:CRADBC|CRACBD
+ case 1:CRADBC
+  COCDE lemma:Playfairhelper2
+ qedcase
+ case 2:CRACBD
+  ANBEApC+BEBpD defn:cross
+  BEApC
+  BEBpD
+  ANBEBpD+BEApC
+  CRBDAC defn:cross
+  PRBACD  lemma:parallelflip
+  PRBACE   lemma:parallelflip
+  COCDE lemma:Playfairhelper2
+ qedcase
+COCDE cases
+  
+
+ 

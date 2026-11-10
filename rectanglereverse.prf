@@ -1,0 +1,19 @@
+REABCD
+ANRRDAB+RRABC+RRBCD+RRCDA+CRACBD defn:rectangle
+RRDAB
+RRABC
+RRBCD
+RRCDA
+CRACBD
+RRADC  lemma:8.2
+RRDCB lemma:8.2
+RRCBA lemma:8.2
+RRBAD lemma:8.2
+ANBEAMC+BEBMD  defn:cross
+BEAMC
+BEBMD
+BECMA  axiom:betweennesssymmetry
+BEDMB axiom:betweennesssymmetry
+CRDBCA  defn:cross
+ANRRADC+RRDCB+RRCBA+RRBAD+CRDBCA 
+REDCBA  defn:rectangle

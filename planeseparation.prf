@@ -1,0 +1,429 @@
+SSCDAB
+OSDABE
+ANCOABG+COABH+BECGQ+BEDHQ+NCABC+NCABD defn:sameside
+COABG
+COABH
+BECGQ
+BEDHQ
+NCABC
+EQAB assumption
+COABC defn:collinear
+NEAB reductio
+NEBA lemma:inequalitysymmetric
+ANBEDWE+COABW+NCABD defn:oppositeside
+BEDWE
+NECG  lemma:betweennotequal
+NEGC  lemma:inequalitysymmetric
+NEGQ  lemma:betweennotequal
+cases OSCABE:COCQD|NCCQD
+ case 1:COCQD
+  NOOSCABE assumption
+   COQCD  lemma:collinearorder
+   NEGH   assumption
+    COABG
+    COABH
+    COCGQ defn:collinear
+    CODHQ defn:collinear
+    COQCG lemma:collinearorder
+    NECQ  lemma:betweennotequal
+    NEQC  lemma:inequalitysymmetric
+    COCGD lemma:collinear4
+    CODQH lemma:collinearorder
+    CODQC lemma:collinearorder
+    COCAB assumption
+     COABC lemma:collinearorder
+    NCCAB reductio
+    ORNCCAB|NCDAB
+    ANCOCAB+CODAB assumption
+     ORNCCAB|NCDAB
+    NOANCOCAB+CODAB reductio
+    COGAB lemma:collinearorder
+    COHAB lemma:collinearorder
+    COGCD lemma:collinearorder
+    COQDH lemma:collinearorder
+    COQDC lemma:collinearorder
+    NEDQ  lemma:betweennotequal
+    NEQD lemma:inequalitysymmetric
+    CODCH lemma:collinear4
+    COHCD lemma:collinearorder
+    EQCD assumption
+     OSDABE
+     OSCABE  cn:equalitysub
+    NECD reductio
+    NEAB
+    EQGH  lemma:twolines2
+   EQGH  reductio
+   BEQGC axiom:betweennesssymmetry
+   BEQHD axiom:betweennesssymmetry
+   BEQGD cn:equalitysub
+   NCEDG  assumption
+    NCECG  assumption
+     BEGCD  assumption
+      OSDABE
+      OSCABE  lemma:9.5b
+     NOBEGCD reductio
+     BEGDC  assumption
+      COGCE assumption
+       COECG lemma:collinearorder
+      NCGCE reductio
+      OSCABE  lemma:9.5a
+     NOBEGDC reductio
+     EQCD  lemma:outerconnectivity
+     OSCABE cn:equalitysub
+    COECG  reductio
+    COQGD  defn:collinear
+    COQGC  defn:collinear
+    NEQG   lemma:betweennotequal
+    COGDC  lemma:collinear4
+    COCGD  lemma:collinearorder
+    COCGE  lemma:collinearorder
+    NEGC  lemma:betweennotequal
+    NECG   lemma:inequalitysymmetric
+    COGDE  lemma:collinear4
+    COEDG  lemma:collinearorder
+   COEDG  reductio
+   COABW
+   COABG
+   CODWE  defn:collinear
+   CODEW  lemma:collinearorder
+   CODEG  lemma:collinearorder
+   NEDE  lemma:betweennotequal
+   COEWG  lemma:collinear4
+   COEWD  lemma:collinearorder
+   NEWE lemma:betweennotequal
+   NEEW  lemma:inequalitysymmetric
+   COWGD  lemma:collinear4 
+   COBWG  lemma:collinear4
+   COWGB   lemma:collinearorder
+   COBAW  lemma:collinearorder
+   COBAG  lemma:collinearorder
+   COAWG  lemma:collinear4
+   COWGA  lemma:collinearorder
+   NEWG assumption
+    COGDB  lemma:collinear4
+    COGBD  lemma:collinearorder
+    COGBA  lemma:collinearorder
+    NEGB assumption
+     COBDA lemma:collinear4
+     COABD  lemma:collinearorder
+     NCABD
+    EQGB  reductio
+    COGDA lemma:collinear4
+    COGAD lemma:collinearorder
+    COGAB lemma:collinearorder
+    NEGA assumption
+     COADB lemma:collinear4
+     COABD lemma:collinearorder
+     NCABD
+    EQGA reductio
+    EQAG lemma:equalitysymmetric
+    EQBG lemma:equalitysymmetric
+    EQAB  cn:equalitytransitive
+    NEAB
+   EQWG reductio
+   BEDWE
+   BEDGE  cn:equalitysub
+   BEEGD  axiom:betweennesssymmetry
+   BEGDC  assumption
+    BEEGC  lemma:3.7b
+    BECGE  axiom:betweennesssymmetry
+    OSCABE  defn:oppositeside
+   NOBEGDC reductio
+   BEGCD  assumption
+    BEEGC axiom:innertransitivity
+    BECGE  axiom:betweennesssymmetry
+    OSCABE defn:oppositeside
+   NOBEGCD reductio
+   BECGD assumption
+    BEDGQ  cn:equalitysub
+    BECGQ 
+    BEDGC axiom:betweennesssymmetry
+    BEGDC assumption
+     BECDG  axiom:betweennesssymmetry
+     BEDGC   
+     BECGC  lemma:3.7a
+     NECC  lemma:betweennotequal
+     EQCC  cn:equalityreflexive
+    NOBEGDC reductio
+    BEGCD assumption
+     BECGC axiom:innertransitivity
+     NECC lemma:betweennotequal
+     EQCC  cn:equalityreflexive
+    NOBEGCD reductio
+    BEQGD axiom:betweennesssymmetry
+    BEQGC axiom:betweennesssymmetry
+    EQCD  lemma:outerconnectivity
+    OSCABE  cn:equalitysub
+   NOBECGD reductio   
+   COQCD  lemma:collinearorder
+   COQGC  defn:collinear
+   COQCG  lemma:collinearorder
+   NEQC  lemma:betweennotequal
+   COCDG  lemma:collinear4
+   COGCD  lemma:collinearorder
+   OREQGC|EQGD|EQCD|BECGD|BEGCD|BEGDC  defn:collinear
+   cases OSCABE:EQGC|EQGD|EQCD|BECGD|BEGCD|BEGDC
+    case 1:EQGC
+     NOOSCABE  assumption
+      COABG
+      COABC  cn:equalitysub
+      NCABC
+     OSCABE reductio
+    qedcase
+    case 2:EQGD
+     NOOSCABE assumption
+      COABG
+      COABD cn:equalitysub
+      NCABD
+     OSCABE reductio
+    qedcase
+    case 3:EQCD
+     NOOSCABE assumption
+      OSDABE 
+      OSCABE cn:equalitysub
+     OSCABE reductio
+    qedcase
+    case 4:BECGD
+     NOOSCABE assumption
+      NOBECGD
+     OSCABE reductio
+    qedcase
+    case 5:BEGCD
+     NOOSCABE assumption
+      NOBEGCD
+     OSCABE reductio
+    qedcase
+	case 6:BEGDC
+     NOOSCABE assumption
+      NOBEGDC
+     OSCABE reductio
+    qedcase
+   OSCABE cases
+  OSCABE reductio
+ qedcase
+ case 2:NCCQD
+  NOOSCABE assumption
+   COQCD  assumption
+    COCQD  lemma:collinearorder
+   NCQCD  reductio
+   ANBECFH+BEDFG postulate:Pasch-inner
+   BECFH
+   BEDFG
+   BEHFC  axiom:betweennesssymmetry
+   BEGFD  axiom:betweennesssymmetry
+   COEDG assumption
+    NEWG assumption
+     CODEG  lemma:collinearorder
+     CODWE  defn:collinear
+     COEDG  lemma:collinearorder
+     COEDW  lemma:collinearorder
+     NEDE   lemma:betweennotequal
+     NEED lemma:inequalitysymmetric
+     CODGW lemma:collinear4
+     COGWD  lemma:collinearorder
+     COABW
+     COABG
+     EQBB   cn:equalityreflexive
+     COABB  defn:collinear
+     NEGW   lemma:inequalitysymmetric
+     COGWB lemma:collinear5
+     COWDB  lemma:collinear4
+     COBAW lemma:collinearorder
+     COBAG lemma:collinearorder
+     EQAA  cn:equalityreflexive
+     COBAA defn:collinear
+     NEGW
+     COGWA lemma:collinear5
+     COWDA lemma:collinear4
+     NEDW  lemma:betweennotequal
+     NEWD  lemma:inequalitysymmetric
+     CODBA lemma:collinear4
+     COABD lemma:collinearorder
+     NCABD
+    EQWG reductio
+    BEDWE
+    BEDGE  cn:equalitysub
+    BEEGD  axiom:betweennesssymmetry
+    BEGFD  axiom:betweennesssymmetry
+    BEEGF  axiom:innertransitivity
+    BEHFC
+    COHCE assumption
+     COHEC lemma:collinearorder
+     COEHC lemma:collinearorder
+     COCFH  defn:collinear
+     COHCF  lemma:collinearorder
+     COHCE lemma:collinearorder
+     NECH  lemma:betweennotequal
+     NEHC  lemma:inequalitysymmetric
+     COCFE lemma:collinear4
+     COEFC  lemma:collinearorder
+     BEDFG
+     BEDGE
+     BEDFE  lemma:3.6b
+     CODFE  defn:collinear
+     COEFD lemma:collinearorder
+     NEFE  lemma:betweennotequal
+     NEEF  lemma:inequalitysymmetric
+     COFCD lemma:collinear4
+     COFDC  lemma:collinearorder
+     CODFG  defn:collinear
+     COFDG lemma:collinearorder
+     NEDF  lemma:betweennotequal
+     NEFD  lemma:inequalitysymmetric
+     CODCG lemma:collinear4
+     COGCD  lemma:collinearorder
+     COCGQ  defn:collinear
+     COGCQ lemma:collinearorder
+     NECG  lemma:betweennotequal
+     NEGC lemma:inequalitysymmetric
+     COCDQ lemma:collinear4
+     COQCD lemma:collinearorder
+     NCQCD
+    NCHCE reductio
+    ANBEEMC+BEHGM postulate:Pasch-outer
+    BEEMC
+    BEHGM
+    COHGM  defn:collinear
+    COABH
+    COABG
+    COBHG lemma:collinear4
+    COHGB lemma:collinearorder
+    NEHG  lemma:betweennotequal
+    COGMB lemma:collinear4
+    COGBM  lemma:collinearorder
+    COGBA  lemma:collinearorder
+    cases COABM:EQBG|NEBG
+     case 1:EQBG
+      COBAH  lemma:collinearorder
+      COBAG  lemma:collinearorder
+      COAHG  lemma:collinear4
+      COHGA   lemma:collinearorder
+      COHGM   
+      COGAM  lemma:collinear4
+      COBAM   cn:equalitysub
+      COABM   lemma:collinearorder
+     qedcase
+     case 2:NEBG
+      NEGB  lemma:inequalitysymmetric
+      COBMA  lemma:collinear4
+      COABM  lemma:collinearorder
+     qedcase
+    COABM cases
+    BECME  axiom:betweennesssymmetry
+    ANBECME+COABM+NCABC
+    OSCABE  defn:oppositeside
+    NOOSCABE
+   NCEDG  reductio
+   OSFABE lemma:9.5b
+   EQGH assumption
+    CODHQ defn:collinear
+    COCGQ defn:collinear
+    COQHD lemma:collinearorder
+    COQGC lemma:collinearorder
+    COQHC cn:equalitysub
+    NEHQ lemma:betweennotequal
+    NEQH lemma:inequalitysymmetric
+    COHDC lemma:collinear4
+    COHDQ lemma:collinearorder
+    NEDH lemma:betweennotequal
+    NEHD lemma:inequalitysymmetric
+    CODCQ lemma:collinear4
+    COCQD lemma:collinearorder
+    NCCQD 
+   NEGH  reductio
+   COHCE assumption
+    BEEWD  axiom:betweennesssymmetry
+    BEGFD  axiom:betweennesssymmetry
+    ANBEEJF+BEGJW postulate:Pasch-inner
+    BEEJF
+    BEGJW
+    COGJW  defn:collinear
+    COEFJ  defn:collinear
+    COFEJ  lemma:collinearorder
+    COCFH  defn:collinear
+    COCHF  lemma:collinearorder
+    COCHE  lemma:collinearorder
+    NECH   lemma:betweennotequal
+    COHFE  lemma:collinear4
+    COFEH  lemma:collinearorder
+    BEEJF
+    NEEF  lemma:betweennotequal
+    NEFE  lemma:inequalitysymmetric
+    COFEJ
+    COFEH
+    COGWJ  lemma:collinearorder
+    COABG
+    COABH
+    COABW
+    COGHW  lemma:collinear5
+    COGWH lemma:collinearorder
+    EQGW  assumption
+     CODWE  defn:collinear
+     CODGE  cn:equalitysub
+     COEDG  lemma:collinearorder
+     NCEDG
+    NEGW  reductio
+    COEJH lemma:collinear4
+    COWJH lemma:collinear4
+    COJHE lemma:collinearorder
+    COJHW lemma:collinearorder
+    EQHW assumption
+     CODWE  defn:collinear
+     CODHE  cn:equalitysub
+     CODHQ  defn:collinear
+     NEDH  lemma:betweennotequal
+     COHEQ lemma:collinear4
+     COHEC  lemma:collinearorder
+     NEWE  lemma:betweennotequal
+     NEHE   cn:equalitysub
+     COEQC  lemma:collinear4
+     COECQ lemma:collinearorder
+     COECH lemma:collinearorder
+     NEEC  assumption
+      COCQH lemma:collinear4
+      COHQC  lemma:collinearorder
+      COHQD lemma:collinearorder
+      NEHQ  lemma:betweennotequal
+      COQCD lemma:collinear4
+      NCQCD
+     EQEC reductio
+     COEWD lemma:collinearorder
+     COCWD cn:equalitysub
+     COCHD cn:equalitysub
+     CODHC lemma:collinearorder
+     CODHQ defn:collinear
+     NEDH  lemma:betweennotequal
+     COHCQ lemma:collinear4
+     COHQC lemma:collinearorder
+     COHQD lemma:collinearorder
+     NEHQ  lemma:betweennotequal
+     COQCD lemma:collinear4
+     COCQD lemma:collinearorder
+     NCCQD 
+    NEHW reductio
+    NEJH  assumption
+     COHEW lemma:collinear4
+     COHWE lemma:collinearorder
+     COHWG lemma:collinearorder
+     COWEG lemma:collinear4
+     CODWE  defn:collinear
+     COWED lemma:collinearorder
+     NEWE  lemma:betweennotequal
+     COEGD  lemma:collinear4
+     COEDG  lemma:collinearorder
+     NCEDG
+    EQJH reductio
+    BEEJF
+    BEEHF  cn:equalitysub
+    BEFHE  axiom:betweennesssymmetry
+    BECFH
+    BECHE  lemma:3.7a
+    COABH
+    OSCABE  defn:oppositeside
+    NOOSCABE
+   NCHCE reductio
+   OSCABE lemma:9.5a
+   NOOSCABE
+  OSCABE reductio
+ qedcase
+OSCABE cases

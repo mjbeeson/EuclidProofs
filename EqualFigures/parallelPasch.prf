@@ -1,0 +1,53 @@
+PGABCD  
+BEADE  
+PRABCD  defn:parallelogram
+PRADBC  defn:parallelogram
+PRCDAB  lemma:parallelsymmetric
+TPCDAB  lemma:paralleldef2B
+SSABCD  defn:tarski_parallel
+SSBACD  lemma:samesidesymmetric
+EQDD  cn:equalityreflexive
+NEAD  lemma:betweennotequal
+COADD  defn:collinear
+COADE  defn:collinear
+CODDE  lemma:collinear4
+COEDD  lemma:collinearorder
+COCDD  defn:collinear
+NCACD   lemma:parallelNC
+NCCDA   lemma:NCorder
+ANBEADE+COCDD+NCCDA
+OSACDE  defn:oppositeside
+OSBCDE  lemma:planeseparation
+ANBEBHE+COCDH+NCCDB  defn:oppositeside
+BEBHE
+COCDH
+BEEHB  axiom:betweennesssymmetry
+CODCH  lemma:collinearorder   
+PRADBC
+NEAD  defn:parallel
+NOMEADBC  defn:parallel
+MEEDCB assumption
+ ANNEED+NECB+COEDp+COCBp  defn:meet
+ NEED
+ NECB
+ NEBC lemma:inequalitysymmetric
+ COEDp
+ COCBp
+ COBCp lemma:collinearorder
+ COADE
+ COEDA  lemma:collinearorder
+ CODAp  lemma:collinear4
+ COADp  lemma:collinearorder
+ ANNEAD+NEBC+COADp+COBCp
+ MEADBC  defn:meet
+NOMEEDCB  reductio
+EQCC   cn:equalityreflexive
+NEDE  lemma:betweennotequal
+NEED  lemma:inequalitysymmetric
+NEBC defn:parallel
+NECB  lemma:inequalitysymmetric
+COCCB  defn:collinear
+COEDD
+BEDHC  lemma:collinearbetween
+BECHD  axiom:betweennesssymmetry
+ANBEBHE+BECHD  

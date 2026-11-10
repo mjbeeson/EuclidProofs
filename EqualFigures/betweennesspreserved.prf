@@ -1,0 +1,26 @@
+EEABab
+EEACac
+EEBCbc
+BEABC
+NEAB  lemma:betweennotequal
+EEABab  
+NEab axiom:nocollapse
+NEBC  lemma:betweennotequal
+NEbc  axiom:nocollapse
+ANBEabd+EEbdbc  lemma:localextension
+BEabd
+EEbdbc
+EEbcbd  lemma:congruencesymmetric
+EEbcBC  lemma:congruencesymmetric
+EEbdBC  cn:congruencetransitive
+EEABab
+EEBCbd  lemma:congruencesymmetric
+EEBCbc
+EEACac
+EECCcd  axiom:5-line
+EEcdCC  lemma:congruencesymmetric
+NEcd   assumption
+ NECC  axiom:nocollapse
+ EQCC  cn:equalityreflexive
+EQcd    reductio
+BEabc   cn:equalitysub

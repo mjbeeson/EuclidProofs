@@ -1,0 +1,116 @@
+OSPABC
+RARQP
+COABR
+ORBERPQ|EQQP|BERQP  lemma:ray1
+cases OSQABC:NCCPR|COCPR
+ case 1:NCCPR
+  cases OSQABC:BERPQ|EQQP|BERQP
+   case 1:BERPQ
+    CORQC assumption
+     COQRC lemma:collinearorder
+     CORQP lemma:rayimpliescollinear
+     COQRP  lemma:collinearorder
+     NERQ  lemma:betweennotequal
+     NEQR  lemma:inequalitysymmetric
+     CORCP lemma:collinear4
+     COCPR lemma:collinearorder
+     NCCPR  
+    NCRQC reductio
+    OSQABC  lemma:9.5a
+   qedcase
+   case 2:EQQP
+    OSQABC  cn:equalitysub
+   qedcase
+   case 3:BERQP
+    OSQABC  lemma:9.5b
+   qedcase
+  OSQABC cases
+ qedcase
+ case 2:COCPR
+  ANBEPLC+COABL+NCABP  defn:oppositeside
+  BEPLC
+  COABL
+  NCABP
+  COPCL  defn:collinear
+  COCPL  lemma:collinearorder
+  NEPC  lemma:betweennotequal
+  NECP  lemma:inequalitysymmetric
+  COPLR  lemma:collinear4
+  EQAB assumption
+   COABP defn:collinear
+  NEAB reductio
+  COBLR lemma:collinear4
+  COLRP lemma:collinearorder
+  COLRB lemma:collinearorder
+  NELR assumption
+   CORPB lemma:collinear4
+   CORBP lemma:collinearorder
+   CORBA lemma:collinearorder
+   NERB assumption
+    COBPA lemma:collinear4
+    COABP lemma:collinearorder
+    NCABP
+   EQRB  reductio
+   NEBA  lemma:inequalitysymmetric
+   NERA  cn:equalitysub
+   COBAR lemma:collinearorder
+   COBAL  lemma:collinearorder
+   COALR  lemma:collinear4
+   COLRA  lemma:collinearorder
+   CORPA  lemma:collinear4
+   CORAP  lemma:collinearorder
+   CORAB lemma:collinearorder
+   COAPB  lemma:collinear4
+   COABP  lemma:collinearorder
+   NCABP
+  EQLR  reductio
+  BEPRC  cn:equalitysub 
+  BECRP  axiom:betweennesssymmetry
+  cases BECRQ:BERPQ|EQQP|BERQP 
+   case 1:BERPQ
+    BECRQ  lemma:3.7b
+   qedcase
+   case 2:EQQP
+    BECRQ  cn:equalitysub
+   qedcase
+   case 3: BERQP
+    BECRQ  axiom:innertransitivity
+   qedcase
+  BECRQ cases
+  BEQRC axiom:betweennesssymmetry
+  COABQ assumption
+   COABR 
+   COBQR  lemma:collinear4
+   CORQP lemma:rayimpliescollinear
+   COQRB  lemma:collinearorder
+   COQRP  lemma:collinearorder
+   NEQR  lemma:betweennotequal
+   CORBP lemma:collinear4
+   CORBA lemma:collinearorder
+   NERB assumption
+    COBPA lemma:collinear4
+    COABP lemma:collinearorder
+    NCABP
+   EQRB reductio
+   NEBA lemma:inequalitysymmetric
+   NERA  cn:equalitysub
+   COBAR lemma:collinearorder
+   COBAQ lemma:collinearorder
+   NEBA lemma:inequalitysymmetric
+   COAQR lemma:collinear4
+   COQRA lemma:collinearorder
+   COQRP
+   CORAP lemma:collinear4
+   CORAB lemma:collinearorder
+   COAPB lemma:collinear4
+   COABP lemma:collinearorder
+   NCABP
+  NCABQ reductio
+  ANBEQRC+COABR+NCABQ
+  OSQABC defn:oppositeside
+ qedcase
+OSQABC cases
+   
+
+   
+     

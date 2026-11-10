@@ -1,0 +1,31 @@
+PRABcd
+COcdC
+NECd
+ANNEAB+NEcd+COABa+COABb+NEab+COcdp+COcdq+NEpq+NOMEABcd+BEaRq+BEpRb  defn:parallel
+NEAB
+NEcd
+COABa
+COABb
+NEab
+COcdq
+NEpq
+NOMEABcd
+BEaRq
+BEpRb
+COcdp
+COdCp  lemma:collinear4
+COCdp  lemma:collinearorder
+COdCq  lemma:collinear4
+COCdq  lemma:collinearorder
+MEABCd assumption
+ ANNEAB+NECd+COABE+COCdE defn:meet
+ COABE
+ COCdE
+ COCdc lemma:collinearorder
+ COdEc lemma:collinear4
+ COcdE lemma:collinearorder
+ ANNEAB+NEcd+COABE+COcdE
+ MEABcd defn:meet
+NOMEABCd reductio
+ANNEAB+NECd+COABa+COABb+NEab+COCdp+COCdq+NEpq+NOMEABCd+BEaRq+BEpRb 
+PRABCd   defn:parallel

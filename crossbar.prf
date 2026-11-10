@@ -1,0 +1,128 @@
+TRABC  
+BEAEC
+RABAU
+RABCV
+NCABC  defn:triangle
+EQBE  assumption
+ BEABC  assumption
+  COABC  defn:collinear
+ NOBEABC reductio
+ BEAEC
+ BEABC  cn:equalitysub
+NEBE  reductio
+EQBA  assumption
+ EQAB  lemma:equalitysymmetric
+ COABC  defn:collinear
+NEBA reductio
+EQBC  assumption
+ COABC  defn:collinear
+NEBC reductio
+NEBU lemma:raystrict
+NEBV lemma:raystrict
+ANBEBAP+EEAPBU lemma:extension
+ANBEBCQ+EECQBV lemma:extension
+BEBCQ
+COBQA  assumption
+ COQBA  lemma:collinearorder
+ COBCQ  defn:collinear
+ COQBC  lemma:collinearorder
+ NEBQ  lemma:betweennotequal
+ NEQB  lemma:inequalitysymmetric
+ COBAC  lemma:collinear4
+ COABC  lemma:collinearorder
+ NCABC
+NCBQA reductio
+ANBEAFQ+BEBEF postulate:Pasch-outer
+BEAFQ
+BEBEF
+BEBAP
+BEQFA  axiom:betweennesssymmetry
+COBPQ   assumption
+ COPBQ  lemma:collinearorder
+ COBAP defn:collinear
+ COPBA  lemma:collinearorder
+ NEBP  lemma:betweennotequal
+ NEPB  lemma:inequalitysymmetric
+ COBQA lemma:collinear4
+ NCBQA
+NCBPQ reductio
+ANBEQWP+BEBFW postulate:Pasch-outer
+BEBFW
+BEBEW lemma:3.6b
+RABAU
+ANBEJBU+BEJBA  defn:ray
+BEJBA
+BEJBU
+EEAPPA  cn:equalityreverse
+EEAPBU  
+EEBUAP  lemma:congruencesymmetric
+EEBUPA  lemma:congruencetransitive
+EEPABU  lemma:congruencesymmetric
+BEPAB   axiom:betweennesssymmetry
+LTBUPB  defn:lessthan
+EEPBBP  cn:equalityreverse
+LTBUBP  lemma:lessthancongruence
+ANBEBSP+EEBSBU  defn:lessthan
+BEBSP
+EEBSBU
+BEJBP  lemma:3.7b
+BEJBS axiom:innertransitivity
+EQSU  lemma:extensionunique
+BEBUP cn:equalitysub
+ANBEKBV+BEKBC  defn:ray
+BEKBC
+BEKBV
+EECQBV
+EEBVCQ lemma:congruencesymmetric
+EECQQC cn:equalityreverse
+EEBVQC lemma:congruencetransitive
+EEQCBV lemma:congruencesymmetric
+BEQCB axiom:betweennesssymmetry
+LTBVQB defn:lessthan
+EEQBBQ  cn:equalityreverse
+LTBVBQ  lemma:lessthancongruence
+ANBEBRQ+EEBRBV  defn:lessthan
+BEBRQ
+EEBRBV
+BEKBQ  lemma:3.7b
+BEKBR axiom:innertransitivity
+EQRV  lemma:extensionunique
+BEBVQ cn:equalitysub
+BEBVQ
+BEQWP
+COQPB  assumption
+ COBPQ lemma:collinearorder
+ NCBPQ
+NCQPB reductio
+ANBEQMU+BEBMW postulate:Pasch-inner
+BEQMU 
+BEUMQ  axiom:betweennesssymmetry
+COUQB assumption
+ COBUP  defn:collinear
+ COBUQ  lemma:collinearorder
+ NEBU  lemma:betweennotequal
+ COUBP  lemma:collinearorder
+ COUBQ  lemma:collinearorder
+ NEUB lemma:inequalitysymmetric
+ COBPQ lemma:collinear4
+ COQPB lemma:collinearorder
+ NCQPB
+NCUQB reductio
+ANBEUHV+BEBHM postulate:Pasch-inner
+BEUHV
+NEBE
+EQEB assumption
+EQBE lemma:equalitysymmetric
+NEEB  reductio
+ANBEEBN+EEBNBE lemma:extension
+BEEBN
+BENBE  axiom:betweennesssymmetry
+BEBMW
+BEBHM
+BEBHW  lemma:3.6b
+BENBE
+BEBEW
+BENBW lemma:3.7b
+BENBH  axiom:innertransitivity
+RABEH  defn:ray
+ANRABEH+BEUHV

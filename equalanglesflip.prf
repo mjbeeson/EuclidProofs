@@ -1,0 +1,11 @@
+EAABCDEF
+NCDEF  lemma:equalanglesNC
+EADEFABC  lemma:equalanglessymmetric
+NCABC   lemma:equalanglesNC
+COCBA   assumption
+ COABC  lemma:collinearorder
+NCCBA   reductio
+EACBAABC  lemma:ABCequalsCBA
+EACBADEF  lemma:equalanglestransitive
+EADEFFED  lemma:ABCequalsCBA
+EACBAFED  lemma:equalanglestransitive

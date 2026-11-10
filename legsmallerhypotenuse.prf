@@ -1,0 +1,63 @@
+RRABC
+RRCBA   lemma:8.2
+ANBECBD+EECBDB+EECADA+NEBA  defn:rightangle
+BECBD
+EECBDB
+EECADA
+NEBA
+NCABC   lemma:rightangleNC
+TRABC   defn:triangle
+COACB  assumption
+ COABC  lemma:collinearorder
+NCACB  reductio
+TRACB   defn:triangle
+ANAOCABABD+AOBCAABD  proposition:16
+AOCABABD
+EQAA   cn:equalityreflexive
+EQCC   cn:equalityreflexive
+EQDD   cn:equalityreflexive
+EQBC assumption
+ COABC  defn:collinear
+NEBC reductio
+NEBD  lemma:betweennotequal
+RABAA  lemma:ray4
+RABCC  lemma:ray4
+RABDD  lemma:ray4
+EEBABA  cn:congruencereflexive
+EEBDBC lemma:doublereverse
+EEADAC  lemma:doublereverse
+COABD   assumption
+ COCBD  defn:collinear
+ CODBC  lemma:collinearorder
+ CODBA  lemma:collinearorder
+ NEBD   lemma:betweennotequal
+ NEDB   lemma:inequalitysymmetric
+ COBCA  lemma:collinear4
+ COABC  lemma:collinearorder
+ NCABC
+NCABD   reductio
+EAABDABC  defn:equalangles
+EAABCABD  lemma:equalanglessymmetric
+AOBCAABD
+AOBCAABC lemma:angleorderrespectscongruence
+TRABC
+LTABAC   proposition:19
+AOCABABC lemma:angleorderrespectscongruence
+COBAC   assumption
+ COABC  lemma:collinearorder
+ NCABC
+NCBAC   reductio
+EABACCAB lemma:ABCequalsCBA
+AOBACABC lemma:angleorderrespectscongruence2
+COCBA  assumption
+ COABC lemma:collinearorder
+NCCBA   reductio
+TRCBA    defn:triangle
+EACBAABC lemma:ABCequalsCBA
+AOBACCBA lemma:angleorderrespectscongruence
+LTCBCA proposition:19
+EECBBC cn:equalityreverse
+LTBCCA lemma:lessthancongruence2
+EECAAC cn:equalityreverse
+LTBCAC lemma:lessthancongruence
+ANLTABAC+LTBCAC

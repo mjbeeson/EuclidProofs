@@ -1,0 +1,111 @@
+PGABCD
+PGEFGH
+COADE
+COADH
+COBCF
+COBCG
+EEBCFG
+ANPRABCD+PRADBC  defn:parallelogram
+ANPREFGH+PREHFG  defn:parallelogram
+PRABCD
+PREFGH
+PREHFG
+NCEHG  lemma:parallelNC
+NEEH   lemma:NCdistinct
+NCABC  lemma:parallelNC
+NEBC  lemma:NCdistinct
+EEEHFG   proposition:34
+EEFGEH   lemma:congruencesymmetric
+EEBCEH   lemma:congruencetransitive
+PRADBC   
+PRBCAD  lemma:parallelsymmetric
+PRBCEH   lemma:collinearparallel2
+PREHBC  lemma:parallelsymmetric
+EEEHBC  lemma:congruencesymmetric
+NOORCRECBH|CREBHC assumption
+ ANNOCRECBH+NOCREBHC
+ NOCRECBH
+ NOCREBHC
+ CRECBH  lemma:crisscross
+ORCRECBH|CREBHC reductio
+cases EFABCDEFGH:CRECBH|CREBHC
+ case 1:CRECBH
+  ANBEEMC+BEBMH  defn:cross
+  BEEMC
+  BEBMH
+  BEHMB  axiom:betweennesssymmetry
+  ANPREBHC+EEEBHC  proposition:33
+  PREBHC
+  PREBCH  lemma:parallelflip
+  PGEBCH defn:parallelogram
+  EFABCDEBCH  proposition:35
+  COBCF
+  COBCG
+  NEBC
+  COCFG  lemma:collinear4
+  COGFC  lemma:collinearorder
+  COCBF  lemma:collinearorder
+  COCBG  lemma:collinearorder
+  NECB   lemma:inequalitysymmetric
+  COBFG  lemma:collinear4
+  COGFB  lemma:collinearorder
+  PREHFG
+  PRFGEH  lemma:parallelsymmetric
+  PRGFHE  lemma:parallelflip
+  PREFGH  defn:parallelogram
+  PRGHEF   lemma:parallelsymmetric 
+  ANPRGHEF+PRGFHE
+  PGGHEF  defn:parallelogram
+  PREBCH
+  PRCHEB lemma:parallelsymmetric
+  PREHBC
+  PRBCEH lemma:parallelsymmetric
+  PRCBHE lemma:parallelflip
+  ANPRCHEB+PRCBHE
+  PGCHEB  defn:parallelogram
+  EFGHEFCHEB  proposition:35
+  EFGHEFEBCH axiom:EFpermutation
+  EFEBCHGHEF axiom:EFsymmetric
+  EFABCDGHEF axiom:EFtransitive
+  EFABCDEFGH axiom:EFpermutation
+ qedcase
+ case 2:CREBHC 
+  ANBEEMB+BEHMC  defn:cross
+  BEEMB
+  BEHMC
+  PRHEBC  lemma:parallelflip
+  EEHEBC  lemma:congruenceflip
+  ANPRHBEC+EEHBEC  proposition:33
+  PRHBEC
+  PRHBCE  lemma:parallelflip
+  PGHBCE defn:parallelogram
+  EFABCDHBCE  proposition:35
+  COBCF
+  COBCG
+  NEBC
+  COCGF  lemma:collinear4
+  COFGC  lemma:collinearorder
+  COCBG  lemma:collinearorder
+  COCBF  lemma:collinearorder
+  NECB   lemma:inequalitysymmetric
+  COBGF  lemma:collinear4
+  COFGB  lemma:collinearorder
+  PRHEFG  lemma:parallelflip
+  PRFGHE  lemma:parallelsymmetric
+  PRFGEH  lemma:parallelflip
+  PRFEHG  lemma:parallelflip
+  ANPRFEHG+PRFGEH
+  PGFEHG  defn:parallelogram
+  PRHBCE
+  PRCEHB lemma:parallelsymmetric
+  PRCBEH lemma:parallelflip
+  ANPRCEHB+PRCBEH
+  PGCEHB  defn:parallelogram
+  EFFEHGCEHB  proposition:35
+  EFFEHGHBCE axiom:EFpermutation
+  EFHBCEFEHG axiom:EFsymmetric
+  EFABCDFEHG axiom:EFtransitive
+  EFABCDEFGH axiom:EFpermutation
+ qedcase
+EFABCDEFGH cases
+  

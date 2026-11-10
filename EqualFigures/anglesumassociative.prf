@@ -1,0 +1,38 @@
+ASABCDEFPQR
+ASPQRTUVSYZ
+ASDEFTUVGHJ
+ANEAABCPQX+EADEFXQR+BEPXR   defn:anglesum
+EAABCPQX
+EADEFXQR
+BEPXR
+ANEAPQRSYW+EATUVWYZ+BESWZ   defn:anglesum
+EAPQRSYW
+EATUVWYZ
+BESWZ
+ANEADEFGHK+EATUVKHJ+BEGKJ  defn:anglesum
+EADEFGHK
+EATUVKHJ
+BEGKJ
+ASABCDEFPQR
+EAPQRSYW
+ASABCDEFSYW        lemma:angleaddition2
+ANEAABCSYL+EADEFLYW+BESLW    defn:anglesum
+EAABCSYL
+EADEFLYW
+BESLW
+BESWZ
+BESLZ            lemma:3.6b
+BELWZ            lemma:3.6a
+EADEFLYW
+EATUVWYZ
+ASDEFTUVLYZ      defn:anglesum
+ASDEFTUVGHJ
+EAXQRDEF         lemma:equalanglessymmetric
+EAKHJTUV         lemma:equalanglessymmetric
+NCDEF            lemma:equalanglesNC
+NCTUV            lemma:equalanglesNC
+EADEFDEF         lemma:equalanglesreflexive
+EATUVTUV         lemma:equalanglesreflexive
+EAGHJLYZ         lemma:angleaddition       		
+EAABCSYL	
+ASABCGHJSYZ     defn:anglesum

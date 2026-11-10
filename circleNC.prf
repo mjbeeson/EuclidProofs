@@ -1,0 +1,146 @@
+EEFAFB
+EEFAFC
+NEAF
+NEAB
+NEAC
+NEBC
+NEFA  lemma:inequalitysymmetric
+NEFB  axiom:nocollapse
+NEFC  axiom:nocollapse
+CIKFFA   postulate:Euclid3
+EEFAFA  cn:congruencereflexive
+EEFBFA  lemma:congruencesymmetric
+EEFCFA  lemma:congruencesymmetric
+ONAK   defn:on
+ONBK  defn:on
+ONCK   defn:on
+COABC assumption
+	OREQAB|EQAC|EQBC|BEBAC|BEABC|BEACB  defn:collinear
+	cases NCABC:EQAB|EQAC|EQBC|BEBAC|BEABC|BEACB 
+		case 1: EQAB
+			COABC assumption
+				NEAB
+			NCABC reductio
+			qedcase
+		case 2: EQAC
+			COABC assumption
+				NEAC
+			NCABC reductio
+			qedcase
+		case 3: EQBC
+			COABC assumption
+				NEBC
+			NCABC reductio
+			qedcase
+		case 4: BEBAC
+			ICAK   proposition:III.02
+			ANCIKfpq+OREQAf|LTfApq defn:inside
+			CIKfpq
+			OREQAf|LTfApq
+			EQfF   lemma:centerunique
+			CIKfpq  cn:equalitysub
+			CIKFFA 
+			NEFA
+			cases LTfApq:EQAf|LTfApq
+				case 1:EQAf
+					NEAF  lemma:inequalitysymmetric
+					NEAf   cn:equalitysub
+					NEfA  lemma:inequalitysymmetric
+					NEfA   cn:equalitysub
+					NOLTfApq assumption
+						NEAf
+					LTfApq reductio
+					qedcase
+				case 2: LTfApq
+					qedcase
+			LTfApq  cases
+			EQpq  assumption
+				ANBEpmq+EEpmfA  defn:lessthan
+				BEpmq
+				NEpq  lemma:betweennotequal
+			NEpq  reductio
+			EEpqFA lemma:radiusunique
+			NEAF
+			LTFApq  cn:equalitysub
+			LTFAFA  lemma:lessthancongruence
+			COABC assumption
+				NOLTFAFA lemma:trichotomy2
+			NCABC reductio
+			qedcase
+		case 5: BEABC
+			ICBK   proposition:III.02
+			ANCIKfpq+OREQBf|LTfBpq defn:inside
+			CIKfpq
+			OREQBf|LTfBpq
+			EQfF   lemma:centerunique
+			CIKfpq  cn:equalitysub
+			cases LTfBpq:EQBf|LTfBpq
+				case 1:EQBf
+					NEBF  lemma:inequalitysymmetric
+					NEBf   cn:equalitysub
+					NEfB  lemma:inequalitysymmetric
+					NEfB   cn:equalitysub
+					NOLTfBpq assumption
+						NEBf
+					LTfBpq reductio
+					qedcase
+				case 2: LTfBpq
+					qedcase
+			LTfBpq  cases
+			EQpq  assumption
+				ANBEpmq+EEpmfB  defn:lessthan
+				BEpmq
+				NEpq  lemma:betweennotequal
+			NEpq  reductio
+			CIKfpq
+			CIKFFA
+			EEpqFA lemma:radiusunique
+			EEFAFB
+			EEpqFB lemma:congruencetransitive
+			NEBF    lemma:inequalitysymmetric
+			LTFBpq  cn:equalitysub
+			LTFBFB  lemma:lessthancongruence
+			COABC assumption
+				NOLTFBFB lemma:trichotomy2
+			NCABC reductio
+			qedcase
+
+		case 6: BEACB
+			ICCK   proposition:III.02
+			ANCIKfpq+OREQCf|LTfCpq defn:inside
+			CIKfpq
+			OREQCf|LTfCpq
+			EQfF   lemma:centerunique
+			CIKfpq  cn:equalitysub
+			cases LTfCpq:EQCf|LTfCpq
+				case 1:EQCf
+					NECF  lemma:inequalitysymmetric
+					NECf   cn:equalitysub
+					NEfC  lemma:inequalitysymmetric
+					NEfC   cn:equalitysub
+					NOLTfCpq assumption
+						NECf
+					LTfCpq reductio
+					qedcase
+				case 2: LTfCpq
+					qedcase
+			LTfCpq  cases
+			EQpq  assumption
+				ANBEpmq+EEpmfC  defn:lessthan
+				BEpmq
+				NEpq  lemma:betweennotequal
+			NEpq  reductio
+			CIKfpq
+			CIKFFA
+			EEpqFA lemma:radiusunique
+			EEFAFC
+			EEpqFC lemma:congruencetransitive
+			NECF    lemma:inequalitysymmetric
+			LTFCpq  cn:equalitysub
+			LTFCFC  lemma:lessthancongruence
+			COABC assumption
+				NOLTFCFC lemma:trichotomy2
+			NCABC reductio
+			qedcase
+	NCABC cases
+NCABC reductio

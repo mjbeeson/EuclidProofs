@@ -1,0 +1,217 @@
+TRABC
+RRBAC
+SQABFG
+OSGBAC
+SQBCED
+OSDCBA
+ANPGBMLD+BEBMC+PGMCEL+BEDLE+BELMA+RRDLA  proposition:47A
+PGBMLD
+BEBMC
+PGMCEL
+BEDLE
+BELMA
+RRDLA
+ANBEDNA+COCBN+NCCBD  defn:oppositeside
+RRGAB  defn:square
+BEGAC  lemma:righttogether
+RRABF  defn:square
+RRFBA  lemma:8.2
+RRDBC  defn:square
+NCABC  defn:triangle
+PGABFG  lemma:squareparallelogram
+PRABFG  defn:parallelogram
+PRABGF  lemma:parallelflip
+TPABGF  lemma:paralleldef2B
+SSGFAB  defn:tarski_parallel
+SSFGAB  lemma:samesidesymmetric
+OSGABC  lemma:oppositesideflip
+OSFABC  lemma:planeseparation
+ANBEFaC+COABa+NCABF defn:oppositeside
+BEFaC
+COABa
+COBAa  lemma:collinearorder
+PRAGBF  defn:parallelogram
+PRAGFB  lemma:parallelflip
+COGAC  defn:collinear
+COAGC  lemma:collinearorder
+NEGC  lemma:betweennotequal
+NECG  lemma:inequalitysymmetric
+PRFBAG lemma:parallelsymmetric
+PRFBCG  lemma:collinearparallel
+PRFBGC  lemma:parallelflip
+NOMEFBGC  defn:parallel
+NEAC  lemma:NCdistinct
+NCABF  lemma:parallelNC
+NEFA  lemma:NCdistinct
+NEFB  lemma:NCdistinct
+EQBB  cn:equalityreflexive
+COFBB defn:collinear
+ANCOFBB+COGAC+NEFB+NEGC+NEFA+NEAC+NOMEFBGC+BEFaC+COBAa
+BEBaA   lemma:collinearbetween
+NEBa  lemma:betweennotequal
+RABaA  lemma:ray4
+NEBF  lemma:inequalitysymmetric
+EQFF  cn:equalityreflexive
+RABFF  lemma:ray4
+NCABF  lemma:parallelNC
+NCFBA  lemma:NCorder
+EAFBAFBA  lemma:equalanglesreflexive
+RABAa  lemma:ray5
+EAFBAFBa  lemma:equalangleshelper
+NEBC  lemma:NCdistinct
+EQCC  cn:equalityreflexive
+RABCC   lemma:ray4
+EAABCABC  lemma:equalanglesreflexive
+EAABCaBC  lemma:equalangleshelper
+ASFBAABCFBC  defn:anglesum
+OSDCBA  
+ANBEDcA+COCBc+NCCBD defn:oppositeside
+BEDcA
+COCBc
+NCCBD
+SQBCED  
+PGBCED  lemma:squareparallelogram
+PRBDCE  defn:parallelogram
+PRCEBD  lemma:parallelsymmetric
+PRCEDB  lemma:parallelflip
+COBCc   lemma:collinearorder
+COBMC  defn:collinear
+COCBM  lemma:collinearorder
+COCBc  lemma:collinearorder
+NECB  lemma:NCdistinct
+COBMc  lemma:collinear4
+PGBMLD
+PRBDML  defn:parallelogram
+COLMA  defn:collinear
+COMLA  lemma:collinearorder
+NELA lemma:betweennotequal
+NEAL  lemma:inequalitysymmetric
+PRBDAL  lemma:collinearparallel
+EQBB  cn:equalityreflexive
+PRDBLA  lemma:parallelflip
+NOMEDBLA  defn:parallel 
+NCBDL  lemma:parallelNC
+NEDB   lemma:NCdistinct
+NEMA  lemma:betweennotequal
+NELM  lemma:betweennotequal
+EQDD  cn:equalityreflexive
+CODBB defn:collinear
+ANCODBB+COLMA+NEDB+NELM+NEDB+NEMA+NOMEDBLA+BEDcA+COBMc
+BEBcM   lemma:collinearbetween
+BEBcC   lemma:3.6b
+NCDBA lemma:parallelNC
+EQBc   assumption
+ CODBc  defn:collinear
+ CODcA  defn:collinear
+ COcDB lemma:collinearorder
+ COcDA  lemma:collinearorder
+ NEDc  lemma:betweennotequal
+ NEcD  lemma:inequalitysymmetric
+ CODBA lemma:collinear4
+NEBc  reductio
+RABcC   lemma:ray4
+RABCc   lemma:ray5
+NCCBA  lemma:NCorder
+EACBACBA lemma:equalanglesreflexive
+EQAA   cn:equalityreflexive
+NEBA  lemma:NCdistinct
+RABAA   lemma:ray4
+EACBAcBA  lemma:equalangleshelper
+NCCDB  lemma:parallelNC
+NCDBC  lemma:NCorder
+EADBCDBC  lemma:equalanglesreflexive
+NEBD  lemma:inequalitysymmetric
+RABDD  lemma:ray4
+EADBCDBc  lemma:equalangleshelper
+ASDBCCBADBA  defn:anglesum
+ASFBAABCFBC
+ASDBCCBADBA
+EAFBADBC   lemma:Euclid4
+EAABCCBA   lemma:ABCequalsCBA
+EAFBCDBA   lemma:angleaddition
+EADBAFBC   lemma:equalanglessymmetric
+COCBF  assumption
+ RRFBA
+ COFBC  lemma:collinearorder
+ RRCBA lemma:collinearright
+ NORRCBA  lemma:8.7
+NCCBF reductio
+NCFBC       lemma:NCorder
+EAFBCCBF   lemma:ABCequalsCBA
+EADBACBF  lemma:equalanglestransitive
+EEABBF  defn:square
+EEABFB  lemma:congruenceflip
+EEFBAB  lemma:congruencesymmetric
+EEBFBA  lemma:congruenceflip
+EEBABF  lemma:congruencesymmetric
+EEBCDB  defn:square
+EEDBBC  lemma:congruencesymmetric
+EEBDBC  lemma:congruenceflip
+ANEEDACF+EABDABCF+EABADBFC  proposition:04
+EEDACF
+EEADFC    lemma:congruenceflip
+EABADBFC
+EABFCBAD  lemma:equalanglessymmetric
+NCBAD  lemma:equalanglesNC
+NCABD  lemma:NCorder
+TRABD  defn:triangle
+ANEEABFB+EEADFC+EEBDBC+TRABD
+TCABDFBC   defn:trianglecongruence
+ETABDFBC   axiom:congruentequal
+PGBMLD
+PRBMLD  defn:parallelogram
+PRBDML  defn:parallelogram
+PRMLBD  lemma:parallelsymmetric
+PRMBDL  lemma:parallelflip
+PGMBDL  defn:parallelogram
+COMLA     lemma:collinearorder
+ETMBDABD   proposition:41
+PGABFG   lemma:squareparallelogram
+PGBAGF  lemma:PGflip
+COGAC  defn:collinear
+COAGC  lemma:collinearorder
+ETABFCBF  proposition:41
+ETABFFBC  axiom:ETpermutation
+ETFBCABD  axiom:ETsymmetric
+ETABFABD  axiom:ETtransitive
+ETABDMBD  axiom:ETsymmetric
+ETABFMBD  axiom:ETtransitive
+TCABFFGA  proposition:34
+ETABFFGA axiom:congruentequal
+PGBMLD  lemma:PGflip
+TCMBDDLM  proposition:34
+ETMBDDLM  axiom:congruentequal
+ETFGAABF  axiom:ETsymmetric
+ETFGAABD  axiom:ETtransitive
+ETFGAMBD  axiom:ETtransitive
+ETFGADLM  axiom:ETtransitive
+ETFGADML  axiom:ETpermutation
+ETDMLFGA  axiom:ETsymmetric
+ETDMLFAG  axiom:ETpermutation
+ETFAGDML axiom:ETsymmetric
+ETABFDMB  axiom:ETpermutation
+ETDMBABF  axiom:ETsymmetric
+ETDMBFAB  axiom:ETpermutation
+ETFABDMB  axiom:ETsymmetric
+ANMIAmF+MIBmG  lemma:diagonalsbisect
+MIAmF
+MIBmG
+BEAmF  defn:midpoint
+BEBmG  defn:midpoint
+BEFmA  axiom:betweennesssymmetry
+ANMIBnL+MIMnD  lemma:diagonalsbisect
+MIBnL
+MIMnD
+BEBnL  defn:midpoint
+BEMnD  defn:midpoint
+BEDnM  axiom:betweennesssymmetry
+COMnD  defn:collinear
+CODMn  lemma:collinearorder
+NCBMD  lemma:parallelNC
+NCDMB  lemma:NCorder
+EFFBAGDBML  axiom:paste3
+EFFBAGBMLD  axiom:EFpermutation
+EFBMLDFBAG   axiom:EFsymmetric
+EFBMLDABFG   axiom:EFpermutation
+EFABFGBMLD   axiom:EFsymmetric
+ANPGBMLD+BEBMC+PGMCEL+BEDLE+BELMA+RRDLA+EFABFGBMLD 

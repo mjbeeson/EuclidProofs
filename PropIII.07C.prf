@@ -1,0 +1,60 @@
+CIJEED
+BEAED
+BEEFD
+ONAJ
+ONBJ
+NCADB
+BEAEF   lemma:3.6c
+RAEDF   defn:ray
+EQBB    cn:equalityreflexive
+NEEB    lemma:centernotoncircle
+RAEBB   lemma:ray4
+RAEDF    defn:ray
+CODEB   assumption
+  COEDB  lemma:collinearorder
+  COAED  defn:collinear
+  COEDA  lemma:collinearorder
+  NEED   lemma:betweennotequal
+  CODBA  lemma:collinear4
+  COADB  lemma:collinearorder
+NCDEB    reductio  
+COEFD    defn:collinear
+CODEF    lemma:collinearorder
+EQEE      cn:equalityreflexive
+CODEE     defn:collinear
+NEEF      lemma:betweennotequal
+NEFE     lemma:inequalitysymmetric
+NCFEB     lemma:NChelper
+NCEBF     lemma:NCorder
+TREBF      defn:triangle
+TGBEEFBF   proposition:20
+NEAE       lemma:betweennotequal
+NEBE       lemma:NCdistinct
+NEED       lemma:NCdistinct
+EEEAED     lemma:oncircle
+EEEBED     lemma:oncircle
+EEEDEB     lemma:congruencesymmetric
+EEEAEB     lemma:congruencetransitive
+EEAEBE     lemma:congruenceflip
+EEEFEF     cn:congruencereflexive
+EEBFBF     cn:congruencereflexive
+LTBFAF     lemma:together
+EEBFFB     lemma:congruenceflip
+LTFBAF     lemma:lessthancongruence2
+EEAFAF      cn:congruencereflexive
+EEAFFA     lemma:congruenceflip
+LTFBFA     lemma:lessthancongruence
+EEEFEF     cn:congruencereflexive
+NCEFB      lemma:NCorder
+TREFB      defn:triangle
+EEEFEF     cn:congruencereflexive
+BEEFD
+BEAED
+BEAFD     lemma:3.7a
+TRFEB      defn:triangle
+TGEFFBEB   proposition:20
+EEEBED    lemma:oncircle
+LTFDFB    lemma:togethersubtract
+LTFBFA
+LTFDFA   lemma:lessthantransitive
+ANLTFBFA+LTFDFB+LTFDFA

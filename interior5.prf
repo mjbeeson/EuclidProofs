@@ -1,0 +1,54 @@
+BEABC
+BEabc
+EEABab
+EEBCbc
+EEADad
+EECDcd
+NEBC lemma:betweennotequal
+NEAC lemma:betweennotequal
+EQCA  assumption
+EQAC  lemma:equalitysymmetric
+NECA  reductio
+ANBECAM+EEAMBC lemma:extension
+EEAMBC
+EEAMMA  cn:equalityreverse
+EEMAAM  lemma:congruencesymmetric
+EEMABC  lemma:congruencetransitive
+EEBCbc
+NEBC
+NEbc   axiom:nocollapse
+NEac   lemma:betweennotequal
+EQca    assumption
+EQac   lemma:equalitysymmetric
+NEca   reductio
+ANBEcam+EEambc  lemma:extension
+BEcam
+EEambc
+EEmaam  cn:equalityreverse
+EEmabc  lemma:congruencetransitive
+EEMABC
+EEBCbc
+EEbcma   lemma:congruencesymmetric
+EEBCma   lemma:congruencetransitive
+EEMAma   lemma:congruencetransitive
+EEABab
+EEBCbc
+EEACac   cn:sumofparts
+EEcaCA   lemma:doublereverse
+EECAca   lemma:congruencesymmetric
+BECAM 
+BECBA   axiom:betweennesssymmetry  
+BEBAM   lemma:3.6a
+BEcba   axiom:betweennesssymmetry
+BEbam   lemma:3.6a
+EEAMam  lemma:congruenceflip
+EEADad
+EEDMdm   axiom:5-line
+EEMAma
+BEmab   axiom:betweennesssymmetry
+BEMAB   axiom:betweennesssymmetry
+EEADad
+EEMDmd   lemma:congruenceflip
+EEABab
+EEDBdb   axiom:5-line
+EEBDbd   lemma:congruenceflip

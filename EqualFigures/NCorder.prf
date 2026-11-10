@@ -1,0 +1,17 @@
+NCABC
+COBAC assumption
+ COABC lemma:collinearorder
+NCBAC reductio
+COBCA assumption
+ COABC lemma:collinearorder
+NCBCA reductio
+COCAB assumption
+ COABC lemma:collinearorder
+NCCAB reductio
+COACB assumption
+ COABC lemma:collinearorder
+NCACB reductio
+COCBA assumption
+ COABC lemma:collinearorder
+NCCBA reductio
+ANNCBAC+NCBCA+NCCAB+NCACB+NCCBA

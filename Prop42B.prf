@@ -1,0 +1,130 @@
+TRabc
+MIbec
+NCJDK
+MIBEC
+EEECec
+NCREC
+ANBEBEC+EEBEEC  defn:midpoint
+BEBEC
+ANBEbec+EEbeec  defn:midpoint
+BEbec
+EEbeec
+NEBC lemma:betweennotequal
+NCabc defn:triangle
+NCECR  lemma:NCorder
+COBEC  defn:collinear
+COECB lemma:collinearorder
+EQCC  cn:equalityreflexive
+COECC  defn:collinear
+NCBCR lemma:NChelper
+ANRABCH+EAPBHabc+SSPRBC proposition:23C
+RABCH
+EAPBHabc
+SSPRBC
+EEECec
+EEBEEC
+EEBEec  lemma:congruencetransitive
+EEECBE lemma:congruencesymmetric
+EEECec  lemma:congruencetransitive
+EEBEec lemma:congruencetransitive
+EEecbe lemma:congruencesymmetric
+EEBEbe  lemma:congruencetransitive
+EEBCbc  cn:sumofparts
+EAabcPBH lemma:equalanglessymmetric
+RABHC   lemma:ray5
+NCBCP  defn:sameside
+NEBP  lemma:NCdistinct
+NCabc  defn:triangle
+NEba  lemma:NCdistinct
+ANRABPA+EEBAba  lemma:layoff
+RABPA
+EEBAba
+EAabcABC  lemma:equalangleshelper
+EAABCabc  lemma:equalanglessymmetric
+NCABC  lemma:equalanglesNC
+TRABC  defn:triangle
+EEACac  proposition:04
+EEABab  lemma:congruenceflip
+EEBAba
+EECAca   lemma:congruenceflip
+EEBEbe
+EEEAea  lemma:interior5
+EEAEae  lemma:congruenceflip
+EEABab
+EEEBeb  lemma:congruenceflip
+COBEC  defn:collinear
+COBCE  lemma:collinearorder
+NCBCA  lemma:NCorder
+EQBB  cn:equalityreflexive
+COBCB  defn:collinear
+NEBE lemma:betweennotequal
+NCBEA  lemma:NChelper
+NCAEB lemma:NCorder
+CObec defn:collinear
+CObce lemma:collinearorder
+NCbca  lemma:NCorder
+EQbb cn:equalityreflexive
+CObcb defn:collinear
+NEbe lemma:betweennotequal
+NCbea lemma:NChelper
+NCaeb lemma:NCorder
+TRAEB  defn:triangle
+TCAEBaeb  defn:trianglecongruence
+ETAEBaeb  axiom:congruentequal
+EEACac
+EEECec
+COCBE lemma:collinearorder
+NEEC lemma:betweennotequal
+NECE lemma:inequalitysymmetric
+NCCBA  lemma:NCorder
+EQCC  cn:equalityreflexive
+COCBC  defn:collinear
+NCCEA  lemma:NChelper
+NCAEC  lemma:NCorder
+TRAEC  defn:triangle
+TCAECaec  defn:trianglecongruence
+ETAECaec  axiom:congruentequal
+EQEE   cn:equalityreflexive
+COAEE  defn:collinear
+OSBAEC  defn:oppositeside
+EQee  cn:equalityreflexive
+COaee  defn:collinear
+OSbaec  defn:oppositeside
+EFABECabec axiom:paste3
+EFabecABEC  axiom:EFsymmetric
+ANPGFECG+EFABECFECG+EACEFJDK+COFGA proposition:42
+PGFECG
+EFABECFECG
+EFabecFECG  axiom:EFtransitive
+EACEFJDK 
+SSPRBC
+RABPA
+COCBE 
+NECE
+SSRPBC  lemma:samesidesymmetric
+COBBC  defn:collinear
+SSRABC  lemma:sameside2
+SSRACB lemma:samesideflip
+SSRACE lemma:samesidecollinear
+SSARCE lemma:samesidesymmetric
+SSAREC lemma:samesideflip
+COFGA 
+COGFA  lemma:collinearorder
+PRFGEC  defn:parallelogram
+PRECFG  lemma:parallelsymmetric
+PRECGF  lemma:parallelflip
+cases SSRFEC:EQAF|NEAF
+ case 1:EQAF
+  SSRAEC  lemma:samesideflip
+  SSRFEC  cn:equalitysub
+ qedcase
+ case 2:NEAF
+  PRECAF  lemma:collinearparallel
+  PRECFA  lemma:parallelflip
+  TPECFA  lemma:paralleldef2B
+  SSFAEC   defn:tarski_parallel
+  SSFREC   lemma:samesidetransitive
+  SSRFEC   lemma:samesidesymmetric
+ qedcase
+SSRFEC cases
+ANPGFECG+EFabecFECG+EACEFJDK+SSRFEC 

@@ -1,0 +1,13 @@
+ASABCDEFPQR
+ANEAABCPQX+EADEFXQR+BEPXR  defn:anglesum
+EAABCPQX
+EADEFXQR
+BEPXR
+NCPQX     lemma:equalanglesNC
+NCPXQ     lemma:NCorder
+COPXR     defn:collinear
+EQPP      cn:equalityreflexive
+COPXP     defn:collinear
+NEPR      lemma:betweennotequal
+NCPRQ     lemma:NChelper
+NCPQR     lemma:NCorder

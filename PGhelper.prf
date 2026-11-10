@@ -1,0 +1,113 @@
+PREQSF
+OSSEFQ
+ANBESYQ+COEFY+NCEFS  defn:oppositeside
+BESYQ
+COEFY
+NCEFS
+NCEQS lemma:parallelNC
+NCQSF lemma:parallelNC
+NCSQF lemma:NCorder
+BEYEF assumption
+ BEFEY axiom:betweennesssymmetry
+ ANBEFRQ+BESER  postulate:Pasch-outer
+ BEFRQ
+ BESER
+ COSER defn:collinear
+ BEQRF axiom:betweennesssymmetry
+ COQFR defn:collinear
+ EQEE cn:equalityreflexive
+ COEQE defn:collinear
+ OSSEQR defn:oppositeside
+ NCEQF lemma:parallelNC
+ NEFQ lemma:NCdistinct
+ NEEQ lemma:NCdistinct
+ ANBEFQW+EEQWEQ  lemma:extension
+ BEFQW
+ BERQW lemma:3.6a
+ COEQR assumption
+  CORFQ lemma:collinearorder
+  NERQ lemma:betweennotequal
+  NEQR lemma:inequalitysymmetric
+  COQRF lemma:collinearorder
+  COQRE lemma:collinearorder
+  EQQQ cn:equalityreflexive
+  COQRQ defn:collinear
+  COFEQ lemma:collinear5
+  COEQF lemma:collinearorder
+ NCEQR reductio
+ EQQQ cn:equalityreflexive
+ COEQQ defn:collinear
+ SSRFEQ defn:sameside
+ SSFREQ lemma:samesidesymmetric
+ OSREQS lemma:oppositesidesymmetric
+ OSFEQS lemma:planeseparation
+ OSSEQF lemma:oppositesidesymmetric
+ ANBESTF+COEQT+NCEQS  defn:oppositeside
+ BESTF
+ COEQT
+ NESF lemma:NCdistinct
+ COSFT defn:collinear
+ MEEQSF defn:meet
+ NETF lemma:betweennotequal
+ PREQTF lemma:collinearparallel
+ NCEQT lemma:parallelNC
+NOBEYEF reductio
+BEEFY assumption
+ NCSQE lemma:NCorder
+ ANBEERQ+BESFR  postulate:Pasch-outer
+ BEERQ
+ BESFR
+ COEQR defn:collinear
+ COSFR defn:collinear
+ NEFR lemma:betweennotequal
+ NERF lemma:inequalitysymmetric
+ PREQRF lemma:collinearparallel
+ NCEQR lemma:parallelNC
+NOBEEFY reductio
+EQYE assumption
+ BESEQ cn:equalitysub
+ COSEQ defn:collinear
+ NCSEQ lemma:NCorder
+NEYE reductio
+EQYF assumption
+ BESFQ cn:equalitysub
+ COSFQ defn:collinear
+ NCSFQ lemma:NCorder
+NEYF reductio
+NCEQF lemma:parallelNC
+NEEF lemma:NCdistinct
+NEEY lemma:inequalitysymmetric
+NEFY lemma:inequalitysymmetric
+OREQEF|EQEY|EQFY|BEFEY|BEEFY|BEEYF  defn:collinear
+cases BEEYF:EQEF|EQEY|EQFY|BEFEY|BEEFY|BEEYF
+ case 1:EQEF
+  NOBEEYF assumption
+   NEEF
+  BEEYF reductio
+ qedcase
+ case 2:EQEY
+  NOBEEYF assumption
+   NEEY
+  BEEYF reductio
+ qedcase
+ case 3:EQFY
+  NOBEEYF assumption
+   NEFY
+  BEEYF reductio
+ qedcase
+ case 4:BEFEY
+  NOBEEYF assumption
+   BEYEF axiom:betweennesssymmetry
+   NOBEYEF
+  BEEYF reductio
+ qedcase
+ case 5:BEEFY
+  NOBEEYF assumption
+   NOBEEFY
+  BEEYF reductio
+ qedcase
+ case 6:BEEYF
+ qedcase
+BEEYF cases
+
+ANBEEYF+BESYQ

@@ -1,0 +1,111 @@
+CIJFPQ
+NEPQ
+ONAJ
+ONBJ
+ONCJ
+COCAB
+NEAB
+NEAC
+EEFAPQ  lemma:oncircle
+EEFBPQ  lemma:oncircle
+EEFCPQ  lemma:oncircle
+EEPQFB  lemma:congruencesymmetric
+EEPQFC  lemma:congruencesymmetric
+EEFAFB   lemma:congruencetransitive
+EEFBFA   lemma:congruencesymmetric
+EEFAFC   lemma:congruencetransitive
+BEABC assumption
+ ICBJ    proposition:III.02
+ OREQBF|LTFBPQ  lemma:insidecircle
+ cases NOBEABC:EQBF|LTFBPQ
+   case 1:EQBF
+	   ONFJ  cn:equalitysub
+		 NEFB  lemma:centernotoncircle
+		 BEABC assumption
+			 NEBF  lemma:inequalitysymmetric
+		 NOBEABC reductio
+	qedcase
+	   case 2:LTFBPQ
+		   EEFBPQ
+			 LTPQPQ  lemma:lessthancongruence2
+			 BEABC assumption
+			   NOLTPQPQ  lemma:trichotomy2
+			 NOBEABC reductio
+		qedcase
+  NOBEABC cases
+NOBEABC reductio
+
+BEBAC assumption
+ ICAJ    proposition:III.02
+ OREQAF|LTFAPQ  lemma:insidecircle
+ cases NOBEBAC:EQAF|LTFAPQ
+   case 1:EQAF
+	   ONFJ  cn:equalitysub
+		 NEFA  lemma:centernotoncircle
+		 BEBAC assumption
+			 NEAF  lemma:inequalitysymmetric
+		 NOBEBAC reductio
+	qedcase
+	   case 2:LTFAPQ
+		   EEFAPQ
+			 LTPQPQ  lemma:lessthancongruence2
+			 BEBAC assumption
+			   NOLTPQPQ  lemma:trichotomy2
+			 NOBEBAC reductio
+		qedcase
+  NOBEBAC cases
+NOBEBAC reductio
+
+BEACB assumption
+ ICCJ    proposition:III.02
+ OREQCF|LTFCPQ  lemma:insidecircle
+ cases NOBEACB:EQCF|LTFCPQ
+   case 1:EQCF
+	   ONFJ  cn:equalitysub
+		 NEFC  lemma:centernotoncircle
+		 BEACB assumption
+			 NECF  lemma:inequalitysymmetric
+		 NOBEACB reductio
+	qedcase
+	   case 2:LTFCPQ
+		   EEFCPQ
+			 LTPQPQ  lemma:lessthancongruence2
+			 BEACB assumption
+			   NOLTPQPQ  lemma:trichotomy2
+			 NOBEACB reductio
+		qedcase
+  NOBEACB cases
+NOBEACB reductio
+
+COABC   lemma:collinearorder
+OREQAB|EQAC|EQBC|BEBAC|BEABC|BEACB  defn:collinear
+cases EQBC:EQAB|EQAC|EQBC|BEBAC|BEABC|BEACB
+ case 1:EQAB
+   NEBC assumption
+     NEAB
+	EQBC reductio
+	qedcase
+	case 2:EQAC
+		NEBC assumption
+			NEAC
+		EQBC reductio
+	qedcase
+	case 3: EQBC
+  qedcase
+	case 4:BEBAC
+		NEBC assumption
+			NOBEBAC
+		EQBC reductio
+	qedcase
+	case 5:BEABC
+		NEBC assumption
+			NOBEABC
+		EQBC reductio
+	qedcase
+	case 6:BEACB
+		NEBC assumption
+			NOBEACB
+		EQBC reductio
+	qedcase
+EQBC cases
+ 

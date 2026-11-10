@@ -1,0 +1,14 @@
+BEABE
+BEABF
+EEBEBF
+EEBEBE   cn:congruencereflexive
+EEBFBE   lemma:congruencesymmetric
+EEAEAE   cn:congruencereflexive
+EEABAB   cn:congruencereflexive
+EEBEBF   lemma:congruencesymmetric
+EEEEEF   axiom:5-line
+EEEFEE   lemma:congruencesymmetric
+NEEF assumption
+ NEEE    axiom:nocollapse
+ EQEE    cn:equalityreflexive
+EQEF     reductio

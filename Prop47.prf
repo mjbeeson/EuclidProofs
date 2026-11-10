@@ -1,0 +1,77 @@
+TRABC
+RRBAC
+SQABFG
+OSGBAC
+SQACKH
+OSHCAB
+SQBCED
+OSDCBA
+ANPGBMLD+BEBMC+PGMCEL+BEDLE+BELMA+RRDLA+EFABFGBMLD proposition:47B
+PGBMLD
+BEBMC
+PGMCEL
+BEDLE
+RRDLA
+EFABFGBMLD 
+NCABC  defn:triangle
+NCACB  lemma:NCorder
+TRACB  defn:triangle
+RRCAB  lemma:8.2
+SQCBDE  lemma:squareflip
+OSDBCA  lemma:oppositesideflip
+PGBCED lemma:squareparallelogram
+PRBCED  defn:parallelogram
+TPBCED  lemma:paralleldef2B
+SSEDBC  defn:tarski_parallel
+OSEBCA  lemma:planeseparation
+ANTRACB+RRCAB+SQACKH+OSHCAB+SQABFG+OSGBAC+SQCBDE+OSEBCA
+ANPGCmlE+BECmB+PGmBDl+BEElD+BElmA+RRElA+EFACKHCmlE proposition:47B
+BEElD
+BElmA
+EFACKHCmlE
+NEED lemma:betweennotequal
+NEDE lemma:inequalitysymmetric
+RRElA
+COElD  defn:collinear
+CODLE  defn:collinear
+CODEL  lemma:collinearorder
+CODEl lemma:collinearorder
+COElL  lemma:collinear4
+NELE lemma:betweennotequal
+NEEL lemma:inequalitysymmetric
+RRELA  lemma:collinearright
+EQlL  lemma:droppedperpendicularunique
+EQLl  lemma:equalitysymmetric
+BELmA  cn:equalitysub
+BECmB  
+BELMA
+BECMB  axiom:betweennesssymmetry
+COLmA  defn:collinear
+COLMA  defn:collinear
+COLAm lemma:collinearorder
+COLAM  lemma:collinearorder
+NELA  lemma:betweennotequal
+COAmM  lemma:collinear4
+COMmA  lemma:collinearorder
+COBMC  defn:collinear
+COCBM  lemma:collinearorder
+COCmB  defn:collinear
+COCBm  lemma:collinearorder
+NECB  lemma:betweennotequal
+COBMm  lemma:collinear4
+COMmB  lemma:collinearorder
+NEMm  assumption
+ COmMA  lemma:collinearorder
+ COmMB  lemma:collinearorder
+ NEmM  lemma:inequalitysymmetric
+ COMAB  lemma:collinear4
+ COMBA  lemma:collinearorder
+ COMBC  lemma:collinearorder
+ NEMB lemma:betweennotequal
+ COBAC lemma:collinear4
+ COABC lemma:collinearorder
+EQMm  reductio
+EFACKHCMlE  cn:equalitysub
+EFACKHCMLE  cn:equalitysub
+EFACKHMCEL  axiom:EFpermutation
+ANPGBMLD+BEBMC+PGMCEL+BEDLE+EFABFGBMLD+EFACKHMCEL

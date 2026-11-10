@@ -1,0 +1,99 @@
+ASABCDEFPQR
+RTABCUVW
+ANEAABCPQX+EADEFXQR+BEPXR  defn:anglesum
+EAABCPQX
+EADEFXQR
+BEPXR
+ANSUGHJKI+EAABCGHJ+EAUVWKHI  defn:tworightangles
+SUGHJKI
+EAABCGHJ
+EAUVWKHI
+NCPQX           lemma:equalanglesNC
+NEPQ            lemma:NCdistinct
+NEQP            lemma:inequalitysymmetric
+ANBEPQS+EEQSPQ  lemma:extension
+BEPQS
+EEQSPQ
+BESQP           axiom:betweennesssymmetry
+ANRABAM+RABCN+RAQPa+RAQXc+EEBMQa+EEBNQc+EEMNac+NCABC  defn:equalangles
+RABAM
+RABCN
+RAQPa
+RAQXc
+EEBMQa
+EEBNQc
+EEMNac
+NCABC
+ANRAEDO+RAEFT+RAQXd+RAQRf+EEEOQd+EEETQf+EEOTdf+NCDEF  defn:equalangles
+RAEDO
+RAEFT
+RAQXd
+RAQRf
+EEEOQd
+EEETQf
+EEOTdf
+NCDEF
+NCXQR  lemma:equalanglesNC
+NCXRQ  lemma:NCorder
+EQRR   cn:equalityreflexive
+COXRR  defn:collinear
+BERXP  axiom:betweennesssymmetry
+COXRP  defn:collinear
+NEPR   lemma:betweennotequal
+NERP   lemma:inequalitysymmetric
+NCRPQ  lemma:NChelper
+NCQPR  lemma:NCorder
+EQPP   cn:equalityreflexive
+COQPP  defn:collinear
+COQPS  defn:collinear
+NEPS   lemma:betweennotequal
+NESP   lemma:inequalitysymmetric
+NCSPR  lemma:NChelper
+NCRPS  lemma:NCorder
+ANBESYX+BERYQ  postulate:Pasch-inner
+BESYX
+BERYQ
+NEQX     lemma:ray2
+NEXQ     lemma:inequalitysymmetric
+NEQd     lemma:raystrict
+NEdQ     lemma:inequalitysymmetric
+NEQS     lemma:betweennotequal
+NEQR     lemma:NCdistinct
+COQXd    lemma:rayimpliescollinear
+COXQd    lemma:collinearorder
+EQQQ     cn:equalityreflexive
+COXQQ    defn:collinear
+NCdQR    lemma:NChelper
+EQdd     cn:equalityreflexive
+RAQdd    lemma:ray4
+RAQdX    lemma:ray5
+EQSS     cn:equalityreflexive
+RAQSS    lemma:ray4
+BEQYR    axiom:betweennesssymmetry
+RAQRY    lemma:ray4
+EAdQRdQR lemma:equalanglesreflexive
+EAdQRdQY lemma:equalangleshelper
+BEXYS    axiom:betweennesssymmetry
+AOdQRdQS defn:anglelessthan
+RAQRR    lemma:ray4
+EADEFdQR lemma:equalangleshelper
+AODEFdQS lemma:angleorderrespectscongruence2
+NEAB     lemma:NCdistinct
+NEBA     lemma:inequalitysymmetric
+NEBC     lemma:NCdistinct
+NECB     lemma:inequalitysymmetric
+ANBEABL+EEBLAB  lemma:extension
+BEABL
+EEBLAB
+EAPQXABC lemma:equalanglessymmetric
+SUPQXdS  defn:supplement
+EQCC     cn:equalityreflexive
+RABCC    lemma:ray4
+SUABCCL  defn:supplement
+EAdQSCBL lemma:supplements
+EACBLKHI lemma:supplements
+EAKHIUVW lemma:equalanglessymmetric
+EACBLUVW lemma:equalanglestransitive
+EAdQSUVW lemma:equalanglestransitive
+EAUVWdQS lemma:equalanglessymmetric
+AODEFUVW lemma:angleorderrespectscongruence

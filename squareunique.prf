@@ -1,0 +1,90 @@
+SQABCD
+SQABCE
+PGABCD  lemma:squareparallelogram
+ANMIAMC+MIBMD  lemma:diagonalsbisect
+MIAMC
+MIBMD
+BEBMD  defn:midpoint
+BEAMC  defn:midpoint
+RRDAB  defn:square
+RREAB  defn:square
+NCDAB  lemma:rightangleNC
+NCEAB  lemma:rightangleNC
+EEABAB  cn:congruencereflexive
+EEABDA  defn:square
+EEABEA  defn:square
+EEEAAB  lemma:congruencesymmetric
+EEEADA  lemma:congruencetransitive
+EEAEAD  lemma:congruenceflip
+EAEABDAB  lemma:Euclid4
+ANEEEBDB+EAAEBADB+EAABEABD  proposition:04
+EAABEABD
+EAABDABE  lemma:equalanglessymmetric
+NEBE  lemma:NCdistinct
+NEBM  lemma:betweennotequal
+ANRABEN+EEBNBM  lemma:layoff
+RABEN
+EEBNBM
+EEBMBN  lemma:congruencesymmetric
+EQAA  cn:equalityreflexive
+NEBA lemma:NCdistinct
+RABAA  lemma:ray4
+RABMD lemma:ray4
+RABDM  lemma:ray5
+NCABD  lemma:NCorder
+EAABDABD  lemma:equalanglesreflexive
+EAABDABM  lemma:equalangleshelper
+EAABMABD  lemma:equalanglessymmetric
+EAABMABE  lemma:equalanglestransitive
+NCABE  lemma:NCorder
+EAABEABE  lemma:equalanglesreflexive
+EAABEABN  lemma:equalangleshelper
+EAABMABN  lemma:equalanglestransitive
+EEBMBN
+EEBABA   cn:congruencereflexive
+EEAMAN    proposition:04
+RRBCD     defn:square
+RRBCE     defn:square
+EABCEBCD  lemma:Euclid4
+EEABCD    defn:square
+EEABCE    defn:square
+EECEAB    lemma:congruencesymmetric
+EECECD    lemma:congruencetransitive
+NCBCE     lemma:rightangleNC
+NCBCD     lemma:rightangleNC
+EECBCB    cn:congruencereflexive
+ANEEBEBD+EACBECBD+EACEBCDB  proposition:04
+EACBECBD
+NEBC    lemma:NCdistinct
+EQCC     cn:equalityreflexive
+RABCC     lemma:ray4
+NCBCD    lemma:rightangleNC
+NCCBD    lemma:NCorder
+EACBDCBD  lemma:equalanglesreflexive
+EACBDCBM   lemma:equalangleshelper
+NCCBE    lemma:NCorder
+EACBECBE   lemma:equalanglesreflexive
+RABEN
+EACBECBN   lemma:equalangleshelper
+EACBECBD   lemma:equalanglestransitive
+EACBDCBE   lemma:equalanglessymmetric
+EACBMCBD  lemma:equalanglessymmetric
+EACBMCBE  lemma:equalanglestransitive
+EACBMCBN  lemma:equalanglestransitive
+EAMBCNBC  lemma:equalanglesflip
+EEBCBC    cn:congruencereflexive
+EEMCNC    proposition:04
+EEACAC    cn:congruencereflexive
+BEANC    lemma:betweennesspreserved
+NEAM   lemma:betweennotequal
+RAAMC    lemma:ray4
+NEAN  lemma:betweennotequal
+RAANC   lemma:ray4
+RAACN  lemma:ray5
+RAACM  lemma:ray5
+EQMN     lemma:layoffunique
+RABNE  lemma:ray5
+RABMD  lemma:ray5
+RABME  cn:equalitysub
+EEBEBD
+EQED   lemma:layoffunique

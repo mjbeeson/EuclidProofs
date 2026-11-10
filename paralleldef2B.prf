@@ -1,0 +1,179 @@
+PRABCD
+ANNEAB+NECD+COABa+COABb+NEab+COCDc+COCDd+NEcd+NOMEABCD+BEaed+BEceb defn:parallel
+COABb
+NEab
+COCDc
+COCDd
+NEcd
+NOMEABCD
+NEAB
+NECD
+BEaed
+BEceb
+NEba lemma:inequalitysymmetric
+NEeb lemma:betweennotequal
+MEabCD assumption
+ ANNEab+NECD+COabR+COCDR defn:meet
+ COabR
+ COCDR
+ CObaR lemma:collinearorder
+ COABa 
+ COABb
+ COBab lemma:collinear4
+ CObaB lemma:collinearorder
+ COaBR lemma:collinear4
+ COaBA lemma:collinearorder
+ cases COABR:NEaB|EQaB
+  case 1:NEaB
+   COBRA lemma:collinear4
+   COABR lemma:collinearorder
+  qedcase
+  case 2:EQaB
+   COBAa lemma:collinearorder
+   COBAb lemma:collinearorder
+   NEBA  lemma:inequalitysymmetric
+   COAab lemma:collinear4
+   CObaA lemma:collinearorder
+   CObaR
+   COaAR lemma:collinear4
+   COaAB lemma:collinearorder
+   NEAa  cn:equalitysub
+   NEaA  lemma:inequalitysymmetric
+   COARB lemma:collinear4
+   COABR lemma:collinearorder
+  qedcase
+ COABR cases
+ COCDR
+ ANNEAB+NECD+COABR+COCDR
+ MEABCD  defn:meet
+ NOMEABCD
+NOMEabCD reductio
+ANBEebP+EEbPeb  lemma:extension
+BEebP
+BEPbe  axiom:betweennesssymmetry
+BEbec  axiom:betweennesssymmetry
+BEPbc  lemma:3.7b
+BEcbP  axiom:betweennesssymmetry
+COadP  assumption
+ COaed defn:collinear
+ COade  lemma:collinearorder
+ NEad lemma:betweennotequal
+ COdPe lemma:collinear4
+ COePd lemma:collinearorder
+ COebP  defn:collinear
+ COePb lemma:collinearorder
+ NEeP lemma:betweennotequal
+ COPdb lemma:collinear4
+ COdPb lemma:collinearorder
+ COdPa lemma:collinearorder
+ EQdP assumption
+  COcbP  defn:collinear
+  COcbd cn:equalitysub
+  CObec defn:collinear
+  COcbe lemma:collinearorder
+  NEcb lemma:betweennotequal
+  CObde lemma:collinear4
+  COdea  lemma:collinearorder
+  COdeb  lemma:collinearorder
+  NEed lemma:betweennotequal
+  NEde lemma:inequalitysymmetric
+  COeab lemma:collinear4
+  COaed defn:collinear
+  COead lemma:collinearorder
+  NEae lemma:betweennotequal
+  NEea lemma:inequalitysymmetric
+  COabd  lemma:collinear4
+  COCDd
+  MEabCD defn:meet
+  NOMEabCD
+ NEdP  reductio
+ COPba lemma:collinear4
+ COPbc defn:collinear
+ NEbP lemma:betweennotequal
+ NEPb  lemma:inequalitysymmetric
+ CObac  lemma:collinear4
+ CObac
+ COabc lemma:collinearorder
+ MEabCD defn:meet
+ NOMEabCD
+NCadP  reductio
+ANBEPMd+BEabM  postulate:Pasch-outer
+BEPMd
+BEabM
+BEPbc axiom:betweennesssymmetry
+COabM  defn:collinear
+COABa
+COABb
+COBab lemma:collinear4
+CObaB lemma:collinearorder
+CObaM lemma:collinearorder
+NEba lemma:inequalitysymmetric
+COaBM lemma:collinear4
+COaBA lemma:collinearorder
+cases COABM:NEaB|EQaB
+ case 1:NEaB
+  COBMA lemma:collinear4
+  COABM lemma:collinearorder
+ qedcase
+ case 2:EQaB
+  NEAa  cn:equalitysub
+  COAab cn:equalitysub
+  CObaA  lemma:collinearorder
+  CObaM
+  COaAM lemma:collinear4
+  COaAB  lemma:collinearorder
+  NEaA   lemma:inequalitysymmetric
+  COAMB  lemma:collinear4
+  COABM  lemma:collinearorder
+ qedcase
+COABM cases
+BEcbP  axiom:betweennesssymmetry
+BEdMP  axiom:betweennesssymmetry 
+COABc assumption
+ MEABCD defn:meet
+NCABc reductio
+COABd  assumption
+ MEABCD defn:meet
+NCABd reductio
+ANCOABb+COABM+BEcbP+BEdMP+NCABc+NCABd
+SScdAB   defn:sameside
+MEABcd assumption
+ ANNEAB+NEcd+COABR+COcdR defn:meet
+ COABR
+ COCDc
+ COCDd
+ CODcd  lemma:collinear4
+ CODCc  lemma:collinearorder
+ CODCd  lemma:collinearorder
+ NEDC  lemma:inequalitysymmetric
+ COCcd  lemma:collinear4
+ COcdC  lemma:collinearorder
+ COcdD  lemma:collinearorder
+ COcdR  
+ COCDR  lemma:collinear5
+ MEABCD  defn:meet
+ NOMEABCD
+NOMEABcd reductio
+ANNEAB+NEcd+NOMEABcd+SScdAB
+TPABcd  defn:tarski_parallel
+COCDc
+COCDd
+EQCC  cn:equalityreflexive
+COCDC  defn:collinear
+COcdC  lemma:collinear5
+NOTPABCD assumption
+ NEDC  lemma:inequalitysymmetric
+ NECd assumption
+  TPABCd  lemma:parallelcollinear
+  TPABdC  lemma:tarskiparallelflip  
+  COdCD  lemma:collinearorder
+  TPABDC lemma:parallelcollinear
+  TPABCD lemma:tarskiparallelflip
+ EQCd reductio
+ TPABcC cn:equalitysub
+ COcCD  lemma:collinearorder
+ TPABDC lemma:parallelcollinear
+ TPABCD lemma:tarskiparallelflip 
+TPABCD reductio
+
+

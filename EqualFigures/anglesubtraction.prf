@@ -1,0 +1,54 @@
+ASPQRABCpqr
+ASPQRabcpqr
+ANEAPQRpqT+EAABCTqr+BEpTr   defn:anglesum
+EAPQRpqT
+EAABCTqr
+BEpTr  
+ANEAPQRpqt+EAabctqr+BEptr   defn:anglesum
+EAPQRpqt
+EAabctqr
+BEptr 
+NEpt      lemma:betweennotequal
+NEpT      lemma:betweennotequal
+RAptr     lemma:ray4
+RApTr     lemma:ray4
+EQqq      cn:equalityreflexive
+NCpqr     lemma:anglesumNC
+NEpq      lemma:NCdistinct
+RApqq     lemma:ray4
+RAptr      lemma:ray4
+RApTr     lemma:ray4
+NCpqt    lemma:equalanglesNC
+NCqpt     lemma:NCorder
+EEprpr    cn:congruencereflexive
+EEqrqr    cn:congruencereflexive
+EEpqpq    cn:congruencereflexive
+EAqptqpT  defn:equalangles 
+NCpqr     lemma:anglesumNC
+NEqp      lemma:NCdistinct
+EApqtPQR  lemma:equalanglessymmetric
+EApqtpqT  lemma:equalanglestransitive
+EEqpqp    cn:congruencereflexive
+TRqpt     defn:triangle
+NCpqT    lemma:equalanglesNC
+NCTqp     lemma:NCorder
+NCtqp     lemma:NCorder
+EQrr      cn:equalityreflexive
+NEpr      lemma:NCdistinct
+RAprr     lemma:ray4
+NCqpT     lemma:NCorder
+EAqptqpr  defn:equalangles
+EAqpTqpr   defn:equalangles
+EAqprqpT   lemma:equalanglessymmetric
+EAqptqpT   lemma:equalanglestransitive 
+TRTqp      defn:triangle
+TRtqp      defn:triangle
+EAtqpTqp   lemma:equalanglesflip
+EEtpTp   proposition:26A
+EEptpT    lemma:congruenceflip
+RAprt     lemma:ray4
+RAprT     lemma:ray4
+EQtT      lemma:layoffunique
+EAABCtqr  cn:equalitysub
+EAtqrabc  lemma:equalanglessymmetric
+EAABCabc  lemma:equalanglestransitive

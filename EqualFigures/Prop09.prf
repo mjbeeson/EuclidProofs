@@ -1,0 +1,59 @@
+NCBAC
+EQAB assumption
+ EQBA  lemma:equalitysymmetric
+ COBAC  defn:collinear
+NEAB  reductio
+EQAC assumption
+ COBAC  defn:collinear
+NEAC  reductio
+ANRAACE+EEAEAB  lemma:layoff
+RAACE
+EEAEAB
+EQBE  assumption
+ COABE  defn:collinear
+ COACE  lemma:rayimpliescollinear
+ COEAB  lemma:collinearorder
+ COEAC  lemma:collinearorder
+ NEAE  lemma:raystrict
+ NEEA   lemma:inequalitysymmetric
+ COABC  lemma:collinear4
+ COBAC  lemma:collinearorder
+NEBE  reductio
+ANBEBFE+EEFBFE   proposition:10
+BEBFE
+EEFBFE
+EQBB   cn:equalityreflexive
+EQFF   cn:equalityreflexive
+EEAFAF  cn:congruencereflexive
+EEABAE  lemma:congruencesymmetric
+EEEFBF  lemma:doublereverse
+EEBFEF  lemma:congruencesymmetric
+COBAF   assumption
+ COBFE  defn:collinear
+ COFBE  lemma:collinearorder
+ COFBA  lemma:collinearorder
+ NEBF   lemma:betweennotequal
+ NEFB   lemma:inequalitysymmetric
+ COBEA  lemma:collinear4
+ COACE  lemma:rayimpliescollinear
+ COEAB  lemma:collinearorder
+ COEAC  lemma:collinearorder
+ NEAE   lemma:raystrict
+ NEEA   lemma:inequalitysymmetric
+ COABC  lemma:collinear4
+ COBAC  lemma:collinearorder
+NCBAF  reductio
+RAABB  lemma:ray4
+EQAF  assumption
+ COBAF  defn:collinear
+NEAF  reductio
+RAAFF  lemma:ray4
+RAACE
+EABAFCAF  defn:equalangles
+EACAFBAF  lemma:equalanglessymmetric
+NCCAF   defn:equalangles
+EACAFFAC lemma:ABCequalsCBA
+EABAFFAC  lemma:equalanglestransitive
+IABACF    defn:interior
+ANEABAFFAC+IABACF  
+

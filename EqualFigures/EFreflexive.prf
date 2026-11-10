@@ -1,0 +1,31 @@
+BEapc
+BEbpd
+NCabc
+NCacb    lemma:NCorder
+COacd    assumption
+ CObpd    defn:collinear
+ COapc    defn:collinear
+ COacp    lemma:collinearorder
+ NEac     lemma:betweennotequal
+ COcdp    lemma:collinear4
+ COdpc   lemma:collinearorder
+ COdpb   lemma:collinearorder
+ NEpd    lemma:betweennotequal
+ NEdp    lemma:inequalitysymmetric
+ COpcb   lemma:collinear4
+ COapc    defn:collinear
+ COpca    lemma:collinearorder
+ NEpc     lemma:betweennotequal
+ COcba    lemma:collinear4
+ COabc    lemma:collinearorder
+NCacd     reductio 
+TRacd     defn:triangle
+TRacb     defn:triangle
+TCacdacd  lemma:TCreflexive 
+TCacbacb  lemma:TCreflexive
+ETacdacd  axiom:congruentequal
+ETacbacb  axiom:congruentequal
+COacp     defn:collinear
+NCacb     lemma:NCorder
+OSbacd   defn:oppositeside
+EFabcdabcd axiom:paste3

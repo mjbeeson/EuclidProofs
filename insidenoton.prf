@@ -1,0 +1,21 @@
+CIJFAB
+ICPJ
+NEAB
+OREQPF|LTFPAB   lemma:insidecircle
+cases NOONPJ:EQPF|LTFPAB
+  case 1:EQPF 
+	  ONFJ  assumption
+		  NEFF lemma:centernotoncircle
+			EQFF  cn:equalityreflexive
+		NOONFJ  reductio
+		EQFP  lemma:equalitysymmetric
+		NOONPJ  cn:equalitysub
+	qedcase
+	case 2:LTFPAB
+	  ONPJ assumption
+			EEFPAB  lemma:oncircle
+			LTABAB  lemma:lessthancongruence2
+			NOLTABAB lemma:trichotomy2
+	  NOONPJ reductio
+	qedcase
+NOONPJ  cases

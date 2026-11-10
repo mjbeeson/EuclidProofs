@@ -1,0 +1,46 @@
+RRABC
+RRCBD
+OSABCD
+ANBEAFD+COBCF+NCBCA   defn:oppositeside
+BEAFD
+COBCF
+NCBCA
+ANBEABH+EEABHB+EEACHC+NEBC  defn:rightangle
+BEABH
+EEABHB
+EEACHC
+NEBC
+COABH   defn:collinear
+NEBH   lemma:betweennotequal
+NEHB   lemma:inequalitysymmetric
+RRHBC  lemma:collinearright
+RRCBH  lemma:8.2
+EQBB    cn:equalityreflexive
+COBCB    defn:collinear
+OSABCH   defn:oppositeside
+OSHBCA   lemma:oppositesidesymmetric
+NCBCH    defn:oppositeside
+BEHBA   axiom:betweennesssymmetry
+BEDFA    axiom:betweennesssymmetry
+NCCBD    lemma:rightangleNC
+NCBCD    lemma:NCorder
+SSHDBC  defn:sameside
+SSHDCB  lemma:samesidesymmetric 
+RABHD    lemma:erectedperpendicularunique
+ORBEBDH|EQHD|BEBHD  lemma:ray1
+cases BEABD:BEBDH|EQHD|BEBHD
+ case 1:BEBDH
+  BEABH
+  BEHBA  axiom:betweennesssymmetry
+  BEHDB  axiom:betweennesssymmetry
+  BEDBA  lemma:3.6a
+  BEABD  axiom:betweennesssymmetry
+ qedcase
+ case 2:EQHD
+  BEABD  cn:equalitysub
+ qedcase
+ case 3:BEBHD
+  BEABH
+  BEABD lemma:3.7b
+ qedcase
+BEABD cases

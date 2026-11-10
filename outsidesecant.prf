@@ -1,0 +1,41 @@
+CIJEPQ
+NEPQ
+ONBJ
+ONCJ
+NEBC
+COBCX
+NEXB
+NEXC
+NOBEBXC
+
+% Preliminary: B and C on the circle, derive EEBEEC (EB = EC as lengths).
+EEEBPQ        lemma:oncircle
+EEECPQ        lemma:oncircle
+EEPQEC        lemma:congruencesymmetric
+EEEBEC        lemma:congruencetransitive
+EEBEEC        lemma:congruenceflip
+
+% Step 0: derive NEEX (X is not the center).
+% If X = E, then E is on line BC.  With EB = EC and B != C, E is the midpoint of BC.
+% So BEBEC, hence BEBXC, contradicting NOBEBXC.
+EQEX assumption
+  COBCE       cn:equalitysub
+  BEBEC       lemma:collinearmidpoint
+  BEBXC       cn:equalitysub
+NEEX reductio
+
+% Step 1: main reductio.  Assume NOLTPQEX; derive a contradiction.
+NOLTPQEX assumption
+  % Sub-reductio: rule out the EE case (X on circle).
+  NOLTEXPQ assumption
+    EEPQEX    lemma:trichotomy1
+    EEEXPQ    lemma:congruencesymmetric
+    ONXJ      defn:on
+    COCXB     lemma:collinearorder
+    EQBC      lemma:nothreeoncircle
+  LTEXPQ reductio
+  % Now LTEXPQ: X inside circle.
+  OREQXE|LTEXPQ
+  ICXJ        defn:inside
+  BEBXC       lemma:III.02converse
+LTPQEX reductio

@@ -1,0 +1,31 @@
+NEAB
+NCDCE
+NCABP
+EQPA  assumption
+ EQAP  lemma:equalitysymmetric
+ COABP  defn:collinear
+NEPA  reductio
+ANBEPAQ+EEAQPA  lemma:extension
+BEPAQ
+EQAA    cn:equalityreflexive
+COABA   defn:collinear
+COABQ    assumption
+ COPAQ   defn:collinear
+ COQAB   lemma:collinearorder
+ COQAP   lemma:collinearorder
+ NEAQ    lemma:betweennotequal
+ NEQA    lemma:inequalitysymmetric
+ COABP   lemma:collinear4
+ NCABP
+NCABQ reductio
+ANRAABG+EAFAGDCE+OSFABQ  proposition:23B
+RAABG
+EAFAGDCE
+OSFABQ
+ANBEFJQ+COABJ+NCABF  defn:oppositeside
+BEFJQ
+COABJ
+NCABF
+BEPAQ
+SSFPAB   defn:sameside
+ANRAABG+EAFAGDCE+SSFPAB    

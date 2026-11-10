@@ -1,0 +1,32 @@
+CIJEPQ
+NEPQ
+ONAJ
+ONDJ
+ONGJ
+NEAD
+COADG
+EQAA    cn:equalityreflexive
+EQDD    cn:equalityreflexive
+COADA   defn:collinear
+COADD   defn:collinear
+EEEAPQ  lemma:oncircle
+EEEDPQ  lemma:oncircle
+EEEGPQ  lemma:oncircle
+EEPQEA  lemma:congruencesymmetric
+EEEDEA  lemma:congruencetransitive
+EEEGEA  lemma:congruencetransitive
+EEEAED  lemma:congruencesymmetric
+EEEAEG  lemma:congruencesymmetric
+NEEA    lemma:centernotoncircle
+NEAE    lemma:inequalitysymmetric
+NEED    lemma:centernotoncircle
+NEEG    lemma:centernotoncircle
+NOOREQGA|EQGD  assumption
+  ANNEGA+NEGD
+  NEGA
+  NEGD
+  NEAG    lemma:inequalitysymmetric
+  NEDG    lemma:inequalitysymmetric
+  NCADG   lemma:circleNC
+  COADG
+OREQGA|EQGD reductio

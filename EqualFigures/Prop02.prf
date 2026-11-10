@@ -1,0 +1,38 @@
+NEAB
+NEBC
+ANELABD+TRABD  proposition:01
+ELABD
+TRABD
+EEABBD  defn:equilateral
+EEBDAB  lemma:congruencesymmetric
+EEBDBA  lemma:congruenceflip
+EEBDDA  defn:equilateral
+NCABD   defn:triangle
+EQBB    cn:equalityreflexive
+CIJBBC  postulate:Euclid3
+ICBJ    defn:inside
+NEDB    lemma:NCdistinct
+ANCODBP+BEDBG+ONPJ+ONGJ+BEPBG postulate:line-circle
+BEDBG
+ONGJ
+NEDG    lemma:betweennotequal
+CIRDDG  postulate:Euclid3
+EEBGBC  axiom:circle-center-radius
+EEBCBG  lemma:congruencesymmetric
+EQDD    cn:equalityreflexive
+EEDABD  lemma:congruencesymmetric
+EEDADB  lemma:congruenceflip
+EEDGDG  cn:congruencereflexive
+ANBEDBG+EEDGDG+EEDADB
+ICAR    defn:inside
+NEDA   lemma:NCdistinct
+ANCODAQ+BEDAL+ONQR+ONLR+BEQAL postulate:line-circle
+BEDAL
+ONLR
+EEDLDG  axiom:circle-center-radius
+EEDBDB  cn:congruencereflexive
+EEDBDA  lemma:congruencesymmetric
+EEDGDL  lemma:congruencesymmetric
+EEBGAL  lemma:differenceofparts
+EEALBC  cn:congruencetransitive
+

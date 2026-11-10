@@ -1,0 +1,23 @@
+CIJABC
+CIJabc
+NEBC
+NEbc
+EQAa   axiom:circle-center
+EQaA   lemma:equalitysymmetric
+CIJAbc  cn:equalitysub
+cases EEBCbc:NEAB|EQAB
+ case 1:NEAB
+  EEADBC  proposition:02
+  ONDJ   defn:on
+  EEADBC  axiom:circle-center-radius
+  EEADbc  axiom:circle-center-radius
+  EEBCbc  cn:congruencetransitive
+ qedcase
+ case 2:EQAB
+  EEACAC  cn:congruencereflexive
+  EEACBC  cn:equalitysub
+  ONCJ    defn:on
+  EEACbc  axiom:circle-center-radius
+  EEBCbc  cn:congruencetransitive
+ qedcase
+EEBCbc cases

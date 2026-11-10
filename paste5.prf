@@ -1,0 +1,280 @@
+EFBMLDbmld
+EFMCELmcel
+BEBMC
+BEbmc
+BEELD 
+BEeld
+REMCEL
+REmcel
+PGMCEL   lemma:rectangleparallelogram
+PGmcel   lemma:rectangleparallelogram
+ANBEMPE+BECPL  lemma:diagonalsmeet
+ANBEmpe+BEcpl  lemma:diagonalsmeet
+BEMPE
+BECPL
+BEmpe
+BEcpl
+PRMCEL    defn:parallelogram
+NCMCL    lemma:parallelNC
+PRmcel   defn:parallelogram
+NCmcl    lemma:parallelNC
+TCCMLLEC   proposition:34
+TCcmllec   proposition:34
+ETCMLLEC   axiom:congruentequal
+ETcmllec   axiom:congruentequal
+CRMECL   defn:rectangle
+CRmecl   defn:rectangle
+ETcmlcle  axiom:ETpermutation
+ETclecml  axiom:ETsymmetric
+ETclemcl  axiom:ETpermutation
+ETmclcle  axiom:ETsymmetric
+ETCMLCLE  axiom:ETpermutation
+ETCLECML axiom:ETsymmetric
+ETCLEMCL axiom:ETpermutation
+ETMCLCLE axiom:ETsymmetric
+OSMCLE   lemma:crossimpliesopposite
+OSmcle   lemma:crossimpliesopposite
+ETMCLmcl  axiom:halvesofequals
+EFMCELecml  axiom:EFpermutation
+EFecmlMCEL axiom:EFsymmetric
+EFecmlECML axiom:EFpermutation
+EFECMLecml axiom:EFsymmetric
+OSECLM  lemma:oppositesidesymmetric
+OSeclm   lemma:oppositesidesymmetric
+ETMCLECL  axiom:ETpermutation
+ETECLMCL  axiom:ETsymmetric
+ETECLCLM  axiom:ETpermutation
+ETmclecl  axiom:ETpermutation
+ETeclmcl axiom:ETsymmetric
+ETeclclm  axiom:ETpermutation
+ETECLecl  axiom:halvesofequals
+EFBMLDdbml axiom:EFpermutation
+EFdbmlBMLD axiom:EFsymmetric
+EFdbmlDBML axiom:EFpermutation
+EFDBMLdbml axiom:EFsymmetric
+COBMC   defn:collinear
+COMCB   lemma:collinearorder
+NEBC   lemma:betweennotequal
+PRELMC  lemma:parallelsymmetric
+PRELBC  lemma:collinearparallel
+PRBCEL  lemma:parallelsymmetric
+COELD   defn:collinear
+NELD  lemma:betweennotequal
+NEDL  lemma:inequalitysymmetric
+PRBCDL  lemma:collinearparallel
+NEEL   lemma:betweennotequal
+NEMC  lemma:betweennotequal
+CRBDCL  assumption
+ COCLM  assumption
+  COMCL  lemma:collinearorder
+  EQLL   cn:equalityreflexive
+  COELL  defn:collinear
+  MEELMC  defn:meet
+  NOMEELMC  defn:parallel
+ NCCLM  reductio
+ COCLD  assumption
+  CODLC  lemma:collinearorder
+  COELD  defn:collinear
+  CODLE  lemma:collinearorder
+  NELD  lemma:betweennotequal
+  NEDL  lemma:inequalitysymmetric
+  COLEC  lemma:collinear4
+  COELC  lemma:collinearorder
+  EQCC   cn:equalityreflexive
+  COMCC  defn:collinear
+  MEELMC  defn:meet
+  NOMEELMC  defn:parallel
+ NCCLD   reductio
+ EQLL  cn:equalityreflexive
+ COCLL  defn:collinear
+ BEDLE  axiom:betweennesssymmetry
+ BEMPE
+ COCLP  defn:collinear
+ SSDMCL  defn:sameside
+ BECMB   axiom:betweennesssymmetry
+ NECM  lemma:betweennotequal
+ RACMB   lemma:ray4
+ EQCC    cn:equalityreflexive
+ COCCL   defn:collinear
+ SSDBCL  lemma:sameside2
+ SSBDCL  lemma:samesidesymmetric
+ NOOSBCLD  lemma:samenotopposite
+ COBCL  assumption
+  COBMC  defn:collinear
+  COBCM  lemma:collinearorder
+  NEBC   lemma:betweennotequal
+  COCML  lemma:collinear4
+  COMCL  lemma:collinearorder
+  COELL defn:collinear
+  MEELMC defn:meet
+  NOMEELMC  defn:parallel
+ NCBCL  reductio
+ OSBCLD   lemma:crossimpliesopposite
+NOCRBDCL reductio
+PRBCDL 
+CRBLDC   lemma:crisscross
+ANBEBRL+BEDRC defn:cross
+BEDRC
+BEBRL
+
+
+CObmc   defn:collinear
+COmcb   lemma:collinearorder
+NEbc  lemma:betweennotequal
+PRelmc  lemma:parallelsymmetric
+PRelbc  lemma:collinearparallel
+PRbcel  lemma:parallelsymmetric
+COeld   defn:collinear
+NEld  lemma:betweennotequal
+NEdl  lemma:inequalitysymmetric
+PRbcdl  lemma:collinearparallel
+NEel   lemma:betweennotequal
+NEmc  lemma:betweennotequal
+CRbdcl  assumption
+ COclm  assumption
+  COmcl  lemma:collinearorder
+  EQll   cn:equalityreflexive
+  COell  defn:collinear
+  MEelmc defn:meet
+  NOMEelmc defn:parallel
+ NCclm  reductio
+ COcld  assumption
+  COdlc  lemma:collinearorder
+  COeld  defn:collinear
+  COdle  lemma:collinearorder
+  NEld lemma:betweennotequal
+  NEdl  lemma:inequalitysymmetric
+  COlec  lemma:collinear4
+  COelc  lemma:collinearorder
+  EQcc   cn:equalityreflexive
+  COmcc  defn:collinear
+  MEelmc  defn:meet
+  NOMEelmc  defn:parallel
+ NCcld   reductio
+ EQll  cn:equalityreflexive
+ COcll  defn:collinear
+ BEdle  axiom:betweennesssymmetry
+ BEmpe
+ COclp  defn:collinear
+ SSdmcl  defn:sameside
+ BEcmb   axiom:betweennesssymmetry
+ NEcm  lemma:betweennotequal
+ RAcmb   lemma:ray4
+ EQcc    cn:equalityreflexive
+ COccl   defn:collinear
+ SSdbcl  lemma:sameside2
+ SSbdcl  lemma:samesidesymmetric
+ NOOSbcld  lemma:samenotopposite
+ CObcl  assumption
+  CObmc  defn:collinear
+  CObcm  lemma:collinearorder
+  NEbc   lemma:betweennotequal
+  COcml  lemma:collinear4
+  COmcl  lemma:collinearorder
+  COell defn:collinear
+  MEelmc defn:meet
+  NOMEelmc  defn:parallel
+ NCbcl  reductio
+ OSbcld   lemma:crossimpliesopposite
+NOCRbdcl reductio
+PRbcdl
+CRbldc lemma:crisscross
+ANBEbrl+BEdrc defn:cross
+BEdrc
+BEbrl
+EFDBCLdbcl axiom:paste2
+EFDBCLbdlc axiom:EFpermutation
+EFbdlcDBCL axiom:EFsymmetric
+EFbdlcBDLC  axiom:EFpermutation
+EFBDLCbdlc axiom:EFsymmetric
+ETECLlec  axiom:ETpermutation
+ETlecECL  axiom:ETsymmetric
+ETlecLEC  axiom:ETpermutation
+ETLEClec  axiom:ETsymmetric
+BEDLE  axiom:betweennesssymmetry
+BEdle  axiom:betweennesssymmetry
+PRBCEL
+PRBCLE  lemma:parallelflip
+COELD  defn:collinear 
+COLED   lemma:collinearorder
+NEED   lemma:betweennotequal
+NEDE   lemma:inequalitysymmetric
+PRBCDE  lemma:collinearparallel
+PRMLCE  defn:parallelogram
+PRCEML  lemma:parallelsymmetric
+TPCEML  lemma:paralleldef2B
+SSMLCE  defn:tarski_parallel
+SSLMCE  lemma:samesidesymmetric
+NEMC  lemma:betweennotequal
+NECM  lemma:inequalitysymmetric
+BECMB  axiom:betweennesssymmetry
+RACMB  lemma:ray4
+EQCC  cn:equalityreflexive
+COCCE  defn:collinear
+SSLBCE  lemma:sameside2
+SSBLCE  lemma:samesidesymmetric
+NEEL  lemma:betweennotequal
+RAELD  lemma:ray4
+EQEE   cn:equalityreflexive
+COCEE  defn:collinear
+SSBDCE  lemma:sameside2
+SSDBCE  lemma:samesidesymmetric
+CRBDCE  assumption
+ COBCE  assumption
+  EQEE  cn:equalityreflexive
+  CODEE  defn:collinear
+  MEBCDE defn:meet
+  NOMEBCDE defn:parallel
+ NCBCE  reductio
+ OSBCED  lemma:crossimpliesopposite
+ NOOSBCED lemma:samenotopposite
+NOCRBDCE  reductio
+CRBEDC lemma:crisscross
+ANBEBTE+BEDTC defn:cross
+BEBTE
+BEDTC
+PRbcel
+PRbcle  lemma:parallelflip
+COeld  defn:collinear 
+COled   lemma:collinearorder
+NEed   lemma:betweennotequal
+NEde   lemma:inequalitysymmetric
+PRbcde  lemma:collinearparallel
+PRmlce  defn:parallelogram
+PRceml  lemma:parallelsymmetric
+TPceml  lemma:paralleldef2B
+SSmlce  defn:tarski_parallel
+SSlmce  lemma:samesidesymmetric
+NEmc  lemma:betweennotequal
+NEcm  lemma:inequalitysymmetric
+BEcmb  axiom:betweennesssymmetry
+RAcmb lemma:ray4
+EQcc  cn:equalityreflexive
+COcce  defn:collinear
+SSlbce  lemma:sameside2
+SSblce  lemma:samesidesymmetric
+NEel  lemma:betweennotequal
+RAeld  lemma:ray4
+EQee   cn:equalityreflexive
+COcee  defn:collinear
+SSbdce  lemma:sameside2
+SSdbce  lemma:samesidesymmetric
+CRbdce  assumption
+ CObce  assumption
+  EQee  cn:equalityreflexive
+  COdee  defn:collinear
+  MEbcde defn:meet
+  NOMEbcde defn:parallel
+ NCbce  reductio
+ OSbced  lemma:crossimpliesopposite
+ NOOSbced lemma:samenotopposite
+NOCRbdce  reductio
+CRbedc lemma:crisscross
+ANBEbte+BEdtc defn:cross
+BEbte
+BEdtc
+EFBDECbdec axiom:paste2
+EFBDECbced axiom:EFpermutation
+EFbcedBDEC  axiom:EFsymmetric
+EFbcedBCED  axiom:EFpermutation
+EFBCEDbced axiom:EFsymmetric

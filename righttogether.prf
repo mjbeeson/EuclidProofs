@@ -1,0 +1,25 @@
+RRGAB
+RRBAC
+OSGBAC 
+RRBAG   lemma:8.2
+NEAG  defn:rightangle
+NEGA  lemma:inequalitysymmetric
+ANBEGAD+EEADGA lemma:extension
+BEGAD
+EQBB  cn:equalityreflexive
+NEAB defn:rightangle
+RAABB  lemma:ray4
+SUGABBD  defn:supplement
+NCBAG  defn:oppositeside
+NCGAB  lemma:NCorder
+EAGABGAB  lemma:equalanglesreflexive
+COGAD  defn:collinear
+NEAD  lemma:betweennotequal
+NEDA  lemma:inequalitysymmetric
+RRDAB  lemma:collinearright
+RRBAD  lemma:8.2
+EABACBAD  lemma:Euclid4
+RTGABBAC  defn:tworightangles
+OSCBAG  lemma:oppositesidesymmetric
+BEGAC  proposition:14
+ANRTGABBAC+BEGAC

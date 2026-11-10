@@ -1,0 +1,60 @@
+RRABD
+COABC
+NECB
+OREQAB|EQAC|EQBC|BEBAC|BEABC|BEACB  defn:collinear
+NCABD  lemma:rightangleNC
+EQAB   assumption
+ NCAAD  cn:equalitysub
+ EQAA  cn:equalityreflexive
+ CODAA defn:collinear
+ COAAD lemma:collinearorder
+NEAB  reductio
+RRDBA   lemma:8.2
+cases RRDBC:EQAB|EQAC|EQBC|BEBAC|BEABC|BEACB
+ case 1:EQAB
+  NORRDBC assumption
+   COABD  defn:collinear
+  RRDBC reductio
+ qedcase
+ case 2:EQAC
+  RRDBC  cn:equalitysub
+ qedcase
+ case 3:EQBC
+  NORRDBC assumption
+  EQCB  lemma:equalitysymmetric
+  NECB
+  RRDBC reductio
+ qedcase
+ case 4:BEBAC
+  NEBA   lemma:inequalitysymmetric
+  RABAC   lemma:ray4
+  RRDBC   lemma:8.3
+ qedcase
+ case 5:BEABC
+  ANBEABE+EEABEB+EEADED+NEBD  defn:rightangle
+  EEABEB
+  EEADED
+  BEABE
+  NEBD
+  BEEBA  axiom:betweennesssymmetry
+  EEEBAB lemma:congruencesymmetric
+  EEEDAD lemma:congruencesymmetric
+  ANBEEBA+EEEBAB+EEADED+NEBD
+  RREBD  defn:rightangle
+  RRDBE  lemma:8.2
+  BEABE  axiom:betweennesssymmetry
+  ANBEABC+BEABE
+  RABEC  defn:ray
+  RRDBC  lemma:8.3  
+ qedcase
+ case 6:BEACB
+  BEBCA  axiom:betweennesssymmetry
+  NECB  lemma:betweennotequal
+  NEBC  lemma:inequalitysymmetric
+  RABCA  lemma:ray4
+  RRDBA  lemma:8.2 
+  RABAC   lemma:ray5
+  RRDBC   lemma:8.3
+ qedcase
+RRDBC cases
+RRCBD lemma:8.2

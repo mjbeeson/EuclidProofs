@@ -1,0 +1,93 @@
+EEBCbc
+EEADad
+EEBDbd
+BEABC
+BEabc
+EEABab
+EEACac  axiom:sumofparts
+cases EEDCdc:NCacd|COacd
+ case 1:NCacd
+  EEbcBC  lemma:congruencesymmetric
+  EEadAD  lemma:congruencesymmetric
+  EEbdBD  lemma:congruencesymmetric
+  EEabAB  lemma:congruencesymmetric
+  EEdcDC  axiom:5-line
+  EEDCdc  lemma:congruencesymmetric
+ qedcase
+ case 2:COacd
+  cases EEDCdc:NCACD|COACD
+   case 1:NCACD
+    EEDCdc axiom:5-line
+   qedcase
+   case 2:COACD
+    OREQAC|EQAD|EQCD|BECAD|BEACD|BEADC  defn:collinear
+    cases EEDCdc:EQAC|EQAD|EQCD|BECAD|BEACD|BEADC
+     case 1:EQAC
+      NOEEDCdc assumption
+       NEAC lemma:betweennotequal
+      EEDCdc reductio
+     qedcase
+     case 2:EQAD
+      EQDA   lemma:equalitysymmetric
+      EEAAad  cn:equalitysub
+      EEadAA  lemma:congruencesymmetric
+      EQad   axiom:nullsegment1
+      EEDCac  cn:equalitysub
+      EEDCdc  cn:equalitysub
+      EEDCdc  cn:equalitysub
+     qedcase
+     case 3:EQCD
+      EQDC  lemma:equalitysymmetric
+      EECCcc  axiom:nullsegment2
+      EEACac
+      EEADad
+      EEACad  cn:equalitysub
+      EEacad  cn:congruencetransitive
+      EEBCbc
+      EEBDbd
+      EEBCbd  cn:equalitysub
+      EEbcbd  cn:congruencetransitive
+      COacd
+      OREQac|EQad|EQcd|BEcad|BEacd|BEadc  defn:collinear
+      cases EQcd:EQac|EQad|EQcd|BEcad|BEacd|BEadc
+       case 1:EQac
+        NEcd assumption
+         NEac  lemma:betweennotequal
+        EQcd  reductio
+       qedcase
+       case 2:EQad
+        NEAC  lemma:betweennotequal
+        NEAD  cn:equalitysub
+        NEcd assumption
+         NEad  axiom:nocollapse
+        EQcd reductio
+       qedcase
+       case 3:EQcd
+        EQcd
+       qedcase
+       case 4:BEcad
+        BEdac  axiom:betweennesssymmetry
+        BEabc
+        BEdab  lemma:3.6b
+        
+         
+    
+    EECCcd  cn:equalitysub
+    EQcd   axiom:nullsegment1
+    EEDCdc  cn:equalitysub
+   qedcase
+   case 4:BECAD
+    BEDAC axiom:betweennesssymmetry
+    EEDAda lemma:congruenceflip
+    EEDCdc axiom:sumofparts
+   qedcase
+   case 5:BEACD
+    BECDcd axiom:differenceofparts
+    BECDdc axiom:congruenceflip
+   qedcase
+   case 6:BEADC
+    BEDCdc  axiom:differenceofparts
+   qedcase
+  EEBDCdc cases
+ qedcase
+EEDCdc cases

@@ -1,0 +1,77 @@
+LTABCD
+BEABE
+BECDF
+EEBEDF
+ANBECbD+EECbAB   defn:lessthan
+BECbD
+EECbAB
+EEABCb   lemma:congruencesymmetric
+NECb  lemma:betweennotequal
+NEBE  lemma:betweennotequal
+ANBECbe+EEbeBE  lemma:extension
+EEbeBE
+EEBEbe  lemma:congruencesymmetric
+BECDF
+BECbD
+BECbF  lemma:3.6b
+BEbFe  assumption
+ EEFDFD  cn:congruencereflexive
+ BECbD
+ BECDF
+ BEbDF  lemma:3.6a
+ BEFDb   axiom:betweennesssymmetry
+ LTFDFb   defn:lessthan
+ EEFbbF   cn:equalityreverse
+ LTFDbF   lemma:lessthancongruence
+ EEFDDF   cn:equalityreverse
+ LTDFbF  lemma:lessthancongruence2
+ EEbeBE
+ EEBEDF
+ EEbeDF  lemma:congruencetransitive
+ EEDFbe  lemma:congruencesymmetric
+ LTbebF  lemma:lessthancongruence2
+ ANBEbqF+EEbqbe  defn:lessthan
+ BEbqF
+ EEbqbe
+ NEbF  lemma:betweennotequal
+ RAbFq  lemma:ray4
+ RAbFe  lemma:ray4
+ EQqe   lemma:layoffunique
+ BEbeF  cn:equalitysub
+ BEFeF  lemma:3.6a
+ NOBEFeF  axiom:betweennessidentity
+NOBEbFe  reductio
+EQFe   assumption
+ EEbeBE
+ EEbFBE  cn:equalitysub
+ BECbD
+ BECDF
+ BEbDF  lemma:3.6a
+ BEFDb  axiom:betweennesssymmetry
+ EEFDFD  cn:congruencereflexive
+ LTFDFb  defn:lessthan
+ EEFbbF  cn:equalityreverse
+ LTFDbF  lemma:lessthancongruence
+ EEDFBE  lemma:congruencesymmetric
+ EEFDBE  lemma:congruenceflip
+ LTBEbF  lemma:lessthancongruence2
+ EEbFbe  lemma:congruencetransitive
+ LTBEbe  lemma:lessthancongruence
+ EEbeBE
+ LTBEBE  lemma:lessthancongruence
+ NOLTBEBE lemma:trichotomy2
+NEFe  reductio
+BECbe
+BECbF
+NOBEbeF  assumption
+ NOBEbFe
+ EQFe   lemma:outerconnectivity
+ NEFe 
+BEbeF  reductio
+BECbe
+BECeF  lemma:3.7a
+EEABCb
+EEBEbe
+EEAECe  cn:sumofparts
+EECeAE  lemma:congruencesymmetric
+LTAECF  defn:lessthan

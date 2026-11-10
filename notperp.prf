@@ -1,0 +1,132 @@
+BEACB
+NCABP
+NECB   lemma:betweennotequal
+NEBC  lemma:inequalitysymmetric
+EQCP assumption
+ NCABC  cn:equalitysub
+ COACB  defn:collinear
+ COABC  lemma:collinearorder
+NECP  reductio
+ANBEBCQ+EECQCP  lemma:extension
+BEBCQ
+EECQCP
+EQPQ   assumption
+ COBCQ  defn:collinear
+ COBCP   cn:equalitysub
+ COACB  defn:collinear
+ COCBA  lemma:collinearorder
+ COCBP  lemma:collinearorder
+ COBAP  lemma:collinear4
+ COABP  lemma:collinearorder
+NEPQ reductio
+ANBEPMQ+EEMPMQ  proposition:10
+BEPMQ
+EEMPMQ
+COACB   defn:collinear
+COCBA   lemma:collinearorder
+NECB   lemma:betweennotequal
+COCBQ   defn:collinear
+COBAQ  lemma:collinear4
+COABQ  lemma:collinearorder
+NEAB   lemma:betweennotequal
+NCABP
+SSPPAB  lemma:samesidereflexive
+NEQP lemma:inequalitysymmetric
+BEQMP  axiom:betweennesssymmetry
+RAQPM  lemma:ray4
+COAQB  lemma:collinearorder
+SSPMAB  lemma:sameside2
+SSMPAB   lemma:samesidesymmetric
+COABM   assumption
+ COABQ
+ COBMQ  lemma:collinear4
+ COPMQ  defn:collinear
+ COMQP  lemma:collinearorder
+ COMQB lemma:collinearorder
+ NEMQ  lemma:betweennotequal
+ COQPB  lemma:collinear4
+ COQBP   lemma:collinearorder
+ COQBA   lemma:collinearorder
+ NEBQ  lemma:betweennotequal
+ NEQB  lemma:inequalitysymmetric
+ COBPA  lemma:collinear4
+ COABP  lemma:collinearorder
+NCABM  reductio
+PAMRABR  proposition:12
+ANCOMRR+COABR+COABE+RRERM  defn:perpat
+COABR
+RRERM
+RRMRE  lemma:8.2
+COABC  lemma:collinearorder
+RRACM  assumption
+ NERC  assumption
+  COBAC lemma:collinearorder
+  COABR
+  COBAR lemma:collinearorder
+  NEBA  lemma:inequalitysymmetric
+  COACR lemma:collinear4
+  RRRCM  lemma:collinearright
+  NORRMRC  lemma:8.7
+  RRMRE
+  RRERM  lemma:8.2
+  COABE
+  COABR
+  COBCR  lemma:collinear4
+  COBCE lemma:collinear4
+  NECB  lemma:betweennotequal
+  NEBC  lemma:inequalitysymmetric
+  COCRE lemma:collinear4
+  COERC  lemma:collinearorder
+  NECR   lemma:inequalitysymmetric
+  RRCRM lemma:collinearright
+  RRMRC  lemma:8.2
+ EQRC  reductio
+ EQMC  assumption
+  COABC
+  COABM  cn:equalitysub
+ NEMC  reductio
+ EEQCPC  lemma:congruenceflip
+ BEQMP  axiom:betweennesssymmetry
+ EEQMPM  lemma:doublereverse
+ RRQMC  defn:rightangle
+ NECQ  lemma:betweennotequal
+ NEQC  lemma:inequalitysymmetric
+ RRERM  lemma:8.2
+ NEQR   cn:equalitysub
+ COABE
+ COABQ
+ COABR
+ COBER  lemma:collinear4
+ COBEQ  lemma:collinear4
+ NEBE   assumption
+  COERQ  lemma:collinear4
+  RRQRM lemma:collinearright
+  RRQCM  cn:equalitysub
+  RRMCQ  lemma:8.2
+  NORRQMC lemma:8.7
+ EQBE  reductio
+ COABR
+ COAER  cn:equalitysub
+ COABQ  lemma:collinearorder
+ COAEQ  cn:equalitysub
+ NEAE  cn:equalitysub
+ COERQ lemma:collinear4
+ RRQRM lemma:collinearright
+ RRQCM  cn:equalitysub
+ RRMCQ  lemma:8.2
+ NORRQMC lemma:8.7 
+NORRACM  reductio
+ANNCABM+SSMPAB+NORRACM
+ 
+  
+ 
+
+ 
+
+
+ 
+ 
+ 
+    
+
+

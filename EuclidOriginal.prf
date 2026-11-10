@@ -1,0 +1,217 @@
+BEAEB
+BECFD
+OSAEFD
+ASBEFEFDUVW
+ANBEAGD+COEFG+NCEFA  defn:oppositeside
+BEAGD
+COEFG
+NCEFA
+OSDEFA  lemma:oppositesidesymmetric
+ANBEDHA+COEFH+NCEFD  defn:oppositeside
+BEDHA
+COEFH
+NCEFD
+COCDE assumption
+ COCDF defn:collinear
+ NECD lemma:betweennotequal
+ CODEF lemma:collinear4
+ NCDEF lemma:NCorder
+NCCDE reductio
+ANBEPEQ+EAPEFEFD+PRPQCD+BEPJD+BEEJF  proposition:31short
+BEPEQ
+EAPEFEFD
+PRPQCD
+BEPJD
+BEEJF
+NEEF  lemma:NCdistinct
+NEFE  lemma:inequalitysymmetric
+ANBEFEL+EEELEF  lemma:extension
+BEFEL
+EEELEF
+BELEF  axiom:betweennesssymmetry
+COEFP assumption
+ COPEQ defn:collinear
+ NEPE lemma:betweennotequal
+ NEEP lemma:inequalitysymmetric
+ COEPF lemma:collinearorder
+ COEPQ lemma:collinearorder
+ EQEE cn:equalityreflexive
+ COEPE defn:collinear
+ COFQE lemma:collinear5
+ COQEF lemma:collinearorder
+ COQEP lemma:collinearorder
+ EQQQ cn:equalityreflexive
+ COQEQ defn:collinear
+ NEEQ lemma:betweennotequal
+ NEQE lemma:inequalitysymmetric
+ COFPQ lemma:collinear5
+ COPQF lemma:collinearorder
+ NEFD lemma:betweennotequal
+ COCDF defn:collinear
+ PRPQFD lemma:collinearparallel
+ NCPQF lemma:parallelNC
+NCEFP reductio
+COEFJ defn:collinear
+OSPEFD defn:oppositeside
+ANEAPEFEFD+EALEQEFD+RTQEFEFD  proposition:29
+EAPEFEFD
+EALEQEFD
+RTQEFEFD
+ASEFDBEFUVW  lemma:anglesumswap
+RTEFDQEF  lemma:RTsymmetric
+AOBEFQEF  lemma:fivehelper
+COQEF assumption
+ COPEQ defn:collinear
+ NEEQ lemma:betweennotequal
+ NEQE lemma:inequalitysymmetric
+ COEQF lemma:collinearorder
+ COEQP lemma:collinearorder
+ EQEE cn:equalityreflexive
+ COEQE defn:collinear
+ COFPE lemma:collinear5
+ COEFP lemma:collinearorder
+NCQEF reductio
+NCFEQ lemma:NCorder
+EAFEQQEF lemma:ABCequalsCBA
+AOBEFFEQ lemma:angleorderrespectscongruence
+ANBEMNI+RAEFM+RAEQI+EABEFFEN  defn:anglelessthan
+BEMNI
+RAEFM
+RAEQI
+EABEFFEN
+NEEM  lemma:raystrict
+NEEI  lemma:raystrict
+RAEMF  lemma:ray5
+RAEIQ  lemma:ray5
+COEFM  lemma:rayimpliescollinear
+COEQI  lemma:rayimpliescollinear
+COMEI assumption
+ COEMI lemma:collinearorder
+ COEMF lemma:collinearorder
+ EQEE cn:equalityreflexive
+ COEME defn:collinear
+ COIFE lemma:collinear5
+ COEFI lemma:collinearorder
+ COEIQ lemma:collinearorder
+ COEIF lemma:collinearorder
+ COEIE defn:collinear
+ COQFE lemma:collinear5
+ COEFQ lemma:collinearorder
+ COFEQ lemma:collinearorder
+NCMEI reductio
+TRMEI defn:triangle
+ANRAENa+BEFaQ lemma:crossbar
+RAENa
+BEFaQ
+NEFD lemma:betweennotequal
+NEDF lemma:inequalitysymmetric
+NEEQ lemma:betweennotequal
+ANBEDFS+EEFSEQ lemma:extension
+BEDFS
+EEFSEQ
+NECF lemma:betweennotequal
+NECD lemma:betweennotequal
+NEDS lemma:betweennotequal
+NESD lemma:inequalitysymmetric
+BEDFC axiom:betweennesssymmetry
+CODFC defn:collinear
+CODFS defn:collinear
+EQDD cn:equalityreflexive
+CODFD defn:collinear
+COCSD lemma:collinear5
+COCDS lemma:collinearorder
+PRPQSD lemma:collinearparallel
+PRPQDS lemma:parallelflip
+CODFS defn:collinear
+CODSF lemma:collinearorder
+NEFS lemma:betweennotequal
+PRPQFS lemma:collinearparallel
+PRPQSF lemma:parallelflip
+PRSFPQ lemma:parallelsymmetric
+COPQE defn:collinear
+PRSFEQ lemma:collinearparallel
+PREQSF lemma:parallelsymmetric
+BEDJP axiom:betweennesssymmetry
+BEQEP axiom:betweennesssymmetry
+EQEE cn:equalityreflexive
+COEFE defn:collinear
+NCEFQ lemma:NCorder
+SSDQEF defn:sameside
+BESFD axiom:betweennesssymmetry
+NCFDE lemma:NCorder
+COFDS lemma:collinearorder
+EQFF cn:equalityreflexive
+COFDF defn:collinear
+NCFSE lemma:NChelper
+NCEFS lemma:NCorder
+COEFF defn:collinear
+OSSEFD defn:oppositeside
+SSQDEF lemma:samesidesymmetric
+OSDEFS lemma:oppositesidesymmetric
+OSQEFS lemma:planeseparation
+OSSEFQ lemma:oppositesidesymmetric
+ANBEEYF+BESYQ   lemma:PGhelper
+BEEYF
+BESYQ
+BEFYE axiom:betweennesssymmetry
+EESFEQ lemma:congruenceflip
+ANPRSEFQ+EESEFQ proposition:33
+PRSEFQ
+EESEFQ
+PRSFQE lemma:parallelflip
+PGSFQE defn:parallelogram
+ANMISZQ+MIFZE lemma:diagonalsbisect
+MISZQ
+MIFZE
+ANBESZQ+EESZZQ defn:midpoint
+BESZQ
+EESZZQ
+ANBEFZE+EEFZZE defn:midpoint
+BEFZE
+EEFZZE
+BEQZS axiom:betweennesssymmetry
+BEEZF axiom:betweennesssymmetry
+BEQaF axiom:betweennesssymmetry
+EEZSZQ lemma:congruenceflip
+EEZQZS lemma:congruencesymmetric
+EEFZEZ lemma:congruenceflip
+EEEZFZ lemma:congruencesymmetric
+ANBEEaX+BESFX  postulate:Euclid5
+BEEaX
+BESFX
+ORBEEaN|EQNa|BEENa lemma:ray1
+SSQQEF lemma:samesidereflexive
+COEEF defn:collinear
+SSQIEF lemma:sameside2
+COEFI assumption
+ COEIQ lemma:collinearorder
+ COEIF lemma:collinearorder
+ COEIE defn:collinear
+ COFEQ lemma:collinear5
+ COEFQ lemma:collinearorder
+NCEFI reductio
+SSIIEF lemma:samesidereflexive
+COEMF lemma:collinearorder
+NEMI lemma:betweennotequal
+RAMIN lemma:ray4
+SSINEF lemma:sameside2
+SSNIEF lemma:samesidesymmetric
+SSIQEF lemma:samesidesymmetric
+SSNQEF lemma:samesidetransitive
+OSAEFB defn:oppositeside
+COEFB assumption
+ COEBF lemma:collinearorder
+ NEEB lemma:betweennotequal
+ COAEB defn:collinear
+ COEBA lemma:collinearorder
+ COEBE defn:collinear
+ COFEA lemma:collinear5
+ COEFA lemma:collinearorder
+NCEFB reductio
+BEBEA axiom:betweennesssymmetry
+SSBDEF defn:sameside
+SSBQEF lemma:samesidetransitive
+SSQNEF lemma:samesidesymmetric
+SSBNEF lemma:samesidetransitive
+
+ANBEAEX+BECFX

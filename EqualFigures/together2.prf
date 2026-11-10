@@ -1,0 +1,132 @@
+TGAaCcBb
+EEFGBb
+RAFGM
+EEFMAa
+RAGFN
+EEGNCc
+ANBEAaJ+EEaJCc+LTBbAJ  defn:togethergreater
+BEAaJ
+EEaJCc
+NEaJ lemma:betweennotequal
+NECc  axiom:nocollapse
+EQMN assumption
+ RAGFN
+ RAFGN   cn:equalitysub
+ RAGFM  cn:equalitysub
+ BEFMG   lemma:tworays
+ EEGMCc  cn:equalitysub
+ EEMGCc  lemma:congruenceflip
+ LTFGFG  lemma:together
+ NOLTFGFG lemma:trichotomy2
+NEMN  reductio
+NEFM  lemma:raystrict
+NEMF  lemma:inequalitysymmetric
+ANBEMFD+EEFDMF  lemma:extension
+BEMFD
+RAFGM
+ORBEFMG|EQGM|BEFGM  lemma:ray1
+cases BEGFD:BEFMG|EQGM|BEFGM
+ case 1:BEFMG
+  BEGMF   axiom:betweennesssymmetry
+  BEMFD
+  BEGFD  lemma:3.7a
+ qedcase
+ case 2:EQGM
+  BEMFD
+  BEGFD  cn:equalitysub
+ qedcase
+ case 3:BEFGM
+  BEMGF axiom:betweennesssymmetry
+  BEMFD
+  BEGFD  lemma:3.6a
+ qedcase
+BEGFD cases
+BEDFM axiom:betweennesssymmetry
+BEDFG axiom:betweennesssymmetry
+BEFMN   assumption
+ NEFM   lemma:betweennotequal
+ NECc
+ ANBEFMP+EEMPCc  lemma:extension
+ BEFMP  
+ EEFMAa
+ EEMPCc
+ EEFGBb
+ LTFGFP   lemma:together
+ EECcGN  lemma:congruencesymmetric
+ EECcNG  lemma:congruenceflip
+ EEMPNG  lemma:congruencetransitive
+ EEFMFM  cn:congruencereflexive
+ LTFMFN  defn:lessthan
+ BEFMP
+ EEMPNG
+ BEFNG  assumption
+  LTFPFG  lemma:lessthanadditive
+  LTFGFP
+  LTFGFG  lemma:lessthantransitive
+  NOLTFGFG lemma:trichotomy2
+ NOBEFNG  reductio
+ BEGNF  assumption
+  BEFNG axiom:betweennesssymmetry
+ NOBEGNF reductio
+ BEFMN
+ RAGFN
+ ORBEGNF|EQFN|BEGFN  lemma:ray1
+ OREQFN|BEGFN
+ NEFN  lemma:betweennotequal
+ NOBEGFN  assumption
+  ANNEFN+NOBEGFN
+ BEGFN reductio
+ BENFG axiom:betweennesssymmetry
+ BEDFM
+ BEDFG
+ NOBENFM  assumption
+  BEFMG  assumption
+   BENFG
+   BENFM axiom:innertransitivity
+  NOBEFMG  reductio
+  BEFGM  assumption
+   BENFG 
+   BENFM  lemma:3.7b
+  NOBEFGM reductio
+  EQGM  lemma:outerconnectivity
+  BENFM  cn:equalitysub
+ BENFM  reductio
+ BEFMN 
+ BENFN  lemma:3.7b
+ NOBENFN axiom:betweennessidentity
+NOBEFMN reductio
+COGFN   lemma:rayimpliescollinear
+COFGM   lemma:rayimpliescollinear
+COGFM   lemma:collinearorder
+NEFG  lemma:betweennotequal
+NEGF  lemma:inequalitysymmetric
+COFNM  lemma:collinear4
+COMFN  lemma:collinearorder
+OREQMF|EQMN|EQFN|BEFMN|BEMFN|BEMNF  defn:collinear
+cases RAMFN:EQMF|EQMN|EQFN|BEFMN|BEMFN|BEMNF
+ case 1:EQMF
+  NORAMFN assumption
+   NEMF
+  RAMFN reductio
+ qedcase
+ case 2:EQMN
+  NORAMFN assumption
+   NEMN
+  RAMFN reductio
+ qedcase
+ case 3:EQFN
+  EQNF   lemma:equalitysymmetric
+  RAMFN  lemma:ray4
+ qedcase
+ case 4:BEFMN
+  NORAMFN assumption
+   NOBEFMN
+  RAMFN reductio
+ qedcase
+ case 5:BEMFN
+  RAMFN lemma:ray4
+ qedcase
+ case 6:BEMNF
+  RAMFN lemma:ray4
+ qedcase
+RAMFN cases

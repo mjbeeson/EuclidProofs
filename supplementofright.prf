@@ -1,0 +1,12 @@
+SUABCDF
+RRABC
+ANRABCD+BEABF  defn:supplement
+RABCD
+BEABF
+COABF  defn:collinear
+NEBF  lemma:betweennotequal
+NEFB  lemma:inequalitysymmetric
+RRFBC  lemma:collinearright
+RRFBD  lemma:8.3
+RRDBF  lemma:8.2
+ANRRFBD+RRDBF

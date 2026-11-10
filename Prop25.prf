@@ -1,0 +1,27 @@
+TRABC
+TRDEF
+EEABDE
+EEACDF
+LTEFBC
+EEDEAB   lemma:congruencesymmetric
+EEDFAC   lemma:congruencesymmetric
+AOBACEDF  assumption
+ LTBCEF  proposition:24
+ NOLTEFBC lemma:trichotomy2
+NOAOBACEDF reductio
+NCABC   defn:triangle
+COBAC   assumption
+ COABC  lemma:collinearorder
+NCBAC   reductio
+NCDEF   defn:triangle
+COEDF   assumption
+ CODEF  lemma:collinearorder
+NCEDF   reductio
+EAEDFBAC  assumption
+ EABACEDF  lemma:equalanglessymmetric
+ EEBCEF  proposition:04
+ EEEFBC  lemma:congruencesymmetric
+ LTBCBC  lemma:lessthancongruence2
+ NOLTBCBC lemma:trichotomy2
+NOEAEDFBAC reductio
+AOEDFBAC  lemma:angletrichotomy2

@@ -1,0 +1,70 @@
+CIJMMA   %  M is the center and MA the radius of J
+OCDJ     %  D is outside circle J
+BEDGM    %  G is on the diameter, between D and M (the near pole)
+EEMAMG   %  G is on the circle
+EEMAMK   %  K is on the circle
+EEMAML   %  L is on the circle
+BEDKQ    %  K is between D and Q
+BEMQL    %  Q is between M and L
+NCDQL    %  D, Q, L are non-collinear
+
+% --- Derive NCMKD by reductio from NCDQL ---
+COMKD assumption
+ CODKQ defn:collinear
+ CODKM lemma:collinearorder
+ NEDK lemma:betweennotequal
+ COKQM lemma:collinear4
+ COMQL defn:collinear
+ NEMQ lemma:betweennotequal
+ COMQK lemma:collinearorder
+ COQKL lemma:collinear4
+ COKQD lemma:collinearorder
+ COKQL lemma:collinearorder
+ NEKQ lemma:betweennotequal
+ COQDL lemma:collinear4
+ CODQL lemma:collinearorder
+NCMKD reductio
+
+% --- Part 1: prove LTDGDK ---
+NCKMD     lemma:NCorder
+TRKMD     defn:triangle
+TGMKKDMD  proposition:20
+EEMKMA    lemma:congruencesymmetric
+EEMKMG    lemma:congruencetransitive
+BEMGD     axiom:betweennesssymmetry
+NEMK      lemma:NCdistinct
+LTGDKD    lemma:togethersplit
+EEGDDG    cn:equalityreverse
+LTDGKD    lemma:lessthancongruence2
+EEKDDK    cn:equalityreverse
+LTDGDK    lemma:lessthancongruence
+
+% --- Part 2: prove LTDKDL --- (NOT YET DONE)
+% --- Derive NCLDM by reductio from NCDQL ---
+COLDM assumption
+ COMQL defn:collinear
+ COLMD lemma:collinearorder
+ COLMQ lemma:collinearorder
+ NEML lemma:betweennotequal
+ NELM lemma:inequalitysymmetric
+ COMDQ lemma:collinear4
+ NEMQ lemma:betweennotequal
+ COMQD lemma:collinearorder
+ COQDL lemma:collinear4
+ CODQL lemma:collinearorder
+NCLDM reductio
+
+% --- Apply Prop 21 ---
+TRLDM defn:triangle
+BELQM axiom:betweennesssymmetry
+TTDLLMDKKM proposition:21
+
+% --- Set up EELMKM (radii equal) ---
+EEMLMA lemma:congruencesymmetric
+EEMLMK lemma:congruencetransitive
+EELMKM lemma:congruenceflip
+
+% --- Apply ttcancel ---
+LTDKDL lemma:ttcancel
+
+ANLTDGDK+LTDKDL
