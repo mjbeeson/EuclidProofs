@@ -20,5 +20,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-The files in the folder hol-light/ (by Freek Wiedijk) and the file
-coq/euclidean_axioms.v are not covered by this license; see README.md.
+The files in the folders hol-light/ (by Freek Wiedijk) and coq/ (by Julien
+Narboux) are not covered by this license; see README.md.

@@ -12,7 +12,7 @@ Annals of Mathematics and Artificial Intelligence 85 (2019), 213–257.
 |---|---|
 | top level | **Books I and III.** The `.prf` proofs, the theory file `Axioms.php` (axioms, definitions and the statements of all theorems), and the checker `CheckProofs.php`. |
 | `EqualFigures/` | **Equal Figures** (finished project, 2020). A separate theory, in which axioms of Book I about equal figures (de Zolt's axioms, the paste axioms and others) are proved as theorems. It has its own proofs, its own theory file `AxiomsEqualFigures.php` and its own checker `CheckProofsEqualFigures.php`. |
-| `coq/` | Archive: the Coq version of the Book I proofs (2017–2018), generated from the `.prf` files by `CoqExport.php` and written to be checked in Coq as part of [GeoCoq](https://github.com/GeoCoq/GeoCoq) (its `Elements/OriginalProofs` directory), which is where the maintained Coq version lives. |
+| `coq/` | Archive: the Coq version of the Book I proofs (2017–2018), by Julien Narboux. The `.prf` files are converted to Coq by `CoqExport.php` and checked in Coq as part of [GeoCoq](https://github.com/GeoCoq/GeoCoq) (its `Elements/OriginalProofs` directory), which is where the maintained Coq version lives. |
 | `hol-light/` | Archive: the HOL Light version of the Book I proofs (2018), by Freek Wiedijk. His Perl script `FreekFiles.pl` converts the `.prf` files into `michael.ml`, which HOL Light checks using his file `proofs.ml`; see his `README`. |
 
 ## Checking the proofs
@@ -42,5 +42,5 @@ earlier version of the checker.
 ## License
 
 The proofs and programs by Michael Beeson are released under the MIT license (see `LICENSE`). The files in
-`hol-light/` are by Freek Wiedijk, and the Coq axiom and tactics file in `coq/` was written for the GeoCoq project;
-they are included here as an archive and remain under their authors' terms.
+`hol-light/` are by Freek Wiedijk, and the Coq version in `coq/` is by Julien Narboux, as part of the GeoCoq
+project; they are included here as an archive and remain under their authors' terms.
