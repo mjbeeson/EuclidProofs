@@ -1,0 +1,90 @@
+NEAB
+NEPQ
+NCABP
+NCABQ
+NEBA  lemma:inequalitysymmetric
+NEAP  lemma:NCdistinct
+NEBP  lemma:NCdistinct
+NEPA  lemma:inequalitysymmetric
+NEPB  lemma:inequalitysymmetric
+EQAA  cn:equalityreflexive
+EQBB  cn:equalityreflexive
+EQPP  cn:equalityreflexive
+COABA  defn:collinear
+COABB  defn:collinear
+NCPAB  lemma:NCorder
+NCBAP  lemma:NCorder
+NCPBA  lemma:NCorder
+COPAP  defn:collinear
+COPBP  defn:collinear
+cases ORSSPQAB|OSPABQ:NCPAQ|COPAQ
+ case 1:NCPAQ
+  ANBEPAX+EEAXPA  lemma:extension
+  BEPAX
+  NEPX  lemma:betweennotequal
+  COPAX  defn:collinear
+  NCPXQ  lemma:NChelper
+  NCQPX  lemma:NCorder
+  TRQPX  defn:triangle
+  NCPXB  lemma:NChelper
+  ANCOABY+ORBEQYP|BEQYX|EQYQ  lemma:Pasch
+  COABY
+  ORBEQYP|BEQYX|EQYQ
+  cases ORSSPQAB|OSPABQ:BEQYP|BEQYX|EQYQ
+   case 1:BEQYP
+    BEPYQ  axiom:betweennesssymmetry
+    OSPABQ  defn:oppositeside
+    ORSSPQAB|OSPABQ
+   qedcase
+   case 2:BEQYX
+    SSPQAB  defn:sameside
+    ORSSPQAB|OSPABQ
+   qedcase
+   case 3:EQYQ
+    NOORSSPQAB|OSPABQ  assumption
+     COABQ  cn:equalitysub
+     NCABQ
+    ORSSPQAB|OSPABQ  reductio
+   qedcase
+  ORSSPQAB|OSPABQ  cases
+ qedcase
+ case 2:COPAQ
+  COPBQ  assumption
+   COPQA  lemma:collinearorder
+   COPQB  lemma:collinearorder
+   EQPP  cn:equalityreflexive
+   COPQP  defn:collinear
+   COABP  lemma:collinear5
+   NCABP
+  NCPBQ  reductio
+  ANBEPBX+EEBXPB  lemma:extension
+  BEPBX
+  NEPX  lemma:betweennotequal
+  COPBX  defn:collinear
+  NCPXQ  lemma:NChelper
+  NCQPX  lemma:NCorder
+  TRQPX  defn:triangle
+  NCPXA  lemma:NChelper
+  ANCOBAY+ORBEQYP|BEQYX|EQYQ  lemma:Pasch
+  COBAY
+  COABY  lemma:collinearorder
+  ORBEQYP|BEQYX|EQYQ
+  cases ORSSPQAB|OSPABQ:BEQYP|BEQYX|EQYQ
+   case 1:BEQYP
+    BEPYQ  axiom:betweennesssymmetry
+    OSPABQ  defn:oppositeside
+    ORSSPQAB|OSPABQ
+   qedcase
+   case 2:BEQYX
+    SSPQAB  defn:sameside
+    ORSSPQAB|OSPABQ
+   qedcase
+   case 3:EQYQ
+    NOORSSPQAB|OSPABQ  assumption
+     COABQ  cn:equalitysub
+     NCABQ
+    ORSSPQAB|OSPABQ  reductio
+   qedcase
+  ORSSPQAB|OSPABQ  cases
+ qedcase
+ORSSPQAB|OSPABQ  cases

@@ -1,0 +1,46 @@
+RRABC
+NCABC  lemma:rightangleNC
+TRABC  defn:triangle
+NEAB  lemma:NCdistinct
+NEBC  lemma:NCdistinct
+NEBA  lemma:NCdistinct
+NECB  lemma:NCdistinct
+ASABCBCAPQR  proposition:17
+ANBEABU+EEBUAB  lemma:extension
+BEABU
+BEUBA  axiom:betweennesssymmetry
+NCCBA  lemma:NCorder
+RTABCCBU  proposition:13
+AOBCACBU  lemma:fivehelper
+EQCC  cn:equalityreflexive
+ORBEBCC|EQCC|BEBCC
+RABCC  lemma:ray4
+SUABCCU  defn:supplement
+ANRRUBC+RRCBU  lemma:supplementofright
+RRCBU
+ACBCA  defn:acute
+NCACB  lemma:NCorder
+EAACBBCA  lemma:ABCequalsCBA
+AOACBCBU  lemma:angleorderrespectscongruence2
+ACACB  defn:acute
+RRCBA  lemma:8.2
+NCCBA
+TRCBA  defn:triangle
+ASCBABACGHJ  proposition:17
+ANBECBV+EEBVCB  lemma:extension
+BECBV
+BEVBC  axiom:betweennesssymmetry
+RTCBAABV  proposition:13
+AOBACABV  lemma:fivehelper
+EQAA  cn:equalityreflexive
+ORBEBAA|EQAA|BEBAA
+RABAA  lemma:ray4
+SUCBAAV  defn:supplement
+ANRRVBA+RRABV  lemma:supplementofright
+RRABV
+ACBAC  defn:acute
+NCCAB  lemma:NCorder
+EACABBAC  lemma:ABCequalsCBA
+AOCABABV  lemma:angleorderrespectscongruence2
+ACCAB  defn:acute
+ANACBAC+ACBCA+ACCAB+ACACB

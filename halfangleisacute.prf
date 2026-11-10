@@ -1,0 +1,43 @@
+ASABCDEFPQR
+EAABCDEF
+EADEFABC  lemma:equalanglessymmetric
+NCABC  lemma:equalanglesNC
+NEAB  lemma:NCdistinct
+NEBC  lemma:NCdistinct
+ANBEABU+EEBUAB  lemma:extension
+BEABU
+BEUBA  axiom:betweennesssymmetry
+NCCBA  lemma:NCorder
+RTABCCBU  proposition:13
+AODEFCBU  lemma:fivehelper
+AOABCCBU  lemma:angleorderrespectscongruence2
+RRABG  proposition:11
+NCABG  lemma:rightangleNC
+NEBG  lemma:NCdistinct
+EQCC  cn:equalityreflexive
+ORBEBCC|EQCC|BEBCC
+RABCC  lemma:ray4
+EQGG  cn:equalityreflexive
+ORBEBGG|EQGG|BEBGG
+RABGG  lemma:ray4
+SUABCCU  defn:supplement
+SUABGGU  defn:supplement
+ANRRUBG+RRGBU  lemma:supplementofright
+RRGBU
+EAABCABG  assumption
+ RRABC  lemma:equaltorightisright
+ ANRRUBC+RRCBU  lemma:supplementofright
+ RRCBU
+ EAABCCBU  lemma:Euclid4
+ AOABCABC  lemma:angleorderrespectscongruence
+ NOAOABCABC  lemma:angletrichotomy
+NOEAABCABG  reductio
+AOABGABC  assumption
+ AOCBUGBU  lemma:supplementinequality
+ AOABCGBU  lemma:angleordertransitive
+ EAABGGBU  lemma:Euclid4
+ AOABCABG  lemma:angleorderrespectscongruence
+ NOAOABCABG  lemma:angletrichotomy
+NOAOABGABC  reductio
+AOABCABG  lemma:angletrichotomy2
+ACABC  defn:acute

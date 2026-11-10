@@ -1,5 +1,113 @@
-TRABC 
+TRABC
 BEBEC
 NCBCF
-
-array("ORBEAXB|BECXB|EQXB"
+NCABC  defn:triangle
+NEAB  lemma:NCdistinct
+NEAC  lemma:NCdistinct
+NEBC  lemma:NCdistinct
+NCBCA  lemma:NCorder
+COBCE  defn:collinear
+EQEF  assumption
+ EQFE  lemma:equalitysymmetric
+ COBCF  cn:equalitysub
+NEEF  reductio
+NEFE  lemma:inequalitysymmetric
+EQEA  assumption
+ EQAE  lemma:equalitysymmetric
+ COBCA  cn:equalitysub
+NEEA  reductio
+ANCIJOOA+ONBJ+ONCJ+EEOAOB+EEOAOC  proposition:IV.5
+CIJOOA
+ONBJ
+ONCJ
+EEOAOB
+EEOAOC
+EQOA  assumption
+ EQAO  lemma:equalitysymmetric
+ EEOBOA  lemma:congruencesymmetric
+ EEABAA  cn:equalitysub
+ NEAA  axiom:nocollapse
+ EQAA  cn:equalityreflexive
+NEOA  reductio
+EEOAOA  cn:congruencereflexive
+ONAJ  defn:on
+ICEJ  proposition:III.02
+ANCOFEP+BEFEQ+ONPJ+ONQJ+BEPEQ  postulate:line-circle
+COFEP
+BEFEQ
+ONPJ
+ONQJ
+BEPEQ
+EEOPOA  axiom:circle-center-radius
+EEOQOA  axiom:circle-center-radius
+EEOAOP  lemma:congruencesymmetric
+EEOAOQ  lemma:congruencesymmetric
+NEPQ  lemma:betweennotequal
+COPEQ  defn:collinear
+COPQE  lemma:collinearorder
+COEFP  lemma:collinearorder
+COFEQ  defn:collinear
+COEFQ  lemma:collinearorder
+COFPQ  lemma:collinear4
+COPQF  lemma:collinearorder
+cases ANCOEFX+ORBEAXB|BEAXC|EQXA:EQAP|NEAP
+ case 1:EQAP
+  ANRAEAX+EEEXEA  lemma:layoff
+  RAEAX
+  EEEXEA
+  EQAA  cn:equalityreflexive
+  ORBEEAA|EQAA|BEEAA
+  RAEAA  lemma:ray4
+  EEEAEX  lemma:congruencesymmetric
+  EQAX  lemma:layoffunique
+  EQXA  lemma:equalitysymmetric
+  COEFA  cn:equalitysub
+  COEFX  cn:equalitysub
+  ORBEAXB|BEAXC|EQXA
+  ANCOEFX+ORBEAXB|BEAXC|EQXA
+ qedcase
+ case 2:NEAP
+  cases ANCOEFX+ORBEAXB|BEAXC|EQXA:EQAQ|NEAQ
+   case 1:EQAQ
+    ANRAEAX+EEEXEA  lemma:layoff
+    RAEAX
+    EEEXEA
+    EQAA  cn:equalityreflexive
+    ORBEEAA|EQAA|BEEAA
+    RAEAA  lemma:ray4
+    EEEAEX  lemma:congruencesymmetric
+    EQAX  lemma:layoffunique
+    EQXA  lemma:equalitysymmetric
+    COEFA  cn:equalitysub
+    COEFX  cn:equalitysub
+    ORBEAXB|BEAXC|EQXA
+    ANCOEFX+ORBEAXB|BEAXC|EQXA
+   qedcase
+   case 2:NEAQ
+    ORCRPQAB|CRPQAC  postulate:circlePasch
+    cases ANCOEFX+ORBEAXB|BEAXC|EQXA:CRPQAB|CRPQAC
+     case 1:CRPQAB
+      ANBEPXQ+BEAXB  defn:cross
+      BEPXQ
+      BEAXB
+      COPXQ  defn:collinear
+      COPQX  lemma:collinearorder
+      COEFX  lemma:collinear5
+      ORBEAXB|BEAXC|EQXA
+      ANCOEFX+ORBEAXB|BEAXC|EQXA
+     qedcase
+     case 2:CRPQAC
+      ANBEPXQ+BEAXC  defn:cross
+      BEPXQ
+      BEAXC
+      COPXQ  defn:collinear
+      COPQX  lemma:collinearorder
+      COEFX  lemma:collinear5
+      ORBEAXB|BEAXC|EQXA
+      ANCOEFX+ORBEAXB|BEAXC|EQXA
+     qedcase
+    ANCOEFX+ORBEAXB|BEAXC|EQXA  cases
+   qedcase
+  ANCOEFX+ORBEAXB|BEAXC|EQXA  cases
+ qedcase
+ANCOEFX+ORBEAXB|BEAXC|EQXA  cases

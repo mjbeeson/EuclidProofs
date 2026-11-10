@@ -1,0 +1,50 @@
+ACABC
+ACDEF
+ANRRGHJ+AODEFGHJ  defn:acute
+RRGHJ
+AODEFGHJ
+ANNCDEF+NCGHJ  lemma:angleorderNC
+NCDEF
+ASABCGHJXYR  lemma:acuteplusright
+ANEAABCXYK+EAGHJKYR+BEXKR  defn:anglesum
+EAABCXYK
+EAGHJKYR
+BEXKR
+ANNEAB+NEBC+NEAC+NEXY+NEYK+NEXK  lemma:angledistinct
+NEYK
+EAKYRGHJ  lemma:equalanglessymmetric
+NCKYR  lemma:equalanglesNC
+NCYKR  lemma:NCorder
+NEYR  lemma:NCdistinct
+ANRAYKV+EAWYVDEF+SSWRYK  proposition:23C
+RAYKV
+EAWYVDEF
+SSWRYK
+ANNEWY+NEYV+NEWV+NEDE+NEEF+NEDF  lemma:angledistinct
+NEWY
+NEYW  lemma:inequalitysymmetric
+EQWW  cn:equalityreflexive
+ORBEYWW|EQWW|BEYWW
+RAYWW  lemma:ray4
+RAYVK  lemma:ray5
+EADEFWYV  lemma:equalanglessymmetric
+EADEFWYK  lemma:equalangleshelper
+NCWYK  lemma:equalanglesNC
+EAWYKKYW  lemma:ABCequalsCBA
+EADEFKYW  lemma:equalanglestransitive
+EAKYWDEF  lemma:equalanglessymmetric
+AODEFKYR  lemma:angleorderrespectscongruence
+AOKYWKYR  lemma:angleorderrespectscongruence2
+EQKK  cn:equalityreflexive
+ORBEYKK|EQKK|BEYKK
+RAYKK  lemma:ray4
+EQRR  cn:equalityreflexive
+ORBEYRR|EQRR|BEYRR
+RAYRR  lemma:ray4
+ANBERZK+RAYWZ  lemma:crossbar2
+BERZK
+RAYWZ
+BEKZR  axiom:betweennesssymmetry
+BEXKZ  lemma:3.6c
+EADEFKYZ  lemma:equalangleshelper
+ASABCDEFXYZ  defn:anglesum

@@ -1,4 +1,46 @@
 RRABC
 RRABE
-					 
-COBCE
+cases COBCE:EQCE|NECE
+ case 1:EQCE
+  COBCE  defn:collinear
+ qedcase
+ case 2:NECE
+  NCABC  lemma:rightangleNC
+  NCABE  lemma:rightangleNC
+  NEAB  lemma:NCdistinct
+  ORSSCEAB|OSCABE  lemma:sidedichotomy
+  cases COBCE:SSCEAB|OSCABE
+   case 1:SSCEAB
+    RABCE  lemma:erectedperpendicularunique
+    COBCE  lemma:rayimpliescollinear
+   qedcase
+   case 2:OSCABE
+    NEBC  lemma:NCdistinct
+    NECB  lemma:inequalitysymmetric
+    ANBECBK+EEBKCB  lemma:extension
+    BECBK
+    NEBK  lemma:betweennotequal
+    NEKB  lemma:inequalitysymmetric
+    COCBK  defn:collinear
+    RRCBA  lemma:8.2
+    RRKBA  lemma:collinearright
+    RRABK  lemma:8.2
+    NCABK  lemma:rightangleNC
+    BEKBC  axiom:betweennesssymmetry
+    EQBB  cn:equalityreflexive
+    COABB  defn:collinear
+    OSEABC  lemma:oppositesidesymmetric
+    ANBEEVC+COABV+NCABE  defn:oppositeside
+    BEEVC
+    COABV
+    SSKEAB  defn:sameside
+    RABKE  lemma:erectedperpendicularunique
+    COBKE  lemma:rayimpliescollinear
+    COBKC  lemma:collinearorder
+    COBKB  defn:collinear
+    COCEB  lemma:collinear5
+    COBCE  lemma:collinearorder
+   qedcase
+  COBCE  cases
+ qedcase
+COBCE  cases

@@ -1,0 +1,84 @@
+ACABC
+RRDEF
+ANRRGHJ+AOABCGHJ  defn:acute
+RRGHJ
+AOABCGHJ
+ANNCABC+NCGHJ  lemma:angleorderNC
+NCABC
+NEBC  lemma:NCdistinct
+NECB  lemma:NCdistinct
+NCBCA  lemma:NCorder
+PAAMBCM  proposition:12
+ANCOAMM+COBCM+COBCU+RRUMA  defn:perpat
+COBCM
+COBCU
+RRUMA
+NCUMA  lemma:rightangleNC
+EQBM  assumption
+ RRUBA  cn:equalitysub
+ NCUBA  lemma:rightangleNC
+ NEUB  lemma:NCdistinct
+ COCBU  lemma:collinearorder
+ COUBC  lemma:collinearorder
+ RRCBA  lemma:collinearright
+ RRABC  lemma:8.2
+ EAABCGHJ  lemma:Euclid4
+ AOABCABC  lemma:angleorderrespectscongruence
+ NOAOABCABC  lemma:angletrichotomy
+NEBM  reductio
+NEMB  lemma:inequalitysymmetric
+COCBM  lemma:collinearorder
+COCBU  lemma:collinearorder
+COBMU  lemma:collinear4
+COUMB  lemma:collinearorder
+RRBMA  lemma:collinearright
+RRAMB  lemma:8.2
+COBMC  lemma:collinearorder
+EABMAGHJ  lemma:Euclid4
+AOABCBMA  lemma:angleorderrespectscongruence
+NCAMB  lemma:rightangleNC
+NCBMA  lemma:NCorder
+TRAMB  defn:triangle
+TRBMA  defn:triangle
+BEMBC  assumption
+ RAMBC  lemma:ray4
+ EQAA  cn:equalityreflexive
+ NEMA  lemma:NCdistinct
+ RAMAA  lemma:ray4
+ EAAMBAMB  lemma:equalanglesreflexive
+ EAAMBAMC  lemma:equalangleshelper
+ AOBMAABC  proposition:16
+ NOAOABCBMA  lemma:angletrichotomy
+NOBEMBC  reductio
+OREQBM|EQBC|EQMC|BEMBC|BEBMC|BEBCM  defn:collinear
+OREQMC|BEBMC|BEBCM
+cases RABMC:EQMC|BEBMC|BEBCM
+ case 1:EQMC
+  EQCM  lemma:equalitysymmetric
+  RABMC  lemma:ray4
+ qedcase
+ case 2:BEBMC
+  RABMC  lemma:ray4
+ qedcase
+ case 3:BEBCM
+  RABMC  lemma:ray4
+ qedcase
+RABMC cases
+RABCM  lemma:ray5
+EQAA  cn:equalityreflexive
+NEBA  lemma:NCdistinct
+ORBEBAA|EQAA|BEBAA
+RABAA  lemma:ray4
+EAABCABC  lemma:equalanglesreflexive
+EAABCABM  lemma:equalangleshelper
+NCABM  lemma:NCorder
+TRABM  defn:triangle
+ASABMBMAXYZ  proposition:17
+ANEAABMXYK+EABMAKYZ+BEXKZ  defn:anglesum
+EAABMXYK
+EABMAKYZ
+BEXKZ
+EAABCXYK  lemma:equalanglestransitive
+EADEFBMA  lemma:Euclid4
+EADEFKYZ  lemma:equalanglestransitive
+ASABCDEFXYZ  defn:anglesum

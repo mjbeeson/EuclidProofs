@@ -1,0 +1,344 @@
+NCABC
+NCBAC  lemma:NCorder
+NEAB  lemma:NCdistinct
+NEAC  lemma:NCdistinct
+ANEABAQQAC+IABACQ  proposition:09
+EABAQQAC
+IABACQ
+ANRAABU+RAACV+BEUQV  defn:interior
+RAABU
+RAACV
+BEUQV
+NCQAC  lemma:equalanglesNC
+EAQACBAQ  lemma:equalanglessymmetric
+NCBAQ  lemma:equalanglesNC
+NEAQ  lemma:NCdistinct
+EABAQBAQ  lemma:equalanglesreflexive
+EAQACQAC  lemma:equalanglesreflexive
+EQQQ  cn:equalityreflexive
+ORBEAQQ|EQQQ|BEAQQ
+RAAQQ  lemma:ray4
+EABAQUAQ  lemma:equalangleshelper
+EAQACQAV  lemma:equalangleshelper
+ASBAQQACUAV  defn:anglesum
+ACBAQ  lemma:halfangleisacute
+ANRRKLM+AOBAQKLM  defn:acute
+RRKLM
+AOBAQKLM
+EAQACCAQ  lemma:ABCequalsCBA
+EABAQCAQ  lemma:equalanglestransitive
+EACAQBAQ  lemma:equalanglessymmetric
+ANBEADB+EEDADB  proposition:10
+BEADB
+EEDADB
+ANBEAEC+EEEAEC  proposition:10
+BEAEC
+EEEAEC
+RAABD  lemma:ray4
+RAACE  lemma:ray4
+EABAQDAQ  lemma:equalangleshelper
+EADAQBAQ  lemma:equalanglessymmetric
+AODAQKLM  lemma:angleorderrespectscongruence2
+ACDAQ  defn:acute
+NCCAQ  lemma:NCorder
+EACAQCAQ  lemma:equalanglesreflexive
+EACAQEAQ  lemma:equalangleshelper
+EAEAQCAQ  lemma:equalanglessymmetric
+EAEAQBAQ  lemma:equalanglestransitive
+AOEAQKLM  lemma:angleorderrespectscongruence2
+ACEAQ  defn:acute
+NEQA  lemma:inequalitysymmetric
+ANBEQAq+EEAqQA  lemma:extension
+BEQAq
+COQAq  defn:collinear
+COAQq  lemma:collinearorder
+NEAq  lemma:betweennotequal
+NCABQ  lemma:NCorder
+NCAQB  lemma:NCorder
+EQAA  cn:equalityreflexive
+COAQA  defn:collinear
+NCAqB  lemma:NChelper
+NCBAq  lemma:NCorder
+NCAQC  lemma:NCorder
+NCAqC  lemma:NChelper
+NCCAq  lemma:NCorder
+BEqAQ  axiom:betweennesssymmetry
+BEBDA  axiom:betweennesssymmetry
+ANRRBDP+OSPBAq  proposition:11B
+RRBDP
+OSPBAq
+ANBEPSq+COBAS+NCBAP  defn:oppositeside
+BEPSq
+COBAS
+NCBAP
+COBAA  defn:collinear
+SSPQBA  defn:sameside
+SSPQAB  lemma:samesideflip
+COABD  defn:collinear
+NEAD  lemma:betweennotequal
+SSPQAD  lemma:samesidecollinear
+SSPQDA  lemma:samesideflip
+SSQPDA  lemma:samesidesymmetric
+NCBDP  lemma:rightangleNC
+NEDP  lemma:NCdistinct
+NEPD  lemma:inequalitysymmetric
+ANBEPDp+EEDpPD  lemma:extension
+BEPDp
+EQDD  cn:equalityreflexive
+COBDD  defn:collinear
+COBDA  defn:collinear
+NEDA  lemma:inequalitysymmetric
+NCDAP  lemma:NChelper
+CODAD  defn:collinear
+OSPDAp  defn:oppositeside
+OSQDAp  lemma:planeseparation
+OSpDAQ  lemma:oppositesidesymmetric
+BEpDP  axiom:betweennesssymmetry
+RRADP  lemma:collinearright
+RRPDA  lemma:8.2
+ASDAQPDAklm  lemma:acuteplusright
+ASPDADAQklm  lemma:anglesumswap
+ANBEpDG+BEqAG  lemma:EuclidOriginal
+BEpDG
+BEqAG
+RADPG  defn:ray
+RRADG  lemma:8.3
+RAAQG  defn:ray
+BECEA  axiom:betweennesssymmetry
+ANRRCER+OSRCAq  proposition:11B
+RRCER
+OSRCAq
+ANBERNq+COCAN+NCCAR  defn:oppositeside
+BERNq
+COCAN
+NCCAR
+COCAA  defn:collinear
+SSRQCA  defn:sameside
+SSRQAC  lemma:samesideflip
+COACE  defn:collinear
+NEAE  lemma:betweennotequal
+SSRQAE  lemma:samesidecollinear
+SSRQEA  lemma:samesideflip
+SSQREA  lemma:samesidesymmetric
+NCCER  lemma:rightangleNC
+NEER  lemma:NCdistinct
+NERE  lemma:inequalitysymmetric
+ANBEREr+EEErRE  lemma:extension
+BEREr
+EQEE  cn:equalityreflexive
+COCEE  defn:collinear
+COCEA  defn:collinear
+NEEA  lemma:inequalitysymmetric
+NCEAR  lemma:NChelper
+COEAE  defn:collinear
+OSREAr  defn:oppositeside
+OSQEAr  lemma:planeseparation
+OSrEAQ  lemma:oppositesidesymmetric
+BErER  axiom:betweennesssymmetry
+RRAER  lemma:collinearright
+RRREA  lemma:8.2
+ASEAQREAnos  lemma:acuteplusright
+ASREAEAQnos  lemma:anglesumswap
+ANBErEH+BEqAH  lemma:EuclidOriginal
+BErEH
+BEqAH
+RAERH  defn:ray
+RRAEH  lemma:8.3
+RAAQH  defn:ray
+RAAGH  lemma:ray3
+ORBEAHG|EQGH|BEAGH  lemma:ray1
+ANACDAG+ACDGA+ACGAD+ACAGD  lemma:anglesofrightareacute
+ACAGD
+ANACEAH+ACEHA+ACHAE+ACAHE  lemma:anglesofrightareacute
+ACAHE
+NCADG  lemma:rightangleNC
+NCAGD  lemma:NCorder
+NEDG  lemma:NCdistinct
+NCAEH  lemma:rightangleNC
+NCAHE  lemma:NCorder
+NEEH  lemma:NCdistinct
+COAQG  lemma:rayimpliescollinear
+COAQH  lemma:rayimpliescollinear
+NEAG  lemma:betweennotequal
+NEAH  lemma:betweennotequal
+RAADU  lemma:ray3
+NEAU  lemma:raystrict
+COABU  lemma:rayimpliescollinear
+COABA  defn:collinear
+NCAUQ  lemma:NChelper
+NCAQU  lemma:NCorder
+COAQQ  defn:collinear
+OSUAQV  defn:oppositeside
+OSDAQV  lemma:9.5
+OSVAQD  lemma:oppositesidesymmetric
+RAAEV  lemma:ray3
+OSEAQD  lemma:9.5
+OSDAQE  lemma:oppositesidesymmetric
+ANBEDTE+COAQT+NCAQD  defn:oppositeside
+BEDTE
+COAQT
+NCAQD
+NCACQ  lemma:NCorder
+COACA  defn:collinear
+NCAEQ  lemma:NChelper
+NCAQE  lemma:NCorder
+cases MEDGEH:BEAHG|EQGH|BEAGH
+ case 1:BEAHG
+  NEHG  lemma:betweennotequal
+  NEGH  lemma:inequalitysymmetric
+  COGHT  lemma:collinear5
+  COHGT  lemma:collinearorder
+  NCHGE  lemma:NChelper
+  BEETD  axiom:betweennesssymmetry
+  OSEHGD  defn:oppositeside
+  ANBEEHO+EEHOEH  lemma:extension
+  BEEHO
+  ANEAAHEOHG+EAEHGAHO  proposition:15
+  EAAHEOHG
+  EAOHGAHE  lemma:equalanglessymmetric
+  ANRRtuv+AOAHEtuv  defn:acute
+  RRtuv
+  AOAHEtuv
+  AOOHGtuv  lemma:angleorderrespectscongruence2
+  ACOHG  defn:acute
+  BEGHA  axiom:betweennesssymmetry
+  NEGA  lemma:inequalitysymmetric
+  RAGAH  lemma:ray4
+  EQDD  cn:equalityreflexive
+  NEGD  lemma:inequalitysymmetric
+  ORBEGDD|EQDD|BEGDD
+  RAGDD  lemma:ray4
+  EAAGDAGD  lemma:equalanglesreflexive
+  EAAGDHGD  lemma:equalangleshelper
+  EAHGDAGD  lemma:equalanglessymmetric
+  ANRRwxz+AOAGDwxz  defn:acute
+  RRwxz
+  AOAGDwxz
+  AOHGDwxz  lemma:angleorderrespectscongruence2
+  ACHGD  defn:acute
+  ASOHGHGDijy  lemma:acuteplusacute
+  ANBEDGI+EEGIDG  lemma:extension
+  BEDGI
+  BEIGD  axiom:betweennesssymmetry
+  ANBEEHF+BEIGF  lemma:EuclidOriginal
+  BEEHF
+  BEIGF
+  COEHF  defn:collinear
+  COIGD  defn:collinear
+  COIGF  defn:collinear
+  NEIG  lemma:betweennotequal
+  COGDF  lemma:collinear4
+  CODGF  lemma:collinearorder
+  MEDGEH  defn:meet
+ qedcase
+ case 2:EQGH
+  EQGG  cn:equalityreflexive
+  CODGG  defn:collinear
+  EQHG  lemma:equalitysymmetric
+  COEHG  defn:collinear
+  MEDGEH  defn:meet
+ qedcase
+ case 3:BEAGH
+  NEGH  lemma:betweennotequal
+  COGHT  lemma:collinear5
+  NCGHD  lemma:NChelper
+  OSDGHE  defn:oppositeside
+  ANBEDGI+EEGIDG  lemma:extension
+  BEDGI
+  ANEAAGDIGH+EADGHAGI  proposition:15
+  EAAGDIGH
+  EAIGHAGD  lemma:equalanglessymmetric
+  ANRRtuv+AOAGDtuv  defn:acute
+  RRtuv
+  AOAGDtuv
+  AOIGHtuv  lemma:angleorderrespectscongruence2
+  ACIGH  defn:acute
+  BEHGA  axiom:betweennesssymmetry
+  NEHA  lemma:inequalitysymmetric
+  RAHAG  lemma:ray4
+  EQEE  cn:equalityreflexive
+  NEHE  lemma:inequalitysymmetric
+  ORBEHEE|EQEE|BEHEE
+  RAHEE  lemma:ray4
+  EAAHEAHE  lemma:equalanglesreflexive
+  EAAHEGHE  lemma:equalangleshelper
+  EAGHEAHE  lemma:equalanglessymmetric
+  ANRRwxz+AOAHEwxz  defn:acute
+  RRwxz
+  AOAHEwxz
+  AOGHEwxz  lemma:angleorderrespectscongruence2
+  ACGHE  defn:acute
+  ASIGHGHEijy  lemma:acuteplusacute
+  ANBEEHO+EEHOEH  lemma:extension
+  BEEHO
+  BEOHE  axiom:betweennesssymmetry
+  ANBEDGF+BEOHF  lemma:EuclidOriginal
+  BEDGF
+  BEOHF
+  CODGF  defn:collinear
+  COOHE  defn:collinear
+  COOHF  defn:collinear
+  NEOH  lemma:betweennotequal
+  COHEF  lemma:collinear4
+  COEHF  lemma:collinearorder
+  MEDGEH  defn:meet
+ qedcase
+MEDGEH  cases
+ANNEDG+NEEH+CODGX+COEHX  defn:meet
+CODGX
+COEHX
+COGDX  lemma:collinearorder
+COHEX  lemma:collinearorder
+cases EEXAXB:EQXD|NEXD
+ case 1:EQXD
+  EEXAXB  cn:equalitysub
+ qedcase
+ case 2:NEXD
+  RRGDA  lemma:8.2
+  RRXDA  lemma:collinearright
+  RRADX  lemma:8.2
+  ANBEADW+EEADWD+EEAXWX+NEDX  defn:rightangle
+  BEADW
+  EEADWD
+  EEAXWX
+  EEDADW  lemma:congruenceflip
+  EEDWDB  cn:congruencetransitive
+  EQWB  lemma:extensionunique
+  EQBW  lemma:equalitysymmetric
+  EEAXBX  cn:equalitysub
+  EEXAXB  lemma:congruenceflip
+ qedcase
+EEXAXB  cases
+cases EEXAXC:EQXE|NEXE
+ case 1:EQXE
+  EEXAXC  cn:equalitysub
+ qedcase
+ case 2:NEXE
+  RRHEA  lemma:8.2
+  RRXEA  lemma:collinearright
+  RRAEX  lemma:8.2
+  ANBEAEY+EEAEYE+EEAXYX+NEEX  defn:rightangle
+  BEAEY
+  EEAEYE
+  EEAXYX
+  EEEAEY  lemma:congruenceflip
+  EEEYEC  cn:congruencetransitive
+  EQYC  lemma:extensionunique
+  EQCY  lemma:equalitysymmetric
+  EEAXCX  cn:equalitysub
+  EEXAXC  lemma:congruenceflip
+ qedcase
+EEXAXC  cases
+EQXA  assumption
+ EQAX  lemma:equalitysymmetric
+ EEXBXA  lemma:congruencesymmetric
+ EEABAA  cn:equalitysub
+ NEAA  axiom:nocollapse
+ EQAA  cn:equalityreflexive
+NEXA  reductio
+CIJXXA  postulate:Euclid3
+EEXBXA  lemma:congruencesymmetric
+EEXCXA  lemma:congruencesymmetric
+ONBJ  defn:on
+ONCJ  defn:on
+ANCIJXXA+ONBJ+ONCJ+EEXAXB+EEXAXC

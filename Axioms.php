@@ -2478,15 +2478,16 @@ $results = array(
 				),
 				array("EQBD") 
 				),
-	new Theorem("lemma","EuclidOriginal", 
-				array("BEAEB", 
-				 		"BECFD", 
-				 		"OSAEFD", 
-				 		"ASBEFEFDUVW"
-						),
-				array( "BEAEX", 
-						 "BECFX"
+	new Theorem("lemma", "EuclidOriginal" ,  // Euclid's version of the parallel postulate
+				array("BEAEB",
+				      "BECFD",  
+				      "OSAEFD",
+				      "ASBEFEFDUVW"   // interior angles on the right side of EF make less than two right angles 
+						                // making less than two right angles means the two angles together make some angle.
 						), 
+				array("BEAEX", 
+					  "BECFX"         
+				     ), 
 				"X"
 				),
 	new Theorem( "proposition", "III.01",
@@ -2920,9 +2921,9 @@ new Theorem("lemma", "halfangleisacute",
 new Theorem("lemma", "anglesofrightareacute", 
 			array("RRABC"), 
 			array("ACBAC",  
-					"ACCBA",  
+					"ACBCA",  
 					"ACCAB",  
-					"ACBAC" 
+					"ACACB" 
 				  )
 			), 
 new Theorem("lemma","acuteplusright", 
@@ -2932,19 +2933,24 @@ new Theorem("lemma","acuteplusright",
 			array("ASABCDEFXYZ"),
 			"XYZ"
 			),
-new Theorem("theorem", "EuclidOriginal" , 
-			array("BEAEB",
-			      "BECFD",  
-			      "OSAEFD",
-			      "ASBEFEFDUVW"   // interior angles on the right side of EF make less than two right angles 
-					                // making less than two right angles means the two angles together make some angle.
-					), 
-			array("BEAEX", 
-					"BECFX"         
-			     ), 
-			"X"
+new Theorem("lemma","acuteplusacute",
+			array("ACABC",  
+				  "ACDEF" 
+			  	), 
+			array("ASABCDEFXYZ"),
+			"XYZ"
 			),
-new Theorem("theorem","Pasch",  
+new Theorem("proposition", "IV.5",
+			array("NCABC"),
+			array("CIJXXA",
+				  "ONBJ",
+				  "ONCJ",
+				  "EEXAXB",
+				  "EEXAXC"
+			 	),
+			"XJ"
+			),
+new Theorem("lemma","Pasch",  
 			array("TRABC",  
 					"BEBEC", 
 					"NCBCF" 
@@ -2953,7 +2959,7 @@ new Theorem("theorem","Pasch",
 					), 
 			"X"
 			), 
-new Theorem("theorem","sidedichotomy",
+new Theorem("lemma","sidedichotomy",
 			array("NEAB", 
 					"NEPQ",
 					"NCABP", 
@@ -2981,6 +2987,7 @@ new Theorem("proposition", "III.09",
 					),
 			array("EQDM")
 			),
+
 
 				
 /*
