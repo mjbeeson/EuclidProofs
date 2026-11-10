@@ -6,11 +6,13 @@ language (`.prf` files) and checked by a proof checker written in PHP.
 The proofs and the method are described in M. Beeson, J. Narboux and F. Wiedijk, *Proof-checking Euclid*,
 Annals of Mathematics and Artificial Intelligence 85 (2019), 213–257
 ([doi:10.1007/s10472-018-9606-x](https://doi.org/10.1007/s10472-018-9606-x);
+[arXiv:1710.00787](https://arxiv.org/abs/1710.00787);
 [PDF](https://www.michaelbeeson.com/research/papers/ProofCheckingEuclid.pdf)).
 
 For a more mathematical discussion of the axiomatization of Euclid, see M. Beeson, *Euclid after computer
 proof-checking*, The American Mathematical Monthly 129 (2022), 623–646
 ([doi:10.1080/00029890.2022.2069985](https://doi.org/10.1080/00029890.2022.2069985);
+[arXiv:2103.09623](https://arxiv.org/abs/2103.09623);
 [PDF](https://www.michaelbeeson.com/research/papers/euclid2020.pdf)).
 
 ## Contents
@@ -18,7 +20,7 @@ proof-checking*, The American Mathematical Monthly 129 (2022), 623–646
 | Folder | What it is |
 |---|---|
 | top level | **Books I and III.** The `.prf` proofs, the theory file `Axioms.php` (axioms, definitions and the statements of all theorems), and the checker `CheckProofs.php`. |
-| `EqualFigures/` | **Equal Figures** (finished project, 2020). A separate theory, in which axioms of Book I about equal figures (de Zolt's axioms, the paste axioms and others) are proved as theorems. It has its own proofs, its own theory file `AxiomsEqualFigures.php` and its own checker `CheckProofsEqualFigures.php`. |
+| `EqualFigures/` | **Equal Figures** (finished project, 2020). A separate theory, in which axioms of Book I about equal figures (de Zolt's axioms, the paste axioms and others) are proved as theorems. It has its own proofs, its own theory file `AxiomsEqualFigures.php` and its own checker `CheckProofsEqualFigures.php`. See M. Beeson, *On the notion of equal figures in Euclid* ([arXiv:2008.12643](https://arxiv.org/abs/2008.12643)). |
 | `coq/` | Archive: the Coq version of the Book I proofs (2017–2018), by Julien Narboux. The `.prf` files are converted to Coq by `CoqExport.php` and checked in Coq as part of [GeoCoq](https://github.com/GeoCoq/GeoCoq) (its `Elements/OriginalProofs` directory), which is where the maintained Coq version lives. |
 | `hol-light/` | Archive: the HOL Light version of the Book I proofs (2018), by Freek Wiedijk. His Perl script `FreekFiles.pl` converts the `.prf` files into `michael.ml`, which HOL Light checks using his file `proofs.ml`; see his `README`. |
 
