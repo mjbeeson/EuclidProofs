@@ -4,7 +4,14 @@ Formal proofs of the propositions of Euclid's *Elements*, by Michael Beeson, wri
 language (`.prf` files) and checked by a proof checker written in PHP.
 
 The proofs and the method are described in M. Beeson, J. Narboux and F. Wiedijk, *Proof-checking Euclid*,
-Annals of Mathematics and Artificial Intelligence 85 (2019), 213–257.
+Annals of Mathematics and Artificial Intelligence 85 (2019), 213–257
+([doi:10.1007/s10472-018-9606-x](https://doi.org/10.1007/s10472-018-9606-x);
+[PDF](https://www.michaelbeeson.com/research/papers/ProofCheckingEuclid.pdf)).
+
+For a more mathematical discussion of the axiomatization of Euclid, see M. Beeson, *Euclid after computer
+proof-checking*, The American Mathematical Monthly 129 (2022), 623–646
+([doi:10.1080/00029890.2022.2069985](https://doi.org/10.1080/00029890.2022.2069985);
+[PDF](https://www.michaelbeeson.com/research/papers/euclid2020.pdf)).
 
 ## Contents
 
