@@ -213,5 +213,58 @@ SSBDEF defn:sameside
 SSBQEF lemma:samesidetransitive
 SSQNEF lemma:samesidesymmetric
 SSBNEF lemma:samesidetransitive
+NEEN lemma:ray2
+NEEB lemma:betweennotequal
+ANRAENK+EEEKEB lemma:layoff
+RAENK
+EEEKEB
+EEEBEK lemma:congruencesymmetric
+SSBKEF lemma:sameside2
+ANCOEFb+COEFc+BEBbd+BEKcd+NCEFB+NCEFK defn:sameside
+NCEFK
+NCEKF lemma:NCorder
+NCFEK lemma:NCorder
+TREKF defn:triangle
+NCEBF lemma:NCorder
+TREBF defn:triangle
+EQFF cn:equalityreflexive
+ORBEEFF|EQFF|BEEFF
+RAEFF lemma:ray4
+EABEFFEK lemma:equalangleshelper
+EAFEKKEF lemma:ABCequalsCBA
+EABEFKEF lemma:equalanglestransitive
+EQBK lemma:equaltriangle
+RAENB cn:equalitysub
+RAEBa lemma:ray3
+ORBEEaB|EQBa|BEEBa lemma:ray1
+cases BEAEX:BEEaB|EQBa|BEEBa
+ case 1:BEEaB
+  BEAEa lemma:3.6c
+  BEAEX lemma:3.7b
+ qedcase
+ case 2:EQBa
+  EQaB lemma:equalitysymmetric
+  BEAEa cn:equalitysub
+  BEAEX lemma:3.7b
+ qedcase
+ case 3:BEEBa
+  BEAEa lemma:3.7b
+  BEAEX lemma:3.7b
+ qedcase
+BEAEX cases
+RAFDX defn:ray
+ORBEFXD|EQDX|BEFDX lemma:ray1
+cases BECFX:BEFXD|EQDX|BEFDX
+ case 1:BEFXD
+  BECFX lemma:3.6c
+ qedcase
+ case 2:EQDX
+  EQXD lemma:equalitysymmetric
+  BECFX cn:equalitysub
+ qedcase
+ case 3:BEFDX
+  BECFX lemma:3.7b
+ qedcase
+BECFX cases
 
 ANBEAEX+BECFX

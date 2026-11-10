@@ -3,33 +3,10 @@ TRADC
 SSBDAC
 EABACDAC
 EEABAD
-ANCOACP+COACQ+BEBPR+BEDQR+NCACB+NCACD defn:sameside
-COACP
-COACQ
-BEBPR
-BEDQR
-NCACB
-NCACD
-NEAC lemma:NCdistinct
-EQAA cn:equalityreflexive
-COACA defn:collinear
-COAPQ lemma:collinear5
-OREQAP|EQAQ|EQPQ|BEPAQ|BEAPQ|BEAQP defn:collinear
-cases EQBD:EQAP|EQAQ|EQPQ|BEPAQ|BEAPQ|BEAQP
- case 1:EQAP
-  BEBAR cn:equalitysub
-  ORCOABD|NCABD
- qedcase
- case 2:EQAQ
- qedcase
- case 3:EQPQ
- qedcase
- case 4:BEPAQ
- qedcase
- case 5:BEAPQ
- qedcase
- case 6:BEAQP
- qedcase
-EQBD cases
-
-EQBD
+EEACAC  cn:congruencereflexive
+ANEEBCDC+EAABCADC+EAACBACD  proposition:04
+EEBCDC
+NCABC  defn:triangle
+NEAC  lemma:NCdistinct
+EEBADA  lemma:congruenceflip
+EQBD  proposition:07
